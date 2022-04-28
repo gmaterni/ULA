@@ -1,0 +1,17 @@
+#id|name|attrs
+1|gender|Fem,Masc
+2|number|Sing,Plur
+3|case|SO,OC
+4|degree|Pos,Cmp,Sup,Abs
+5|adpType|PrepS,PrepArt
+6|verbForm|Fin,Inf,Part,Ger
+7|mood|Ind,Imp,Cnd,Sub
+8|tense|Past,Pres,Fut,Imp
+9|voice|Act,Pass,Reflex
+10|person|1,2,3
+11|subCat|Intr,Tran
+13|advType|Man,Loc,Tim,Deg,Cau
+14|partType|Neg,Int,Exc
+15|pronType|Prs,Poss,Int,Rel,Dem,Neg,Ind,Reflex
+16|deterType|ArtDef,ArtIndef,Poss,Int,Rel,Dem,Neg,Ind
+17|numType|Card,Ord

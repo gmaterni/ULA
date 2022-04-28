@@ -1,0 +1,310 @@
+{
+  "NOUN": {
+    "pos_name": "noun",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Fem",
+          "Masc"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "SO",
+          "OC"
+        ]
+      }
+    ]
+  },
+  "PROPN": {
+    "pos_name": "properNoun",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Fem",
+          "Masc"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "SO",
+          "OC"
+        ]
+      }
+    ]
+  },
+  "ADJ": {
+    "pos_name": "adjective",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Fem",
+          "Masc"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "SO",
+          "OC"
+        ]
+      },
+      {
+        "msd_name": "degree",
+        "attrs": [
+          "Pos",
+          "Cmp",
+          "Sup",
+          "Abs"
+        ]
+      }
+    ]
+  },
+  "DET": {
+    "pos_name": "determiner",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Fem",
+          "Masc"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "SO",
+          "OC"
+        ]
+      },
+      {
+        "msd_name": "deterType",
+        "attrs": [
+          "ArtDef",
+          "ArtIndef",
+          "Poss",
+          "Int",
+          "Rel",
+          "Dem",
+          "Neg",
+          "Ind"
+        ]
+      }
+    ]
+  },
+  "PRON": {
+    "pos_name": "pronoun",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Fem",
+          "Masc"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "SO",
+          "OC"
+        ]
+      },
+      {
+        "msd_name": "pronType",
+        "attrs": [
+          "Prs",
+          "Poss",
+          "Int",
+          "Rel",
+          "Dem",
+          "Neg",
+          "Ind",
+          "Reflex"
+        ]
+      }
+    ]
+  },
+  "VERB": {
+    "pos_name": "verb",
+    "msd_list": [
+      {
+        "msd_name": "verbForm",
+        "attrs": [
+          "Fin",
+          "Inf",
+          "Part",
+          "Ger"
+        ]
+      },
+      {
+        "msd_name": "mood",
+        "attrs": [
+          "Ind",
+          "Imp",
+          "Cnd",
+          "Sub"
+        ]
+      },
+      {
+        "msd_name": "tense",
+        "attrs": [
+          "Past",
+          "Pres",
+          "Fut",
+          "Imp"
+        ]
+      },
+      {
+        "msd_name": "voice",
+        "attrs": [
+          "Act",
+          "Pass",
+          "Reflex"
+        ]
+      },
+      {
+        "msd_name": "person",
+        "attrs": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "subCat",
+        "attrs": [
+          "Intr",
+          "Tran"
+        ]
+      }
+    ]
+  },
+  "ADP": {
+    "pos_name": "adposition",
+    "msd_list": [
+      {
+        "msd_name": "adpType",
+        "attrs": [
+          "PrepS",
+          "PrepArt"
+        ]
+      }
+    ]
+  },
+  "ADV": {
+    "pos_name": "adverb",
+    "msd_list": [
+      {
+        "msd_name": "degree",
+        "attrs": [
+          "Pos",
+          "Cmp",
+          "Sup",
+          "Abs"
+        ]
+      },
+      {
+        "msd_name": "advType",
+        "attrs": [
+          "Man",
+          "Loc",
+          "Tim",
+          "Deg",
+          "Cau"
+        ]
+      }
+    ]
+  },
+  "CCONJ": {
+    "pos_name": "coordinating conjunction",
+    "msd_list": []
+  },
+  "SCONJ": {
+    "pos_name": "subordinating conjunction",
+    "msd_list": []
+  },
+  "NUM": {
+    "pos_name": "numeral",
+    "msd_list": [
+      {
+        "msd_name": "numType",
+        "attrs": [
+          "Card",
+          "Ord"
+        ]
+      }
+    ]
+  },
+  "PART": {
+    "pos_name": "particle",
+    "msd_list": [
+      {
+        "msd_name": "partType",
+        "attrs": [
+          "Neg",
+          "Int",
+          "Exc"
+        ]
+      }
+    ]
+  },
+  "INTJ": {
+    "pos_name": "interjection",
+    "msd_list": []
+  },
+  "X": {
+    "pos_name": "punctuation",
+    "msd_list": []
+  },
+  "-": {
+    "pos_name": "del",
+    "msd_list": []
+  }
+}
