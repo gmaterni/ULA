@@ -5,9 +5,9 @@ var FormContext = {
     top: 140,
     left: 400,
     wind: null,
-    context_size: 5,
+    context_size: 3,
     is_context_active: true,
-    current_extsension: '',
+    key_selected: '',
     form: null,
     formkey: null,
     exe: function (cmd) {
@@ -55,21 +55,20 @@ var FormContext = {
         this.form_idx = form_idx;
         this.form = forma;
         this.formkey = formakey;
+        this.key_selected = forma == formakey ? 0 : formakey.slice(forma.length);
         this.is_context_active = true;
+        console.log(forma,formakey,this.key_selected);
         this.show_html();
         FormOmogr.open(this.form);
     },
     show_html: function () {
         const cmd_html = `
-        <div class="cmd" >      
-        
+        <div class="cmd" >              
         <div class="title">{fk}</div>
-        
         <div> 
             <a cmd="unselect_tokens" class="tipb" href="#">Unselect 
             <span class="tiptextb">Unselecb Selected Tokens</span> 
         </a> 
-        
         </div>
             <div class="add">
             <span class="tipb">Add
@@ -77,12 +76,10 @@ var FormContext = {
             </span>
             <select name="add_formakey" cmd="add_formakey">{option_list}</select>
         </div> 
-
         <div class="del"> 
         <a cmd="del_formakey" class="tipb" href="#">Delete 
         <span class="tiptextb">Delete Current Forma</span> 
         </a> 
-        
         </div>
          <div class="size">
             <span class="tipb">Size
@@ -90,13 +87,11 @@ var FormContext = {
             </span>
             <select name="set_size" cmd="set_size">{size_list}</select>
         </div>
-
         <div class="fk"> 
             <a cmd="set_context_fk" class="tipb" href="#">f/k
             <span class="tiptextb">Context Forma / Formak </span> 
             </a> 
         </div>
-
         <div> 
             <a cmd="close" class="last" href="#">Close</a> </div>
         </div>
@@ -105,22 +100,22 @@ var FormContext = {
         const size = this.context_size;
         const sizes = [3, 5, 7, 9];
         const get_size_list = function () {
-            let s = `<option value="${size}">${size}</option>`;
+            // let s = `<option value="${size}">${size}</option>`;
+            let s="";
             for (let sz of sizes)
                 if (sz != size)
                     s = s + `<option value="${sz}">${sz}</option>`;
             return s;
         };
 
-        //lista delle estensioni per forme omografe
-        const ext = this.current_extsension;
-        const exts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        //lista delle estensioni (key) per forme omografe
+        const key = Number(this.key_selected);
+        const ks = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         const get_fk_list = function () {
-            let s = `<option value="${ext}">${ext}</option>`;
-            for (const e of exts) {
-                if (ext != e)
-                    s = s + `<option value="${e}">${e}</option>`;
-            }
+            let s ="";
+            for (const k of ks)
+                if (k != key)
+                    s = s + `<option value="${k}">${k}</option>`;
             return s;
         };
 

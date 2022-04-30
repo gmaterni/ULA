@@ -1373,18 +1373,22 @@ div.ula_option {
         padding: 0;
         margin: 0;
         min-width: 40px;
-        font-size: @font_select;
-        font-family: @fsans;
-        font-weight: bold;
+        // font-size: @font_select;
+        // font-family: @fsans;
+        // font-weight: bold;
         background: darken(@select_back, 10%);
-        color: @select_color;
-        text-align: center;
+        color: darken(@select_back, 10%);
+        // color: @select_color;
+        // text-align: center;
       }
 
       select:hover {
-        background: darken(@cmd_back, 10%);
-        color: white;
-        border: 1px solid white;
+        // background: darken(@cmd_back, 10%);
+        // color: darken(@cmd_back, 10%);
+        background: darken(green,0%);
+        color: darken(green,0%);
+        // color: white;
+        // border: 1px solid white;
       }
 
       select:focus {
