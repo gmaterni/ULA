@@ -6,7 +6,8 @@ var FormContext = {
     left: 400,
     wind: null,
     context_size: 5,
-    context_fk: true,
+    is_context_active: true,
+    current_extsension: '',
     form: null,
     formkey: null,
     exe: function (cmd) {
@@ -16,19 +17,17 @@ var FormContext = {
                 break;
 
             case "add_formakey":
-                if (this.context_fk)
+                if (this.is_context_active)
                     this.add_formakey();
                 else
                     alert("change context f/k");
                 break;
             case "del_formakey":
-
-                if (this.context_fk)
+                if (this.is_context_active)
                     this.del_formakey();
                 else
                     alert("change context f/k");
                 break;
-
             case "set_size":
                 this.set_size();
                 break;
@@ -56,7 +55,7 @@ var FormContext = {
         this.form_idx = form_idx;
         this.form = forma;
         this.formkey = formakey;
-        this.context_fk = true;
+        this.is_context_active = true;
         this.show_html();
         FormOmogr.open(this.form);
     },
@@ -102,9 +101,9 @@ var FormContext = {
             <a cmd="close" class="last" href="#">Close</a> </div>
         </div>
         `;
-        const size = this.context_size;
-        let sizes = [3, 5, 7, 9];
         // selezione dimensioni contesto
+        const size = this.context_size;
+        const sizes = [3, 5, 7, 9];
         const get_size_list = function () {
             let s = `<option value="${size}">${size}</option>`;
             for (let sz of sizes)
@@ -113,11 +112,14 @@ var FormContext = {
             return s;
         };
 
+        //lista delle estensioni per forme omografe
+        const ext = this.current_extsension;
+        const exts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         const get_fk_list = function () {
-            let s = '<option></option>';
-            for (let i = 0; i < 10; i++) {
-                let r = `<option value="${i}">${i}</option>`;
-                s = s + r;
+            let s = `<option value="${ext}">${ext}</option>`;
+            for (const e of exts) {
+                if (ext != e)
+                    s = s + `<option value="${e}">${e}</option>`;
             }
             return s;
         };
@@ -136,8 +138,29 @@ var FormContext = {
         });
         jt.append('<div class="rows">');
 
-        // seleziona contesto forma / formakey
-        if (!this.context_fk) {
+        if (this.is_context_active) {
+            // seleziona contesto con formakey e operazioni attive
+            const rows = DbFormLpmx.get_formakey_context(this.formkey, this.context_size);
+            for (let row of rows) {
+                for (let t of row) {
+                    let fk = t[1];
+                    let n = t[2]; //  token_idx
+                    if (fk == this.formkey) {
+                        const d = { "n": n, "fk": fk };
+                        jtsp.append('<span n="{n}" class="form nodrag" >{fk}</span>', d);
+                    }
+                    else {
+                        const d = { "n": n, "fk": fk };
+                        jtsp.append('<span class="token">{fk}</span>', d);
+                    }
+                }
+                let rh = jtsp.text();
+                jtsp.reset();
+                jt.append('<div class="row" >{r}</div>', { "r": rh });
+            }
+        }
+        else {
+            // seleziona contesto com forma  (esteso)  e qoperazioni disattivate
             const rows = DbFormLpmx.get_forma_context(this.form, this.context_size);
             for (let row of rows) {
                 for (let t of row) {
@@ -150,26 +173,6 @@ var FormContext = {
                     }
                     else {
                         const d = { "fk": fk };
-                        jtsp.append('<span class="token">{fk}</span>', d);
-                    }
-                }
-                let rh = jtsp.text();
-                jtsp.reset();
-                jt.append('<div class="row" >{r}</div>', { "r": rh });
-            }
-        }
-        else {
-            const rows = DbFormLpmx.get_formakey_context(this.formkey, this.context_size);
-            for (let row of rows) {
-                for (let t of row) {
-                    let fk = t[1];
-                    let n = t[2]; //  token_idx
-                    if (fk == this.formkey) {
-                        const d = { "n": n, "fk": fk };
-                        jtsp.append('<span n="{n}" class="form nodrag" >{fk}</span>', d);
-                    }
-                    else {
-                        const d = { "n": n, "fk": fk };
                         jtsp.append('<span class="token">{fk}</span>', d);
                     }
                 }
@@ -224,9 +227,9 @@ var FormContext = {
         this.show_html();
     },
     set_context_fk: function () {
-        this.context_fk = !this.context_fk;
+        this.is_context_active = !this.is_context_active;
         this.show_html();
-        if (!this.context_fk)
+        if (!this.is_context_active)
             $("#lpmx_context_id div.cmd div").addClass("inactive");
         else
             $("#lpmx_context_id div.cmd div").removeClass("inactive");
