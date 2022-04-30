@@ -63,7 +63,6 @@ var DbFormLpmx = {
     let rs = rows.map((x) => x.join("|"));
     let data = rs.join("\n");
     let url = `/write/data/${file_name}`;
-
     fetch(url, {
       method: "POST",
       cache: 'default',
@@ -86,7 +85,6 @@ var DbFormLpmx = {
     ///UaLog.log("DDD update_corpus");/
     const text_name = `${this.text_name}.form.csv`;
     const url = `/updatecorpus/${text_name}`;
-
     fetch(url, {
       method: "POST",
       cache: 'default',
@@ -113,7 +111,6 @@ var DbFormLpmx = {
     //UaLog.log("DDD update_text");
     const text_name = `${this.text_name}.form.csv`;
     const url = `/updatetext/${text_name}`;
-
     fetch(url, {
       method: "POST",
       cache: 'default',
@@ -140,7 +137,7 @@ var DbFormLpmx = {
     //controlla se i dati del testo sono nello store
     if (data_str) {
       let data = JSON.parse(data_str);
-      this.token_lst = data.token;
+      this.token_lst = data.token;     
       this.form_lst = data.form;
       this.sort_form_lst();
       this.get_omogr_json();
@@ -169,7 +166,6 @@ var DbFormLpmx = {
     //UaLog.log("DDD load_csv");
     const url = `${DATA_DIR}/${file_name}`;
     let csv_data = "";
-
     const resp = await fetch(url, {
       method: 'GET',
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
@@ -216,7 +212,6 @@ var DbFormLpmx = {
         alert(`load_omogr_json() \n${url}\n${error}`);
       });
   },
-
   load_diff_text_corpus: function (call) {
     //UaLog.log("DDD load_diff_text_corpus");
     const text_name = `${this.text_name}.txt`;
@@ -276,7 +271,6 @@ var DbFormLpmx = {
         rows.push(build_context(i));
     return rows;
   },
-
   sort_form_lst: function () {
     //UaLog.log("DDD sort_form_lst");
     let sortFn = function (a, b) {
@@ -287,9 +281,8 @@ var DbFormLpmx = {
     this.form_lst.sort(sortFn);
   },
   fill_rows_text: function () {
-    //UaLog.log("DDD fill_rows_text");/
-    // popola this.rows_js
-    //let t0=performance.now();
+    //UaLog.log("DDD fill_rows_text");
+    // popola this.rows_js chiamatto da Form_text
     let t_tk_lst = DbFormLpmx.token_lst;
     this.rows_js = [];
     let len_row_text = 0;
@@ -376,7 +369,6 @@ var DbFormLpmx = {
         return [];
       return tks;
     };
-
     filter_token();
     let tk_set = filter_lemma();
     if (tk_set.length > 0) {
@@ -391,8 +383,7 @@ var DbFormLpmx = {
       this.rows_js = [];
       return;
     }
-    //evidenzazione form,formkey r sttribuzione numero
-    // TODO migliorare gestione row_num
+    //evidenzazione form,formkey e attribuzione numero
     let row_num = 0;
     for (let row of rows) {
       let ws = [];
@@ -420,6 +411,7 @@ var DbFormLpmx = {
     this.rows_js = rows;
   },
   get_row_token_form: function (row_i) {
+    //utilizzato da form_text
     //UaLog.log("DDD get_row_token_form");
     const row_js = this.rows_js[row_i];
     const le = row_js.t.length;

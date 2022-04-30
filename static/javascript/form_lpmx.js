@@ -1,94 +1,90 @@
 /* jshint esversion: 8 */
 
-const form_help = () => {
-  Help.toggle("help1.html");
-};
-
-const form_resetxy = () => {
-  PosMsd.resetXY();
-  Msd.resetXY();
-  Phon.resetXY();
-  Funct.resetXY();
-  FormContext.resetXY();
-  FormOmogr.resetXY();
-};
-
 
 const h_menu_form_lpmx = `
-<div id="lpmx_menu_id" class="menu" >
+<div id="lpmx_menu_id" class="menu_bar" >
 <ul>
-
-<li> 
-  <a class="mvah cmd tipb" cmd="show_text" href="#">Text
-    <span class="tiptextb">Visualizza Righe di Testo</span>
-  </a> 
-</li>
-
-<li> 
-  <a class="mvah cmd tipb" cmd="save_data" href="#">Save
-    <span class="tiptextb">Salva i dati sul Server</span>
-  </a> 
-</li>
-
-<li > 
-  <a class="mvah cmd tipb" cmd="load_data" href="#">Load
-    <span class="tiptextb">Carica i dati dal Server</span>
-  </a> 
-</li>
-
-<li > 
-  <a class="mvah"  href="#">Corpus</a> 
-  <div>
-    <a class="cmd tipr" cmd="check_text" href="#">Check Text 
-      <span class="tiptextr">Check Homographs and Forms without Tokenss</span>
+  <li class="v">
+    <a class="tipb" href="#" cmd="show_text">Text
+      <span class="tiptextb">Displays Lines of Text</span>
     </a>
-    <a class="cmd tipr" cmd="upd_text" href="#">Update Text 
-      <span class="tiptextr">Update Text with the Corpus</span>
+  </li>
+  <li class="v">
+    <a class="tipb" cmd="save_data" href="#">Save
+      <span class="tiptextb">Save the Data on the Server</span>
     </a>
-    <a class="cmd tipr" cmd="upd_corpus" href="#">Update Corpus 
-      <span class="tiptextr">Update Corpus with the Text</span>
+  </li>
+  <li class="v">
+    <a class="tipb" cmd="load_data" href="#">Load
+      <span class="tiptextb">Read Data from Server</span>
     </a>
-    <a class="cmd tipr" cmd="diff_text_corpus" href="#">COmpare COrpus
-      <span class="tiptextr">Compare the Text on the server with the Corpus</span>
+  </li>
+  <li class="v">
+    <a href="#">Corpus</a>
+    <ul class="v">
+      <li class="h">
+        <a class="tipr" cmd="check_text" href="#">Check Text
+          <span class="tiptextr">Check Homographs and Forms without Tokenss</span>
+        </a>
+      </li>
+      <li class="h">
+        <a class="cmd tipr" cmd="upd_text" href="#">Update Text
+          <span class="tiptextr">Update Text with the Corpus</span>
+        </a>
+      </li>
+      <li class="h">
+        <a class="cmd tipr" cmd="upd_corpus" href="#">Update Corpus
+          <span class="tiptextr">Update Corpus with the Text</span>
+        </a>
+      </li>
+      <li class="h">
+        <a class="cmd tipr" cmd="diff_text_corpus" href="#">Compare Corpus
+          <span class="tiptextr">Compare the Text on the server with the Corpus</span>
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+  <li class="v">
+    <a class="tipb title" cmd="select_text" href="#">Select Text
+      <span class="tiptextb">Load selected Text</span>
     </a>
-  </div>
-</li>
-
-<li class="title"> 
-  <a class="mvah cmd tipb title" cmd="select_text" href="#">Select Text
-  <span class="tiptextb">Load selected Text</span>
-  </a> 
-</li>
-
-<li>
-  <a class="mvah" href="#">Utils</a>
-  <div>
-    <a class="cmd tipr" cmd="resetxy" href="#">Relocate 
-      <span class="tiptextr">Relocate all Windows</span>
+  </li>
+  <li class="v">
+    <a href="#">Utils</a>
+    <ul class="v">
+      <li class="h">
+        <a class="tipr" cmd="resetxy" href="#">Relocate
+          <span class="tiptextr">Relocate all Windows</span>
+        </a>
+      </li>
+      <li class="h">
+        <a class="cmd tipr" cmd="show_store" href="#">Show Store
+        </a>
+      </li>
+      <li class="h">
+        <a class="cmd tipr" cmd="clear_store" href="#">Clean Store
+          <span class="tiptextr">Clean LocalStore</span>
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="v">
+    <a class="cmd" cmd="help" href="#">Help
     </a>
-    <a class="cmd" cmd="show_store" href="#">Show Store</a>
-
-    <a class="cmd tipr" cmd="clear_store"href="#">Clean Store
-      <span class="tiptextr">Clean LocalStore</span>
-    </a>
-  </div>
-</li>
-
-<li>
-<a class="cmd" cmd="help" href="#">Help</a> 
-</li>
-
-
-<li>
-  <a class="mvah cmd tipb" cmd="cmd_log" href="#">Log 
+  </li>
+  <li class="v">
+    <a class="tipb" cmd="cmd_log" href="#">Log
       <span class="tiptextb">Toggle Log</span>
-  </a>
-</li>
-
-<li> <a class="mvah cmd close" cmd="close" href="#">close</a> </li>
-
+    </a>
+  </li>
+  <li class="v">
+    <a cmd="close" href="#">close
+    </a>
+  </li>
 </ul>
 </div>
+
 
 <div id='lpmx_rows_head_id'>
 <table>
@@ -113,17 +109,16 @@ const h_menu_form_lpmx = `
 </table>
 </div>
 `;
-
 //forma, lemma, etimo, lang, POS, funct, MSD
 
 var FormLpmx = {
   id: "lpmx_id",
-  form_id_select: null,
+  tr_selected: null,
   //scroll_top: 0,
   exe: function (cmd) {
     switch (cmd) {
       case "show_text":
-        this.save_store(); 
+        this.save_store();
         Ula.show_text();
         break;
       case "select_text":
@@ -141,34 +136,31 @@ var FormLpmx = {
       case "check_text":
         this.check_text();
         break;
+
       case "upd_corpus":
-        let prm_corpus = new Promise((resolve, reject) => {
-          if (confirm("Save Data ?"))
-            this.save_data();
-          else
-            throw false;
+        if (!confirm("Save Data ?"))
+          return;
+        new Promise((resolve, reject) => {
+          this.save_data();
           resolve();
           reject();
-        });
-        prm_corpus.then(() => {
+        }).then(() => {
           if (confirm("Update corpus ?"))
             this.update_corpus();
-        }, () => false);
+        });
         break;
 
       case "upd_text":
-        let prm_text = new Promise((resolve, reject) => {
-          if (confirm("Save Data ?"))
-            this.save_data();
-          else
-            throw false;
+        if (!confirm("Save Data ?"))
+          return;
+        new Promise((resolve, reject) => {
+          this.save_data();
           resolve();
           reject();
-        });
-        prm_text.then(() => {
+        }).then(() => {
           if (confirm("Update text ?"))
             this.update_text();
-        }, () => false);
+        });
         break;
 
       case "diff_text_corpus":
@@ -176,13 +168,13 @@ var FormLpmx = {
         break;
 
       case "help":
-        form_help();
+        Help.toggle("help1.html");
         break;
       case "cmd_log":
         cmd_log_toggle();
         break;
       case "resetxy":
-        form_resetxy();
+        relocate();
         break;
       case "show_store":
         cmd_show_store();
@@ -206,7 +198,6 @@ var FormLpmx = {
     jt.append(h_menu_form_lpmx + "<div id='lpmx_rows_id'></div>");
     const html = jt.html();
     $("#" + this.id).html(html);
-    //console.log(jt.text());
     this.bind_menu();
     this.form_lst2html();
     const e = document.querySelector("#lpmx_menu_id ul li a.title");
@@ -219,18 +210,15 @@ var FormLpmx = {
       if (!confirm(`Load ${tname} ?`))
         return;
       cmd_notify_at(400, 200, tname, "Load");
-      sleep(1);
       DbFormLpmx.set_text_name(tname);
       let ok = await DbFormLpmx.load_data();
       if (!ok) {
-        alert(tname + " Not Found! 2");
+        alert(tname + " Not Found.");
         return;
       }
       const menu = document.querySelector("#lpmx_menu_id");
       const e = menu.querySelector("ul li a.title");
       e.innerHTML = tname;
-      FormLpmx.form_lst2html();
-      form_resetxy();
       // prepara per la schermta FormText 
       DbFormLpmx.fill_rows_text();
       FormText.rows_text2html();
@@ -290,22 +278,6 @@ var FormLpmx = {
     jt.append("</table>");
     const html = jt.html();
     $("#lpmx_rows_id").html(html);
-    //console.log(jt.text());
-
-    // allineamento  menu
-    // let lpmx_rows = document.getElementById("lpmx_rows_id");
-    // let lpmx_menu = document.getElementById("lpmx_menu_id");
-    //lpmx_menu.style.width = (lpmx_rows.clientWidth - 1) + "px";
-
-    // allineamento td head
-    // let tb_data = lpmx_rows.querySelector("table");
-    // let tb_head = document.querySelector("#lpmx_rows_head_id table");
-    //tb_head.style.width = tb_data.offsetWidth + "px";
-    // let ths = tb_head.querySelectorAll("tr td");
-    // let tds = tb_data.querySelectorAll("tr[n='0'] td");
-    // for (let i = 0; i < ths.length; i++)
-    //   ths[i].style.width = tds[i].offsetWidth + "px";
-
     //setta la classe bl per le form che hanno omografi nel corpus
     const fr_lst = document.querySelectorAll("#lpmx_rows_id tr td.fr");
     const omogr_js = DbFormLpmx.omogr_json;
@@ -321,14 +293,11 @@ var FormLpmx = {
     let tks = DbFormLpmx.token_lst.map(e => e[1]);
     let fks = DbFormLpmx.form_lst.map(e => e[1]);
     let fkes = fks.filter((e) => !tks.includes(e));
-    //console.log(fkes);
     const empty_lst = Array.from(fk_lst).filter(e => fkes.includes(e.innerHTML));
-    //console.log(empty_lst);
     for (let td of empty_lst) {
       let tr = td.parentElement;
       tr.classList.add("empty");
     }
-
     this.bind_rows();
   },
   check_text: function () {
@@ -402,124 +371,108 @@ var FormLpmx = {
       const h = jt.html();
       UlaInfo.open(h, 100, 50);
     };
-
     DbFormLpmx.load_diff_text_corpus(call);
-
   },
   bind_menu: function () {
-    //$("#lpmx_menu_id").off("mouseenter");
-    $("#lpmx_menu_id")
-      .on("mouseenter", "a.mvah", {}, function (event) {
-        event.preventDefault();
-        $("#lpmx_menu_id div").hide();
-        let e = $(this).next();
-        e.show();
-      })
-      .on("mouseleave", "", {}, function (event) {
-        event.preventDefault();
-        $("#lpmx_menu_id div").hide();
-      })
-      .on("click", "div", {}, () => {
-        $("#lpmx_menu_id div").hide();
-      })
-      .on("click", "div a.x", {}, () => {
-        $("#lpmx_menu_id div").hide();
-        this.bind_mouseover();
-      })
-      .on("click", "div a.y", {}, () => {
-        $("#lpmx_menu_id div").hide();
-        this.unbind_mouseover();
-      })
-      .on("click", "a.cmd", {}, (e) => {
-        e.stopImmediatePropagation();
-        let t = e.currentTarget;
-        let cmd = t.getAttribute("cmd");
-        this.exe(cmd);
-      });
-
-    $("#lpmx_rows_head_id")
-      .on("keyup", "td input ", {}, (e) => {
-        let key = e.which || e.keyCode || 0;
-        if (e.ctrlKey) {
+    const menu = document.getElementById("lpmx_menu_id");
+    const call = (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'A') {
+        const cmd = t.getAttribute("cmd");
+        if (!!cmd) {
+          this.exe(cmd);
+        }
+      }
+    };
+    menu.addEventListener("click", call);
+    const head = document.getElementById("lpmx_rows_head_id");
+    head.addEventListener("keyup", (ev) => {
+      const t = ev.target;
+      if (t.tagName == "INPUT") {
+        const key = ev.which || ev.keyCode || 0;
+        if (ev.ctrlKey) {
           if (key == 88) {
-            // ctrl-x
-            e.target.value = "";
-            e.preventDefault();
+            ev.target.value = "";
+            ev.preventDefault();
           }
-          e.stopImmediatePropagation();
+          ev.stopImmediatePropagation();
           return;
         }
         if (key == "13") {
           this.scroll();
-          e.preventDefault();
+          ev.preventDefault();
         }
-      })
-      .on("click", "a.cmd", {}, (e) => {
-        let t = e.currentTarget;
-        let cmd = t.getAttribute("cmd");
-        this.exe(cmd);
-      });
+      }
+    });
   },
   bind_rows: function () {
-    const id = "#lpmx_rows_id";
-    let tr_focus = null;
-    let val = "";
-    $(id).off("click");
-    $(id)
-      .on("click ", "td", {}, (e) => {
-        $(id + " tr ").removeClass("select");
-        tr_focus = $(e.target).parents("tr");
-        FormLpmx.form_id_select = tr_focus;
-        tr_focus.addClass("select");
-        if (e.target.tagName.toLowerCase() == "td") {
-          tr_focus.find("td input").first().focus();
-          if ($(e.target).attr("name") == "n") {
-            const form = tr_focus.find("td[name=fr]").html();
-            const formkey = tr_focus.find("td[name=fk]").html();
-            const form_idx = tr_focus.find("td[name=n]").html();
-            FormLpmx.open_context(form_idx, form, formkey);
-          }
+    const table = document.querySelector("#lpmx_rows_id table");
+    table.addEventListener("click", (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'TD') {
+        table.querySelectorAll("tr.select").forEach(e => e.classList.remove("select"));
+        const tr = t.closest('TR');
+        this.tr_selected = tr;
+        tr.classList.add("select");
+        tr.querySelector("input").focus();
+        if (t.getAttribute("name") == "n") {
+          const forma = tr.querySelector("td[name=fr]").innerHTML;
+          const formakey = tr.querySelector("td[name=fk]").innerHTML;
+          const forma_idx = t.innerHTML;
+          this.open_context(forma_idx, forma, formakey);
         }
-      })
-      .on("mouseover", "td", {}, (e) => {
-        $(id + " tr.hover ").removeClass("hover");
-        $(e.target).parents("tr").addClass("hover");
-      })
-      .on("keyup", "input", {}, (e) => {
-        let key = e.which || e.keyCode || 0;
-        if (e.ctrlKey) {
+      }
+    });
+    table.addEventListener("mouseover", (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'TD') {
+        table.querySelectorAll("tr.hover").forEach(e => e.classList.remove("hover"));
+        const tr = t.closest('TR');
+        tr.classList.add("hover");
+      }
+    });
+    table.addEventListener("keydown", (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'INPUT') {
+        const key = ev.which || ev.keyCode || 0;
+        if (ev.ctrlKey) {
           if (key == 88) {
-            // ctrl-x
-            e.target.value = "";
-            e.preventDefault();
+            t.value = "";
+            ev.preventDefault();
           }
-          e.stopImmediatePropagation();
+          ev.stopImmediatePropagation();
           return;
         }
         if ([38, 40].includes(key)) {
-          let trg = $(e.target);
-          let name = trg.parent("td").attr("name");
-          let tr = trg.parents("tr").first();
-          let trx = null;
-          if (key == 38) trx = tr.prev("tr").first();
-          else trx = tr.next("tr").first();
-          trx.find("td[name=" + name + "] input").focus();
+          t.blur();
+          const td = t.closest("TD");
+          const name = td.getAttribute("name");
+          const tr = t.closest("TR");
+          let trx = key == 38 ? tr.previousElementSibling : tr.nextElementSibling;
+          if (!trx) return;
+          trx.querySelector("td[name=" + name + "] input").focus();
         }
-      })
-      .on("focusin", "input", {}, function (e) {
-        let tr_focus = $(e.target).parents("tr");
-        $(id + " tr").removeClass("select hover");
-        $(tr_focus).addClass("select");
-        FormLpmx.form_id_select = tr_focus;
-        val = $(this).val();
-      })
-      .on("focusout", "input", {}, function () {
-        let v = $(this).val();
-        if (v != val) FormLpmx.save_store();
-      });
+      }
+    });
+    table.addEventListener("focusin", (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'INPUT') {
+        const tr = t.closest("TR");
+        table.querySelectorAll("tr.hover").forEach(e => e.classList.remove("hover"));
+        table.querySelectorAll("tr.select").forEach(e => e.classList.remove("select"));
+        tr.classList.add("select");
+        this.tr_selected = tr;
+      }
+    });
+    table.addEventListener("change", (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'INPUT') {
+        this.save_store();
+      }
+    });
   },
   set_pos_msd: function (pos, msd) {
-    if (!this.form_id_select) {
+    if (!this.tr_selected) {
       cmd_notify("Form Not Selected.");
       return;
     }
@@ -535,7 +488,7 @@ var FormLpmx = {
     cmd_notify_link(pr, e, 0, 20, "Set POS - MSD");
   },
   set_phon: function (phon) {
-    if (!this.form_id_select) {
+    if (!this.tr_selected) {
       cmd_notify("row not selected.");
       return;
     }
@@ -548,7 +501,7 @@ var FormLpmx = {
     cmd_notify_link(pr, e, -40, 20, "Set lang");
   },
   set_funct: function (funct) {
-    if (!this.form_id_select) {
+    if (!this.tr_selected) {
       cmd_notify("row not selected.");
       return;
     }
@@ -604,30 +557,45 @@ var FormLpmx = {
   },
   update_text: function () {
     //UaLog.log("FFF update_twxt");
-    // dati textt aggironati da
-    // this.html2form_lst();
-    // chaimato da save_data
+    // dati textt aggironati da this.html2form_lst();
+    // chaimato dopo save_data
     DbFormLpmx.update_text();
   },
+  // AAA  sostituito html2form_lst: function () { 
+  //   //UaLog.log("FFF html2form_lst");
+  //   let trs = $("#lpmx_rows_id table").find("tr");
+  //   DbFormLpmx.form_lst = [];
+  //   //n,form,formkey,lemma,etimo,phon,pos,msd
+  //   $(trs).each(function () {
+  //     let tds = $(this).find("td");
+  //     let form = tds[1].innerHTML;
+  //     let formkey = tds[2].innerHTML;
+  //     let lemma = $(tds[3]).find("input").val();
+  //     let etimo = $(tds[4]).find("input").val();
+  //     let phon = tds[5].innerHTML;
+  //     let pos = tds[6].innerHTML;
+  //     let funct = tds[7].innerHTML;
+  //     let msd = tds[8].innerHTML;
+  //     //forma, lemma, etimo, lang, POS, funct, MSD
+  //     DbFormLpmx.form_lst.push([form, formkey, lemma, etimo, phon, pos, funct, msd]);
+  //   });
+  // },
   html2form_lst: function () {
-    //UaLog.log("FFF html2form_lst");
-    //console.time("html2form_lst");
-    let trs = $("#lpmx_rows_id table").find("tr");
+    let trs = document.querySelectorAll("#lpmx_rows_id table tr");
     DbFormLpmx.form_lst = [];
-    //n,form,formkey,lemma,etimo,phon,pos,msd
-    $(trs).each(function () {
-      let tds = $(this).find("td");
+    for (let tr of trs) {
+      let tds = tr.querySelectorAll("td");
       let form = tds[1].innerHTML;
       let formkey = tds[2].innerHTML;
-      let lemma = $(tds[3]).find("input").val();
-      let etimo = $(tds[4]).find("input").val();
+      let lemma = tds[3].firstChild.value;
+      let etimo = tds[4].firstChild.value;
       let phon = tds[5].innerHTML;
       let pos = tds[6].innerHTML;
       let funct = tds[7].innerHTML;
       let msd = tds[8].innerHTML;
       //forma, lemma, etimo, lang, POS, funct, MSD
       DbFormLpmx.form_lst.push([form, formkey, lemma, etimo, phon, pos, funct, msd]);
-    });
+    }
   },
   open_context: function (form_idx, form, formkey) {
     FormContext.open(form_idx, form, formkey);
@@ -639,8 +607,8 @@ var FormLpmx = {
     //  e.scrollTop = this.f;
   },
   scroll: function () {
-    let v = $("#lpmx_rows_head_id td.find input").first().val();
-    if (!v) v = "";
+    let v = document.querySelector("#lpmx_rows_head_id td.find input").value;
+    v = v || "";
     const idx = DbFormLpmx.form_lst.findIndex((e) => e[0].startsWith(v, 0));
     const root = document.getElementById("lpmx_rows_id");
     let element = root.querySelector('tr[n="' + idx + '"]');

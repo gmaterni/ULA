@@ -6,31 +6,29 @@ var FormContext = {
     left: 400,
     wind: null,
     context_size: 5,
-    context_fk: true,
+    is_context_active: true,
+    key_selected: '',
     form: null,
     formkey: null,
-    exe: function (cmd) {
+    exe: function (cmd, arg = '') {
         switch (cmd) {
             case "unselect_tokens":
                 this.unselect_tokens();
                 break;
-
             case "add_formakey":
-                if (this.context_fk)
-                    this.add_formakey();
+                if (this.is_context_active)
+                    this.add_formakey(arg);
                 else
                     alert("change context f/k");
                 break;
             case "del_formakey":
-
-                if (this.context_fk)
+                if (this.is_context_active)
                     this.del_formakey();
                 else
                     alert("change context f/k");
                 break;
-
             case "set_size":
-                this.set_size();
+                this.set_size(arg);
                 break;
             case "set_context_fk":
                 this.set_context_fk();
@@ -39,7 +37,7 @@ var FormContext = {
                 this.hide();
                 break;
             default:
-                alert("command not found. ");
+                alert(cmd + " command not found. ");
         }
     },
     show: function () {
@@ -56,21 +54,19 @@ var FormContext = {
         this.form_idx = form_idx;
         this.form = forma;
         this.formkey = formakey;
-        this.context_fk = true;
+        this.key_selected = forma == formakey ? 0 : formakey.slice(forma.length);
+        this.is_context_active = true;
         this.show_html();
         FormOmogr.open(this.form);
     },
     show_html: function () {
         const cmd_html = `
-        <div class="cmd" >      
-        
+        <div class="cmd" >              
         <div class="title">{fk}</div>
-        
         <div> 
             <a cmd="unselect_tokens" class="tipb" href="#">Unselect 
             <span class="tiptextb">Unselecb Selected Tokens</span> 
         </a> 
-        
         </div>
             <div class="add">
             <span class="tipb">Add
@@ -78,12 +74,10 @@ var FormContext = {
             </span>
             <select name="add_formakey" cmd="add_formakey">{option_list}</select>
         </div> 
-
         <div class="del"> 
         <a cmd="del_formakey" class="tipb" href="#">Delete 
         <span class="tiptextb">Delete Current Forma</span> 
         </a> 
-        
         </div>
          <div class="size">
             <span class="tipb">Size
@@ -91,34 +85,34 @@ var FormContext = {
             </span>
             <select name="set_size" cmd="set_size">{size_list}</select>
         </div>
-
         <div class="fk"> 
             <a cmd="set_context_fk" class="tipb" href="#">f/k
             <span class="tiptextb">Context Forma / Formak </span> 
             </a> 
         </div>
-
         <div> 
             <a cmd="close" class="last" href="#">Close</a> </div>
         </div>
         `;
-        const size = this.context_size;
-        let sizes = [3, 5, 7, 9];
         // selezione dimensioni contesto
-        const get_size_list = function () {
-            let s = `<option value="${size}">${size}</option>`;
+        const size = this.context_size;
+        const sizes = [3, 5, 7, 9];
+        const get_size_list = () => {
+            let s = "<option value=''></option>";
             for (let sz of sizes)
                 if (sz != size)
                     s = s + `<option value="${sz}">${sz}</option>`;
             return s;
         };
 
-        const get_fk_list = function () {
-            let s = '<option></option>';
-            for (let i = 0; i < 10; i++) {
-                let r = `<option value="${i}">${i}</option>`;
-                s = s + r;
-            }
+        //lista delle estensioni (key) per forme omografe
+        const key = Number(this.key_selected);
+        const ks = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const get_fk_list = () => {
+            let s = "<option value=''></option>";
+            for (const k of ks)
+                if (k != key)
+                    s = s + `<option value="${k}">${k}</option>`;
             return s;
         };
 
@@ -136,8 +130,29 @@ var FormContext = {
         });
         jt.append('<div class="rows">');
 
-        // seleziona contesto forma / formakey
-        if (!this.context_fk) {
+        if (this.is_context_active) {
+            // seleziona contesto con formakey e operazioni attive
+            const rows = DbFormLpmx.get_formakey_context(this.formkey, this.context_size);
+            for (let row of rows) {
+                for (let t of row) {
+                    let fk = t[1];
+                    let n = t[2]; //  token_idx
+                    if (fk == this.formkey) {
+                        const d = { "n": n, "fk": fk };
+                        jtsp.append('<span n="{n}" class="form nodrag" >{fk}</span>', d);
+                    }
+                    else {
+                        const d = { "n": n, "fk": fk };
+                        jtsp.append('<span class="token">{fk}</span>', d);
+                    }
+                }
+                let rh = jtsp.text();
+                jtsp.reset();
+                jt.append('<div class="row" >{r}</div>', { "r": rh });
+            }
+        }
+        else {
+            // seleziona contesto com forma  (esteso)  e qoperazioni disattivate
             const rows = DbFormLpmx.get_forma_context(this.form, this.context_size);
             for (let row of rows) {
                 for (let t of row) {
@@ -158,26 +173,6 @@ var FormContext = {
                 jt.append('<div class="row" >{r}</div>', { "r": rh });
             }
         }
-        else {
-            const rows = DbFormLpmx.get_formakey_context(this.formkey, this.context_size);
-            for (let row of rows) {
-                for (let t of row) {
-                    let fk = t[1];
-                    let n = t[2]; //  token_idx
-                    if (fk == this.formkey) {
-                        const d = { "n": n, "fk": fk };
-                        jtsp.append('<span n="{n}" class="form nodrag" >{fk}</span>', d);
-                    }
-                    else {
-                        const d = { "n": n, "fk": fk };
-                        jtsp.append('<span class="token">{fk}</span>', d);
-                    }
-                }
-                let rh = jtsp.text();
-                jtsp.reset();
-                jt.append('<div class="row" >{r}</div>', { "r": rh });
-            }
-        }
         jt.append('</div></div>');
         let html = jt.html();
         if (!this.wind) {
@@ -190,43 +185,42 @@ var FormContext = {
         this.bind_form();
     },
     bind_form: function () {
-        $("#lpmx_context_id").off("click");
-        $("#lpmx_context_id")
-            .on("click", "div.cmd a", {}, (e) => {
-                e.stopImmediatePropagation();
-                let t = e.currentTarget;
-                let cmd = t.getAttribute("cmd");
-                if (!cmd || cmd.trim() == "")
-                    return;
-                this.exe(cmd);
-            })
-            .on("change", "div.cmd select", {}, (e) => {
-                e.stopImmediatePropagation();
-                let t = e.currentTarget;
-                let cmd = t.getAttribute("cmd");
-                if (!cmd || cmd.trim() == "")
-                    return;
-                this.exe(cmd);
-            })
-            .on("click", "div.row span.form", {}, function (e) {
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                let tf = $(e.currentTarget).hasClass("select");
-                $(e.currentTarget).toggleClass("select", !tf);
-            });
+        const div_cmd = document.querySelector("#lpmx_context_id div.cmd");
+        div_cmd.addEventListener("click", (ev) => {
+            // ev.preventDefault();
+            // ev.stopImmediatePropagation();
+            const t = ev.target;
+            if (t.tagName == 'A') {
+                const cmd = t.getAttribute("cmd");
+                this.exe(cmd, t.value);
+            }
+        });
+        div_cmd.addEventListener("change", (ev) => {
+            const t = ev.target;
+            if (t.tagName == 'SELECT') {
+                const cmd = t.getAttribute("cmd");
+                this.exe(cmd, t.value);
+            }
+        });
+        const span_row = document.querySelector("#lpmx_context_id div.rows");
+        span_row.addEventListener("click", (ev) => {
+            // ev.preventDefault();
+            // ev.stopImmediatePropagation();
+            const t = ev.target;
+            if (t.tagName == "SPAN" && t.classList.contains("form")) {
+                const tf = t.classList.contains("select");
+                t.classList.toggle("select", !tf);
+            }
+        });
     },
-    set_size: function () {
-        let qs = "#lpmx_context_id select[name='set_size']";
-        let op = document.querySelector(qs);
-        let v = op.value;
-        v = parseInt(v);
-        this.context_size = v;
+    set_size: function (size) {
+        this.context_size = Number(size);
         this.show_html();
     },
     set_context_fk: function () {
-        this.context_fk = !this.context_fk;
+        this.is_context_active = !this.is_context_active;
         this.show_html();
-        if (!this.context_fk)
+        if (!this.is_context_active)
             $("#lpmx_context_id div.cmd div").addClass("inactive");
         else
             $("#lpmx_context_id div.cmd div").removeClass("inactive");
@@ -235,23 +229,19 @@ var FormContext = {
     unselect_tokens: function () {
         $("#lpmx_context_id div.rows div.row span.select").removeClass("select");
     },
-    add_formakey: function () {
-        let qs = "#lpmx_context_id select[name='add_formakey']";
-        let op = document.querySelector(qs);
-        let dsb = op.value;
-        dsb = dsb == '0' ? '' : dsb;
+    add_formakey: function (key) {
+        let ks = key.toString();
+        let key2 = ks == '0' ? '' : ks;
         let idx = this.form_idx;
         let item = DbFormLpmx.form_lst[idx];
         let form = item[0];
         let formkey = item[1];
-        let formkey2 = form + dsb;
+        let formkey2 = form + key2;
         let formkey_new = false;
-
         if (formkey == formkey2) {
             alert(`select another extension`);
             return;
         }
-
         // controlla se esiste una formkey2
         let idx2 = DbFormLpmx.form_lst.findIndex(tk => tk[1] == formkey2);
         if (idx2 < 0) {
@@ -289,7 +279,7 @@ var FormContext = {
         // setta estensione nei token selezionati
         for (let i of idx_lst) {
             let item = DbFormLpmx.token_lst[i];
-            DbFormLpmx.token_lst[i][1] = item[0] + dsb;
+            DbFormLpmx.token_lst[i][1] = item[0] + key2;
         }
         if (!formkey_new) {
             FormLpmx.form_lst2html();
@@ -297,14 +287,17 @@ var FormContext = {
             this.hide();
             return;
         }
-        cmd_wait_start();
-        setTimeout(() => {
-            FormLpmx.form_lst2html();
-            cmd_wait_stop();
-            this.hide();
-            DbFormLpmx.set_store();
-            FormLpmx.restore_scroll();
-        }, 100);
+        // cmd_wait_start();
+        // setTimeout(() => {
+        //     FormLpmx.form_lst2html();
+        //     this.hide();
+        //     DbFormLpmx.set_store();
+        //     // cmd_wait_stop();
+        //     // FormLpmx.restore_scroll();
+        // });
+        FormLpmx.form_lst2html();
+        this.hide();
+        DbFormLpmx.set_store();
     },
     //cancella la form corrente e sposta i tokens sulla prima form omografa
     del_formakey: function () {
@@ -333,14 +326,17 @@ var FormContext = {
                 array[index][1] = formakey0;
             }
         });
-        cmd_wait_start();
-        setTimeout(() => {
-            FormLpmx.form_lst2html();
-            cmd_wait_stop();
-            this.hide();
-            DbFormLpmx.set_store();
-            FormLpmx.restore_scroll();
-        }, 100);
+        // cmd_wait_start();
+        // setTimeout(() => {
+        //     FormLpmx.form_lst2html();
+        //     cmd_wait_stop();
+        //     this.hide();
+        //     DbFormLpmx.set_store();
+        //     FormLpmx.restore_scroll();
+        // }, 100);
+        FormLpmx.form_lst2html();
+        this.hide();
+        DbFormLpmx.set_store();
     },
     resetXY: function () {
         if (!this.wind) return;

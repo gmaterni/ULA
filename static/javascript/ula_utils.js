@@ -1,5 +1,5 @@
 /* jshint esversion: 8 */
-
+// release 19-04-22
 
 var Notify = {
   element: null,
@@ -58,12 +58,10 @@ var Notify = {
     left:${this.wx}px;
     `;
     document.body.appendChild(e);
-    e.addEventListener(
-      "mouseenter",
-      () => {
-        this.hide();
-        this.timeout = 0;
-      },
+    e.addEventListener("mouseenter", () => {
+      this.hide();
+      this.timeout = 0;
+    },
       false
     );
   },
@@ -127,8 +125,6 @@ var UlaInfo = {
   },
 };
 
-
-
 var RowsInput = {
   p_id: null,
   id: null,
@@ -154,7 +150,7 @@ var RowsInput = {
     let cmd = `
     <div class="cmd">
       <div class="y" >Confirm</div>
-      <div class="n" >close</div>
+      <div class="n" >Close</div>
     </div>
     `;
     jt.append(cmd);
@@ -165,37 +161,39 @@ var RowsInput = {
     return this;
   },
   bind_cmd: function () {
-    //$("#text_rows_id").off("click");
-    $("#" + this.id)
-      .on("click", "div.n", {}, (e) => {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        //e.stopPropagation();
-        this.wnd.hide();
-      })
-      .on("click", "div.y", {}, (e) => {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        //e.stopPropagation();
-        this.ok();
-      })
-      .on("keyup", "input ", {}, (e) => {
-        let key = e.which || e.keyCode || 0;
-        if (e.ctrlKey) {
-          if (key == 88) {
-            // ctrl-x
-            e.target.value = "";
-            e.preventDefault();
-          }
-          e.stopPropagation();
-          return;
-        }
-        if (key == "13") {
+    const elm = document.getElementById(this.id);
+    elm.querySelector("div.n").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      this.wnd.hide();
+    });
+    elm.querySelector("div.y").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      this.ok();
+    });
+    elm.addEventListener("keyup", (e) => {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      const t = e.target;
+      if (t.tagName.toLowerCase() != "input")
+        return;
+      let key = e.which || e.keyCode || 0;
+      //console.log(key);
+      if (e.ctrlKey) {
+        if (key == 88) {
+          e.target.value = "";
           e.preventDefault();
-          e.stopImmediatePropagation();
-          this.ok();
         }
-      });
+        e.stopPropagation();
+        return;
+      }
+      if (key == "13") {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        this.ok();
+      }
+    });
   },
   at: function (x, y, p = -1) {
     this.wnd.setXY(x, y, p);
@@ -203,10 +201,7 @@ var RowsInput = {
   },
   show: function () {
     this.wnd.show();
-    $("#" + this.id)
-      .find("input")
-      .first()
-      .focus();
+    document.querySelector("#" + this.id + " input").focus();
   },
   ok: function () {
     let root = document.getElementById(this.id);
@@ -224,7 +219,9 @@ var RowsInput = {
 
 var UlaOption = {
   wnd: null,
-  open: function (p_id, id, rows, call) {
+  call: null,
+  open: function (p_id, id, rows, fnCall) {
+    this.call = fnCall;
     this.wnd = UaWindowAdm.get(id);
     if (!this.wnd) {
       this.wnd = UaWindowAdm.create(id, p_id);
@@ -248,25 +245,23 @@ var UlaOption = {
     let h = jt.html();
     this.wnd.setHtml(h);
     this.wnd.addClassStyle("ula_option");
-    //
     let opt = this.wnd.getElement();
-    $(opt).off("click");
-    $(opt)
-      .on("click", "div.d", {}, (e) => {
+    let elms = opt.querySelectorAll("div.d");
+    for (const elm of elms)
+      elm.addEventListener("click", (e) => {
         e.stopImmediatePropagation();
         this.wnd.hide();
         let t = e.currentTarget;
         let name = t.getAttribute("name");
-        call(name);
-      })
-      .on("click", "div.x", {}, (e) => {
-        e.stopPropagation();
-        this.wnd.hide();
-      })
-      ;
+        this.call(name);
+      });
+    opt.querySelector("div.x").addEventListener("click", (e) => {
+      e.stopPropagation();
+      this.wnd.hide();
+    });
     return this;
   },
-  at: function (x, y, p = -1) {
+  at: function (x, y, p = - 1) {
     this.wnd.setXY(x, y, p);
     return this;
   },

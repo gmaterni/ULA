@@ -1,15 +1,16 @@
 /* jshint esversion: 8 */
-//release 22-04-22
 
-// let T0 = 0;
-// var start_performance = function () {
-//   T0 = performance.now();
-// };
-// var log_performance = function (msg = '') {
-//   const t1 = performance.now();
-//   cmd_log_show(msg + " : " + (t1 - T0));
-//   T0 = performance.now();
-// };
+let T0 = {};
+var start_performance = function (k) {
+  T0.k = performance.now();
+};
+var log_performance = function (k, msg = '') {
+  const t1 = performance.now();
+  const d = t1-T0.k;
+  console.log(msg, d);
+  T0.k = t1;
+  return d;
+};
 
 var cmd_close = function () {
   if (confirm("Chiudi Applicazione ?")) window.close();
@@ -71,6 +72,7 @@ var get_time = function () {
   const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
   return time;
 };
+
 var sleep = function (ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
@@ -109,7 +111,7 @@ let LPMX_ID = null;
 let TEXT_ID = null;
 
 var Ula = {
-  open:async function () {
+  open: async function () {
     cmd_wait_start();
     LPMX_ID = document.getElementById("lpmx_id");
     TEXT_ID = document.getElementById("text_id");
@@ -133,7 +135,7 @@ var Ula = {
     await Funct.open();
     await FormText.open();
     cmd_wait_stop();
-    relocate()
+    relocate();
   },
   show_lpmx: async function () {
     TEXT_ID.style.display = 'none';

@@ -1,54 +1,48 @@
 /* jshint esversion: 8 */
 
-const text_help = () => {
-  Help.toggle("help2.html");
-};
-
-const text_resetxy = () => {
-  FormTextRow.resetXY();
-};
-
 const h_menu_text = `
-<div id="text_menu_id" class="menu" >
+<div id="text_menu_id" class="menu_bar" >
   <ul>
-
-    <li> 
-      <a class="mvah cmd tipb" cmd="show_lpmx" href="#">Form 
+    <li class="v"> 
+      <a class="tipb" cmd="show_lpmx" href="#">Form 
           <span class="tiptextb">Visualizza Lista Form</span>
       </a> 
-   </li>
-   
-   <li> 
-     <a class="mvah cmd tipb" cmd="toggle_row" href="#">Toggle Row
+   </li>  
+   <li class="v"> 
+     <a class="tipb" cmd="toggle_row" href="#">Toggle Row
        <span class="tiptextb">Apre/Chiude la finestra della riga</span>
     </a> 
    </li>
-
-    <li> 
-      <a class="mvah cmd tipb" cmd="fillter_rows_text" href="#">Find
+      <li class="v"> 
+      <a class="tipb" cmd="fillter_rows_text" href="#">Find
         <span class="tiptextb">Seleziona righe  </span>
       </a> 
     </li>
-
-    <li> 
-      <a class="mvah cmd tipb" cmd="show_text" href="#">Text
+    <li class="v"> 
+      <a class="tipb" cmd="show_text" href="#">Text
         <span class="tiptextb">Visualizza tutto il Testo </span>
       </a> 
     </li>
-  
-    <li>   
-      <a class="mvah" href="#">Utils</a>
-      <div>
-          <a class="cmd" cmd="cmd_log" href="#">Log</a>
-          <a class="cmd" cmd="resetxy" href="#">Relocate</a>
-      </div>
+    <li class="v">   
+      <a class=" href="#">Utils</a>
+      <ul class="v">
+        <li class="h">
+          <a class="tipr" cmd="cmd_log" href="#">Log
+            <span class="tiptextr">Relocate all Windows</span>
+          </a>
+        </li>
+        <li class="h">
+          <a class="cmd tipr" cmd="resetxy" href="#">Relocate
+          </a>
+        </li>
+    </ul>
    </li>
-   <li> <a class="mvah cmd" cmd="help" href="#">Help</a> </li>
-   
-   <li> <a class="mvah cmd" cmd="close" href="#">close</a> </li>
+   <li class="v"> <a cmd="help" href="#">Help</a> </li>
+   <li class="v"> <a cmd="close" href="#">close</a> </li>
   </ul>
 </div>
 `;
+
 
 const form_lemma_filter = `
 <div class="input_table">
@@ -123,10 +117,10 @@ var FormText = {
         this.disable_row();
         break;
       case "help":
-        text_help();
+        Help.toggle("help2.html");
         break;
       case "resetxy":
-        text_resetxy();
+        FormTextRow.resetXY();
         break;
       case "cmd_log":
         cmd_log_toggle();
@@ -149,14 +143,14 @@ var FormText = {
   },
   fillter_rows_text: function () {
 
-    let input_call = function (js) {
+    let input_call = (js) => {
       DbFormLpmx.filter_rows_js(js);
       if (DbFormLpmx.rows_js.length == 0) {
         cmd_notify_at(300, 100, "Selezione Vuota");
         return;
       }
-      FormText.rows_text2html();
-      FormText.text_all = false;
+      this.rows_text2html();
+      this.text_all = false;
     };
 
     RowsInput.open("text_id", "text_input_filter_id", form_lemma_filter, {}, input_call).at(200, 100);
@@ -172,11 +166,34 @@ var FormText = {
       this.text_all = true;
     }
   },
+  // rows_text2html: function () {
+  //   // AAA rallenta da modificare cpme tabella
+  //   const rows = DbFormLpmx.rows_js;
+  //   let jt = UaJt();
+  //   jt.append('<table>l');
+  //   let row_h = `
+  //   <tr class='row'>
+  //       <td class='n' >{row_n}</td>
+  //       <td class='text'>{row_text}</td>
+  //  </tr>
+  //   `;
+  //   for (let r of rows) {
+  //     let d = {
+  //       "row_n": r.row_n,
+  //       "row_text": r.row_text
+  //     };
+  //     jt.append(row_h, d);
+  //   }
+  //   jt.append('</table>');
+  //   let html = jt.html();
+  //   document.getElementById("text_rows_id").innerHTML = html;
+  //   this.bind_row();
+  // },
   rows_text2html: function () {
     const rows = DbFormLpmx.rows_js;
     let jt = UaJt();
     let row_h = `
-    <div class='row'>
+    <div class='row table-row'>
         <div class='n' >{row_n}</div>
         <div class='text'>{row_text}</div>
    </div>
@@ -188,9 +205,8 @@ var FormText = {
       };
       jt.append(row_h, d);
     }
-    //jt.append("</div>");
     let html = jt.html();
-    $("#text_rows_id").html(html);
+    document.getElementById("text_rows_id").innerHTML = html;
     this.bind_row();
   },
   open_row: function () {
@@ -214,25 +230,38 @@ var FormText = {
     FormTextRow.open(n, w_lst);
   },
   bind_menu: function () {
-    $("#text_menu_id").off("click mouseenter");
-    $("#text_menu_id")
-      .on("mouseenter", "a.mvah", {}, function (e) {
-        e.preventDefault();
-        $("#text_menu_id div").hide();
-        let elm = $(this).next();
-        elm.show();
-      })
-      .on("mouseleave", "", {}, function (e) {
-        e.preventDefault();
-        $("#text_menu_id div").hide();
-      })
-      .on("click", "a.cmd", {}, (e) => {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        let t = e.currentTarget;
-        let cmd = t.getAttribute("cmd");
-        this.exe(cmd);
-      });
+    const menu = document.getElementById("text_menu_id");
+    const call = (ev) => {
+      const t = ev.target;
+      if (t.tagName == 'A') {
+        const cmd = t.getAttribute("cmd");
+        if (!!cmd) {
+          // alert(cmd);
+          this.exe(cmd);
+        }
+      }
+    };
+    menu.addEventListener("click", call);
+
+    //   $("#text_menu_id").off("click mouseenter");
+    //   $("#text_menu_id")
+    //     .on("mouseenter", "a.mvah", {}, function (e) {
+    //       e.preventDefault();
+    //       $("#text_menu_id div").hide();
+    //       let elm = $(this).next();
+    //       elm.show();
+    //     })
+    //     .on("mouseleave", "", {}, function (e) {
+    //       e.preventDefault();
+    //       $("#text_menu_id div").hide();
+    //     })
+    //     .on("click", "a.cmd", {}, (e) => {
+    //       e.preventDefault();
+    //       e.stopImmediatePropagation();
+    //       let t = e.currentTarget;
+    //       let cmd = t.getAttribute("cmd");
+    //       this.exe(cmd);
+    //     });
   },
   bind_row: function () {
     $("#text_rows_id").off("click");
