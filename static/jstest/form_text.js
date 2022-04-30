@@ -144,14 +144,14 @@ var FormText = {
   },
   fillter_rows_text: function () {
 
-    let input_call = function (js) {
+    let input_call = (js) => {
       DbFormLpmx.filter_rows_js(js);
       if (DbFormLpmx.rows_js.length == 0) {
         cmd_notify_at(300, 100, "Selezione Vuota");
         return;
       }
-      FormText.rows_text2html();
-      FormText.text_all = false;
+      this.rows_text2html();
+      this.text_all = false;
     };
 
     RowsInput.open("text_id", "text_input_filter_id", form_lemma_filter, {}, input_call).at(200, 100);
@@ -167,7 +167,31 @@ var FormText = {
       this.text_all = true;
     }
   },
+  // rows_text2html: function () {
+  //   // AAA rallenta da modificare cpme tabella
+  //   const rows = DbFormLpmx.rows_js;
+  //   let jt = UaJt();
+  //   jt.append('<table>l');
+  //   let row_h = `
+  //   <tr class='row'>
+  //       <td class='n' >{row_n}</td>
+  //       <td class='text'>{row_text}</td>
+  //  </tr>
+  //   `;
+  //   for (let r of rows) {
+  //     let d = {
+  //       "row_n": r.row_n,
+  //       "row_text": r.row_text
+  //     };
+  //     jt.append(row_h, d);
+  //   }
+  //   jt.append('</table>');
+  //   let html = jt.html();
+  //   document.getElementById("text_rows_id").innerHTML = html;
+  //   this.bind_row();
+  // },
   rows_text2html: function () {
+    // AAA rallenta da modificare nel rendering
     const rows = DbFormLpmx.rows_js;
     let jt = UaJt();
     let row_h = `
@@ -183,9 +207,8 @@ var FormText = {
       };
       jt.append(row_h, d);
     }
-    //jt.append("</div>");
     let html = jt.html();
-    $("#text_rows_id").html(html);
+    document.getElementById("text_rows_id").innerHTML = html;
     this.bind_row();
   },
   open_row: function () {

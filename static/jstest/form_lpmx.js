@@ -198,7 +198,6 @@ var FormLpmx = {
     jt.append(h_menu_form_lpmx + "<div id='lpmx_rows_id'></div>");
     const html = jt.html();
     $("#" + this.id).html(html);
-    //console.log(jt.text());
     this.bind_menu();
     this.form_lst2html();
     const e = document.querySelector("#lpmx_menu_id ul li a.title");
@@ -220,8 +219,6 @@ var FormLpmx = {
       const menu = document.querySelector("#lpmx_menu_id");
       const e = menu.querySelector("ul li a.title");
       e.innerHTML = tname;
-      relocate();
-      form_resetxy();
       // prepara per la schermta FormText 
       DbFormLpmx.fill_rows_text();
       FormText.rows_text2html();
@@ -239,6 +236,9 @@ var FormLpmx = {
     this.form_lst2html();
     return true;
   },
+
+
+
   form_lst2html: function () {
     //UaLog.log("FFF form_lst2html");
     //form,formkey,lemma,etimo, phon, pos, msd ..
@@ -296,9 +296,7 @@ var FormLpmx = {
     let tks = DbFormLpmx.token_lst.map(e => e[1]);
     let fks = DbFormLpmx.form_lst.map(e => e[1]);
     let fkes = fks.filter((e) => !tks.includes(e));
-    //console.log(fkes);
     const empty_lst = Array.from(fk_lst).filter(e => fkes.includes(e.innerHTML));
-    //console.log(empty_lst);
     for (let td of empty_lst) {
       let tr = td.parentElement;
       tr.classList.add("empty");
@@ -376,9 +374,7 @@ var FormLpmx = {
       const h = jt.html();
       UlaInfo.open(h, 100, 50);
     };
-
     DbFormLpmx.load_diff_text_corpus(call);
-
   },
   bind_menu: function () {
     const menu = document.getElementById("lpmx_menu_id");
@@ -392,7 +388,6 @@ var FormLpmx = {
       }
     };
     menu.addEventListener("click", call);
-
     const head = document.getElementById("lpmx_rows_head_id");
     head.addEventListener("keyup", (ev) => {
       const t = ev.target;
@@ -475,7 +470,7 @@ var FormLpmx = {
     table.addEventListener("change", (ev) => {
       const t = ev.target;
       if (t.tagName == 'INPUT') {
-        FormLpmx.save_store();
+        this.save_store();
       }
     });
   },
@@ -567,29 +562,44 @@ var FormLpmx = {
     //UaLog.log("FFF update_twxt");
     // dati textt aggironati da
     // this.html2form_lst();
-    // chaimato da save_data
+    // chaimato dopo save_data
     DbFormLpmx.update_text();
   },
+  // AAA  sostituito html2form_lst: function () { 
+  //   //UaLog.log("FFF html2form_lst");
+  //   let trs = $("#lpmx_rows_id table").find("tr");
+  //   DbFormLpmx.form_lst = [];
+  //   //n,form,formkey,lemma,etimo,phon,pos,msd
+  //   $(trs).each(function () {
+  //     let tds = $(this).find("td");
+  //     let form = tds[1].innerHTML;
+  //     let formkey = tds[2].innerHTML;
+  //     let lemma = $(tds[3]).find("input").val();
+  //     let etimo = $(tds[4]).find("input").val();
+  //     let phon = tds[5].innerHTML;
+  //     let pos = tds[6].innerHTML;
+  //     let funct = tds[7].innerHTML;
+  //     let msd = tds[8].innerHTML;
+  //     //forma, lemma, etimo, lang, POS, funct, MSD
+  //     DbFormLpmx.form_lst.push([form, formkey, lemma, etimo, phon, pos, funct, msd]);
+  //   });
+  // },
   html2form_lst: function () {
-    //UaLog.log("FFF html2form_lst");
-    //TODO perfezionare html <-> list
-    //console.time("html2form_lst");
-    let trs = $("#lpmx_rows_id table").find("tr");
+    let trs = document.querySelectorAll("#lpmx_rows_id table tr");
     DbFormLpmx.form_lst = [];
-    //n,form,formkey,lemma,etimo,phon,pos,msd
-    $(trs).each(function () {
-      let tds = $(this).find("td");
+    for (let tr of trs) {
+      let tds = tr.querySelectorAll("td");
       let form = tds[1].innerHTML;
       let formkey = tds[2].innerHTML;
-      let lemma = $(tds[3]).find("input").val();
-      let etimo = $(tds[4]).find("input").val();
+      let lemma = tds[3].firstChild.value;
+      let etimo = tds[4].firstChild.value;
       let phon = tds[5].innerHTML;
       let pos = tds[6].innerHTML;
       let funct = tds[7].innerHTML;
       let msd = tds[8].innerHTML;
       //forma, lemma, etimo, lang, POS, funct, MSD
       DbFormLpmx.form_lst.push([form, formkey, lemma, etimo, phon, pos, funct, msd]);
-    });
+    }
   },
   open_context: function (form_idx, form, formkey) {
     FormContext.open(form_idx, form, formkey);
