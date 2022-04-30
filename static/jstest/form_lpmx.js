@@ -118,7 +118,7 @@ var FormLpmx = {
   exe: function (cmd) {
     switch (cmd) {
       case "show_text":
-        this.save_store(); 
+        this.save_store();
         Ula.show_text();
         break;
       case "select_text":
@@ -236,9 +236,6 @@ var FormLpmx = {
     this.form_lst2html();
     return true;
   },
-
-
-
   form_lst2html: function () {
     //UaLog.log("FFF form_lst2html");
     //form,formkey,lemma,etimo, phon, pos, msd ..
@@ -560,8 +557,7 @@ var FormLpmx = {
   },
   update_text: function () {
     //UaLog.log("FFF update_twxt");
-    // dati textt aggironati da
-    // this.html2form_lst();
+    // dati textt aggironati da this.html2form_lst();
     // chaimato dopo save_data
     DbFormLpmx.update_text();
   },
@@ -611,8 +607,8 @@ var FormLpmx = {
     //  e.scrollTop = this.f;
   },
   scroll: function () {
-    let v = $("#lpmx_rows_head_id td.find input").first().val();
-    if (!v) v = "";
+    let v = document.querySelector("#lpmx_rows_head_id td.find input").value;
+    v = v || "";
     const idx = DbFormLpmx.form_lst.findIndex((e) => e[0].startsWith(v, 0));
     const root = document.getElementById("lpmx_rows_id");
     let element = root.querySelector('tr[n="' + idx + '"]');
