@@ -1309,9 +1309,8 @@ div.ula_option {
 
   div.cmd {
     cursor: move;
-    padding: 0;
     margin: 0;
-    padding-top: 2px;
+    padding: 0 0 0 0;
     max-height: 30px;
     min-height: 30px;
     background: @cmd_back;
@@ -1323,11 +1322,13 @@ div.ula_option {
     justify-content: start;
 
     div.title {
-      margin-left: 0;
-      padding-right: 2px;
-      padding-left: 2px;
+      margin: 0;
+      padding: 5px 5px 0 5px;
+      vertical-align: bottom;
       background: @cmd_back2;
-      color: white;
+      font-size: @font_menu;
+      font-family: @fsans;
+      font-weight: bold;
     }
 
     div.add.inactive,
@@ -1337,23 +1338,33 @@ div.ula_option {
     }
 
     div {
-      margin-left: 20px;
-      background: inherit;
+      margin: 0 0 0 20px;
 
       a {
         background: inherit;
         color: @cmd_color;
         font-size: @font_menu;
         font-family: @fsans;
-        font-weight: normal;
+        font-weight: bold;
         text-decoration: none;
-        padding: 0;
+        padding: 0 10px 0 10px;
         margin: 0;
       }
 
       a:hover {
         background: @cmd_hover_back;
         text-decoration: underline;
+      }
+
+      span {
+        background: inherit;
+        color: @cmd_color;
+        font-size: @font_menu;
+        font-family: @fsans;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+
       }
 
       select {
@@ -1379,7 +1390,9 @@ div.ula_option {
       select:focus {
         outline: none;
       }
+
     }
+
 
     div:last-child {
       margin-left: auto;
@@ -1542,22 +1555,14 @@ div.ula_option {
   }
 }
 
+@text_rows_width:1060px;
 #text_menu_id {
-  min-width: calc(@text_row_width + 60px);
-
-  ul {
-    li {
-      max-width: 150px;
-
-      a {
-        padding: 0 10px 0 10px;
-      }
-    }
-  }
+  min-width: @text_rows_width;
+  max-width: @text_rows_width;
+  border-right: 1px solid @head_border_color;
 }
 
 #text_rows_id {
-  // background: red;
   position: absolute;
   top: @text_top;
   left: 0;
@@ -1565,14 +1570,11 @@ div.ula_option {
   padding: 0;
   min-height: @text_height;
   max-height: @text_height;
-  min-width: @text_row_width;
-  //max-width: @form_text_width;
   text-align: left;
   line-height: 1;
   overflow-y: scroll;
   overflow-x: auto;
   scrollbar-color: @cmd_back @head_back;
-  // scrollbar-width: 30px;
 
   div.row {
     margin: 0;
@@ -1673,9 +1675,7 @@ div.ula_option {
     cursor: move;
     display: flex;
     flex-direction: row;
-    //AAA justify-content:start;
 
-    //flex: auto;
     button {
       background: @cmd_back;
       color: @cmd_color;
@@ -1755,7 +1755,6 @@ div.ula_option {
         text-align: center;
         background: darken(@cell_back, 10%);
         color: @cell_color;
-        //font-weight: bold;
       }
 
       td.tofk:hover,
@@ -1799,13 +1798,6 @@ div.ula_option {
         min-width: 110px;
         font-family: @fsans;
       }
-
-      // td.find {
-      //   background: @cmd_back;
-      //   color: @cell_hover_color;
-      //   font-weight: bold;
-      //   text-decoration: underline;
-      // }
     }
 
     tr:nth-child(odd) {

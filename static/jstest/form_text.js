@@ -13,8 +13,7 @@ const h_menu_text = `
        <span class="tiptextb">Apre/Chiude la finestra della riga</span>
     </a> 
    </li>
-   
-   <li class="v"> 
+      <li class="v"> 
       <a class="tipb" cmd="fillter_rows_text" href="#">Find
         <span class="tiptextb">Seleziona righe  </span>
       </a> 
