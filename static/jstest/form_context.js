@@ -212,27 +212,6 @@ var FormContext = {
                 t.classList.toggle("select", !tf);
             }
         });
-
-        // $("#lpmx_context_id").off("click");
-        // $("#lpmx_context_id")
-        //     .on("click", "div.cmd a", {}, (e) => {
-        //         e.stopImmediatePropagation();
-        //         let t = e.currentTarget;
-        //         let cmd = t.getAttribute("cmd");
-        //         this.exe(cmd);
-        //     })
-        //     .on("change", "div.cmd select", {}, (e) => {
-        //         e.stopImmediatePropagation();
-        //         let t = e.currentTarget;
-        //         let cmd = t.getAttribute("cmd");
-        //         this.exe(cmd, t.value);
-        //     })
-        //     .on("click", "div.row span.form", {}, function (e) {
-        //         // e.preventDefault();
-        //         e.stopImmediatePropagation();
-        //         let tf = $(e.currentTarget).hasClass("select");
-        //         $(e.currentTarget).toggleClass("select", !tf);
-        //     });
     },
     set_size: function (size) {
         this.context_size = Number(size);
