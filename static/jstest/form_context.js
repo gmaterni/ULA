@@ -287,14 +287,17 @@ var FormContext = {
             this.hide();
             return;
         }
-        cmd_wait_start();
-        setTimeout(() => {
-            FormLpmx.form_lst2html();
-            cmd_wait_stop();
-            this.hide();
-            DbFormLpmx.set_store();
-            FormLpmx.restore_scroll();
-        }, 100);
+        // cmd_wait_start();
+        // setTimeout(() => {
+        //     FormLpmx.form_lst2html();
+        //     this.hide();
+        //     DbFormLpmx.set_store();
+        //     // cmd_wait_stop();
+        //     // FormLpmx.restore_scroll();
+        // });
+        FormLpmx.form_lst2html();
+        this.hide();
+        DbFormLpmx.set_store();
     },
     //cancella la form corrente e sposta i tokens sulla prima form omografa
     del_formakey: function () {
@@ -323,14 +326,17 @@ var FormContext = {
                 array[index][1] = formakey0;
             }
         });
-        cmd_wait_start();
-        setTimeout(() => {
-            FormLpmx.form_lst2html();
-            cmd_wait_stop();
-            this.hide();
-            DbFormLpmx.set_store();
-            FormLpmx.restore_scroll();
-        }, 100);
+        // cmd_wait_start();
+        // setTimeout(() => {
+        //     FormLpmx.form_lst2html();
+        //     cmd_wait_stop();
+        //     this.hide();
+        //     DbFormLpmx.set_store();
+        //     FormLpmx.restore_scroll();
+        // }, 100);
+        FormLpmx.form_lst2html();
+        this.hide();
+        DbFormLpmx.set_store();
     },
     resetXY: function () {
         if (!this.wind) return;
