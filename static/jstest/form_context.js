@@ -5,12 +5,12 @@ var FormContext = {
     top: 140,
     left: 400,
     wind: null,
-    context_size: 3,
+    context_size: 5,
     is_context_active: true,
     key_selected: '',
     form: null,
     formkey: null,
-    exe: function (cmd) {
+    exe: function (cmd, arg = '') {
         switch (cmd) {
             case "unselect_tokens":
                 this.unselect_tokens();
@@ -18,7 +18,7 @@ var FormContext = {
 
             case "add_formakey":
                 if (this.is_context_active)
-                    this.add_formakey();
+                    this.add_formakey(arg);
                 else
                     alert("change context f/k");
                 break;
@@ -29,7 +29,7 @@ var FormContext = {
                     alert("change context f/k");
                 break;
             case "set_size":
-                this.set_size();
+                this.set_size(arg);
                 break;
             case "set_context_fk":
                 this.set_context_fk();
@@ -38,7 +38,7 @@ var FormContext = {
                 this.hide();
                 break;
             default:
-                alert("command not found. ");
+                alert(cmd + " command not found. ");
         }
     },
     show: function () {
@@ -57,7 +57,6 @@ var FormContext = {
         this.formkey = formakey;
         this.key_selected = forma == formakey ? 0 : formakey.slice(forma.length);
         this.is_context_active = true;
-        console.log(forma,formakey,this.key_selected);
         this.show_html();
         FormOmogr.open(this.form);
     },
@@ -99,9 +98,8 @@ var FormContext = {
         // selezione dimensioni contesto
         const size = this.context_size;
         const sizes = [3, 5, 7, 9];
-        const get_size_list = function () {
-            // let s = `<option value="${size}">${size}</option>`;
-            let s="";
+        const get_size_list = () => {
+            let s = "<option value=''></option>";
             for (let sz of sizes)
                 if (sz != size)
                     s = s + `<option value="${sz}">${sz}</option>`;
@@ -111,8 +109,8 @@ var FormContext = {
         //lista delle estensioni (key) per forme omografe
         const key = Number(this.key_selected);
         const ks = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-        const get_fk_list = function () {
-            let s ="";
+        const get_fk_list = () => {
+            let s = "<option value=''></option>";
             for (const k of ks)
                 if (k != key)
                     s = s + `<option value="${k}">${k}</option>`;
@@ -194,31 +192,23 @@ var FormContext = {
                 e.stopImmediatePropagation();
                 let t = e.currentTarget;
                 let cmd = t.getAttribute("cmd");
-                if (!cmd || cmd.trim() == "")
-                    return;
                 this.exe(cmd);
             })
             .on("change", "div.cmd select", {}, (e) => {
                 e.stopImmediatePropagation();
                 let t = e.currentTarget;
                 let cmd = t.getAttribute("cmd");
-                if (!cmd || cmd.trim() == "")
-                    return;
-                this.exe(cmd);
+                this.exe(cmd, t.value);
             })
             .on("click", "div.row span.form", {}, function (e) {
-                e.preventDefault();
+                // e.preventDefault();
                 e.stopImmediatePropagation();
                 let tf = $(e.currentTarget).hasClass("select");
                 $(e.currentTarget).toggleClass("select", !tf);
             });
     },
-    set_size: function () {
-        let qs = "#lpmx_context_id select[name='set_size']";
-        let op = document.querySelector(qs);
-        let v = op.value;
-        v = parseInt(v);
-        this.context_size = v;
+    set_size: function (size) {
+        this.context_size = Number(size);
         this.show_html();
     },
     set_context_fk: function () {
@@ -233,23 +223,19 @@ var FormContext = {
     unselect_tokens: function () {
         $("#lpmx_context_id div.rows div.row span.select").removeClass("select");
     },
-    add_formakey: function () {
-        let qs = "#lpmx_context_id select[name='add_formakey']";
-        let op = document.querySelector(qs);
-        let dsb = op.value;
-        dsb = dsb == '0' ? '' : dsb;
+    add_formakey: function (key) {
+        let ks = key.toString();
+        let key2 = ks == '0' ? '' : ks;
         let idx = this.form_idx;
         let item = DbFormLpmx.form_lst[idx];
         let form = item[0];
         let formkey = item[1];
-        let formkey2 = form + dsb;
+        let formkey2 = form + key2;
         let formkey_new = false;
-
         if (formkey == formkey2) {
             alert(`select another extension`);
             return;
         }
-
         // controlla se esiste una formkey2
         let idx2 = DbFormLpmx.form_lst.findIndex(tk => tk[1] == formkey2);
         if (idx2 < 0) {
@@ -287,7 +273,7 @@ var FormContext = {
         // setta estensione nei token selezionati
         for (let i of idx_lst) {
             let item = DbFormLpmx.token_lst[i];
-            DbFormLpmx.token_lst[i][1] = item[0] + dsb;
+            DbFormLpmx.token_lst[i][1] = item[0] + key2;
         }
         if (!formkey_new) {
             FormLpmx.form_lst2html();
