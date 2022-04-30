@@ -384,7 +384,6 @@ var DbFormLpmx = {
       return;
     }
     //evidenzazione form,formkey e attribuzione numero
-    // TODO migliorare gestione row_num
     let row_num = 0;
     for (let row of rows) {
       let ws = [];

@@ -118,7 +118,7 @@ var FormLpmx = {
   exe: function (cmd) {
     switch (cmd) {
       case "show_text":
-        this.save_store(); //FIXME
+        this.save_store(); 
         Ula.show_text();
         break;
       case "select_text":
@@ -606,7 +606,7 @@ var FormLpmx = {
     // let e = document.getElementById("lpmx_rows_id");
     //this.scroll_top = e.scrollTop;
   },
-  restore_scroll: function () {//FIXME
+  restore_scroll: function () {//XXX
     // let e = document.getElementById("lpmx_rows_id");
     //  e.scrollTop = this.f;
   },

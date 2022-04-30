@@ -203,8 +203,7 @@ var UaWindowAdm = {
             },
             close: function () {
                 this.w.style.display = "none";
-                // this.w.innerHTML = '';
-                this.w.innerHTML = 'block'; //AAA
+                this.w.innerHTML = 'block'; 
                 return this;
             },
             remove: function () {

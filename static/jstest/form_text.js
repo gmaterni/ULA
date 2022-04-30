@@ -191,7 +191,6 @@ var FormText = {
   //   this.bind_row();
   // },
   rows_text2html: function () {
-    // AAA rallenta da modificare nel rendering
     const rows = DbFormLpmx.rows_js;
     let jt = UaJt();
     let row_h = `

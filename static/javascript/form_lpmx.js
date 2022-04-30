@@ -123,7 +123,7 @@ var FormLpmx = {
   exe: function (cmd) {
     switch (cmd) {
       case "show_text":
-        this.save_store(); //FIXME
+        this.save_store(); 
         Ula.show_text();
         break;
       case "select_text":
@@ -611,7 +611,6 @@ var FormLpmx = {
   },
   html2form_lst: function () {
     //UaLog.log("FFF html2form_lst");
-    //TODO perfezionare html <-> list
     //console.time("html2form_lst");
     let trs = $("#lpmx_rows_id table").find("tr");
     DbFormLpmx.form_lst = [];
@@ -635,7 +634,7 @@ var FormLpmx = {
     // let e = document.getElementById("lpmx_rows_id");
     //this.scroll_top = e.scrollTop;
   },
-  restore_scroll: function () {//FIXME
+  restore_scroll: function () {//XXX
     // let e = document.getElementById("lpmx_rows_id");
     //  e.scrollTop = this.f;
   },
