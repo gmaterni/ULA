@@ -195,7 +195,7 @@ var FormText = {
     const rows = DbFormLpmx.rows_js;
     let jt = UaJt();
     let row_h = `
-    <div class='row'>
+    <div class='row table-row'>
         <div class='n' >{row_n}</div>
         <div class='text'>{row_text}</div>
    </div>

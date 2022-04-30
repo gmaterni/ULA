@@ -179,7 +179,7 @@ input:hover {
 }
 
 input:focus {
-  background: @inp_hover_back !important;
+  background: @inp_hover_back  !important;
   color: @inp_hover_color;
   border: 1px solid @inp_hover_border_color;
 }
@@ -368,10 +368,12 @@ div.ula_input {
 @font_menu: 16px;
 @menu_height: 25px;
 @menu_sub_top: 26px;
+
 div.menu_bar {
   width: 100%;
-  min-height: @menu_height !important;
-  max-height: @menu_height !important;
+  min-height: @menu_height  !important;
+  max-height: @menu_height  !important;
+
   ul {
     display: flex;
     flex-direction: row;
@@ -380,10 +382,12 @@ div.menu_bar {
     list-style: none;
     margin: 0;
     padding: 0;
+
     li {
       position: relative;
       text-align: center;
       flex: 1;
+
       a {
         display: block;
         min-height: @menu_height;
@@ -399,15 +403,18 @@ div.menu_bar {
         color: @menu_color;
         border-right: 1px solid @menu_border_bck;
       }
+
       a.br {
         line-height: 1;
       }
+
       a.img {
         display: block;
         line-height: 0;
         margin: 0;
         padding: 0;
         min-height: @menu_height;
+
         img {
           margin: 0;
           padding: 0;
@@ -415,10 +422,12 @@ div.menu_bar {
           width: 100%;
         }
       }
+
       a:hover {
         background: @menu_hover_bck;
         text-decoration: underline;
       }
+
       ul {
         display: none !important;
         position: absolute;
@@ -426,8 +435,10 @@ div.menu_bar {
         left: 0;
         width: 100%;
         z-index: 99;
+
         li {
           border-top: 1px solid @menu_border_bck;
+
           a {
             font-size: @font_menu;
             padding-left: 0;
@@ -435,14 +446,18 @@ div.menu_bar {
             // line-height: 2;
             line-height: 1;
           }
+
           a.br {
             line-height: 1;
           }
+
           ul {
             top: -1px;
             left: 100%;
+
             li {
               border-top: 1px solid @menu_border_bck;
+
               a {
                 min-width: 100%;
                 padding-left: 0;
@@ -450,13 +465,16 @@ div.menu_bar {
                 // line-height: 2;
                 line-height: 1;
               }
+
               a.br {
                 line-height: 1;
               }
             }
           }
+
           ul.rgt {
             left: -100%;
+
             li {
               margin-right: 2px;
             }
@@ -464,22 +482,26 @@ div.menu_bar {
         }
       }
     }
+
     li.v:hover {
       ul.v {
         display: block !important;
       }
     }
+
     li.h:hover {
       ul.h {
         display: block !important;
       }
     }
   }
+
   .title {
     background: #028e02;
     color: #ffffff;
   }
 }
+
 /////////////////
 
 div.ula_option {
@@ -876,6 +898,7 @@ div.ula_option {
     }
 
     tr:nth-child(odd) {
+
       td.f,
       td.k,
       td.m,
@@ -894,6 +917,7 @@ div.ula_option {
     }
 
     tr.select {
+
       td.f,
       td.k,
       td.m,
@@ -901,16 +925,17 @@ div.ula_option {
       td.ph,
       td.fn,
       td.m {
-        background: @cell_jshover_back !important;
+        background: @cell_jshover_back  !important;
         color: @cell_jshover_color;
       }
 
       td.n {
-        background: @row_num_select_back !important;
+        background: @row_num_select_back  !important;
       }
     }
 
     tr.hover {
+
       td.f,
       td.k,
       td.m,
@@ -940,6 +965,7 @@ div.ula_option {
     }
 
     tr.empty {
+
       td.f,
       td.k {
         background: @form_empty;
@@ -1051,6 +1077,7 @@ div.ula_option {
           text-align: center;
           padding: 2px 0 2px 0;
           min-width: 140px;
+
           span {
             display: inline-block;
             padding: 2px 2px 2px 2px;
@@ -1522,6 +1549,7 @@ div.ula_option {
   ul {
     li {
       max-width: 150px;
+
       a {
         padding: 0 10px 0 10px;
       }
@@ -1567,7 +1595,7 @@ div.ula_option {
       font-family: @fserif;
       font-weight: normal;
       padding: 6px 5px 4px 0;
-      margin: 0 0 0 0;
+      margin: 0;
       background: @cmd_back;
       color: @cmd_color;
     }
