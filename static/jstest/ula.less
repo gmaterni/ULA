@@ -363,7 +363,7 @@ div.ula_input {
 // @menu_border_bck: darken(@menu_bck, 20%);
 @menu_border_bck: #700202;
 @menu_color: #ffffff;
-@font_menu: 16px;
+@font_menu: 17px;
 @menu_height: 25px;
 @menu_sub_top: 26px;
 
@@ -1385,8 +1385,8 @@ div.ula_option {
       select:hover {
         // background: darken(@cmd_back, 10%);
         // color: darken(@cmd_back, 10%);
-        background: darken(green,0%);
-        color: darken(green,0%);
+        background: darken(green, 0%);
+        color: darken(green, 0%);
         // color: white;
         // border: 1px solid white;
       }
@@ -1559,7 +1559,8 @@ div.ula_option {
   }
 }
 
-@text_rows_width:1060px;
+@text_rows_width: 1060px;
+
 #text_menu_id {
   min-width: @text_rows_width;
   max-width: @text_rows_width;
@@ -1802,6 +1803,14 @@ div.ula_option {
         min-width: 110px;
         font-family: @fsans;
       }
+
+      td.find {
+        background: @cmd_back;
+        color: @cell_hover_color;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
     }
 
     tr:nth-child(odd) {

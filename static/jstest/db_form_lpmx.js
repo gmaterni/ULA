@@ -282,7 +282,7 @@ var DbFormLpmx = {
   },
   fill_rows_text: function () {
     //UaLog.log("DDD fill_rows_text");
-    // popola this.rows_js
+    // popola this.rows_js chiamatto da Form_text
     let t_tk_lst = DbFormLpmx.token_lst;
     this.rows_js = [];
     let len_row_text = 0;
