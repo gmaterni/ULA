@@ -15,7 +15,6 @@ var FormContext = {
             case "unselect_tokens":
                 this.unselect_tokens();
                 break;
-
             case "add_formakey":
                 if (this.is_context_active)
                     this.add_formakey(arg);
@@ -186,26 +185,54 @@ var FormContext = {
         this.bind_form();
     },
     bind_form: function () {
-        $("#lpmx_context_id").off("click");
-        $("#lpmx_context_id")
-            .on("click", "div.cmd a", {}, (e) => {
-                e.stopImmediatePropagation();
-                let t = e.currentTarget;
-                let cmd = t.getAttribute("cmd");
-                this.exe(cmd);
-            })
-            .on("change", "div.cmd select", {}, (e) => {
-                e.stopImmediatePropagation();
-                let t = e.currentTarget;
-                let cmd = t.getAttribute("cmd");
+        const div_cmd = document.querySelector("#lpmx_context_id div.cmd");
+        div_cmd.addEventListener("click", (ev) => {
+            // ev.preventDefault();
+            // ev.stopImmediatePropagation();
+            const t = ev.target;
+            if (t.tagName == 'A') {
+                const cmd = t.getAttribute("cmd");
                 this.exe(cmd, t.value);
-            })
-            .on("click", "div.row span.form", {}, function (e) {
-                // e.preventDefault();
-                e.stopImmediatePropagation();
-                let tf = $(e.currentTarget).hasClass("select");
-                $(e.currentTarget).toggleClass("select", !tf);
-            });
+            }
+        });
+        div_cmd.addEventListener("change", (ev) => {
+            const t = ev.target;
+            if (t.tagName == 'SELECT') {
+                const cmd = t.getAttribute("cmd");
+                this.exe(cmd, t.value);
+            }
+        });
+        const span_row = document.querySelector("#lpmx_context_id div.rows");
+        span_row.addEventListener("click", (ev) => {
+            // ev.preventDefault();
+            // ev.stopImmediatePropagation();
+            const t = ev.target;
+            if (t.tagName == "SPAN" && t.classList.contains("form")) {
+                const tf = t.classList.contains("select");
+                t.classList.toggle("select", !tf);
+            }
+        });
+
+        // $("#lpmx_context_id").off("click");
+        // $("#lpmx_context_id")
+        //     .on("click", "div.cmd a", {}, (e) => {
+        //         e.stopImmediatePropagation();
+        //         let t = e.currentTarget;
+        //         let cmd = t.getAttribute("cmd");
+        //         this.exe(cmd);
+        //     })
+        //     .on("change", "div.cmd select", {}, (e) => {
+        //         e.stopImmediatePropagation();
+        //         let t = e.currentTarget;
+        //         let cmd = t.getAttribute("cmd");
+        //         this.exe(cmd, t.value);
+        //     })
+        //     .on("click", "div.row span.form", {}, function (e) {
+        //         // e.preventDefault();
+        //         e.stopImmediatePropagation();
+        //         let tf = $(e.currentTarget).hasClass("select");
+        //         $(e.currentTarget).toggleClass("select", !tf);
+        //     });
     },
     set_size: function (size) {
         this.context_size = Number(size);
