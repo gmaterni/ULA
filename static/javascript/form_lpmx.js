@@ -228,8 +228,8 @@ var FormLpmx = {
     UlaOption.open("lpmx_id", "select_text_id", text_lst, input_call).at(400, 100).show();
   },
   load_data: async function () {
-    //UaLog.log("FFF load_data");
-    DbFormLpmx.clear_store();
+    // UaLog.log_show("FFF load_data");
+    //AAA fatto in DbLoad DbFormLpmx.clear_store();
     const ok = await DbFormLpmx.load_data();
     if (!ok)
       return false;

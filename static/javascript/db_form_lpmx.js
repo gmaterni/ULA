@@ -34,22 +34,26 @@ var DbFormLpmx = {
     this.form_file = `${text_name}.form.csv`;
   },
   set_store: function () {
-    //UaLog.log("DDD set_store");
+    UaLog.log_show("DDD set_store");
     let data = {
       token: this.token_lst,
-      form: this.form_lst,
+      form: this.form_lst
     };
+    const str = JSON.stringify(data);
     try {
-      const str = JSON.stringify(data);
-      window.localStorage.setItem(KEY_DATA, str);
-      window.localStorage.setItem(KEY_TEXT_NAME, this.text_name);
+      // window.localStorage.setItem(KEY_DATA, str);
+      // window.localStorage.setItem(KEY_TEXT_NAME, this.text_name);
+      localStorage.setItem(KEY_DATA, str);
+      localStorage.setItem(KEY_TEXT_NAME, this.text_name);
     }
     catch (e) {
-      alert("Error in LocalStore. => Clean Store");
+      alert("Error in LocalStore. => Clean Store"+e);
     }
   },
   clear_store: function () {
-    window.localStorage.clear();
+    UaLog.log("DDD clear_store");
+    // window.localStorage.clear();
+    localStorage.clear();
   },
   save_data: function () {
     //UaLog.log("DDD save_data");
@@ -133,7 +137,8 @@ var DbFormLpmx = {
   },
   get_data: async function () {
     //UaLog.log("DDD get_data");
-    let data_str = window.localStorage.getItem(KEY_DATA);
+    // let data_str = window.localStorage.getItem(KEY_DATA);
+    let data_str = localStorage.getItem(KEY_DATA);
     //controlla se i dati del testo sono nello store
     if (data_str) {
       let data = JSON.parse(data_str);
@@ -147,8 +152,8 @@ var DbFormLpmx = {
     return rt;
   },
   load_data: async function () {
-    //UaLog.log("DDD1 load_data");
-    this.clear_store();
+    // UaLog.log("DDD1 load_data");
+    localStorage.clear();
     const t = get_time();
     cmd_log("Load Data  " + t);
     if (!this.text_name)
@@ -184,7 +189,8 @@ var DbFormLpmx = {
   },
   get_omogr_json: function () {
     //UaLog.log("DDD get_omogr_json");
-    const omogr_str = window.localStorage.getItem(KEY_OMOGR);
+    // const omogr_str = window.localStorage.getItem(KEY_OMOGR);
+    const omogr_str = localStorage.getItem(KEY_OMOGR);
     if (!!omogr_str)
       this.omogr_json = JSON.parse(omogr_str);
     else
@@ -201,11 +207,13 @@ var DbFormLpmx = {
       })
       .then((text) => {
         if (text.length > 10) {
-          window.localStorage.setItem(KEY_OMOGR, text);
+          // window.localStorage.setItem(KEY_OMOGR, text);
+          localStorage.setItem(KEY_OMOGR, text);
           this.omogr_json = JSON.parse(text);
         } else {
           this.omogr_json = {};
-          window.localStorage.removeItem(KEY_OMOGR);
+          // window.localStorage.removeItem(KEY_OMOGR);
+          localStorage.removeItem(KEY_OMOGR);
         }
       })
       .catch((error) => {
