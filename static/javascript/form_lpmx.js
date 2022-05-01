@@ -163,7 +163,6 @@ var FormLpmx = {
       case "diff_text_corpus":
         this.diff_text_corpus();
         break;
-
       case "help":
         Help.toggle("help1.html");
         break;
@@ -326,7 +325,7 @@ var FormLpmx = {
   },
   diff_text_corpus: function () {
 
-    const call = function (js) {
+    const call = (js) => {
       js = js || {};
       let rows = js.data || null;
       if (!rows || rows.length == 0) {
