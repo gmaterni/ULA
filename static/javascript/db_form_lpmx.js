@@ -38,7 +38,6 @@ var DbFormLpmx = {
     this.text_name = text_name;
     this.token_file = `${text_name}.token.csv`;
     this.form_file = `${text_name}.form.csv`;
-    console.log("a",this.text_name);
   },
   load_text_list: async function () {
     const url = URL_TEXT_LIST;
@@ -283,10 +282,8 @@ var DbFormLpmx = {
       });
   },
   load_diff_text_corpus: function (call) {
-    console.log(this.text_name);
     const text_name = `${this.text_name}.txt`;
     const url = `/diff?name=${text_name}`;
-    console.log("url ",url);
     fetch(url, {
       method: "GET",
       headers: { 'Content-Type': 'application/json' }
