@@ -34,10 +34,10 @@ var DbFormLpmx = {
     const text_name = store_text_name || "";
     return text_name;
   },
-  set_text_name: function (text_name) {
-    this.text_name = text_name;
-    this.token_file = `${text_name}.token.csv`;
-    this.form_file = `${text_name}.form.csv`;
+  set_text_name: function (text_name_) {
+    this.text_name = text_name_;
+    this.token_file = `${text_name_}.token.csv`;
+    this.form_file = `${text_name_}.form.csv`;
   },
   load_text_list: async function () {
     const url = URL_TEXT_LIST;
