@@ -165,7 +165,7 @@ var FormText = {
       Notify.center().wait(5000).show("Full Text.");
     }
     else {
-      this.after_loaded_data();
+      this.data2html();
       this.text_all = true;
     }
   },

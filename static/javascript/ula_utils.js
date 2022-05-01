@@ -179,7 +179,6 @@ var RowsInput = {
       if (t.tagName.toLowerCase() != "input")
         return;
       let key = e.which || e.keyCode || 0;
-      //console.log(key);
       if (e.ctrlKey) {
         if (key == 88) {
           e.target.value = "";

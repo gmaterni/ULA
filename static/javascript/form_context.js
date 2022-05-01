@@ -287,14 +287,6 @@ var FormContext = {
             this.hide();
             return;
         }
-        // cmd_wait_start();
-        // setTimeout(() => {
-        //     FormLpmx.form_lst2html();
-        //     this.hide();
-        //     DbFormLpmx.set_store();
-        //     cmd_wait_stop();
-        //     FormLpmx.restore_scroll();
-        // });
         FormLpmx.form_lst2html();
         this.hide();
         DbFormLpmx.set_store();
@@ -326,14 +318,6 @@ var FormContext = {
                 array[index][1] = formakey0;
             }
         });
-        // cmd_wait_start();
-        // setTimeout(() => {
-        //     FormLpmx.form_lst2html();
-        //     cmd_wait_stop();
-        //     this.hide();
-        //     DbFormLpmx.set_store();
-        //     FormLpmx.restore_scroll();
-        // }, 100);
         FormLpmx.form_lst2html();
         this.hide();
         DbFormLpmx.set_store();
