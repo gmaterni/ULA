@@ -141,6 +141,10 @@ var FormText = {
     this.bind_menu();
     this.rows_text2html();
   },
+  data2html:function(){
+    DbFormLpmx.fill_rows_text();
+    this.rows_text2html();
+  },
   fillter_rows_text: function () {
 
     let input_call = (js) => {
@@ -161,34 +165,10 @@ var FormText = {
       cmd_notify_at(300, 100, "Testo Completo");
     }
     else {
-      DbFormLpmx.fill_rows_text();
-      this.rows_text2html();
+      this.after_loaded_data();
       this.text_all = true;
     }
   },
-  // rows_text2html: function () {
-  //   // AAA rallenta da modificare cpme tabella
-  //   const rows = DbFormLpmx.rows_js;
-  //   let jt = UaJt();
-  //   jt.append('<table>l');
-  //   let row_h = `
-  //   <tr class='row'>
-  //       <td class='n' >{row_n}</td>
-  //       <td class='text'>{row_text}</td>
-  //  </tr>
-  //   `;
-  //   for (let r of rows) {
-  //     let d = {
-  //       "row_n": r.row_n,
-  //       "row_text": r.row_text
-  //     };
-  //     jt.append(row_h, d);
-  //   }
-  //   jt.append('</table>');
-  //   let html = jt.html();
-  //   document.getElementById("text_rows_id").innerHTML = html;
-  //   this.bind_row();
-  // },
   rows_text2html: function () {
     const rows = DbFormLpmx.rows_js;
     let jt = UaJt();
@@ -242,26 +222,6 @@ var FormText = {
       }
     };
     menu.addEventListener("click", call);
-
-    //   $("#text_menu_id").off("click mouseenter");
-    //   $("#text_menu_id")
-    //     .on("mouseenter", "a.mvah", {}, function (e) {
-    //       e.preventDefault();
-    //       $("#text_menu_id div").hide();
-    //       let elm = $(this).next();
-    //       elm.show();
-    //     })
-    //     .on("mouseleave", "", {}, function (e) {
-    //       e.preventDefault();
-    //       $("#text_menu_id div").hide();
-    //     })
-    //     .on("click", "a.cmd", {}, (e) => {
-    //       e.preventDefault();
-    //       e.stopImmediatePropagation();
-    //       let t = e.currentTarget;
-    //       let cmd = t.getAttribute("cmd");
-    //       this.exe(cmd);
-    //     });
   },
   bind_row: function () {
     $("#text_rows_id").off("click");

@@ -1,5 +1,23 @@
 /* jshint esversion: 8 */
-//25-04-2022
+//01-06-2022
+
+// let ALPHABETIC = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàèéìòù";
+// let NUMERIC = "0123456789";
+// var ULACHARSET = ALPHABETIC + NUMERIC;
+var UAPUNCTS = `,.;::?!^~()[]{}<>=+-*#@£&%/«»“‘’"\`'`;
+//key corpus con formkey duplicate
+const KEY_OMOGR = "ula_omogr";
+// key nome testo nello store
+const KEY_TEXT_NAME = "ula_text_name";
+// key nome dati
+const KEY_DATA = "ula_data";
+const KEY_FORM = "ula_form";
+const KEY_TOKEN = "ula_token";
+// url data
+const URL_TEXT_LIST = "/data/text_list.txt";
+const DATA_DIR = "/data";
+const URL_CORPUS_OMOGR = "/data_corpus/corpus_omogr.json";
+
 
 var DbFormLpmx = {
   text_name: null,
@@ -10,6 +28,16 @@ var DbFormLpmx = {
   omogr_json: {},
   len_row: 70,
   rows_js: [],
+  get_text_name: function () {
+    const store_text_name = localStorage.getItem(KEY_TEXT_NAME);
+    const text_name = store_text_name || "";
+    return text_name;
+  },
+  set_text_name: function (text_name) {
+    this.text_name = text_name;
+    this.token_file = `${text_name}.token.csv`;
+    this.form_file = `${text_name}.form.csv`;
+  },
   load_text_list: async function () {
     const url = URL_TEXT_LIST;
     let rows = [];
@@ -28,11 +56,6 @@ var DbFormLpmx = {
     }
     return rows;
   },
-  set_text_name: function (text_name) {
-    this.text_name = text_name;
-    this.token_file = `${text_name}.token.csv`;
-    this.form_file = `${text_name}.form.csv`;
-  },
   set_store: function () {
     // UaLog.log_show("DDD set_store");
     const data = {
@@ -49,8 +72,6 @@ var DbFormLpmx = {
 
 
     try {
-      // window.localStorage.setItem(KEY_DATA, str);
-      // window.localStorage.setItem(KEY_TEXT_NAME, this.text_name);
       localStorage.setItem(KEY_DATA, str);
       localStorage.setItem(KEY_TEXT_NAME, this.text_name);
     }
@@ -60,7 +81,6 @@ var DbFormLpmx = {
   },
   clear_store: function () {
     // UaLog.log("DDD clear_store");
-    // window.localStorage.clear();
     localStorage.clear();
   },
   save_data: function () {
@@ -138,15 +158,12 @@ var DbFormLpmx = {
       const t = get_time();
       cmd_log("Update Tex " + this.text_name + "  " + t);
       cmd_notify_at(300, 150, "Text Updated");
-      //FIXME controllare load_data
       FormLpmx.load_data();
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
     });
   },
-  get_data: async function () {
-    //UaLog.log("DDD get_data");
-    // let data_str = window.localStorage.getItem(KEY_DATA);
+  get_store: function () {
     let data_str = localStorage.getItem(KEY_DATA);
     //controlla se i dati del testo sono nello store
     if (data_str) {
@@ -156,12 +173,10 @@ var DbFormLpmx = {
       this.sort_form_lst();
       this.get_omogr_json();
       return true;
-    }
-    const rt = this.load_data();
-    return rt;
+    } else
+      return false;
   },
   load_data: async function () {
-    // UaLog.log("DDD1 load_data");
     this.clear_store();
     const t = get_time();
     cmd_log("Load Data  " + t);
@@ -177,7 +192,6 @@ var DbFormLpmx = {
     return true;
   },
   load_csv: async function (file_name) {
-    //UaLog.log("DDD load_csv");
     const url = `${DATA_DIR}/${file_name}`;
     let csv_data = "";
     const resp = await fetch(url, {
@@ -193,13 +207,11 @@ var DbFormLpmx = {
       alert(msg);
       csv_data = "|||||||";
     }
-    //AAA conbersion str to attay
+    // AAA
     const rows = csv_data.trim().split("\n");
     return rows.map((x) => x.split("|"));
   },
   get_omogr_json: function () {
-    //UaLog.log("DDD get_omogr_json");
-    // const omogr_str = window.localStorage.getItem(KEY_OMOGR);
     const omogr_str = localStorage.getItem(KEY_OMOGR);
     if (!!omogr_str)
       this.omogr_json = JSON.parse(omogr_str);
@@ -207,7 +219,6 @@ var DbFormLpmx = {
       this.load_omogr_json();
   },
   load_omogr_json: function () {
-    //UaLog.log("DDD load_omogr_json");
     const url = URL_CORPUS_OMOGR;
     fetch(url)
       .then((resp) => {
@@ -217,12 +228,10 @@ var DbFormLpmx = {
       })
       .then((text) => {
         if (text.length > 10) {
-          // window.localStorage.setItem(KEY_OMOGR, text);
           localStorage.setItem(KEY_OMOGR, text);
           this.omogr_json = JSON.parse(text);
         } else {
           this.omogr_json = {};
-          // window.localStorage.removeItem(KEY_OMOGR);
           localStorage.removeItem(KEY_OMOGR);
         }
       })
@@ -231,7 +240,6 @@ var DbFormLpmx = {
       });
   },
   load_diff_text_corpus: function (call) {
-    //UaLog.log("DDD load_diff_text_corpus");
     const text_name = `${this.text_name}.txt`;
     const url = `/diff?name=${text_name}`;
     fetch(url, {
@@ -253,11 +261,11 @@ var DbFormLpmx = {
       });
   },
   get_formakey_context: function (formakey, cnt_size) {
-    // rows : [token,tokenkey,i] aggiunge i indice in token_list
-    let build_context = function (i) {
+    let build_context = (i) => {
       let lft = Math.max(i - cnt_size, 0);
       let rgt = Math.min(i + cnt_size + 1, le);
       let array = DbFormLpmx.token_lst.slice(lft, rgt);
+      //AAA controlla json
       let row = JSON.parse(JSON.stringify(array));
       for (let i = 0; i < row.length; i++)
         row[i].push(lft + i);
@@ -275,6 +283,7 @@ var DbFormLpmx = {
     let build_context = function (i) {
       let lft = Math.max(i - cnt_size, 0);
       let rgt = Math.min(i + cnt_size + 1, le);
+      // AAA controlla JSON
       let array = DbFormLpmx.token_lst.slice(lft, rgt);
       let row = JSON.parse(JSON.stringify(array));
       for (let i = 0; i < row.length; i++)
@@ -290,7 +299,6 @@ var DbFormLpmx = {
     return rows;
   },
   sort_form_lst: function () {
-    //UaLog.log("DDD sort_form_lst");
     let sortFn = function (a, b) {
       if (a[1] == b[1]) return 0;
       if (a[1] < b[1]) return -1;
@@ -299,7 +307,6 @@ var DbFormLpmx = {
     this.form_lst.sort(sortFn);
   },
   fill_rows_text: function () {
-    //UaLog.log("DDD fill_rows_text");
     // popola this.rows_js chiamatto da Form_text
     let t_tk_lst = DbFormLpmx.token_lst;
     this.rows_js = [];
@@ -307,7 +314,6 @@ var DbFormLpmx = {
     let row_num = 0;
     let row_t = [];
     let row_tk = [];
-
     const le = t_tk_lst.length;
     const last = le - 1;
     for (let i = 0; i < le; i++) {
@@ -336,7 +342,6 @@ var DbFormLpmx = {
     }
   },
   filter_rows_js: function (js) {
-    //UaLog.log("DDD filter_rows_js");/
     // setta this.rows_js
     // i nomi dei campi derivano dall'input di filtraggio
     let formkey = js.formkey.trim();
@@ -347,7 +352,7 @@ var DbFormLpmx = {
     let phon = js.phon.trim();
     let rows = this.rows_js;
 
-    let filter_token = function () {
+    let filter_token = () => {
       if (form != "")
         rows = rows.filter((x) => {
           return x.t.indexOf(form) > -1;
@@ -358,8 +363,8 @@ var DbFormLpmx = {
         });
     };
 
-    let filter_lemma = function () {
-      let rs = DbFormLpmx.form_lst.slice();
+    let filter_lemma = () => {
+      let rs = this.form_lst.slice();
       let le_start = rs.length;
       if (lemma != "")
         rs = rs.filter((x) => {
@@ -430,7 +435,6 @@ var DbFormLpmx = {
   },
   get_row_token_form: function (row_i) {
     //utilizzato da form_text
-    //UaLog.log("DDD get_row_token_form");
     const row_js = this.rows_js[row_i];
     const le = row_js.t.length;
     let row_token_form = [];

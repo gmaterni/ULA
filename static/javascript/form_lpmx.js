@@ -132,11 +132,9 @@ var FormLpmx = {
         if (confirm("Load Data ?"))
           this.load_data();
         break;
-
       case "check_text":
         this.check_text();
         break;
-
       case "upd_corpus":
         if (!confirm("Save Data ?"))
           return;
@@ -149,7 +147,6 @@ var FormLpmx = {
             this.update_corpus();
         });
         break;
-
       case "upd_text":
         if (!confirm("Save Data ?"))
           return;
@@ -204,45 +201,40 @@ var FormLpmx = {
     e.innerHTML = DbFormLpmx.text_name;
   },
   select_text: async function () {
-    let input_call = async function (text_name) {
+
+    let input_call = async (text_name) => {
       const tname = text_name || null;
       if (!tname) return;
       if (!confirm(`Load ${tname} ?`))
         return;
-      cmd_notify_at(400, 200, tname, "Load");
       DbFormLpmx.set_text_name(tname);
-      let ok = await DbFormLpmx.load_data();
+      let ok = await this.load_data();
       if (!ok) {
         alert(tname + " Not Found.");
         return;
       }
-      const menu = document.querySelector("#lpmx_menu_id");
-      const e = menu.querySelector("ul li a.title");
-      e.innerHTML = tname;
-      // prepara per la schermta FormText 
-      DbFormLpmx.fill_rows_text();
-      FormText.rows_text2html();
-      cmd_notify_hide();
+      document.querySelector("#lpmx_menu_id ul li a.title").innerHTML = tname;
     };
+
     let text_lst = await DbFormLpmx.load_text_list();
     UlaOption.open("lpmx_id", "select_text_id", text_lst, input_call).at(400, 100).show();
   },
   load_data: async function () {
     // UaLog.log_show("FFF load_data");
-    //AAA fatto in DbLoad DbFormLpmx.clear_store();
     const ok = await DbFormLpmx.load_data();
-    if (!ok)
+    if (!ok) {
       return false;
+    }
     this.form_lst2html();
+    FormText.data2html();
     return true;
   },
   form_lst2html: function () {
     //UaLog.log("FFF form_lst2html");
     //form,formkey,lemma,etimo, phon, pos, msd ..
     const lfe = DbFormLpmx.form_lst.length;
-    if (lfe == 0) {
+    if (lfe == 0)
       return;
-    }
     let jt = UaJt();
     jt.append("<table>");
     const tr_tmpl = `
@@ -331,7 +323,6 @@ var FormLpmx = {
     jt.append("<hr/></div>");
     const h = jt.html();
     UlaInfo.open(h, 1050, 50);
-
   },
   diff_text_corpus: function () {
 
