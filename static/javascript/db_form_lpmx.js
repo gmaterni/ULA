@@ -11,12 +11,13 @@ const KEY_OMOGR = "ula_omogr";
 const KEY_TEXT_NAME = "ula_text_name";
 // key nome dati
 const KEY_DATA = "ula_data";
-const KEY_FORM = "ula_form";
-const KEY_TOKEN = "ula_token";
+const KEY_DATA_FORM = "ula_form";
+const KEY_DATA_TOKEN = "ula_token";
 // url data
 const URL_TEXT_LIST = "/data/text_list.txt";
 const DATA_DIR = "/data";
 const URL_CORPUS_OMOGR = "/data_corpus/corpus_omogr.json";
+
 
 
 var DbFormLpmx = {
@@ -56,35 +57,95 @@ var DbFormLpmx = {
     }
     return rows;
   },
+  get_store: function () {
+    let ok = false;
+    let s = localStorage.getItem(KEY_DATA_FORM);
+    if (s) {
+      let lst = s.trim().split("\n");
+      this.form_lst = lst.map((x) => x.split("|"));
+
+      s = localStorage.getItem(KEY_DATA_TOKEN);
+      if (s) {
+        lst = s.trim().split("\n");
+        this.token_lst = lst.map((x) => x.split("|"));
+        this.sort_form_lst();
+        this.get_omogr_json();
+        ok = true;
+      }
+    }
+    return ok;
+    // let data_str = localStorage.getItem(KEY_DATA);
+    // if (data_str) {
+    //   let data = JSON.parse(data_str);
+    //   this.token_lst = data.token;
+    //   this.form_lst = data.form;
+    //   this.sort_form_lst();
+    //   this.get_omogr_json();
+    //   return true;
+    // }
+    // else
+    //   return false;
+  },
   set_store: function () {
-    // UaLog.log_show("DDD set_store");
-    const data = {
-      token: this.token_lst,
-      form: this.form_lst
-    };
-    const str = JSON.stringify(data);
-
-    // const af = this.form_lst.map((x) => x.join("|"));
-    // const sf = af.join("\n");
-    // const at = this.token_lst.map((x) => x.join("|"));
-    // const st = at.join("\n");
-    // console.log(str.length, sf.length, st.length, sf.length + st.length);
-
-
+    let lst = this.form_lst.map((x) => x.join("|"));
+    let s = lst.join("\n");
     try {
-      localStorage.setItem(KEY_DATA, str);
+      localStorage.setItem(KEY_TEXT_NAME, this.text_name);
+      localStorage.setItem(KEY_DATA_FORM, s);
+    }
+    catch (e) {
+      alert("Error in LocalStore. => Clean Store\n" + e);
+    }
+    lst = this.token_lst.map((x) => x.join("|"));
+    s = lst.join("\n");
+    try {
+      localStorage.setItem(KEY_DATA_TOKEN, s);
+    }
+    catch (e) {
+      alert("Error in LocalStore. => Clean Store\n" + e);
+    }
+    // const data = {
+    //   token: this.token_lst,
+    //   form: this.form_lst
+    // };
+    // const str = JSON.stringify(data);
+    // try {
+    //   localStorage.setItem(KEY_DATA, str);
+    //   localStorage.setItem(KEY_TEXT_NAME, this.text_name);
+    // }
+    // catch (e) {
+    //   alert("Error in LocalStore. => Clean Store" + e);
+    // }
+  },
+  clear_store: function () {
+    localStorage.clear();
+    try {
       localStorage.setItem(KEY_TEXT_NAME, this.text_name);
     }
     catch (e) {
-      alert("Error in LocalStore. => Clean Store" + e);
+      alert("Error in LocalStore.\n" + e);
     }
   },
-  clear_store: function () {
-    // UaLog.log("DDD clear_store");
-    localStorage.clear();
+  show_store: function () {
+    UaLog.log_show("-------------");
+    let s = localStorage.getItem(KEY_TEXT_NAME) || "";
+    UaLog.log(`${s}`);
+    s = localStorage.getItem(KEY_DATA_FORM) || "";
+    let size = s.length;
+    UaLog.log(`form:${size}`);
+    s = localStorage.getItem(KEY_DATA_TOKEN) || "";
+    size = s.length;
+    UaLog.log(`token:${size}`);
+    d= localStorage.getItem(KEY_OMOGR) || "";
+    size = s.length;
+    UaLog.log(`homograf:${size}`);
+    // for(let i=0; i<localStorage.length; i++) {
+    //   let key = localStorage.key(i);
+    //   UaLog.log(`${key}`);
+    // }
+    UaLog.log("-------------");
   },
   save_data: function () {
-    //UaLog.log("DDD save_data");
     const t = get_time();
     this.save_csv(this.form_lst, this.form_file);
     this.save_csv(this.token_lst, this.token_file);
@@ -114,7 +175,6 @@ var DbFormLpmx = {
     });
   },
   update_corpus: function (call) {
-    ///UaLog.log("DDD update_corpus");/
     const text_name = `${this.text_name}.form.csv`;
     const url = `/updatecorpus/${text_name}`;
     fetch(url, {
@@ -140,7 +200,6 @@ var DbFormLpmx = {
 
   },
   update_text: function () {
-    //UaLog.log("DDD update_text");
     const text_name = `${this.text_name}.form.csv`;
     const url = `/updatetext/${text_name}`;
     fetch(url, {
@@ -162,19 +221,6 @@ var DbFormLpmx = {
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
     });
-  },
-  get_store: function () {
-    let data_str = localStorage.getItem(KEY_DATA);
-    //controlla se i dati del testo sono nello store
-    if (data_str) {
-      let data = JSON.parse(data_str);
-      this.token_lst = data.token;
-      this.form_lst = data.form;
-      this.sort_form_lst();
-      this.get_omogr_json();
-      return true;
-    } else
-      return false;
   },
   load_data: async function () {
     this.clear_store();
@@ -207,7 +253,6 @@ var DbFormLpmx = {
       alert(msg);
       csv_data = "|||||||";
     }
-    // AAA
     const rows = csv_data.trim().split("\n");
     return rows.map((x) => x.split("|"));
   },

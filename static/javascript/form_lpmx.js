@@ -174,7 +174,7 @@ var FormLpmx = {
         relocate();
         break;
       case "show_store":
-        cmd_show_store();
+        DbFormLpmx.show_store();
         break;
       case "clear_store":
         if (confirm("Clear Local Store ?"))

@@ -28,19 +28,19 @@ var cmd_log_show = (...args) => {
   UaLog.log_show(...args);
 };
 
-var cmd_show_store = () => {
-  UaLog.log_show("-------------");
-  // const store_name = localStorage.getItem(KEY_TEXT_NAME) || "";
-  // const store_text = localStorage.getItem(KEY_DATA) || "";
-  // let size = store_text.length;
-  // let s = `${store_name}:  ${size}`;
-  // UaLog.log(s);
-  // const store_dupl = localStorage.getItem(KEY_OMOGR) || "";
-  // size = store_dupl.length;
-  // s = `omografi:${size}`;
-  // UaLog.log(s);
-  UaLog.log("-------------");
-};
+// var cmd_show_store = () => {
+//   UaLog.log_show("-------------");
+//   const store_name = localStorage.getItem(KEY_TEXT_NAME) || "";
+//   const store_text = localStorage.getItem(KEY_DATA) || "";
+//   let size = store_text.length;
+//   let s = `${store_name}:  ${size}`;
+//   UaLog.log(s);
+//   const store_dupl = localStorage.getItem(KEY_OMOGR) || "";
+//   size = store_dupl.length;
+//   s = `omografi:${size}`;
+//   UaLog.log(s);
+//   UaLog.log("-------------");
+// };
 
 var cmd_wait_start = function () {
   document.querySelector("body").classList.add("wait");
