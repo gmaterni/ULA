@@ -74,17 +74,6 @@ var DbFormLpmx = {
       }
     }
     return ok;
-    // let data_str = localStorage.getItem(KEY_DATA);
-    // if (data_str) {
-    //   let data = JSON.parse(data_str);
-    //   this.token_lst = data.token;
-    //   this.form_lst = data.form;
-    //   this.sort_form_lst();
-    //   this.get_omogr_json();
-    //   return true;
-    // }
-    // else
-    //   return false;
   },
   set_store: function () {
     let lst = this.form_lst.map((x) => x.join("|"));
@@ -104,18 +93,6 @@ var DbFormLpmx = {
     catch (e) {
       alert("Error in LocalStore. => Clean Store\n" + e);
     }
-    // const data = {
-    //   token: this.token_lst,
-    //   form: this.form_lst
-    // };
-    // const str = JSON.stringify(data);
-    // try {
-    //   localStorage.setItem(KEY_DATA, str);
-    //   localStorage.setItem(KEY_TEXT_NAME, this.text_name);
-    // }
-    // catch (e) {
-    //   alert("Error in LocalStore. => Clean Store" + e);
-    // }
   },
   clear_store: function () {
     localStorage.clear();
@@ -168,7 +145,6 @@ var DbFormLpmx = {
         throw new Error('HTTP error, status=' + resp.status);
       return resp.json();
     }).then((json) => {
-      cmd_log("post:" + file_name);
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
     });
