@@ -34,7 +34,7 @@ var DbFormLpmx = {
     this.form_file = `${text_name}.form.csv`;
   },
   set_store: function () {
-    UaLog.log_show("DDD set_store");
+    // UaLog.log_show("DDD set_store");
     let data = {
       token: this.token_lst,
       form: this.form_lst
@@ -51,7 +51,7 @@ var DbFormLpmx = {
     }
   },
   clear_store: function () {
-    UaLog.log("DDD clear_store");
+    // UaLog.log("DDD clear_store");
     // window.localStorage.clear();
     localStorage.clear();
   },
