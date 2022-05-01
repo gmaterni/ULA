@@ -35,11 +35,19 @@ var DbFormLpmx = {
   },
   set_store: function () {
     // UaLog.log_show("DDD set_store");
-    let data = {
+    const data = {
       token: this.token_lst,
       form: this.form_lst
     };
     const str = JSON.stringify(data);
+
+    // const af = this.form_lst.map((x) => x.join("|"));
+    // const sf = af.join("\n");
+    // const at = this.token_lst.map((x) => x.join("|"));
+    // const st = at.join("\n");
+    // console.log(str.length, sf.length, st.length, sf.length + st.length);
+
+
     try {
       // window.localStorage.setItem(KEY_DATA, str);
       // window.localStorage.setItem(KEY_TEXT_NAME, this.text_name);
@@ -47,7 +55,7 @@ var DbFormLpmx = {
       localStorage.setItem(KEY_TEXT_NAME, this.text_name);
     }
     catch (e) {
-      alert("Error in LocalStore. => Clean Store"+e);
+      alert("Error in LocalStore. => Clean Store" + e);
     }
   },
   clear_store: function () {
@@ -64,9 +72,9 @@ var DbFormLpmx = {
     this.set_store();
   },
   save_csv: function (rows, file_name) {
-    let rs = rows.map((x) => x.join("|"));
-    let data = rs.join("\n");
-    let url = `/write/data/${file_name}`;
+    const rs = rows.map((x) => x.join("|"));
+    const data = rs.join("\n");
+    const url = `/write/data/${file_name}`;
     fetch(url, {
       method: "POST",
       cache: 'default',
@@ -130,6 +138,7 @@ var DbFormLpmx = {
       const t = get_time();
       cmd_log("Update Tex " + this.text_name + "  " + t);
       cmd_notify_at(300, 150, "Text Updated");
+      //FIXME controllare load_data
       FormLpmx.load_data();
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
@@ -142,7 +151,7 @@ var DbFormLpmx = {
     //controlla se i dati del testo sono nello store
     if (data_str) {
       let data = JSON.parse(data_str);
-      this.token_lst = data.token;     
+      this.token_lst = data.token;
       this.form_lst = data.form;
       this.sort_form_lst();
       this.get_omogr_json();
@@ -153,7 +162,7 @@ var DbFormLpmx = {
   },
   load_data: async function () {
     // UaLog.log("DDD1 load_data");
-    localStorage.clear();
+    this.clear_store();
     const t = get_time();
     cmd_log("Load Data  " + t);
     if (!this.text_name)
@@ -184,7 +193,8 @@ var DbFormLpmx = {
       alert(msg);
       csv_data = "|||||||";
     }
-    let rows = csv_data.trim().split("\n");
+    //AAA conbersion str to attay
+    const rows = csv_data.trim().split("\n");
     return rows.map((x) => x.split("|"));
   },
   get_omogr_json: function () {
