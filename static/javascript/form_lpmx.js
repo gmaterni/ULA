@@ -464,7 +464,7 @@ var FormLpmx = {
   },
   set_pos_msd: function (pos, msd) {
     if (!this.tr_selected) {
-      cmd_notify("Form Not Selected.");
+      Notify.center().wait(5000).show("Row Not Selected.");
       return;
     }
     pos = pos == '-' ? '' : pos;
@@ -476,11 +476,10 @@ var FormLpmx = {
     m.html(msd);
     this.save_store();
     const pr = document.getElementById("lpmx_rows_id");
-    cmd_notify_link(pr, e, 0, 20, "Set POS - MSD");
   },
   set_phon: function (phon) {
     if (!this.tr_selected) {
-      cmd_notify("row not selected.");
+      Notify.center().wait(5000).show("Row Not Selected.");
       return;
     }
     phon = phon == '-' ? '' : phon;
@@ -489,11 +488,10 @@ var FormLpmx = {
     let e = ph.get(0);
     this.save_store();
     const pr = document.getElementById("lpmx_rows_id");
-    cmd_notify_link(pr, e, -40, 20, "Set lang");
   },
   set_funct: function (funct) {
     if (!this.tr_selected) {
-      cmd_notify("row not selected.");
+      Notify.center().wait(5000).show("Row Not Selected.");
       return;
     }
     funct = funct == '-' ? '' : funct;
@@ -502,7 +500,6 @@ var FormLpmx = {
     let e = fn.get(0);
     this.save_store();
     const pr = document.getElementById("lpmx_rows_id");
-    cmd_notify_link(pr, e, -40, 20, "Set funct");
   },
   save_store: function () {
     //UaLog.log("FFF save_store");

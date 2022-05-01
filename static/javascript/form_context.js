@@ -292,8 +292,8 @@ var FormContext = {
         //     FormLpmx.form_lst2html();
         //     this.hide();
         //     DbFormLpmx.set_store();
-        //     // cmd_wait_stop();
-        //     // FormLpmx.restore_scroll();
+        //     cmd_wait_stop();
+        //     FormLpmx.restore_scroll();
         // });
         FormLpmx.form_lst2html();
         this.hide();

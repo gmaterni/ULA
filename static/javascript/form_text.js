@@ -150,7 +150,7 @@ var FormText = {
     let input_call = (js) => {
       DbFormLpmx.filter_rows_js(js);
       if (DbFormLpmx.rows_js.length == 0) {
-        cmd_notify_at(300, 100, "Selezione Vuota");
+        Notify.center().wait(5000).show("Empty Selection.");
         return;
       }
       this.rows_text2html();
@@ -162,7 +162,7 @@ var FormText = {
   },
   show_text: function () {
     if (this.text_all) {
-      cmd_notify_at(300, 100, "Testo Completo");
+      Notify.center().wait(5000).show("Full Text.");
     }
     else {
       this.after_loaded_data();

@@ -28,19 +28,6 @@ var cmd_log_show = (...args) => {
   UaLog.log_show(...args);
 };
 
-// var cmd_show_store = () => {
-//   UaLog.log_show("-------------");
-//   const store_name = localStorage.getItem(KEY_TEXT_NAME) || "";
-//   const store_text = localStorage.getItem(KEY_DATA) || "";
-//   let size = store_text.length;
-//   let s = `${store_name}:  ${size}`;
-//   UaLog.log(s);
-//   const store_dupl = localStorage.getItem(KEY_OMOGR) || "";
-//   size = store_dupl.length;
-//   s = `omografi:${size}`;
-//   UaLog.log(s);
-//   UaLog.log("-------------");
-// };
 
 var cmd_wait_start = function () {
   document.querySelector("body").classList.add("wait");
@@ -50,21 +37,21 @@ var cmd_wait_stop = function () {
   document.querySelector("body").classList.remove("wait");
 };
 
-var cmd_notify_link = function (p, e, dx, dy, ...args) {
-  Notify.link_element(p, e, dx, dy).wait(5000).show(...args);
-};
+// var cmd_notify_link = function (p, e, dx, dy, ...args) {
+//   Notify.link_element(p, e, dx, dy).wait(5000).show(...args);
+// };
 
-var cmd_notify_at = function (x, y, ...args) {
-  Notify.at(x, y).wait(5000).show(...args);
-};
+// var cmd_notify_at = function (x, y, ...args) {
+//   Notify.at(x, y).wait(5000).show(...args);
+// };
 
-var cmd_notify = function (...args) {
-  Notify.center().wait(5000).show(...args);
-};
+// var cmd_notify = function (...args) {
+//   Notify.center().wait(5000).show(...args);
+// };
 
-var cmd_notify_hide = function () {
-  Notify.hide();
-};
+// var cmd_notify_hide = function () {
+//   Notify.hide();
+// };
 
 var get_time = function () {
   const today = new Date();

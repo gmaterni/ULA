@@ -169,7 +169,6 @@ var DbFormLpmx = {
       return resp.json();
     }).then((json) => {
       cmd_log("post:" + file_name);
-      cmd_notify_at(200, 50, file_name + " Saved");
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
     });
@@ -192,7 +191,6 @@ var DbFormLpmx = {
     }).then((json) => {
       const t = get_time();
       cmd_log("Update Corpus Data   " + t);
-      cmd_notify_at(600, 150, "Corpus Updated");
       call(json);
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
@@ -216,7 +214,6 @@ var DbFormLpmx = {
     }).then((json) => {
       const t = get_time();
       cmd_log("Update Tex " + this.text_name + "  " + t);
-      cmd_notify_at(300, 150, "Text Updated");
       FormLpmx.load_data();
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
