@@ -43,15 +43,15 @@ def add_text_data(file_path, line_len):
     try:
         path_err = "log/addt_text.ERR.log"
         logerr = Log("w").open(path_err, 1).log
-
         file_name = os.path.basename(file_path)
-        out_path = ptu.join(TEXT_SRC_DIR, file_name)
+        
         #sistema il testo e salva
+        out_path = ptu.join(TEXT_SRC_DIR, file_name)
         tcxclr = TextCleaner()  
         tcxclr.clean_file_text(file_path, out_path, line_len)
 
-        inp_path = out_path
         #estrae i dati csv e salva
+        inp_path = out_path
         tx2dt = Text2Data()
         tx2dt.text2data(inp_path)
 

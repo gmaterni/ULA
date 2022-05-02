@@ -213,3 +213,128 @@ sostyituisce
 text_cleaner.py
 text2data.p
 
+
+
+update copus
+aggiorna solo le form per le quali
+in text  
+lemma!='' and pos !=''
+se il campo di corpus non è vuoto lo sovrascrive
+stampa la lista dei campi sovrascritti
+
+update text
+aggiorna text per tutti i valori di corpus
+setta solo i campi vuoti di text
+
+=================================================
+CORREZIONE TESTO 
+================================================
+modifica 
+tag:  &u; (token1&u;token2)
+=================
+token.csv 
+modifica il token
+token1 => token2
+----------------
+form.csv 
+casi possibil
+    a) token1 non esiste nel testo (non dovrebbe esistre)
+    b) token1 esiste nel testo     (è giusto che esista)   
+
+    c) token2 non esiste nel testo (dovrebbe esistere)
+    d) token2 esiste nel testo     (esiste in un'altra occorrenaza)
+
+azioni su form.csv
+   token1 
+      se è unico rimuove da form.csv
+      altrimenti nessuna azione suform.cssv
+   token2
+      se ancora non esiste viene agiunto a form.csv
+      altrimenti nessuna azione su form.csv
+
+es.
+pipo&u;pippo 
+pipo è unico
+   rimuove pipo
+pippo non esiste
+   aggiunge pippo
+
+pippo&u;pluto
+pippo esiste in altre occoreenze
+   nessuna aziione
+pluto non esiste
+   aggiunge pluto
+
+pippo&u;pluto
+pippo esiste in altre occoreenze
+   nessuna aziione
+pluto gia esiste
+   nessuna azione
+------------
+corpus.csv
+riuove token1 e token2
+Inutile complicare le cose in quanto il corpus può 
+essere aggiornato
+
+=============
+cancellazione
+tag: &d;   (&d;token)
+=============
+token.csv 
+rimuove token
+--------------
+azioni su form.csv
+   token 
+      se è unico rimuove da form.csv
+      altrimenti nessuna azione suform.cssv
+------------
+corpus.csv
+riuove token1
+
+===============
+aggiunta
+tag: &a;  (&a;token)
+==============
+token.csv 
+aggiunge token
+-------------
+azioni su form.csv
+   token
+      se ancora non esiste viene agiunto a form.csv
+      altrimenti nessuna azione su form.csv
+
+------------
+corpus.csv
+riuove token1
+
+=============
+esempi
+============
+es. 
+errore nel legame
+------------------------------------
+    spara_lesto => spara lesto 
+    &d;spara_lesto &a;spara &a;lesto
+
+azioni su form.csv
+    &d;spara_lesto romuove  se ?
+    &a;spara       aggiunge se ?
+    &a;lesto       aggiunge se ?
+-----------------------------------
+    spara lesto => spara_lesto
+    &dspara &d;lesto &a;spara_lesto
+    
+azioni su form.csv
+    &d;spara       rimuove  se ?
+    &d;lesto       rimuove  se ?
+    &a;spara_lesto aggiunge se ?
+===================================
+N.B.
+Nel caso di forma != formakey (token disambuguizzato)
+Tutte le azioni sono fatte in riferimento a formakey.
+nel caso di modifica in token2
+vine settata forma=formkey
+In altri termini token2 è settato nella forma base
+se anche il nuovo token deve essere dismabiguizzato 
+l'zione deve esserefatta nell'applicativo.
+

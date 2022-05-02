@@ -1,29 +1,7 @@
-update copus
-aggiorna solo le form per le quali
-in text  
-lemma!='' and pos !=''
+&0x;por &x0;porquoi
+por     rimosso
+porquoi aggiunto
 
-update text
-aggiorna text per tutti i valori di corpus
-sovrascrive i valori di text
-
-!!
-Quando text forza corpus e viceversa
-nei casi entrambi on vuoti
-
-text forza modifiche in coprus
-
-corpus nonf forza modifiche ma
-da la lista degli errorie
-prevedre un update di text forzato
-
-quando vi è un errore
-BISOGNA decidere cosa fare pria
-di aggiornare corpus 
-
-per gli omografi posso duplicare e
-po provare update text
-Meglio se me ne accorgfo in fase di
-duplicazione come vuole marta
-----------------------------
-
+destrute&00;destruite
+destrute    rimosso
+destruite   aggiunto
