@@ -78,6 +78,10 @@ var DbFormLpmx = {
   set_store: function () {
     let lst = this.form_lst.map((x) => x.join("|"));
     let s = lst.join("\n");
+    //AAA provare JSON
+    // let x = JSON.parse(JSON.stringify(this.form_lst));
+    // let x = JSON.stringify(this.form_lst);
+    // console.log(x);
     try {
       localStorage.setItem(KEY_TEXT_NAME, this.text_name);
       localStorage.setItem(KEY_DATA_FORM, s);
