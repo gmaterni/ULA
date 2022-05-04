@@ -214,7 +214,6 @@ text_cleaner.py
 text2data.p
 
 
-
 update copus
 aggiorna solo le form per le quali
 in text  
@@ -225,6 +224,7 @@ stampa la lista dei campi sovrascritti
 update text
 aggiorna text per tutti i valori di corpus
 setta solo i campi vuoti di text
+
 
 =================================================
 CORREZIONE TESTO 
@@ -330,11 +330,11 @@ azioni su form.csv
     &a;spara_lesto aggiunge se ?
 ===================================
 N.B.
-Nel caso di forma != formakey (token disambuguizzato)
+Nel caso di forma != formakey (token disambiguizzato)
 Tutte le azioni sono fatte in riferimento a formakey.
 nel caso di modifica in token2
 vine settata forma=formkey
 In altri termini token2 è settato nella forma base
-se anche il nuovo token deve essere dismabiguizzato 
-l'zione deve esserefatta nell'applicativo.
+se anche il nuovo token deve essere disambiguizzato 
+l'azione deve essere fatta nell'applicativo.
 
