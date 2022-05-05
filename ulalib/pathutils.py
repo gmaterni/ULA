@@ -41,8 +41,8 @@ def str2path(path_s):
 def exists(path_s):
     return pth.Path(path_s).exists()
 
-
 def remove(path_s):
+    #AAA controllare tipo
     if not pth.Path(path_s).exists():
         return False
     pth.Path(path_s).unlink()
@@ -100,7 +100,11 @@ def rlist_path(path, match):
     return lst
 
 
-def list_path(path, match=None):
+def list_path(path_x, match=None):
+    if isinstance(path_x, str):
+        path = pth.Path(path_x)
+    else:
+        path = path_x
     if match is None:
         lst = [x for x in path.iterdir()]
     else:

@@ -5,6 +5,7 @@ import sys
 import argparse
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
+import pathlib as pth
 from ulalib.save_back import save_text_data_back
 import shutil
 import os
@@ -78,7 +79,7 @@ class AddUpdText(object):
             new_lst.append(s)
             s_p = ""
 
-        self.write_data("diff_over.txt",over_lst)
+        self.write_data("diff_over.txt", over_lst)
         over = os.linesep.join(over_lst)
         print(over)
         return new_lst
@@ -144,27 +145,34 @@ class AddUpdText(object):
 
     def add_text_upd(self, text_path, line_len=0):
         text_name = os.path.basename(text_path)
-
         "text/name.txt => data/name.token.csv"
         token_path = self.get_token_path(text_name)
-        if ptu.exists(token_path) is False:
+        token_path1 = self.get_token_tmp_path(text_name, "1")
+        token_path2 = self.get_token_tmp_path(text_name, "2")
+        token_path3 = self.get_token_tmp_path(text_name, "3")
+        print(text_path)
+        print(text_name)
+        print(token_path)
+        print(token_path1)
+        print(token_path2)
+        print(token_path3)
+
+        # if ptu.exists(token_path) is False:
+        if pth.Path(token_path).exists() is False:
             print(f"{token_path} Non  esistente")
             print("Lanciare prima add_text con il testo originale")
             sys.exit()
 
         # crea se non esiste la dir tmp
          # se esiste la svuota
-        ptu.make_dir(TMP_DIR)
-        tmp_lst = ptu.list_path(TMP_DIR, "*")
-        for pth in tmp_lst:
-            os.remove(pth)
-
-        token_path1 = self.get_token_tmp_path(text_path, "1")
-        token_path2 = self.get_token_tmp_path(token_path, "2")
-        token_path3 = self.get_token_tmp_path(token_path, "3")
-        # crea se non esiste la dir tmp
-        ptu.make_dir_of_file(token_path1, 0o777)
-
+        pth.Path(TMP_DIR).mkdir(exist_ok=True, mode=0o777)
+        tmp_lst = [x for x in pth.Path(TMP_DIR).iterdir()]
+        for path in tmp_lst:
+            p = pth.Path(path)
+            if p.is_file():
+                p.unlink(path)
+                print(f"{p}")
+        
         # data/name.token.cv => tmp/name.token1.csv
         self.move_path(token_path, token_path1)
 
@@ -175,7 +183,9 @@ class AddUpdText(object):
 
         # salva data/name.token.csv
         self.set_diff_token(token_path1, token_path2, token_path3)
-
+        
+        # tmp/name.token3.csv => data/name.token.csv
+        self.move_path(token_path3, token_path)
 
 def do_main(text_path, ll):
     aut = AddUpdText()
