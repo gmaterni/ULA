@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import argparse
+import argparse  
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 import pathlib as pth
@@ -14,10 +14,9 @@ from difflib import *
 from ulalib.ula_setting import *
 from text2data import Text2Data
 from text_cleaner import TextCleaner
-import datetime
 
-__date__ = "02-05-2022"
-__version__ = "0.0.1"
+__date__ = "05-05-2022"
+__version__ = "0.0.2"
 __author__ = "Marta Materni"
 
 
@@ -52,15 +51,18 @@ class AddUpdText(object):
         except Exception as e:
             msg = f'ERROR {path} \n{e}'
             sys.exit(msg)
+    
+    def set_diff_form_list(self,tklst,frlst):
+        pass
 
-    def set_diff_list(self, lst1, lst2):
+    def set_diff_token_list(self, lst1, lst2):
         d = Differ()
         diff = d.compare(lst1, lst2)
         diff_lst = list(diff)
         dlst = [x for x in diff_lst if len(x.strip()) > 0 and x[0] != '?']
         dlstda = [x for x in dlst if x[0] in ('-', '+', '^')]
         self.write_data("tmp/diff.txt", dlst)
-        self.write_data("tmp/diffupd.txt", dlstda)
+        self.write_data("tmp/diff_upd.txt", dlstda)
         over_lst = []
         new_lst = []
         s_p = ""
@@ -78,17 +80,17 @@ class AddUpdText(object):
                         over_lst.append(s)
             new_lst.append(s)
             s_p = ""
-
         self.write_data("diff_over.txt", over_lst)
         over = os.linesep.join(over_lst)
         print(over)
         return new_lst
 
-    def set_diff_token(self, path1, path2, path3):
-        lst1 = self.read_data(path1)
-        lst2 = self.read_data(path2)
-        lst3 = self.set_diff_list(lst1, lst2)
-        self.write_data(path3, lst3)
+    def set_diff_token(self, tkpath1, tkpath2, tkpath3):
+        tklst1 = self.read_data(tkpath1)
+        tklst2 = self.read_data(tkpath2)
+        tklst3 = self.set_diff_token_list(tklst1, tklst2)
+        self.write_data(tkpath3, tklst3)
+        frlst3=self.read(tkpath3)
 
     # def save_token_back(self, token_path):
     #     ymdh = str(datetime.datetime.today().strftime('%y%m%d_%H'))
@@ -106,6 +108,12 @@ class AddUpdText(object):
         token_name = text_name.replace(".txt", f".token.csv")
         token_path = os.path.join(TEXT_DATA_DIR, token_name)
         return token_path
+
+    # name.token.csv => name.form.csv
+    def token_to_formh(self, token_path, ext=""):
+        form_path = token_path.replace(".token", ".form")
+        return form_path
+
 
     def move_path(self, path1, path2):
         shutil.move(path1, path2)
@@ -132,6 +140,7 @@ class AddUpdText(object):
 
     """
     1) .token.csv => .token1.csv
+        .form.csv => .form1.csv
     2) add_text (testo modifico) salva
     .token.csv
     3) .token.csv => .token2.csv
@@ -141,25 +150,49 @@ class AddUpdText(object):
     5) sistemazione omografi disamb. sovrascritti
     6) update corpus
 
+    token1: originale
+    token2: modificato senza disambiguazione
+    token3: corretto 
+
+    comandi per gesione modifiche testo:
+    
+    1) dal browser  update_corpus
+    
+    2) modifiche testo 
+    
+    3) addupd_text.py -i path testo
+
+    4) dal browser load data
+
+    5) dal browser update text
+    
     """
 
     def add_text_upd(self, text_path, line_len=0):
         text_name = os.path.basename(text_path)
         "text/name.txt => data/name.token.csv"
-        token_path = self.get_token_path(text_name)
-        token_path1 = self.get_token_tmp_path(text_name, "1")
-        token_path2 = self.get_token_tmp_path(text_name, "2")
-        token_path3 = self.get_token_tmp_path(text_name, "3")
+        tk_path = self.get_token_path(text_name)
+        tk_path1 = self.get_token_tmp_path(text_name, "1")
+        tk_path2 = self.get_token_tmp_path(text_name, "2")
+        tk_path3 = self.get_token_tmp_path(text_name, "3")
+        fr_path=self.token_to_formh(tk_path)
+        fr_path1=self.token_to_formh(tk_path1)
+        fr_path2=self.token_to_formh(tk_path2)
+        fr_path3=self.token_to_formh(tk_path3)
         print(text_path)
         print(text_name)
-        print(token_path)
-        print(token_path1)
-        print(token_path2)
-        print(token_path3)
+        print(tk_path)
+        print(tk_path1)
+        print(tk_path2)
+        print(tk_path3)
+        print(fr_path)
+        print(fr_path1)
+        print(fr_path2)
+        print(fr_path3)
 
         # if ptu.exists(token_path) is False:
-        if pth.Path(token_path).exists() is False:
-            print(f"{token_path} Non  esistente")
+        if pth.Path(tk_path).exists() is False:
+            print(f"{tk_path} Non  esistente")
             print("Lanciare prima add_text con il testo originale")
             sys.exit()
 
@@ -174,18 +207,21 @@ class AddUpdText(object):
                 print(f"{p}")
         
         # data/name.token.cv => tmp/name.token1.csv
-        self.move_path(token_path, token_path1)
+        self.move_path(tk_path, tk_path1)
+        self.move_path(fr_path, fr_path1)
 
         # elabora e salva data/name.token.csv
         # data/name.token.csv => tmp/name.token2.csv
         self.add_text(text_path, line_len)
-        self.move_path(token_path, token_path2)
+        self.move_path(tk_path, tk_path2)
+        self.move_path(fr_path, fr_path2)
 
         # salva data/name.token.csv
-        self.set_diff_token(token_path1, token_path2, token_path3)
+        self.set_diff_token(tk_path1, tk_path2, tk_path3)
         
         # tmp/name.token3.csv => data/name.token.csv
-        self.move_path(token_path3, token_path)
+        self.move_path(tk_path3, tk_path)
+        self.move_path(fr_path3, fr_path)
 
 def do_main(text_path, ll):
     aut = AddUpdText()
