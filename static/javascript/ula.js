@@ -104,13 +104,13 @@ var Ula = {
     await FormText.open();
     cmd_wait_stop();
     relocate();
+    FormLpmx.restore_scroll();
   },
   show_lpmx: async function () {
     TEXT_ID.style.display = 'none';
     LPMX_ID.style.display = 'block';
   },
   show_text: async function () {
-    //DbFormLpmx.fill_rows_text();
     LPMX_ID.style.display = 'none';
     TEXT_ID.style.display = 'block';
   },

@@ -43,6 +43,7 @@ class TestUla(object):
             r=", ".join(fks)
             log(r)
 
+    #AAA per ora invocato da test
     def text_omogr(self, text_name):
         log(f"==> {text_name}  HOMOGR")
         self.upd.read_corpus_form_csv()
@@ -64,11 +65,13 @@ class TestUla(object):
         names = [x.strip()+".txt" for x in lst]
         return names
 
+    #AAA  metodo da invocare manualmente
     def text_omogr_all(self):
         names = self.read_text_list()
         for name in names:
             self.text_omogr(name)
 
+    #AAA  metodo da invocare manualmente
     def diff_all(self):
         log("TEXT DIFF CORPUS")
         log("row_text")

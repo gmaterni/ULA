@@ -292,9 +292,9 @@ var FormLpmx = {
     this.bind_rows();
   },
   check_text: function () {
+    //seleziona le form del testo che sono omografe in corpus
     const omogr_js = DbFormLpmx.omogr_json;
     const omogr_ks = Object.keys(omogr_js);
-    //seleziona le form del testo che sono omografe in corpus
     const form_omogr_lst = DbFormLpmx.form_lst.filter(e => omogr_ks.includes(e[1]));
     const fkos = form_omogr_lst.map(e => e[1]);
     let jt = UaJt();
@@ -589,9 +589,9 @@ var FormLpmx = {
     // let e = document.getElementById("lpmx_rows_id");
     //this.scroll_top = e.scrollTop;
   },
-  restore_scroll: function () {//XXX
-    // let e = document.getElementById("lpmx_rows_id");
-    //  e.scrollTop = this.f;
+  restore_scroll: function () {
+    let e = document.getElementById("lpmx_rows_id");
+     e.scrollTop = this.f;
   },
   scroll: function () {
     let v = document.querySelector("#lpmx_rows_head_id td.find input").value;
