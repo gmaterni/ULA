@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-TEXT_DATA_DIR = "./data"
-TEXT_DATA_BACK_DIR = "data_back"
+DATA_DIR = "./data"
+DATA_BACK_DIR = "data_back"
 TEXT_SRC_DIR = "./text_src"
 NAME_TEXT_LIST = './data/text_list.txt'
 
 CORPUS_NAME = "corpus.form.csv"
-CORPUS_DATA_DIR = "./data_corpus"
-CORPUS_DATA_BACK_DIR = "data_corpus_back"
+CORPUS_DIR = "./data_corpus"
+CORPUS_BACK_DIR = "data_corpus_back"
 
 TMP_DIR = "./tmp"
 

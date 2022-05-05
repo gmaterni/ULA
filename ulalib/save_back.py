@@ -5,7 +5,7 @@ import os
 import shutil
 import datetime
 import sys
-from ulalib.ula_setting import TEXT_DATA_BACK_DIR, CORPUS_DATA_DIR, CORPUS_DATA_BACK_DIR
+from ulalib.ula_setting import DATA_BACK_DIR, CORPUS_DIR, CORPUS_BACK_DIR
 import ulalib.pathutils as ptu
 
 
@@ -20,7 +20,7 @@ def save_text_data_back(file_path):
     #ymd = str(datetime.datetime.today().strftime('%y%m_%H_%M'))
     ymd = str(datetime.datetime.today().strftime('%y%m%d'))
     ymdh = str(datetime.datetime.today().strftime('%y%m%d_%H'))
-    back_dir = ptu.join(TEXT_DATA_BACK_DIR, ymd)
+    back_dir = ptu.join(DATA_BACK_DIR, ymd)
     file_name = os.path.basename(file_path)
     file_name_back = file_name.replace(".csv", f"_{ymdh}.csv")
     file_path_back = os.path.join(back_dir, file_name_back)
@@ -39,8 +39,8 @@ def save_corpus_data_back(file_name):
     """
     ymd = str(datetime.datetime.today().strftime('%y%m%d'))
     ymdh = str(datetime.datetime.today().strftime('%y%m%d_%H'))
-    back_dir = ptu.join(CORPUS_DATA_BACK_DIR, ymd)
-    file_path = os.path.join(CORPUS_DATA_DIR, file_name)
+    back_dir = ptu.join(CORPUS_BACK_DIR, ymd)
+    file_path = os.path.join(CORPUS_DIR, file_name)
     file_name_back = file_name.replace(".csv", f"_{ymdh}.csv")
     file_path_back = os.path.join(back_dir, file_name_back)
     ptu.make_dir_of_file(file_path_back, 0o777)

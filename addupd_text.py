@@ -102,6 +102,7 @@ class AddUpdText(object):
         tklst2 = self.read_data(tkpath2)
         tklst3 = self.set_diff_token_list(tklst1, tklst2)
         self.write_data(tkpath3, tklst3)
+        
         # setta la lista delle form (vuote) fi tklst3
         frlst3 = self.token_list2form_list(tklst3)
         self.write_data(frpath3, frlst3)
@@ -120,7 +121,7 @@ class AddUpdText(object):
     # text/name.txt => data/name.token{ext}.csv
     def get_token_path(self, text_name):
         token_name = text_name.replace(".txt", f".token.csv")
-        token_path = os.path.join(TEXT_DATA_DIR, token_name)
+        token_path = os.path.join(DATA_DIR, token_name)
         return token_path
 
     # name.token.csv => name.form.csv
@@ -153,33 +154,46 @@ class AddUpdText(object):
             sys.exit()
 
     """
-    1) .token.csv => .token1.csv
-        .form.csv => .form1.csv
-    2) add_text (testo modifico) salva
-    .token.csv
-    3) .token.csv => .token2.csv
-    4) merge dell diff e omografi diisambguizzati
-    .token1.csv token2.csv => token.csv
-    stampa lista disamb.sovrascritti.
-    5) sistemazione omografi disamb. sovrascritti
-    6) update corpus
+    Prima di lanciare la procdure
+    dal browser
+    1) save data
+
+    2) update corpus
+
+    la procedura addupd_text.py
+    1) muove
+       data/name.token.csv => tmp/name.token1.csv
+       data/name.form.csv  => tmp/name.form1.csv
+
+    2) elabora (add_text)
+       data/name.token.csv
+       data/name.form.csv
+
+    3) muove
+       data/name.token.csv => tmp/name.token2.csv
+        
+    4) elabora (set_diff)
+        tmp/name.token3.csv
+        tmp/name.form3.csv
+
+    5) muove
+       tmp/name.token3.csv => data/name.token.csv
+       tmp/name.form3.csv  => data/name.form.csv
+       stampa lista disamb.sovrascritti.
+    
+    Per completare da browser
+    1)load_data
+
+    2) update_text
+
+    3) sistemazione omografi disamb. sovrascritti
+    
+    4) update corpus
 
     token1: originale
     token2: modificato senza disambiguazione
     token3: corretto 
 
-    comandi per gesione modifiche testo:
-    
-    1) dal browser  update_corpus
-    
-    2) modifiche testo 
-    
-    3) addupd_text.py -i path testo
-
-    4) dal browser load data
-
-    5) dal browser update text
-    
     """
 
     def add_text_upd(self, text_path, line_len=0):

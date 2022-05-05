@@ -9,7 +9,7 @@ import json
 from regex import E
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
-from ulalib.ula_setting import CORPUS_NAME, TEXT_DATA_DIR, CORPUS_DATA_DIR
+from ulalib.ula_setting import CORPUS_NAME, DATA_DIR, CORPUS_DIR
 from ulalib.ula_setting import ENCODING, NAME_TEXT_LIST
 
 __date__ = "10-04-2022"
@@ -89,13 +89,13 @@ class UpdateData(object):
         self.text_form_path = None
 
         corpus_name = CORPUS_NAME
-        self.corpus_form_path = ptu.join(CORPUS_DATA_DIR, corpus_name)
+        self.corpus_form_path = ptu.join(CORPUS_DIR, corpus_name)
         omogr_name = corpus_name.replace(".form.csv", "_omogr.json")
-        self.corpus_omogr_path = ptu.join(CORPUS_DATA_DIR, omogr_name)
+        self.corpus_omogr_path = ptu.join(CORPUS_DIR, omogr_name)
 
     def set_text_name(self, text_name):
         text_form_name = text_name.replace(".txt", ".form.csv")
-        self.text_form_path = ptu.join(TEXT_DATA_DIR, text_form_name)
+        self.text_form_path = ptu.join(DATA_DIR, text_form_name)
 
     def set_text_flled_idx_lst(self):
         """
@@ -456,7 +456,7 @@ class UpdateData(object):
         try:
             for text_name in names:
                 text_form_name = text_name+".form.csv"
-                self.text_form_path = ptu.join(TEXT_DATA_DIR, text_form_name)
+                self.text_form_path = ptu.join(DATA_DIR, text_form_name)
                 self.read_text_form_csv()
                 self.clear_text_form_lst()
                 self.update_text_forms_lst()

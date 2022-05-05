@@ -24,7 +24,7 @@ def get_token_tmp_path(text_name, ext=""):
 
 def get_token_path(text_name):
     token_name = text_name.replace(".txt", f".token.csv")
-    token_path = os.path.join(TEXT_DATA_DIR, token_name)
+    token_path = os.path.join(DATA_DIR, token_name)
     return token_path
 
 

@@ -9,7 +9,7 @@ import re
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 #from ulalib.write_path import write_file_path
-from ulalib.ula_setting import TEXT_DATA_DIR, NAME_TEXT_LIST
+from ulalib.ula_setting import DATA_DIR, NAME_TEXT_LIST
 from ulalib.ula_setting import ENCODING, PUNCTS
 
 __date__ = "21-03-2022"
@@ -66,7 +66,7 @@ class Text2Data(object):
 
     def write_tokens_forms(self, f_inp):
         # scrive ./data/text_name.form.csv
-        #         ./data/txt_name.token.csv
+        #        ./data/txt_name.token.csv
         try:
             fr = open(f_inp, 'r', encoding=ENCODING)
             text = fr.read()
@@ -82,7 +82,7 @@ class Text2Data(object):
 
         try:
             f_name_token = file_name.replace(".txt", ".token.csv")
-            f_out = ptu.join(TEXT_DATA_DIR, f_name_token)
+            f_out = ptu.join(DATA_DIR, f_name_token)
             tokens = os.linesep.join(token_lst)
             fw = open(f_out, "w", encoding=ENCODING)
             fw.write(tokens)
@@ -95,7 +95,7 @@ class Text2Data(object):
 
         try:
             f_name_form = file_name.replace(".txt", ".form.csv")
-            f_out = ptu.join(TEXT_DATA_DIR, f_name_form)
+            f_out = ptu.join(DATA_DIR, f_name_form)
             forms = os.linesep.join(form_lst)
             fw = open(f_out, "w", encoding=ENCODING)
             fw.write(forms)
@@ -108,7 +108,7 @@ class Text2Data(object):
 
     def write_text_list(self):
         try:
-            src = ptu.str2path(TEXT_DATA_DIR)
+            src = ptu.str2path(DATA_DIR)
             file_text_lst = ptu.list_path(src, "*.form.csv")
             text_lst = sorted([x.name.replace(".form.csv", "")
                               for x in file_text_lst])
