@@ -20,31 +20,40 @@ def get_token_tmp_path(text_name, ext=""):
     return token_tmp_path
 
 # text/name.txt => data/name.token{ext}.csv
+
+
 def get_token_path(text_name):
     token_name = text_name.replace(".txt", f".token.csv")
     token_path = os.path.join(TEXT_DATA_DIR, token_name)
     return token_path
 
+
 def move_path(path1, path2):
     shutil.move(path1, path2)
 
-def readd_text_upd(self, text_path):
+
+def readd_text_upd(text_path):
     text_name = os.path.basename(text_path)
     "text/name.txt => data/name.token.csv"
-    token_path = get_token_path(text_name)
-    token_path1 = get_token_tmp_path(text_name, "1")
+    tk_path = get_token_path(text_name)
+    tk_path1 = get_token_tmp_path(text_name, "1")
+    fr_path = tk_path.replace(".token", ".form")
+    fr_path1 = tk_path1.replace(".token", ".form")
     print(text_path)
     print(text_name)
-    print(token_path)
-    print(token_path1)
+    print(tk_path)
+    print(fr_path1)
+    print(tk_path1)
+    print(fr_path)
 
     # if ptu.exists(token_path1) is False:
-    if pth.Path(token_path1).exists() is False:
-        print(f"{token_path1} Non  esistente")
+    if pth.Path(tk_path1).exists() is False:
+        print(f"{tk_path1} Non  esistente")
         sys.exit()
-    
+
     # data/name.token.cv => tmp/name.token1.csv
-    self.move_path(token_path1, token_path)
+    move_path(tk_path1, tk_path)
+    move_path(fr_path1, fr_path)
 
 
 def do_main(text_path):
@@ -64,6 +73,5 @@ if __name__ == "__main__":
         required=True,
         metavar="",
         help="-i <text_path>")
-
     args = parser.parse_args()
     do_main(args.src)

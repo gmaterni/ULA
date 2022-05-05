@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import argparse  
+import argparse
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 import pathlib as pth
@@ -51,9 +51,21 @@ class AddUpdText(object):
         except Exception as e:
             msg = f'ERROR {path} \n{e}'
             sys.exit(msg)
-    
-    def set_diff_form_list(self,tklst,frlst):
-        pass
+
+    def token_list2form_list(self, token_lst):
+        lst = list(set(token_lst))
+        form_lst = []
+        for item in lst:
+            if item.strip() == '':
+                continue
+            if item[0] in PUNCTS:
+                continue
+            if item[0].isnumeric():
+                continue
+            form = f'{item.strip()}||||||'
+            form_lst.append(form)
+        form_lst = sorted(form_lst, key=lambda x: (x.split('|')[0]))
+        return form_lst
 
     def set_diff_token_list(self, lst1, lst2):
         d = Differ()
@@ -85,12 +97,14 @@ class AddUpdText(object):
         print(over)
         return new_lst
 
-    def set_diff_token(self, tkpath1, tkpath2, tkpath3):
+    def set_diff(self, tkpath1, tkpath2, tkpath3, frpath3):
         tklst1 = self.read_data(tkpath1)
         tklst2 = self.read_data(tkpath2)
         tklst3 = self.set_diff_token_list(tklst1, tklst2)
         self.write_data(tkpath3, tklst3)
-        frlst3=self.read(tkpath3)
+        # setta la lista delle form (vuote) fi tklst3
+        frlst3 = self.token_list2form_list(tklst3)
+        self.write_data(frpath3, frlst3)
 
     # def save_token_back(self, token_path):
     #     ymdh = str(datetime.datetime.today().strftime('%y%m%d_%H'))
@@ -113,7 +127,6 @@ class AddUpdText(object):
     def token_to_formh(self, token_path, ext=""):
         form_path = token_path.replace(".token", ".form")
         return form_path
-
 
     def move_path(self, path1, path2):
         shutil.move(path1, path2)
@@ -175,10 +188,10 @@ class AddUpdText(object):
         tk_path1 = self.get_token_tmp_path(text_name, "1")
         tk_path2 = self.get_token_tmp_path(text_name, "2")
         tk_path3 = self.get_token_tmp_path(text_name, "3")
-        fr_path=self.token_to_formh(tk_path)
-        fr_path1=self.token_to_formh(tk_path1)
-        fr_path2=self.token_to_formh(tk_path2)
-        fr_path3=self.token_to_formh(tk_path3)
+        fr_path = self.token_to_formh(tk_path)
+        fr_path1 = self.token_to_formh(tk_path1)
+        # fr_path2 = self.token_to_formh(tk_path2)
+        fr_path3 = self.token_to_formh(tk_path3)
         print(text_path)
         print(text_name)
         print(tk_path)
@@ -187,7 +200,7 @@ class AddUpdText(object):
         print(tk_path3)
         print(fr_path)
         print(fr_path1)
-        print(fr_path2)
+        # print(fr_path2)
         print(fr_path3)
 
         # if ptu.exists(token_path) is False:
@@ -205,8 +218,9 @@ class AddUpdText(object):
             if p.is_file():
                 p.unlink(path)
                 print(f"{p}")
-        
+
         # data/name.token.cv => tmp/name.token1.csv
+        # data/name.form.cv => tmp/name.form1.csv
         self.move_path(tk_path, tk_path1)
         self.move_path(fr_path, fr_path1)
 
@@ -214,14 +228,16 @@ class AddUpdText(object):
         # data/name.token.csv => tmp/name.token2.csv
         self.add_text(text_path, line_len)
         self.move_path(tk_path, tk_path2)
-        self.move_path(fr_path, fr_path2)
 
-        # salva data/name.token.csv
-        self.set_diff_token(tk_path1, tk_path2, tk_path3)
-        
+        # salva rmp/name.token3.csv
+        # salva rmp/name.form3.csv
+        self.set_diff(tk_path1, tk_path2, tk_path3, fr_path3)
+
         # tmp/name.token3.csv => data/name.token.csv
+        # tmp/name.form3.csv => data/name.form.csv
         self.move_path(tk_path3, tk_path)
         self.move_path(fr_path3, fr_path)
+
 
 def do_main(text_path, ll):
     aut = AddUpdText()

@@ -5,13 +5,11 @@
 + pippo|pippo
 + pluto|pluto
 - fiorerosso|fiorerosso
-- gli|gli1
+- gli|gli
 - aveva|aveva
 + fiore|fiore
 + rosso|rosso
 + gli_aveva|gli_aveva
-- gli|gli1
-+ gli|gli
 - adempimenti|adempimenti
 + adampimenti|adampimenti
 - quella|quella
@@ -19,7 +17,3 @@
 - maledetta|maledetta
 + male|male
 + detta|detta
-- gli|gli2
-+ gli|gli
-- quella|quella1
-+ quella|quella
