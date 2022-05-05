@@ -20,141 +20,166 @@ __version__ = "0.0.1"
 __author__ = "Marta Materni"
 
 
-def read_data(path):
-    try:
-        fr = open(path, 'r', encoding=ENCODING)
-        text = fr.read()
-        fr.close()
-    except Exception as e:
-        msg = f'ERROR {path} Not Found.\n{e}'
-        sys.exit(msg)
-    text = text.replace(os.linesep, ' ')
-    rows = re.split(" ", text)
-    lst = []
-    for row in rows:
-        if row.strip() == '':
-            continue
-        lst.append(row)
-    return lst
+class AddUpdText(object):
 
+    def __init__(self):
+        pass
 
-def write_data(path, lst):
-    try:
-        text = os.linesep.join(lst)
-        fw = open(path, "w", encoding=ENCODING)
-        fw.write(text)
-        fw.close()
-    except Exception as e:
-        msg = f'ERROR {path} \n{e}'
-        sys.exit(msg)
+    def read_data(self, path):
+        try:
+            fr = open(path, 'r', encoding=ENCODING)
+            text = fr.read()
+            fr.close()
+        except Exception as e:
+            msg = f'ERROR {path} Not Found.\n{e}'
+            sys.exit(msg)
+        text = text.replace(os.linesep, ' ')
+        rows = re.split(" ", text)
+        lst = []
+        for row in rows:
+            if row.strip() == '':
+                continue
+            lst.append(row)
+        return lst
 
+    def write_data(self, path, lst):
+        try:
+            text = os.linesep.join(lst)
+            fw = open(path, "w", encoding=ENCODING)
+            fw.write(text)
+            fw.close()
+        except Exception as e:
+            msg = f'ERROR {path} \n{e}'
+            sys.exit(msg)
 
-def set_diff_list(lst1,lst2):
-    lst_err=[]
-    d = Differ()
-    diff = d.compare(lst1, lst2)
-    diff_lst = list(diff)
-    dlst = [x for x in diff_lst if len(x.strip()) > 0 and x[0] != '?']
-    write_data("diff.txt", dlst)
-    new_lst = []
-    s_p = ""
-    for r in dlst:
-        s = r[1:].strip()
-        if r.find("-") == 0:
-            s_p = s
-            continue
-        if r.find("+") == 0 and len(s_p) > 1:
-            f_p, k_p = s_p.split("|")
-            if f_p != k_p:
-                f, k = s.split("|")
-                if f == f_p:
-                    s = f'{f}|{k_p}'
-                    lst_err.append(s)
-        new_lst.append(s)
+    def set_diff_list(self, lst1, lst2):
+        d = Differ()
+        diff = d.compare(lst1, lst2)
+        diff_lst = list(diff)
+        dlst = [x for x in diff_lst if len(x.strip()) > 0 and x[0] != '?']
+        dlstda = [x for x in dlst if x[0] in ('-', '+', '^')]
+        self.write_data("tmp/diff.txt", dlst)
+        self.write_data("tmp/diffupd.txt", dlstda)
+        over_lst = []
+        new_lst = []
         s_p = ""
+        for r in dlst:
+            s = r[1:].strip()
+            if r.find("-") == 0:
+                s_p = s
+                continue
+            if r.find("+") == 0 and len(s_p) > 1:
+                f_p, k_p = s_p.split("|")
+                if f_p != k_p:
+                    f, k = s.split("|")
+                    if f == f_p:
+                        s = f'{f}|{k_p}'
+                        over_lst.append(s)
+            new_lst.append(s)
+            s_p = ""
 
-    err = os.linesep.join(lst_err)
-    print(err)
-    return new_lst
+        self.write_data("diff_over.txt",over_lst)
+        over = os.linesep.join(over_lst)
+        print(over)
+        return new_lst
 
+    def set_diff_token(self, path1, path2, path3):
+        lst1 = self.read_data(path1)
+        lst2 = self.read_data(path2)
+        lst3 = self.set_diff_list(lst1, lst2)
+        self.write_data(path3, lst3)
 
-def set_diff_token(path1, path2, path3):
-    lst1 = read_data(path1)
-    lst2 = read_data(path2)
-    lst3 = set_diff_list(lst1, lst2)
-    write_data(path3, lst3)
+    # def save_token_back(self, token_path):
+    #     ymdh = str(datetime.datetime.today().strftime('%y%m%d_%H'))
+    #     token_bak = token_path.replace(".csv", f"_{ymdh}.csv")
+    #     shutil.copyfile(token_path, token_bak)
 
-##################################
-def save_token_back(token_path):
-    ymdh = str(datetime.datetime.today().strftime('%y%m%d_%H'))
-    token_bak = token_path.replace(".csv", f"_{ymdh}.csv")
-    shutil.copyfile(token_path, token_bak)
+    # name.txt => name.token.csv
+    def get_token_tmp_path(self, text_name, ext=""):
+        token_name = text_name.replace(".txt", f".token{ext}.csv")
+        token_tmp_path = os.path.join(TMP_DIR, token_name)
+        return token_tmp_path
 
-# text/name.txt => data/name.token.csv
-def text2token_path(text_pah):
-    text_name = os.path.basename(text_pah)
-    token_name = text_name.replace(".txt", ".token.csv")
-    token_path = os.path.join(TEXT_DATA_DIR, token_name)
-    return token_path
+    # text/name.txt => data/name.token{ext}.csv
+    def get_token_path(self, text_name):
+        token_name = text_name.replace(".txt", f".token.csv")
+        token_path = os.path.join(TEXT_DATA_DIR, token_name)
+        return token_path
 
-# data/name.token.csv => data/name.token2.csv
-# rinomina il file
-def move_token(token_path, ext):
-    path2 = token_path.replace(".token.csv", f".token{ext}.csv")
-    shutil.move(token_path, path2)
-    return path2
+    def move_path(self, path1, path2):
+        shutil.move(path1, path2)
 
+    def add_text(self, text_path, line_len=0):
+        try:
+            path_err = "log/addt_text.ERR.log"
+            logerr = Log("w").open(path_err, 1).log
+            text_name = os.path.basename(text_path)
 
-def add_text(text_path, line_len=0):
-    try:
-        path_err = "log/addt_text.ERR.log"
-        logerr = Log("w").open(path_err, 1).log
+            # sistema il testo e salva
+            out_path = ptu.join(TEXT_SRC_DIR, text_name)
+            tcxclr = TextCleaner()
+            tcxclr.clean_file_text(text_path, out_path, line_len)
+
+            # estrae i dati csv e salva
+            inp_path = out_path
+            tx2dt = Text2Data()
+            tx2dt.text2data(inp_path)
+        except Exception as e:
+            msg = f'ERROR add_text \n{e}'
+            logerr(msg)
+            sys.exit()
+
+    """
+    1) .token.csv => .token1.csv
+    2) add_text (testo modifico) salva
+    .token.csv
+    3) .token.csv => .token2.csv
+    4) merge dell diff e omografi diisambguizzati
+    .token1.csv token2.csv => token.csv
+    stampa lista disamb.sovrascritti.
+    5) sistemazione omografi disamb. sovrascritti
+    6) update corpus
+
+    """
+
+    def add_text_upd(self, text_path, line_len=0):
         text_name = os.path.basename(text_path)
 
-        # sistema il testo e salva
-        out_path = ptu.join(TEXT_SRC_DIR, text_name)
-        tcxclr = TextCleaner()
-        tcxclr.clean_file_text(text_path, out_path, line_len)
+        "text/name.txt => data/name.token.csv"
+        token_path = self.get_token_path(text_name)
+        if ptu.exists(token_path) is False:
+            print(f"{token_path} Non  esistente")
+            print("Lanciare prima add_text con il testo originale")
+            sys.exit()
 
-        # estrae i dati csv e salva
-        inp_path = out_path
-        tx2dt = Text2Data()
-        tx2dt.text2data(inp_path)
+        # crea se non esiste la dir tmp
+         # se esiste la svuota
+        ptu.make_dir(TMP_DIR)
+        tmp_lst = ptu.list_path(TMP_DIR, "*")
+        for pth in tmp_lst:
+            os.remove(pth)
 
-    except Exception as e:
-        msg = f'ERROR add_text \n{e}'
-        logerr(msg)
-        sys.exit()
+        token_path1 = self.get_token_tmp_path(text_path, "1")
+        token_path2 = self.get_token_tmp_path(token_path, "2")
+        token_path3 = self.get_token_tmp_path(token_path, "3")
+        # crea se non esiste la dir tmp
+        ptu.make_dir_of_file(token_path1, 0o777)
+
+        # data/name.token.cv => tmp/name.token1.csv
+        self.move_path(token_path, token_path1)
+
+        # elabora e salva data/name.token.csv
+        # data/name.token.csv => tmp/name.token2.csv
+        self.add_text(text_path, line_len)
+        self.move_path(token_path, token_path2)
+
+        # salva data/name.token.csv
+        self.set_diff_token(token_path1, token_path2, token_path3)
 
 
-"""
-1) .token.csv => .token1.csv
-2) add_text (testo modifico) salva
-   .token.csv
-3) .token.csv => .token2.csv
-4) merge dell diff e omografi diisambguizzati
-   .token1.csv token2.csv => token.csv
-   stampa lista disamb.sovrascritti.
-5) sistemazione omografi disamb. sovrascritti
-6) update corpus
-
-"""
-
-def add_text_upd(text_path, line_len=0):
-    token_path = text2token_path(text_path)
-    if ptu.exists(token_path) is False:
-        print(f"{token_path} Non  esistente")
-        print("Lanciare prima add_text con il testo originale")
-        sys.exit()
-    save_text_data_back(token_path)
-    # .token.cv => .token1.csv
-    token_path1 = move_token(token_path, "1")
-    # salva .token.csv
-    add_text(text_path, line_len)
-    # .token.csv => .token2.csv
-    token_path2 = move_token(token_path, "2")
-    # salva .token.csv
-    set_diff_token(token_path1, token_path2, token_path)
+def do_main(text_path, ll):
+    aut = AddUpdText()
+    aut.add_text_upd(text_path, ll)
 
 
 if __name__ == "__main__":
@@ -180,4 +205,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     ll = int(args.linelen)
-    add_text_upd(args.src, ll)
+    do_main(args.src, ll)

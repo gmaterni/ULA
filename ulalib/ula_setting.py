@@ -10,6 +10,8 @@ CORPUS_NAME = "corpus.form.csv"
 CORPUS_DATA_DIR = "./data_corpus"
 CORPUS_DATA_BACK_DIR = "data_corpus_back"
 
+TMP_DIR = "./tmp"
+
 # ENCODING = 'ISO-8859-1'
 ENCODING = 'utf-8'
 PUNCTS = ',.;::?!^~()[]{}<>=+*#@£&%/\\«»“"\'-`‘’'
