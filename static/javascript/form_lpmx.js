@@ -293,6 +293,8 @@ var FormLpmx = {
   },
   check_text: function () {
     //seleziona le form del testo che sono omografe in corpus
+    //FIXME controllare getsion omogr
+    DbFormLpmx.get_omogr_json();
     const omogr_js = DbFormLpmx.omogr_json;
     const omogr_ks = Object.keys(omogr_js);
     const form_omogr_lst = DbFormLpmx.form_lst.filter(e => omogr_ks.includes(e[1]));

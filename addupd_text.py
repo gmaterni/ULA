@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+from pdb import set_trace
 import sys
 import argparse
 from ulalib.ualog import Log
@@ -92,7 +92,7 @@ class AddUpdText(object):
                         over_lst.append(s)
             new_lst.append(s)
             s_p = ""
-        self.write_data("diff_over.txt", over_lst)
+        self.write_data("tmp/diff_over.txt", over_lst)
         over = os.linesep.join(over_lst)
         print(over)
         return new_lst
@@ -129,6 +129,7 @@ class AddUpdText(object):
         return form_path
 
     def move_path(self, path1, path2):
+        pth.Path(path2).unlink(missing_ok=True);
         shutil.move(path1, path2)
 
     def add_text(self, text_path, line_len=0):
@@ -208,7 +209,7 @@ class AddUpdText(object):
             print(f"{tk_path} Non  esistente")
             print("Lanciare prima add_text con il testo originale")
             sys.exit()
-
+        # set_trace()
         # crea se non esiste la dir tmp
          # se esiste la svuota
         pth.Path(TMP_DIR).mkdir(exist_ok=True, mode=0o777)

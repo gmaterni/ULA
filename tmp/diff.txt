@@ -162,7 +162,7 @@
   madre|madre
   lucia|lucia
 - fiorerosso|fiorerosso
-- gli|gli
+- gli|gli1
 - aveva|aveva
 + fiore|fiore
 + rosso|rosso
@@ -183,7 +183,8 @@
   e|e
   a|a
   tutti|tutti
-  gli|gli
+- gli|gli1
++ gli|gli
 - adempimenti|adempimenti
 + adampimenti|adampimenti
   stupidi|stupidi
@@ -298,7 +299,8 @@
   prendere|prendere
   forma|forma
   e|e
-  gli|gli
+- gli|gli2
++ gli|gli
   appariva|appariva
   promettente|promettente
   cessava|cessava
@@ -328,7 +330,8 @@
   .|.
   le|le
   idee|idee
-  gli|gli
+- gli|gli2
++ gli|gli
   apparivano|apparivano
   belle|belle
   e|e
@@ -661,7 +664,8 @@
   ammansita|ammansita
   ,|,
   come|come
-  quella|quella
+- quella|quella1
++ quella|quella
   di|di
   certi|certi
   angoli|angoli

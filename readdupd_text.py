@@ -29,6 +29,7 @@ def get_token_path(text_name):
 
 
 def move_path(path1, path2):
+    pth.Path(path2).unlink(missing_ok=True);
     shutil.move(path1, path2)
 
 
@@ -42,8 +43,8 @@ def readd_text_upd(text_path):
     print(text_path)
     print(text_name)
     print(tk_path)
-    print(fr_path1)
     print(tk_path1)
+    print(fr_path1)
     print(fr_path)
 
     # if ptu.exists(token_path1) is False:
@@ -51,7 +52,8 @@ def readd_text_upd(text_path):
         print(f"{tk_path1} Non  esistente")
         sys.exit()
 
-    # data/name.token.cv => tmp/name.token1.csv
+    # tmp/name.token1.cv => data/name.token.csv
+    # tmp/name.form1.cv => data/name.form.csv
     move_path(tk_path1, tk_path)
     move_path(fr_path1, fr_path)
 

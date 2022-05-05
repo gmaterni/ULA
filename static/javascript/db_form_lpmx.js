@@ -63,7 +63,6 @@ var DbFormLpmx = {
     if (s) {
       let lst = s.trim().split("\n");
       this.form_lst = lst.map((x) => x.split("|"));
-
       s = localStorage.getItem(KEY_DATA_TOKEN);
       if (s) {
         lst = s.trim().split("\n");
@@ -117,7 +116,7 @@ var DbFormLpmx = {
     s = localStorage.getItem(KEY_DATA_TOKEN) || "";
     size = s.length;
     UaLog.log(`token:${size}`);
-    d= localStorage.getItem(KEY_OMOGR) || "";
+    d = localStorage.getItem(KEY_OMOGR) || "";
     size = s.length;
     UaLog.log(`homograf:${size}`);
     // for(let i=0; i<localStorage.length; i++) {
@@ -234,6 +233,7 @@ var DbFormLpmx = {
     return rows.map((x) => x.split("|"));
   },
   get_omogr_json: function () {
+    this.omogr_json = {};
     const omogr_str = localStorage.getItem(KEY_OMOGR);
     if (!!omogr_str)
       this.omogr_json = JSON.parse(omogr_str);
