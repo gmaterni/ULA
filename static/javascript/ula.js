@@ -104,7 +104,7 @@ var Ula = {
     await FormText.open();
     cmd_wait_stop();
     relocate();
-    FormLpmx.restore_scroll();
+    FormLpmx.scroll_top();
   },
   show_lpmx: async function () {
     TEXT_ID.style.display = 'none';

@@ -586,12 +586,10 @@ var FormLpmx = {
   },
   open_context: function (form_idx, form, formkey) {
     FormContext.open(form_idx, form, formkey);
-    // let e = document.getElementById("lpmx_rows_id");
-    //this.scroll_top = e.scrollTop;
   },
-  restore_scroll: function () {
+  scroll_top: function () {
     let e = document.getElementById("lpmx_rows_id");
-     e.scrollTop = this.f;
+     e.scrollTop = 0;
   },
   scroll: function () {
     let v = document.querySelector("#lpmx_rows_head_id td.find input").value;
