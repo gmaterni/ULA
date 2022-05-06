@@ -504,7 +504,7 @@ var FormLpmx = {
     const m = $("#lpmx_rows_id tr.select").find("td.m");
     m.html(msd);
     this.save_store();
-    const pr = document.getElementById("lpmx_rows_id");
+    // const pr = document.getElementById("lpmx_rows_id");
   },
   set_phon: function (phon) {
     if (!this.tr_selected) {
@@ -516,7 +516,7 @@ var FormLpmx = {
     ph.html(phon);
     let e = ph.get(0);
     this.save_store();
-    const pr = document.getElementById("lpmx_rows_id");
+    // const pr = document.getElementById("lpmx_rows_id");
   },
   set_funct: function (funct) {
     if (!this.tr_selected) {
@@ -528,10 +528,9 @@ var FormLpmx = {
     fn.html(funct);
     let e = fn.get(0);
     this.save_store();
-    const pr = document.getElementById("lpmx_rows_id");
+    // const pr = document.getElementById("lpmx_rows_id");
   },
   save_store: function () {
-    //UaLog.log("FFF save_store");
     this.html2form_lst();
     DbFormLpmx.set_store();
   },
