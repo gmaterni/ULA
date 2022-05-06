@@ -157,6 +157,8 @@ var DbFormLpmx = {
     });
   },
   update_corpus: function (call) {
+    // aggiorna corpus
+    // legge corpus_json
     const text_name = `${this.text_name}.form.csv`;
     const url = `/updatecorpus/${text_name}`;
     fetch(url, {
@@ -174,6 +176,7 @@ var DbFormLpmx = {
     }).then((json) => {
       const t = get_time();
       cmd_log("Update Corpus Data   " + t);
+      this.omogr_json = this.load_omogr_json();
       call(json);
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
@@ -213,7 +216,7 @@ var DbFormLpmx = {
       return false;
     this.token_lst = await this.load_csv(this.token_file);
     this.sort_form_lst();
-    this.omogr_json=this.load_omogr_json();
+    this.omogr_json = this.load_omogr_json();
     this.set_store();
     return true;
   },
