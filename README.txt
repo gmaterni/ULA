@@ -234,43 +234,57 @@ setta solo i campi vuoti di text
 =================================================
 CORREZIONE TESTO 
 ================================================
-    Prima di lanciare la procdure per le modifiche
-    dal browser
-    1) save data
+Prima di lanciare la procdure per le modifiche
+dal browser eseguire i seguenti comandi:
 
-    2) update corpus
+1) save data
 
-    la procedura addupd_text.py
-    1) muove
-       data/name.token.csv => tmp/name.token1.csv
-       data/name.form.csv  => tmp/name.form1.csv
+2) update corpus
+---------------
+lanciare
+textuod.py <text_path>
+sone eseguite le seguenti azioni
 
-    2) elabora (add_text)
-       data/name.token.csv
-       data/name.form.csv
+1) muove files
+   data/name.token.csv => tmp/name.token1.csv
+   data/name.form.csv  => tmp/name.form1.csv
 
-    3) muove
-       data/name.token.csv => tmp/name.token2.csv
-        
-    4) elabora (set_diff)
-        tmp/name.token3.csv
-        tmp/name.form3.csv
+2) elabora 
+   data/name.token.csv
+   data/name.form.csv
 
-    5) muove
-       tmp/name.token3.csv => data/name.token.csv
-       tmp/name.form3.csv  => data/name.form.csv
-       stampa lista disamb.sovrascritti.
-    
-    Per completare da browser
-    1)load_data
+3) muove files
+   data/name.token.csv => tmp/name.token2.csv
+   
+4) elabora 
+   tmp/name.token3.csv
+   tmp/name.form3.csv
 
-    2) update_text
+5) muove file
+   tmp/name.token3.csv => data/name.token.csv
+   tmp/name.form3.csv  => data/name.form.csv
+   stampa lista disamb.sovrascritti.
+-----------------
+nella di tmp
 
-    3) sistemazione omografi disamb. sovrascritti
-    
-    4) update corpus
+lista delle modifiche sul testo
+diff_upd.txt
 
-    token1: originale
-    token2: modificato senza disambiguazione
-    token3: corretto 
+lsta degli omografi sovrascritti
+diff_over.txt
 
+------------------
+Per completare da browser eseguire
+
+1)load_data
+
+2) update_text
+
+3) sistemazione omografi disamb. sovrascritti
+
+4) update corpus
+
+=========================
+annullare le correzioni
+
+textunupdate.py <text_path>
