@@ -8,7 +8,7 @@ from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 from ulalib.ula_setting import TEXT_SRC_DIR, CORPUS_NAME
 from text2data import Text2Data
-from text_cleaner import TextCleaner
+from textcleaner import TextCleaner
 
 __date__ = "30-03-2022"
 __version__ = "0.2.3"

@@ -6,8 +6,7 @@ import argparse
 import sys
 import re
 from ulalib.ualog import Log
-from ulalib.ula_setting import ENCODING,PUNCTS
-from ulalib.ula_setting import CHS_LR,PTR_CHS
+from ulalib.ula_setting import *
 import ulalib.pathutils as ptu
 
 __date__ = "19-03-2022"

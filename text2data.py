@@ -9,8 +9,7 @@ import re
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 #from ulalib.write_path import write_file_path
-from ulalib.ula_setting import DATA_DIR, NAME_TEXT_LIST
-from ulalib.ula_setting import ENCODING, PUNCTS
+from ulalib.ula_setting import *
 
 __date__ = "21-03-2022"
 __version__ = "0.3.6"

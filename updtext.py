@@ -13,7 +13,7 @@ import re
 from difflib import *
 from ulalib.ula_setting import *
 from text2data import Text2Data
-from text_cleaner import TextCleaner
+from textcleaner import TextCleaner
 from ulalib.update_data import UpdateData
 
 __date__ = "05-05-2022"

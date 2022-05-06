@@ -12,7 +12,7 @@ from ulalib.bottle import request, static_file
 from ulalib.save_back import save_text_data_back
 from ulalib.save_back import save_corpus_data_back
 from ulalib.update_data import UpdateData
-from ulalib.ula_setting import CORPUS_NAME, ENCODING, DATA_DIR
+from ulalib.ula_setting import *
 
 app = Bottle()
 
