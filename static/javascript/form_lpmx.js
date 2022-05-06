@@ -114,7 +114,6 @@ const h_menu_form_lpmx = `
 var FormLpmx = {
   id: "lpmx_id",
   tr_selected: null,
-  //scroll_top: 0,
   exe: function (cmd) {
     switch (cmd) {
       case "show_text":
@@ -219,7 +218,6 @@ var FormLpmx = {
     UlaOption.open("lpmx_id", "select_text_id", text_lst, input_call).at(400, 100).show();
   },
   load_data: async function () {
-    // UaLog.log_show("FFF load_data");
     const ok = await DbFormLpmx.load_data();
     if (!ok) {
       return false;
@@ -229,7 +227,6 @@ var FormLpmx = {
     return true;
   },
   form_lst2html: function () {
-    //UaLog.log("FFF form_lst2html");
     //form,formkey,lemma,etimo, phon, pos, msd ..
     const lfe = DbFormLpmx.form_lst.length;
     if (lfe == 0)
@@ -293,8 +290,7 @@ var FormLpmx = {
   },
   check_text: function () {
     //seleziona le form del testo che sono omografe in corpus
-    //FIXME controllare getsion omogr
-    DbFormLpmx.get_omogr_json();
+    //AAA DbFormLpmx.get_omogr_json();
     const omogr_js = DbFormLpmx.omogr_json;
     const omogr_ks = Object.keys(omogr_js);
     const form_omogr_lst = DbFormLpmx.form_lst.filter(e => omogr_ks.includes(e[1]));

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from ulalib.update_data import UpdateData
-from ulalib.ula_setting import CORPUS_NAME
+from ulalib.ula_setting import *
 from ulalib.ualog import Log
 
 

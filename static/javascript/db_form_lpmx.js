@@ -68,7 +68,7 @@ var DbFormLpmx = {
         lst = s.trim().split("\n");
         this.token_lst = lst.map((x) => x.split("|"));
         this.sort_form_lst();
-        this.get_omogr_json();
+        //AAA this.get_omogr_json();
         ok = true;
       }
     }
@@ -110,15 +110,19 @@ var DbFormLpmx = {
     UaLog.log_show("-------------");
     let s = localStorage.getItem(KEY_TEXT_NAME) || "";
     UaLog.log(`${s}`);
+
     s = localStorage.getItem(KEY_DATA_FORM) || "";
     let size = s.length;
     UaLog.log(`form:${size}`);
+
     s = localStorage.getItem(KEY_DATA_TOKEN) || "";
     size = s.length;
     UaLog.log(`token:${size}`);
-    d = localStorage.getItem(KEY_OMOGR) || "";
-    size = s.length;
-    UaLog.log(`homograf:${size}`);
+
+    // d = localStorage.getItem(KEY_OMOGR) || "";
+    // size = s.length;
+    // UaLog.log(`homograf:${size}`);
+
     // for(let i=0; i<localStorage.length; i++) {
     //   let key = localStorage.key(i);
     //   UaLog.log(`${key}`);
@@ -209,8 +213,8 @@ var DbFormLpmx = {
       return false;
     this.token_lst = await this.load_csv(this.token_file);
     this.sort_form_lst();
+    this.omogr_json=this.load_omogr_json();
     this.set_store();
-    this.load_omogr_json();
     return true;
   },
   load_csv: async function (file_name) {
@@ -232,35 +236,52 @@ var DbFormLpmx = {
     const rows = csv_data.trim().split("\n");
     return rows.map((x) => x.split("|"));
   },
-  get_omogr_json: function () {
-    this.omogr_json = {};
-    const omogr_str = localStorage.getItem(KEY_OMOGR);
-    if (!!omogr_str)
-      this.omogr_json = JSON.parse(omogr_str);
-    else
-      this.load_omogr_json();
-  },
-  load_omogr_json: function () {
+
+  // get_omogr_json: function () {
+  //   this.omogr_json = {};
+  //   const omogr_str = localStorage.getItem(KEY_OMOGR);
+  //   if (!!omogr_str)
+  //     this.omogr_json = JSON.parse(omogr_str);
+  //   else
+  //     this.load_omogr_json();
+  // },
+
+  load_omogr_json: async function () {
     const url = URL_CORPUS_OMOGR;
-    fetch(url)
-      .then((resp) => {
-        if (!resp.ok)
-          return "";
-        return resp.text();
-      })
-      .then((text) => {
-        if (text.length > 10) {
-          localStorage.setItem(KEY_OMOGR, text);
-          this.omogr_json = JSON.parse(text);
-        } else {
-          this.omogr_json = {};
-          localStorage.removeItem(KEY_OMOGR);
-        }
-      })
-      .catch((error) => {
-        alert(`load_omogr_json() \n${url}\n${error}`);
-      });
+    const resp = await fetch(url, {
+      method: 'GET',
+      headers: { "Content-Type": "text/plain;charset=UTF-8" },
+      cache: 'default'
+    });
+    if (resp.ok) {
+      const text = await resp.text();
+      const js = JSON.parse(text);
+      return js;
+    }
+    else
+      return {};
+
+
+    // fetch(url)
+    //   .then((resp) => {
+    //     if (!resp.ok)
+    //       return "";
+    //     return resp.text();
+    //   })
+    //   .then((text) => {
+    //     if (text.length > 10) {
+    //       localStorage.setItem(KEY_OMOGR, text);
+    //       this.omogr_json = JSON.parse(text);
+    //     } else {
+    //       this.omogr_json = {};
+    //       localStorage.removeItem(KEY_OMOGR);
+    //     }
+    //   })
+    //   .catch((error) => {
+    //     alert(`load_omogr_json() \n${url}\n${error}`);
+    //   });
   },
+
   load_diff_text_corpus: function (call) {
     const text_name = `${this.text_name}.txt`;
     const url = `/diff?name=${text_name}`;

@@ -13,14 +13,10 @@ __version__ = "0.2.1"
 __author__ = "Marta Materni"
 
 
-# name.txt => name.token.csv
 def get_token_tmp_path(text_name, ext=""):
     token_name = text_name.replace(".txt", f".token{ext}.csv")
     token_tmp_path = os.path.join(TMP_DIR, token_name)
     return token_tmp_path
-
-# text/name.txt => data/name.token{ext}.csv
-
 
 def get_token_path(text_name):
     token_name = text_name.replace(".txt", f".token.csv")
@@ -31,7 +27,6 @@ def get_token_path(text_name):
 def move_path(path1, path2):
     pth.Path(path2).unlink(missing_ok=True);
     shutil.move(path1, path2)
-
 
 def readd_text_upd(text_path):
     text_name = os.path.basename(text_path)
@@ -69,7 +64,7 @@ if __name__ == "__main__":
         print(f"release: {__version__} { __date__}")
         h=""" 
 
-textupd.py <text_path>
+textunpd.py <text_path>
         """
         print(h)
         sys.exit()

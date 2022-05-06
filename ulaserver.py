@@ -107,25 +107,6 @@ def diff_text_corpus():
         raise Exception(f"{msg}\n{e}")
     return data
 
-# @app.route('/action', method='GET')
-# @app.route('/action/<var1>', method='GET')
-# @app.route('/action/<var1>/<var2>', method='GET')
-# def action(var1="x1", var2="x2"):
-#     t = f'var1:{var1} var2:{var2}'
-#     return t
-
-
-# @route('/read', nethod='GET')
-# def read():
-#     pars = request_params(request)
-#     filepath = pars.get('file', "UNDEFINED_FILE.txt")
-#     try:
-#         with open(filepath, "rb") as f:
-#             data = f.read()
-#     except IOError as e:
-#         raise Exception(e)
-#     return data
-
 
 @app.route('/write/<filepath:path>', method='POST')
 def write(filepath=""):
@@ -146,7 +127,8 @@ def write(filepath=""):
 @app.route('/updatecorpus/<filepath:path>', method='POST')
 def update_corpus(filepath=""):
     try:
-        # print("update_corpus")
+        #aggiorna corpus.form.csv
+        #         corpus.omogr.json
         save_corpus_data_back(CORPUS_NAME)
         text_name = os.path.basename(filepath)
         upd_data = UpdateData()

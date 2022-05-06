@@ -139,7 +139,7 @@ Store
 ===============================
 Sistemazione  Testi 
 ==============================
-text_cleaner.py 
+textcleaner.py 
 optional arguments:
   -h, --help  show this help message and exit
   -i          -i <file.txt>
@@ -161,7 +161,7 @@ File testo contiui
 - posizionarsi nella dir ./text_line
 - lannciare
 
-text_cleaner.py -i ./text_line/<name_file> -o ./text_src/</name_file> -l 70
+textcleaner.py -i ./text_line/<name_file> -o ./text_src/</name_file> -l 70
 
 il file e sistemato, diviso in righe e traferito
 
@@ -172,7 +172,7 @@ File testo a righe
 - posizionarsi nella dir ./text_lb
 - lannciare
 
-text_cleaner.py -i ./text_line/<name_file> -o ./text_src/</name_file> 
+textcleaner.py -i ./text_line/<name_file> -o ./text_src/</name_file> 
 
 ./text_lb/name_file.txt => ./text_src/name_file.txt
 
@@ -201,21 +201,17 @@ Aggiunta di un Testo
    text_list.txt 
 
 ATTENZIONE !!
-  text2data.py 
+  textrodata.py 
   Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
   dello stesso testo.
 
 ===============================
 Aggiunta di un Testo Semplificata
 ===============================
-add_text.py
-sostyituisce 
-text_cleaner.py
-text2data.p
-
-
-
-
+textadd.py
+ATTENZIONE !!
+  Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
+  dello stesso testo.
 =================================
 BROWSER COMANDI
 =================================
@@ -234,7 +230,7 @@ setta solo i campi vuoti di text
 =================================================
 CORREZIONE TESTO 
 ================================================
-Prima di lanciare la procdure per le modifiche
+Prima di lanciare la procedure per le modifiche
 dal browser eseguire i seguenti comandi:
 
 1) save data
@@ -287,4 +283,4 @@ Per completare da browser eseguire
 =========================
 annullare le correzioni
 
-textunupdate.py <text_path>
+textunupd,py <text_path>
