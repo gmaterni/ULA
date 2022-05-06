@@ -15,23 +15,45 @@ __author__ = "Marta Materni"
  con i dati di data_corpus/corpus.form.csv
 """
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    if len(sys.argv) == 1:
-        print(f"\nauthor: {__author__}")
-        print(f"release: {__version__} { __date__}")
-        parser.print_help()
-        sys.exit()
-    parser.add_argument(
-        '-i',
-        dest="src",
-        required=True,
-        metavar="",
-        help="-i text_src/<text_name>")
-    args = parser.parse_args()
-    text_name = os.path.basename(args.src)
-    corpus_name = CORPUS_NAME
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser()
+#     if len(sys.argv) == 1:
+#         print(f"\nauthor: {__author__}")
+#         print(f"release: {__version__} { __date__}")
+#         parser.print_help()
+#         sys.exit()
+#     parser.add_argument(
+#         '-i',
+#         dest="src",
+#         required=True,
+#         metavar="",
+#         help="-i text_src/<text_name>")
+#     args = parser.parse_args()
+#     text_name = os.path.basename(args.src)
+#     corpus_name = CORPUS_NAME
+#     print(text_name)
+#     upd = UpdateData()
+#     upd.set_text_name(text_name)
+#     upd.update_text_forms()
+
+def do_main(text_path):
+    text_name = os.path.basename(text_path)
     print(text_name)
     upd = UpdateData()
     upd.set_text_name(text_name)
     upd.update_text_forms()
+
+
+if __name__ == "__main__":
+    le = len(sys.argv)
+    if le < 2:
+        print(f"\nauthor: {__author__}")
+        print(f"release: {__version__} { __date__}")
+        h = """ 
+
+dataupdoftext.py <text_path>
+        """
+        print(h)
+        sys.exit()
+    text_path = sys.argv[1]
+    do_main(text_path)
