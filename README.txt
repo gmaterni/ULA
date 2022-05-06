@@ -214,6 +214,11 @@ text_cleaner.py
 text2data.p
 
 
+
+
+=================================
+BROWSER COMANDI
+=================================
 update copus
 aggiorna solo le form per le quali
 in text  
@@ -229,112 +234,43 @@ setta solo i campi vuoti di text
 =================================================
 CORREZIONE TESTO 
 ================================================
-modifica 
-tag:  &u; (token1&u;token2)
-=================
-token.csv 
-modifica il token
-token1 => token2
-----------------
-form.csv 
-casi possibil
-    a) token1 non esiste nel testo (non dovrebbe esistre)
-    b) token1 esiste nel testo     (è giusto che esista)   
+    Prima di lanciare la procdure per le modifiche
+    dal browser
+    1) save data
 
-    c) token2 non esiste nel testo (dovrebbe esistere)
-    d) token2 esiste nel testo     (esiste in un'altra occorrenaza)
+    2) update corpus
 
-azioni su form.csv
-   token1 
-      se è unico rimuove da form.csv
-      altrimenti nessuna azione suform.cssv
-   token2
-      se ancora non esiste viene agiunto a form.csv
-      altrimenti nessuna azione su form.csv
+    la procedura addupd_text.py
+    1) muove
+       data/name.token.csv => tmp/name.token1.csv
+       data/name.form.csv  => tmp/name.form1.csv
 
-es.
-pipo&u;pippo 
-pipo è unico
-   rimuove pipo
-pippo non esiste
-   aggiunge pippo
+    2) elabora (add_text)
+       data/name.token.csv
+       data/name.form.csv
 
-pippo&u;pluto
-pippo esiste in altre occoreenze
-   nessuna aziione
-pluto non esiste
-   aggiunge pluto
+    3) muove
+       data/name.token.csv => tmp/name.token2.csv
+        
+    4) elabora (set_diff)
+        tmp/name.token3.csv
+        tmp/name.form3.csv
 
-pippo&u;pluto
-pippo esiste in altre occoreenze
-   nessuna aziione
-pluto gia esiste
-   nessuna azione
-------------
-corpus.csv
-riuove token1 e token2
-Inutile complicare le cose in quanto il corpus può 
-essere aggiornato
-
-=============
-cancellazione
-tag: &d;   (&d;token)
-=============
-token.csv 
-rimuove token
---------------
-azioni su form.csv
-   token 
-      se è unico rimuove da form.csv
-      altrimenti nessuna azione suform.cssv
-------------
-corpus.csv
-riuove token1
-
-===============
-aggiunta
-tag: &a;  (&a;token)
-==============
-token.csv 
-aggiunge token
--------------
-azioni su form.csv
-   token
-      se ancora non esiste viene agiunto a form.csv
-      altrimenti nessuna azione su form.csv
-
-------------
-corpus.csv
-riuove token1
-
-=============
-esempi
-============
-es. 
-errore nel legame
-------------------------------------
-    spara_lesto => spara lesto 
-    &d;spara_lesto &a;spara &a;lesto
-
-azioni su form.csv
-    &d;spara_lesto romuove  se ?
-    &a;spara       aggiunge se ?
-    &a;lesto       aggiunge se ?
------------------------------------
-    spara lesto => spara_lesto
-    &dspara &d;lesto &a;spara_lesto
+    5) muove
+       tmp/name.token3.csv => data/name.token.csv
+       tmp/name.form3.csv  => data/name.form.csv
+       stampa lista disamb.sovrascritti.
     
-azioni su form.csv
-    &d;spara       rimuove  se ?
-    &d;lesto       rimuove  se ?
-    &a;spara_lesto aggiunge se ?
-===================================
-N.B.
-Nel caso di forma != formakey (token disambiguizzato)
-Tutte le azioni sono fatte in riferimento a formakey.
-nel caso di modifica in token2
-vine settata forma=formkey
-In altri termini token2 è settato nella forma base
-se anche il nuovo token deve essere disambiguizzato 
-l'azione deve essere fatta nell'applicativo.
+    Per completare da browser
+    1)load_data
+
+    2) update_text
+
+    3) sistemazione omografi disamb. sovrascritti
+    
+    4) update corpus
+
+    token1: originale
+    token2: modificato senza disambiguazione
+    token3: corretto 
 
