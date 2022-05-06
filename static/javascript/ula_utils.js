@@ -216,55 +216,55 @@ var RowsInput = {
   }
 };
 
-var UlaOption = {
-  wnd: null,
-  call: null,
-  open: function (p_id, id, rows, fnCall) {
-    this.call = fnCall;
-    this.wnd = UaWindowAdm.get(id);
-    if (!this.wnd) {
-      this.wnd = UaWindowAdm.create(id, p_id);
-    }
-    this.wnd.setCenterY(200, -1);
-    this.wnd.drag();
-    let jt = UaJt();
-    const h_top = `
-    <div class="cmd">
-      <div class="x" >Close</div>
-    </div>   
-    `;
-    jt.append(h_top);
-    const h_row = `<div class="d" name="{name}">{name}</div> `;
-    for (const row of rows) {
-      const d = {
-        name: row,
-      };
-      jt.append(h_row, d);
-    }
-    let h = jt.html();
-    this.wnd.setHtml(h);
-    this.wnd.addClassStyle("ula_option");
-    let opt = this.wnd.getElement();
-    let elms = opt.querySelectorAll("div.d");
-    for (const elm of elms)
-      elm.addEventListener("click", (e) => {
-        e.stopImmediatePropagation();
-        this.wnd.hide();
-        let t = e.currentTarget;
-        let name = t.getAttribute("name");
-        this.call(name);
-      });
-    opt.querySelector("div.x").addEventListener("click", (e) => {
-      e.stopPropagation();
-      this.wnd.hide();
-    });
-    return this;
-  },
-  at: function (x, y, p = - 1) {
-    this.wnd.setXY(x, y, p);
-    return this;
-  },
-  show: function () {
-    this.wnd.show();
-  },
-};
+// var UlaOption = {
+//   wnd: null,
+//   call: null,
+//   open: function (p_id, id, rows, fnCall) {
+//     this.call = fnCall;
+//     this.wnd = UaWindowAdm.get(id);
+//     if (!this.wnd) {
+//       this.wnd = UaWindowAdm.create(id, p_id);
+//     }
+//     this.wnd.setCenterY(200, -1);
+//     this.wnd.drag();
+//     let jt = UaJt();
+//     const h_top = `
+//     <div class="cmd">
+//       <div class="x" >Close</div>
+//     </div>   
+//     `;
+//     jt.append(h_top);
+//     const h_row = `<div class="d" name="{name}">{name}</div> `;
+//     for (const row of rows) {
+//       const d = {
+//         name: row,
+//       };
+//       jt.append(h_row, d);
+//     }
+//     let h = jt.html();
+//     this.wnd.setHtml(h);
+//     this.wnd.addClassStyle("ula_option");
+//     let opt = this.wnd.getElement();
+//     let elms = opt.querySelectorAll("div.d");
+//     for (const elm of elms)
+//       elm.addEventListener("click", (e) => {
+//         e.stopImmediatePropagation();
+//         this.wnd.hide();
+//         let t = e.currentTarget;
+//         let name = t.getAttribute("name");
+//         this.call(name);
+//       });
+//     opt.querySelector("div.x").addEventListener("click", (e) => {
+//       e.stopPropagation();
+//       this.wnd.hide();
+//     });
+//     return this;
+//   },
+//   at: function (x, y, p = - 1) {
+//     this.wnd.setXY(x, y, p);
+//     return this;
+//   },
+//   show: function () {
+//     this.wnd.show();
+//   },
+// };

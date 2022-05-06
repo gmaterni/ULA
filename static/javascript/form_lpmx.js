@@ -135,7 +135,7 @@ var FormLpmx = {
         this.check_text();
         break;
 
-        case "upd_corpus":
+      case "upd_corpus":
         if (!confirm("Save Data ?"))
           return;
         new Promise((resolve, reject) => {
@@ -145,8 +145,7 @@ var FormLpmx = {
         }).then(() => {
           if (confirm("Update corpus ?"))
             this.update_corpus();
-            // this.load_data();  //verificare
-            this.load_omagr();  // AAA verificare
+          this.load_omagr();  // AAA verificare
         });
         break;
 
@@ -160,7 +159,7 @@ var FormLpmx = {
         }).then(() => {
           if (confirm("Update text ?"))
             this.update_text();
-            this.load_data();  //AAA verificare
+          this.load_data();  //AAA verificare
         });
         break;
 
@@ -203,9 +202,29 @@ var FormLpmx = {
     const e = document.querySelector("#lpmx_menu_id ul li a.title");
     e.innerHTML = DbFormLpmx.text_name;
   },
+  // select_text: async function () {
+
+  //   let input_call = async (text_name) => {
+  //     const tname = text_name || null;
+  //     if (!tname) return;
+  //     if (!confirm(`Load ${tname} ?`))
+  //       return;
+  //     DbFormLpmx.set_text_name(tname);
+  //     let ok = await this.load_data();
+  //     if (!ok) {
+  //       alert(tname + " Not Found.");
+  //       return;
+  //     }
+  //     document.querySelector("#lpmx_menu_id ul li a.title").innerHTML = tname;
+  //   };
+
+  //   let text_lst = await DbFormLpmx.load_text_list();
+  //   UlaOption.open("lpmx_id", "select_text_id", text_lst, input_call).at(400, 100).show();
+  // },
+
   select_text: async function () {
 
-    let input_call = async (text_name) => {
+    let call = async (text_name) => {
       const tname = text_name || null;
       if (!tname) return;
       if (!confirm(`Load ${tname} ?`))
@@ -220,7 +239,7 @@ var FormLpmx = {
     };
 
     let text_lst = await DbFormLpmx.load_text_list();
-    UlaOption.open("lpmx_id", "select_text_id", text_lst, input_call).at(400, 100).show();
+    SelectText.open("lpmx_id", "select_text_id", text_lst, call).at(400, 100).show();
   },
   load_data: async function () {
     const ok = await DbFormLpmx.load_data();
@@ -233,7 +252,7 @@ var FormLpmx = {
   },
   load_omagr: async function () {
     const ok = await DbFormLpmx.load_omagr();
-    if (!ok) 
+    if (!ok)
       return false;
     this.form_lst2html();
     FormText.data2html();
@@ -578,7 +597,7 @@ var FormLpmx = {
   },
   scroll_top: function () {
     let e = document.getElementById("lpmx_rows_id");
-     e.scrollTop = 0;
+    e.scrollTop = 0;
   },
   scroll: function () {
     let v = document.querySelector("#lpmx_rows_head_id td.find input").value;
@@ -601,5 +620,58 @@ var FormLpmx = {
     $(fk).addClass("select");
     $(fk).find("td input").first().focus();
     return idx;
+  },
+};
+
+
+var SelectText = {
+  wnd: null,
+  call: null,
+  open: function (p_id, id, rows, call) {
+    this.call = call;
+    this.wnd = UaWindowAdm.get(id);
+    if (!this.wnd)
+      this.wnd = UaWindowAdm.create(id, p_id);
+    this.wnd.setCenterY(200, -1);
+    this.wnd.drag();
+    let jt = UaJt();
+    const h_top = `
+    <div class="cmd">
+      <div class="x" >Close</div>
+    </div>   
+    `;
+    jt.append(h_top);
+    const h_row = `<div class="d" name="{name}">{name}</div> `;
+    for (const row of rows) {
+      const d = {
+        name: row,
+      };
+      jt.append(h_row, d);
+    }
+    let h = jt.html();
+    this.wnd.setHtml(h);
+    this.wnd.addClassStyle("ula_option");
+    let opt = this.wnd.getElement();
+    //bind
+    opt.addEventListener("click",(ev)=>{
+      ev.stopImmediatePropagation();
+      const t=ev.target;
+      if (t.classList.contains("d")){
+        let tname = t.getAttribute("name");
+        this.call(tname);
+        this.wnd.hide();
+      }
+      else if (t.classList.contains("x")){
+        this.wnd.hide();
+      }
+    });
+    return this;
+  },
+  at: function (x, y, p = - 1) {
+    this.wnd.setXY(x, y, p);
+    return this;
+  },
+  show: function () {
+    this.wnd.show();
   },
 };
