@@ -202,27 +202,7 @@ var FormLpmx = {
     const e = document.querySelector("#lpmx_menu_id ul li a.title");
     e.innerHTML = DbFormLpmx.text_name;
   },
-  // select_text: async function () {
-
-  //   let input_call = async (text_name) => {
-  //     const tname = text_name || null;
-  //     if (!tname) return;
-  //     if (!confirm(`Load ${tname} ?`))
-  //       return;
-  //     DbFormLpmx.set_text_name(tname);
-  //     let ok = await this.load_data();
-  //     if (!ok) {
-  //       alert(tname + " Not Found.");
-  //       return;
-  //     }
-  //     document.querySelector("#lpmx_menu_id ul li a.title").innerHTML = tname;
-  //   };
-
-  //   let text_lst = await DbFormLpmx.load_text_list();
-  //   UlaOption.open("lpmx_id", "select_text_id", text_lst, input_call).at(400, 100).show();
-  // },
-
-  select_text: async function () {
+   select_text: async function () {
 
     let call = async (text_name) => {
       const tname = text_name || null;
@@ -322,7 +302,6 @@ var FormLpmx = {
   },
   check_text: function () {
     //seleziona le form del testo che sono omografe in corpus
-    //AAA DbFormLpmx.get_omogr_json();
     const omogr_js = DbFormLpmx.omogr_json;
     const omogr_ks = Object.keys(omogr_js);
     const form_omogr_lst = DbFormLpmx.form_lst.filter(e => omogr_ks.includes(e[1]));

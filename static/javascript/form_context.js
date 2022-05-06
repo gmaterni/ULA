@@ -284,7 +284,7 @@ var FormContext = {
         if (!formkey_new) {
             FormLpmx.form_lst2html();
             DbFormLpmx.set_store();
-            // this.hide(); //AAA 
+            // this.hide(); //XXX
             this.show_html();
             return;
         }

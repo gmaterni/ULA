@@ -198,7 +198,7 @@ class UpdateData(object):
                 f_lst.append(row)
             self.corpus_omogr_js[fr] = f_lst
 
-    #XXX invocato solo da test
+    #invocato solo da test
     def set_text_omogr_js(self):
         """Come mogr_js
         limitatamente a text_form corrente
@@ -413,7 +413,7 @@ class UpdateData(object):
         setta:
         self.text_lst
         """
-        self.text_name_lst = [] #FIXME
+        #XXX self.text_name_lst = [] 
         if not ptu.exists(NAME_TEXT_LIST):
             self.logerr("text_list.txt Not Found.").prn()
             return
