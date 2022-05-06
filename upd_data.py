@@ -12,7 +12,7 @@ __version__ = "0.1.4"
 __author__ = "Marta Materni"
 
 """Aggiorna data/text_name.form.csv
- con i dati di data_corpus/corpus_name.form.csv
+ con i dati di data_corpus/corpus.form.csv
 """
 
 if __name__ == "__main__":

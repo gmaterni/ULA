@@ -233,7 +233,7 @@ class UpdateData(object):
     def update_text_forms_lst(self):
         """Aggiorna
         data/text_name.form.csv
-        con i dati di data_corpus/corpus_name.form.csv
+        con i dati di data_corpus/corpus.form.csv
         AGGIORNA  LE FORM DI TEXT SE LEMMA=''
         utilizza:
         self.text_form_lst

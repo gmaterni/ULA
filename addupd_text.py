@@ -14,6 +14,7 @@ from difflib import *
 from ulalib.ula_setting import *
 from text2data import Text2Data
 from text_cleaner import TextCleaner
+from ulalib.update_data import UpdateData
 
 __date__ = "05-05-2022"
 __version__ = "0.0.2"
@@ -250,6 +251,12 @@ class AddUpdText(object):
         # tmp/name.form3.csv => data/name.form.csv
         self.move_path(tk_path3, tk_path)
         self.move_path(fr_path3, fr_path)
+
+        #Aggiorna data/name.form.csv
+        #con i dati di data_corpus/corpus.form.csv        upd = UpdateData()
+        # upd = UpdateData()
+        # upd.set_text_name(text_name)
+        # upd.update_text_forms()
 
 
 def do_main(text_path, ll):
