@@ -3,9 +3,9 @@
 
 import sys
 import argparse
+import os
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
-import os
 from ulalib.ula_setting import TEXT_SRC_DIR, CORPUS_NAME
 from text2data import Text2Data
 from text_cleaner import TextCleaner
