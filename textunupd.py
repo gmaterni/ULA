@@ -40,17 +40,18 @@ def readd_text_upd(text_path):
     tk_path1 = get_token_tmp_path(text_name, "1")
     fr_path = tk_path.replace(".token", ".form")
     fr_path1 = tk_path1.replace(".token", ".form")
+
+    # if ptu.exists(token_path1) is False:
+    if pth.Path(tk_path1).exists() is False:
+        print(f"{tk_path1} Non  esistente")
+        sys.exit()
+
     print(text_path)
     print(text_name)
     print(tk_path)
     print(tk_path1)
     print(fr_path1)
     print(fr_path)
-
-    # if ptu.exists(token_path1) is False:
-    if pth.Path(tk_path1).exists() is False:
-        print(f"{tk_path1} Non  esistente")
-        sys.exit()
 
     # tmp/name.token1.cv => data/name.token.csv
     # tmp/name.form1.cv => data/name.form.csv

@@ -69,7 +69,7 @@ if __name__ == "__main__":
         h=""" 
 line length
 -1: not wrap
-    0: wrap paragraph 
+ 0: wrap paragraph 
 >0: wrap rows 
 (default 0)
 
