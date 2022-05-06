@@ -34,7 +34,6 @@ if __name__ == "__main__":
     text_name = os.path.basename(args.src)
     print(text_name)
     save_corpus_data_back(CORPUS_NAME)
-    
     upd_data=UpdateData()
     upd_data.set_text_name(text_name)
     upd_data.update_corpus_forms()  

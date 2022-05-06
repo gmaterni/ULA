@@ -413,7 +413,7 @@ class UpdateData(object):
         setta:
         self.text_lst
         """
-        self.text_name_lst = []
+        self.text_name_lst = [] #FIXME
         if not ptu.exists(NAME_TEXT_LIST):
             self.logerr("text_list.txt Not Found.").prn()
             return
