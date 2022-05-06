@@ -284,12 +284,14 @@ var FormContext = {
         if (!formkey_new) {
             FormLpmx.form_lst2html();
             DbFormLpmx.set_store();
-            this.hide(); //AAA modifcare post azione
+            // this.hide(); //AAA 
+            this.show_html();
             return;
         }
         FormLpmx.form_lst2html();
-        this.hide();
+        // this.hide();
         DbFormLpmx.set_store();
+        this.show_html();
     },
     //cancella la form corrente e sposta i tokens sulla prima form omografa
     del_formakey: function () {
