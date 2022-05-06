@@ -198,7 +198,7 @@ class UpdateData(object):
                 f_lst.append(row)
             self.corpus_omogr_js[fr] = f_lst
 
-    #AAA invocato solo da test
+    #XXX invocato solo da test
     def set_text_omogr_js(self):
         """Come mogr_js
         limitatamente a text_form corrente
