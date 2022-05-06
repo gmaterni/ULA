@@ -504,12 +504,10 @@ var FormLpmx = {
     DbFormLpmx.set_store();
   },
   save_data: function () {
-    //UaLog.log("FFF save_data");
     this.html2form_lst();
     DbFormLpmx.save_data();
   },
   update_corpus: function () {
-    //UaLog.log("FFF update_corpus");
 
     const call = function (js) {
       const rows = js.data || null;
@@ -541,30 +539,10 @@ var FormLpmx = {
     DbFormLpmx.update_corpus(call);
   },
   update_text: function () {
-    //UaLog.log("FFF update_twxt");
     // dati textt aggironati da this.html2form_lst();
     // chaimato dopo save_data
     DbFormLpmx.update_text();
   },
-  // AAA  sostituito html2form_lst: function () { 
-  //   //UaLog.log("FFF html2form_lst");
-  //   let trs = $("#lpmx_rows_id table").find("tr");
-  //   DbFormLpmx.form_lst = [];
-  //   //n,form,formkey,lemma,etimo,phon,pos,msd
-  //   $(trs).each(function () {
-  //     let tds = $(this).find("td");
-  //     let form = tds[1].innerHTML;
-  //     let formkey = tds[2].innerHTML;
-  //     let lemma = $(tds[3]).find("input").val();
-  //     let etimo = $(tds[4]).find("input").val();
-  //     let phon = tds[5].innerHTML;
-  //     let pos = tds[6].innerHTML;
-  //     let funct = tds[7].innerHTML;
-  //     let msd = tds[8].innerHTML;
-  //     //forma, lemma, etimo, lang, POS, funct, MSD
-  //     DbFormLpmx.form_lst.push([form, formkey, lemma, etimo, phon, pos, funct, msd]);
-  //   });
-  // },
   html2form_lst: function () {
     let trs = document.querySelectorAll("#lpmx_rows_id table tr");
     DbFormLpmx.form_lst = [];

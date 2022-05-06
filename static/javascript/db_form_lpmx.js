@@ -236,16 +236,6 @@ var DbFormLpmx = {
     const rows = csv_data.trim().split("\n");
     return rows.map((x) => x.split("|"));
   },
-
-  // get_omogr_json: function () {
-  //   this.omogr_json = {};
-  //   const omogr_str = localStorage.getItem(KEY_OMOGR);
-  //   if (!!omogr_str)
-  //     this.omogr_json = JSON.parse(omogr_str);
-  //   else
-  //     this.load_omogr_json();
-  // },
-
   load_omogr_json: async function () {
     const url = URL_CORPUS_OMOGR;
     const resp = await fetch(url, {
@@ -260,28 +250,7 @@ var DbFormLpmx = {
     }
     else
       return {};
-
-
-    // fetch(url)
-    //   .then((resp) => {
-    //     if (!resp.ok)
-    //       return "";
-    //     return resp.text();
-    //   })
-    //   .then((text) => {
-    //     if (text.length > 10) {
-    //       localStorage.setItem(KEY_OMOGR, text);
-    //       this.omogr_json = JSON.parse(text);
-    //     } else {
-    //       this.omogr_json = {};
-    //       localStorage.removeItem(KEY_OMOGR);
-    //     }
-    //   })
-    //   .catch((error) => {
-    //     alert(`load_omogr_json() \n${url}\n${error}`);
-    //   });
   },
-
   load_diff_text_corpus: function (call) {
     const text_name = `${this.text_name}.txt`;
     const url = `/diff?name=${text_name}`;
