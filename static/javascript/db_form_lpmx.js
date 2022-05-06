@@ -59,39 +59,46 @@ var DbFormLpmx = {
   },
   get_store: function () {
     let ok = false;
-    let s = localStorage.getItem(KEY_DATA_FORM);
-    if (s) {
-      let lst = s.trim().split("\n");
+    //lettura forma.lst
+    const sf = localStorage.getItem(KEY_DATA_FORM);
+    if (sf) {
+      let lst = sf.trim().split("\n");
       this.form_lst = lst.map((x) => x.split("|"));
-      s = localStorage.getItem(KEY_DATA_TOKEN);
-      if (s) {
-        lst = s.trim().split("\n");
+      //lettura token_lst
+      const st = localStorage.getItem(KEY_DATA_TOKEN);
+      if (st) {
+        lst = st.trim().split("\n");
         this.token_lst = lst.map((x) => x.split("|"));
         this.sort_form_lst();
-        //AAA this.get_omogr_json();
+        //lettura omogr_json
+        const so = localStorage.getItem(KEY_OMOGR);
+        if (so) this.omogr_json = JSON.parse(so);
+        else this.omogr_json = {};
         ok = true;
       }
     }
     return ok;
   },
   set_store: function () {
-    let lst = this.form_lst.map((x) => x.join("|"));
-    let s = lst.join("\n");
     //AAA provare JSON
     // let x = JSON.parse(JSON.stringify(this.form_lst));
     // let x = JSON.stringify(this.form_lst);
-    // console.log(x);
     try {
       localStorage.setItem(KEY_TEXT_NAME, this.text_name);
+
+      //salvaa form_lst
+      let lst = this.form_lst.map((x) => x.join("|"));
+      let s = lst.join("\n");
       localStorage.setItem(KEY_DATA_FORM, s);
-    }
-    catch (e) {
-      alert("Error in LocalStore. => Clean Store\n" + e);
-    }
-    lst = this.token_lst.map((x) => x.join("|"));
-    s = lst.join("\n");
-    try {
+
+      //salva token_lst
+      lst = this.token_lst.map((x) => x.join("|"));
+      s = lst.join("\n");
       localStorage.setItem(KEY_DATA_TOKEN, s);
+
+      //salva omogr_json
+      s = JSON.stringify(this.omogr_json);
+      localStorage.setItem(KEY_OMOGR, s);
     }
     catch (e) {
       alert("Error in LocalStore. => Clean Store\n" + e);
@@ -176,7 +183,6 @@ var DbFormLpmx = {
     }).then((json) => {
       const t = get_time();
       cmd_log("Update Corpus Data   " + t);
-      this.omogr_json = this.load_omogr_json();
       call(json);
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
@@ -200,7 +206,6 @@ var DbFormLpmx = {
     }).then((json) => {
       const t = get_time();
       cmd_log("Update Tex " + this.text_name + "  " + t);
-      FormLpmx.load_data();
     }).catch((error) => {
       alert(`ERROR post()\n${url}\n${error}`);
     });
@@ -215,8 +220,8 @@ var DbFormLpmx = {
     if (this.form_lst.length == 0)
       return false;
     this.token_lst = await this.load_csv(this.token_file);
+    this.omogr_json = await this.load_omogr_json();
     this.sort_form_lst();
-    this.omogr_json = this.load_omogr_json();
     this.set_store();
     return true;
   },
@@ -238,6 +243,13 @@ var DbFormLpmx = {
     }
     const rows = csv_data.trim().split("\n");
     return rows.map((x) => x.split("|"));
+  },
+  load_omagr: async function () {
+    this.omogr_json = await this.load_omogr_json();
+    if (this.omogr_json == {})
+      return false;
+    else
+      return true;
   },
   load_omogr_json: async function () {
     const url = URL_CORPUS_OMOGR;

@@ -134,7 +134,8 @@ var FormLpmx = {
       case "check_text":
         this.check_text();
         break;
-      case "upd_corpus":
+
+        case "upd_corpus":
         if (!confirm("Save Data ?"))
           return;
         new Promise((resolve, reject) => {
@@ -144,8 +145,11 @@ var FormLpmx = {
         }).then(() => {
           if (confirm("Update corpus ?"))
             this.update_corpus();
+            // this.load_data();  //verificare
+            this.load_omagr();  // AAA verificare
         });
         break;
+
       case "upd_text":
         if (!confirm("Save Data ?"))
           return;
@@ -156,6 +160,7 @@ var FormLpmx = {
         }).then(() => {
           if (confirm("Update text ?"))
             this.update_text();
+            this.load_data();  //AAA verificare
         });
         break;
 
@@ -222,6 +227,14 @@ var FormLpmx = {
     if (!ok) {
       return false;
     }
+    this.form_lst2html();
+    FormText.data2html();
+    return true;
+  },
+  load_omagr: async function () {
+    const ok = await DbFormLpmx.load_omagr();
+    if (!ok) 
+      return false;
     this.form_lst2html();
     FormText.data2html();
     return true;
