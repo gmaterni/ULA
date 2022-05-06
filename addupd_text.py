@@ -73,7 +73,7 @@ class AddUpdText(object):
         diff_lst = list(diff)
         dlst = [x for x in diff_lst if len(x.strip()) > 0 and x[0] != '?']
         dlstda = [x for x in dlst if x[0] in ('-', '+', '^')]
-        self.write_data("tmp/diff.txt", dlst)
+        # self.write_data("tmp/diff.txt", dlst)
         self.write_data("tmp/diff_upd.txt", dlstda)
         over_lst = []
         new_lst = []
@@ -154,7 +154,7 @@ class AddUpdText(object):
             sys.exit()
 
     """
-    Prima di lanciare la procdure
+    Prima di lanciare la procdure per le modifiche
     dal browser
     1) save data
 
@@ -205,18 +205,16 @@ class AddUpdText(object):
         tk_path3 = self.get_token_tmp_path(text_name, "3")
         fr_path = self.token_to_formh(tk_path)
         fr_path1 = self.token_to_formh(tk_path1)
-        # fr_path2 = self.token_to_formh(tk_path2)
         fr_path3 = self.token_to_formh(tk_path3)
-        print(text_path)
-        print(text_name)
-        print(tk_path)
-        print(tk_path1)
-        print(tk_path2)
-        print(tk_path3)
-        print(fr_path)
-        print(fr_path1)
-        # print(fr_path2)
-        print(fr_path3)
+        # print(text_path)
+        # print(text_name)
+        # print(tk_path)
+        # print(tk_path1)
+        # print(tk_path2)
+        # print(tk_path3)
+        # print(fr_path)
+        # print(fr_path1)
+        # print(fr_path3)
 
         # if ptu.exists(token_path) is False:
         if pth.Path(tk_path).exists() is False:

@@ -21,7 +21,11 @@
 + detta|detta
 - gli|gli2
 + gli|gli
+- una|una1
++ una|una
 - gli|gli2
 + gli|gli
+- una|una1
++ una|una
 - quella|quella1
 + quella|quella

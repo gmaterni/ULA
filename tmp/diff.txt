@@ -320,7 +320,8 @@
   modo|modo
   aveva|aveva
   accumulato|accumulato
-  una|una
+- una|una1
++ una|una
   gran|gran
   quantità|quantità
   di|di
@@ -397,7 +398,8 @@
   sempre|sempre
   erano|erano
   .|.
-  una|una
+- una|una1
++ una|una
   cena|cena
   celebrativa|celebrativa
   è|è

@@ -1,4 +1,6 @@
 gli|gli1
 gli|gli2
+una|una1
 gli|gli2
+una|una1
 quella|quella1

@@ -160,8 +160,8 @@ girando|girando||||||
 giusta|giusta||||||
 giusto|giusto||||||
 gli|gli|gli|gli|it.|ADJ|Noun|Masc
-gli|gli1||||||
-gli|gli2||||||
+gli|gli1|gli1|etimo|it.|DET|Adj|Masc
+gli|gli2|gli2|etimo2|pr.|ADJ|Adj|OC
 gode|gode||||||
 gran|gran||||||
 grande|grande||||||
@@ -290,7 +290,7 @@ quasi|quasi||||||
 quattromila|quattromila||||||
 quel|quel||||||
 quella|quella|quella|quella|it.|ADJ|Adj|Cmp
-quella|quella1||||||
+quella|quella1|lemma1|eto2|pr.|DET|Adj|OC
 quello|quello||||||
 quell’|quell’||||||
 querce|querce||||||
@@ -381,6 +381,7 @@ tutti|tutti||||||
 tutto|tutto||||||
 un|un|un|un|pr.|DET|Adj|Plur
 una|una||||||
+una|una1||||||
 unicità|unicità||||||
 uno|uno||||||
 un’|un’||||||
