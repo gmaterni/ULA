@@ -1,5 +1,5 @@
 /* jshint esversion: 8 */
-//01-06-2022
+//05-06-2022
 
 // let ALPHABETIC = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàèéìòù";
 // let NUMERIC = "0123456789";

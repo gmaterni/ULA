@@ -514,7 +514,7 @@ var FormLpmx = {
     phon = phon == '-' ? '' : phon;
     const ph = $("#lpmx_rows_id tr.select").find("td.ph");
     ph.html(phon);
-    let e = ph.get(0);
+    // let e = ph.get(0);
     this.save_store();
     // const pr = document.getElementById("lpmx_rows_id");
   },
@@ -526,7 +526,7 @@ var FormLpmx = {
     funct = funct == '-' ? '' : funct;
     const fn = $("#lpmx_rows_id tr.select").find("td.fn");
     fn.html(funct);
-    let e = fn.get(0);
+    // let e = fn.get(0);
     this.save_store();
     // const pr = document.getElementById("lpmx_rows_id");
   },
