@@ -263,28 +263,49 @@ def do_main(text_path, ll):
     aut = AddUpdText()
     aut.add_text_upd(text_path, ll)
 
-
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    if len(sys.argv) == 1:
+    le = len(sys.argv)
+    if le < 2:
         print(f"\nauthor: {__author__}")
         print(f"release: {__version__} { __date__}")
-        parser.print_help()
-        sys.exit()
-    parser.add_argument(
-        '-i',
-        dest="src",
-        required=True,
-        metavar="",
-        help="-i <text_path>")
-    parser.add_argument(
-        '-l',
-        dest="linelen",
-        required=False,
-        default=0,
-        metavar="",
-        help="-l <line length> -1:not split  0:paragraph >0:rows (default 0")
+        h=""" 
+line length
+-1: not wrap
+    0: wrap paragraph 
+>0: wrap rows 
+(default 0)
 
-    args = parser.parse_args()
-    ll = int(args.linelen)
-    do_main(args.src, ll)
+textupd.py <text_path>
+textupd.py <text_path> <line_len>
+        """
+        print(h)
+        sys.exit()
+    text_path = sys.argv[1]
+    line_len = 0 if le < 3 else sys.argv[2]
+    n=int(line_len)
+    do_main(text_path,n)
+
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser()
+#     if len(sys.argv) == 1:
+#         print(f"\nauthor: {__author__}")
+#         print(f"release: {__version__} { __date__}")
+#         parser.print_help()
+#         sys.exit()
+#     parser.add_argument(
+#         '-i',
+#         dest="src",
+#         required=True,
+#         metavar="",
+#         help="-i <text_path>")
+#     parser.add_argument(
+#         '-l',
+#         dest="linelen",
+#         required=False,
+#         default=0,
+#         metavar="",
+#         help="-l <line length> -1:not split  0:paragraph >0:rows (default 0")
+
+#     args = parser.parse_args()
+#     ll = int(args.linelen)
+#     do_main(args.src, ll)

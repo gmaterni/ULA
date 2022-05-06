@@ -61,19 +61,34 @@ def readd_text_upd(text_path):
 def do_main(text_path):
     readd_text_upd(text_path)
 
-
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    if len(sys.argv) == 1:
+    le = len(sys.argv)
+    if le < 2:
         print(f"\nauthor: {__author__}")
         print(f"release: {__version__} { __date__}")
-        parser.print_help()
+        h=""" 
+
+textupd.py <text_path>
+        """
+        print(h)
         sys.exit()
-    parser.add_argument(
-        '-i',
-        dest="src",
-        required=True,
-        metavar="",
-        help="-i <text_path>")
-    args = parser.parse_args()
-    do_main(args.src)
+    text_path = sys.argv[1]
+    do_main(text_path)
+
+
+
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser()
+#     if len(sys.argv) == 1:
+#         print(f"\nauthor: {__author__}")
+#         print(f"release: {__version__} { __date__}")
+#         parser.print_help()
+#         sys.exit()
+#     parser.add_argument(
+#         '-i',
+#         dest="src",
+#         required=True,
+#         metavar="",
+#         help="-i <text_path>")
+#     args = parser.parse_args()
+#     do_main(args.src)
