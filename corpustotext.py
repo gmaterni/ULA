@@ -2,19 +2,17 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import os
 import argparse
 from ulalib.update_data import UpdateData
 from ulalib.ula_setting import CORPUS_NAME
-from ulalib.save_back import save_corpus_data_back
+import os
 
-__date__ = "30-03-2022"
+__date__ = "09-04-2022"
 __version__ = "0.1.4"
 __author__ = "Marta Materni"
 
-"""
-Aggiorna data_corpus/corpus_name.form.csv
-con i dati di data/text_name.form.csv
+"""Aggiorna data/text_name.form.csv
+ con i dati di data_corpus/corpus.form.csv
 """
 
 # if __name__ == "__main__":
@@ -32,20 +30,18 @@ con i dati di data/text_name.form.csv
 #         help="-i text_src/<text_name>")
 #     args = parser.parse_args()
 #     text_name = os.path.basename(args.src)
+#     corpus_name = CORPUS_NAME
 #     print(text_name)
-#     save_corpus_data_back(CORPUS_NAME)
-#     upd_data = UpdateData()
-#     upd_data.set_text_name(text_name)
-#     upd_data.update_corpus_forms()
-
+#     upd = UpdateData()
+#     upd.set_text_name(text_name)
+#     upd.update_text_forms()
 
 def do_main(text_path):
     text_name = os.path.basename(text_path)
     print(text_name)
-    save_corpus_data_back(CORPUS_NAME)
-    upd_data = UpdateData()
-    upd_data.set_text_name(text_name)
-    upd_data.update_corpus_forms()
+    upd = UpdateData()
+    upd.set_text_name(text_name)
+    upd.update_text_forms()
 
 
 if __name__ == "__main__":
@@ -55,7 +51,7 @@ if __name__ == "__main__":
         print(f"release: {__version__} { __date__}")
         h = """ 
 
-corpusupdoftext.py <text_path>
+corpusttotext.py <text_path>
         """
         print(h)
         sys.exit()

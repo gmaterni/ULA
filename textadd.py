@@ -7,11 +7,11 @@ import os
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 from ulalib.ula_setting import TEXT_SRC_DIR, CORPUS_NAME
-from text2data import Text2Data
+from texttodata import Text2Data
 from textcleaner import TextCleaner
 
 __date__ = "06-05-2022"
-__version__ = "0.2.3"
+__version__ = "0.2.1"
 __author__ = "Marta Materni"
 
 
@@ -67,14 +67,7 @@ if __name__ == "__main__":
         print(f"\nauthor: {__author__}")
         print(f"release: {__version__} { __date__}")
         h=""" 
-line length
--1: not wrap
- 0: wrap paragraph 
->0: wrap rows 
-(default 0)
-
 textadd.py <text_path>
-textadd.py <text_path> <line_len>
         """
         print(h)
         sys.exit()

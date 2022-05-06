@@ -8,8 +8,8 @@ import shutil
 import os
 from ulalib.ula_setting import *
 
-__date__ = "02-05-2022"
-__version__ = "0.0.1"
+__date__ = "06-05-2022"
+__version__ = "0.2.1"
 __author__ = "Marta Materni"
 
 

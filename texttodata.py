@@ -135,7 +135,7 @@ if __name__ == "__main__":
         print(f"release: {__version__} { __date__}")
         h=""" 
 
-text2data.py <text_path>
+texttodata.py <text_path>
         """
         print(h)
         sys.exit()
