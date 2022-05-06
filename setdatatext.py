@@ -32,8 +32,6 @@ if __name__ == "__main__":
     text_name = os.path.basename(args.src)
     corpus_name = CORPUS_NAME
     print(text_name)
-    # AAA verificare se salvare prima i files data
-    #update_text_form_csv(corpus_name, text_name)
     upd = UpdateData()
     upd.set_text_name(text_name)
     upd.update_text_forms()
