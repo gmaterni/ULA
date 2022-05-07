@@ -310,7 +310,7 @@ var DbFormLpmx = {
     let build_context = function (i) {
       let lft = Math.max(i - cnt_size, 0);
       let rgt = Math.min(i + cnt_size + 1, le);
-      // AAA controlla JSON
+      // XXX controlla JSON
       let array = DbFormLpmx.token_lst.slice(lft, rgt);
       let row = JSON.parse(JSON.stringify(array));
       for (let i = 0; i < row.length; i++)
@@ -367,6 +367,7 @@ var DbFormLpmx = {
         }
       }
     }
+    console.log(this.rows_js[1])
   },
   filter_rows_js: function (js) {
     // setta this.rows_js
@@ -499,4 +500,28 @@ var DbFormLpmx = {
     }
     return row_token_form;
   },
+  save_text: function () {
+    const rows = [];
+    for (let row of this.rows_js) {
+      rows.push(row.row_text);
+    }
+    const file_name=`ula_${this.text_name}.txt`;
+    const data = rows.join("\n");
+    const url = `/write/text/${file_name}`;
+    fetch(url, {
+      method: "POST",
+      cache: 'default',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: data
+    }).then((resp) => {
+      if (!resp.ok)
+        throw new Error('HTTP error, status=' + resp.status);
+      return resp.json();
+    }).then((json) => {
+    }).catch((error) => {
+      alert(`ERROR post()\n${url}\n${error}`);
+    });
+  }
 };
