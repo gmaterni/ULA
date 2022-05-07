@@ -14,7 +14,7 @@ TMP_DIR = "./tmp"
 
 # ENCODING = 'ISO-8859-1'
 ENCODING = 'utf-8'
-PUNCTS = ',.;::?!^~()[]{}<>=+*#@£&%/\\«»“"\'-`‘’'
+# PUNCTS = ',.;::?!^~()[]{}<>=+*#@£&%/\\«»“"\'-`‘’'
 # APOSTROFO, TRATTINO, PUNTINO gestiti con i token
 # NOPUNTS="’-·"
 PUNCTS = ',.;::?!^~()[]{}<>=+*#@£&%/\\«»“"\'`‘'
