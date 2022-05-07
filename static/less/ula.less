@@ -22,8 +22,10 @@
 @font_num: @fsize_07;
 @font_option: @fsize_08;
 
+// @fserif: "Ties New Roman", Times, Georgia, serif;
 @fserif: "Ties New Roman", Georgia, serif;
-@fsans: arial, verdana, sans-serif;
+
+@fsans: arial, verdana,Helvetica, sans-serif;
 
 .serif {
   font-family: "Ties New Roman", Georgia, serif;
@@ -558,7 +560,6 @@ div.ula_option {
   }
 }
 
-
 @lpmx_rows_width: 1060px;
 
 #lpmx_menu_id {
@@ -572,6 +573,7 @@ div.ula_option {
   max-height: @form_head_height;
   min-width: @lpmx_rows_width;
   max-width: @lpmx_rows_width;
+
   table {
     padding: 0;
     margin: 0;
@@ -1261,7 +1263,6 @@ div.ula_option {
         font-weight: normal;
         padding: 0;
         margin: 0;
-
       }
 
       select {
@@ -1291,9 +1292,7 @@ div.ula_option {
       select:focus {
         outline: none;
       }
-
     }
-
 
     div:last-child {
       margin-left: auto;
@@ -1497,7 +1496,7 @@ div.ula_option {
       font-size: @font_num;
       font-family: @fserif;
       font-weight: normal;
-      padding: 6px 5px 4px 0;
+      padding: 5px 5px 3px 0;
       margin: 0;
       background: @cmd_back;
       color: @cmd_color;
@@ -1510,14 +1509,15 @@ div.ula_option {
       max-width: @text_row_width;
       border-width: 0 1px 1px 1px;
       border-style: solid;
-      border-color: @row_border_color;
+      border-color: lighten(@row_border_color, 40%);
       font-size: @font_text;
-      font-family: @fserif;
+      font-family: "Times New Roman", Times, serif;
       font-weight: normal;
       text-align: left;
       white-space: nowrap;
+      // line-height: normal;
       margin: 0;
-      padding: 3px 0 3px 5px;
+      padding: 5px 0 0 5px !important;
 
       span {
         margin: 0 5px 0 5px;
@@ -1707,7 +1707,6 @@ div.ula_option {
         font-weight: bold;
         text-decoration: underline;
       }
-
     }
 
     tr:nth-child(odd) {

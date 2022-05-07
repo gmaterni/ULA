@@ -27,7 +27,7 @@ var DbFormLpmx = {
   token_lst: null,
   form_lst: [],
   omogr_json: {},
-  len_row: 70,
+  len_row: 80,
   rows_js: [],
   get_text_name: function () {
     const store_text_name = localStorage.getItem(KEY_TEXT_NAME);
