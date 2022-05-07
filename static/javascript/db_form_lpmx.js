@@ -499,29 +499,5 @@ var DbFormLpmx = {
         });
     }
     return row_token_form;
-  },
-  save_text: function () {
-    const rows = [];
-    for (let row of this.rows_js) {
-      rows.push(row.row_text);
-    }
-    const file_name=`ula_${this.text_name}.txt`;
-    const data = rows.join("\n");
-    const url = `/write/text/${file_name}`;
-    fetch(url, {
-      method: "POST",
-      cache: 'default',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: data
-    }).then((resp) => {
-      if (!resp.ok)
-        throw new Error('HTTP error, status=' + resp.status);
-      return resp.json();
-    }).then((json) => {
-    }).catch((error) => {
-      alert(`ERROR post()\n${url}\n${error}`);
-    });
   }
 };

@@ -168,7 +168,6 @@ var FormLpmx = {
         break;
       case "help":
         Help.toggle("help1.html");
-        // DbFormLpmx.save_text();
         break;
       case "cmd_log":
         cmd_log_toggle();
