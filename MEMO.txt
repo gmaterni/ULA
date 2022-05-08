@@ -1,7 +1,0 @@
-&0x;por &x0;porquoi
-por     rimosso
-porquoi aggiunto
-
-destrute&00;destruite
-destrute    rimosso
-destruite   aggiunto
