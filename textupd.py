@@ -253,7 +253,7 @@ class AddUpdText(object):
         self.move_path(fr_path3, fr_path)
 
         #Aggiorna data/name.form.csv
-        #con i dati di data_corpus/corpus.form.csv        upd = UpdateData()
+        #con i dati di data_corpus/corpus.form.csv       
         # upd = UpdateData()
         # upd.set_text_name(text_name)
         # upd.update_text_forms()

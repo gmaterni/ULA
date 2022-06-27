@@ -234,7 +234,7 @@ class UpdateData(object):
         """Aggiorna
         data/text_name.form.csv
         con i dati di data_corpus/corpus.form.csv
-        AGGIORNA  LE FORM DI TEXT SE LEMMA=''
+        AAA AGGIORNA  LE FORM DI TEXT SE LEMMA='' 
         utilizza:
         self.text_form_lst
         self.corpus_formakey_lst

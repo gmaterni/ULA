@@ -22,14 +22,15 @@ const h_menu_form_lpmx = `
   <li class="v">
     <a href="#">Corpus</a>
     <ul class="v">
-      <li class="h">
+      
+    <li class="h">
         <a class="tipr" cmd="check_text" href="#">Check Text
-          <span class="tiptextr">Check Homographs and Forms without Tokenss</span>
+          <span class="tiptextr">Check Homographs and Forms without Tokens</span>
         </a>
       </li>
       <li class="h">
-        <a class="cmd tipr" cmd="upd_text" href="#">Update Text
-          <span class="tiptextr">Update Text with the Corpus</span>
+        <a class="cmd tipr" cmd="diff_text_corpus" href="#">Compare Corpus
+          <span class="tiptextr">Compare the Text on the server with the Corpus</span>
         </a>
       </li>
       <li class="h">
@@ -38,11 +39,10 @@ const h_menu_form_lpmx = `
         </a>
       </li>
       <li class="h">
-        <a class="cmd tipr" cmd="diff_text_corpus" href="#">Compare Corpus
-          <span class="tiptextr">Compare the Text on the server with the Corpus</span>
+        <a class="cmd tipr" cmd="upd_text" href="#">Update Text
+          <span class="tiptextr">Update Text with the Corpus</span>
         </a>
-      </li>
-      
+      </li>     
     </ul>
   </li>
   <li class="v">
@@ -149,7 +149,7 @@ var FormLpmx = {
         });
         break;
 
-      case "upd_text":
+      case "diff_text_corpus":
         if (!confirm("Save Data ?"))
           return;
         new Promise((resolve, reject) => {
@@ -157,15 +157,13 @@ var FormLpmx = {
           resolve();
           reject();
         }).then(() => {
-          if (confirm("Update text ?"))
-            this.update_text();
-          this.load_data();  //AAA verificare
+          this.diff_text_corpus();
         });
         break;
-
-      case "diff_text_corpus":
-        this.diff_text_corpus();
-        break;
+        // AAA salva prima di confrontare
+        // case "diff_text_corpus":
+        // this.diff_text_corpus();
+        // break;
       case "help":
         Help.toggle("help1.html");
         break;
