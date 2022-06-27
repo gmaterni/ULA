@@ -199,8 +199,6 @@ class TextCleaner(object):
             text=text.replace(f"{p} ",f"{p}")
 
 
-
-
         # rimuove line sep
         if linebreak == 0:
             pattern = r"[\n]+"

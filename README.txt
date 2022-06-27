@@ -56,7 +56,7 @@ BASEDIR/ula
 
 - lanciare 
 
-text_add.py -i path_testo.txt
+textadd.py -i path_testo.txt
 
 -> salva nella dir    ./text_src
    il testo pulito 
@@ -68,7 +68,7 @@ text_add.py -i path_testo.txt
    text_list.txt 
 
 ATTENZIONE !!
-  text_add.py 
+  textadd.py 
   Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
   dello stesso testo.
 
@@ -272,7 +272,7 @@ diff_over.txt
 ------------------
 Per completare da browser eseguire
 
-1)load_data
+1) load_data
 
 2) update_text
 
