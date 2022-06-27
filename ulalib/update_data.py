@@ -234,7 +234,7 @@ class UpdateData(object):
         """Aggiorna
         data/text_name.form.csv
         con i dati di data_corpus/corpus.form.csv
-        AAA AGGIORNA  LE FORM DI TEXT SE LEMMA='' 
+        AGGIORNA  LE FORM DI TEXT 
         utilizza:
         self.text_form_lst
         self.corpus_formakey_lst
@@ -249,7 +249,7 @@ class UpdateData(object):
             fk = text_form[FORMAKEY]
 
             # non aggiorna le righe settate
-            lemma = text_form[LEMMA].strip()
+            # lemma = text_form[LEMMA].strip()
             # pos=text_form[POS].strip()
             # AAA nodificato aggoiornamento tetext
             # if lemma != "":

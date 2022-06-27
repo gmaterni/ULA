@@ -143,9 +143,25 @@ var FormLpmx = {
           resolve();
           reject();
         }).then(() => {
-          if (confirm("Update corpus ?"))
+          if (confirm("Update corpus ?")) {
             this.update_corpus();
-          this.load_omagr();  // AAA verificare
+            this.load_omagr();
+          }
+        });
+        break;
+
+      case "upd_text":
+        if (!confirm("Save Data ?"))
+          return;
+        new Promise((resolve, reject) => {
+          this.save_data();
+          resolve();
+          reject();
+        }).then(() => {
+          if (confirm("Update text ?")) {
+            this.update_text();
+            this.load_data();
+          }
         });
         break;
 
@@ -160,10 +176,6 @@ var FormLpmx = {
           this.diff_text_corpus();
         });
         break;
-        // AAA salva prima di confrontare
-        // case "diff_text_corpus":
-        // this.diff_text_corpus();
-        // break;
       case "help":
         Help.toggle("help1.html");
         break;
@@ -200,7 +212,7 @@ var FormLpmx = {
     const e = document.querySelector("#lpmx_menu_id ul li a.title");
     e.innerHTML = DbFormLpmx.text_name;
   },
-   select_text: async function () {
+  select_text: async function () {
 
     let call = async (text_name) => {
       const tname = text_name || null;
@@ -629,15 +641,15 @@ var SelectText = {
     this.wnd.addClassStyle("ula_option");
     let opt = this.wnd.getElement();
     //bind
-    opt.addEventListener("click",(ev)=>{
+    opt.addEventListener("click", (ev) => {
       ev.stopImmediatePropagation();
-      const t=ev.target;
-      if (t.classList.contains("d")){
+      const t = ev.target;
+      if (t.classList.contains("d")) {
         let tname = t.getAttribute("name");
         this.call(tname);
         this.wnd.hide();
       }
-      else if (t.classList.contains("x")){
+      else if (t.classList.contains("x")) {
         this.wnd.hide();
       }
     });
