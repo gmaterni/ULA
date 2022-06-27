@@ -29,7 +29,6 @@ def add_text_data(text_path, line_len):
     TextCleaner pulisce dati e 
     scrive
         ./text_src/file_name.txt
-
     legge 
         ./text_src/file_nametxt
     Text2Data  estra i dati

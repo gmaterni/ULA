@@ -57,6 +57,10 @@ BASEDIR/ula
 - lanciare 
 
 textadd.py -i path_testo.txt
+N.B.
+ per default i testi sono nella dir text,
+ ma possono trovarsi in qualsiasi dir, in quanto viene
+ poi utilizzato solo il nome del file
 
 -> salva nella dir    ./text_src
    il testo pulito 
@@ -156,7 +160,7 @@ il parametro l (opzionale):
 >0) separa per lunghezza riga
 
 -----------------------------------
-File testo contiui
+File testo continui
 -----------------------------------
 - posizionarsi nella dir ./text_line
 - lannciare
@@ -205,10 +209,33 @@ ATTENZIONE !!
   Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
   dello stesso testo.
 
-===============================
-Aggiunta di un Testo Semplificata
-===============================
-textadd.py
+**********************************
+==================================
+AGGIUNTA DI UN TESTO SEMPLIFICATA
+==================================
+textadd.py <text_path>
+
+Per default il testo si trova nella dir text,
+ma può trovarsi in qualsiasi dir.
+Il comando eseguire
+textcleaner.py
+texttodata.py
+es.
+textadd.py ./text/fie_name.txt
+legge 
+   ./text/file_nametxt
+TextCleaner pulisce dati e 
+salva
+   ./text_src/file_name.txt
+legge 
+   ./text_src/file_nametxt
+Text2Data  estra i dati
+salva 
+./data/file_name.form.csv
+./data/file_name.token.csv
+salva
+./data/text_list.txt
+
 ATTENZIONE !!
   Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
   dello stesso testo.
@@ -224,8 +251,6 @@ stampa la lista dei campi sovrascritti
 
 update text
 aggiorna text per tutti i valori di corpus
-setta solo i campi vuoti di text
-
 
 =================================================
 CORREZIONE TESTO 
@@ -239,6 +264,9 @@ dal browser eseguire i seguenti comandi:
 ---------------
 lanciare
 textupd.py <text_path>
+N.B.
+COnsidera  in ogni caso solo il nome del file
+
 sone eseguite le seguenti azioni
 
 1) muove files
@@ -261,7 +289,7 @@ sone eseguite le seguenti azioni
    tmp/name.form3.csv  => data/name.form.csv
    stampa lista disamb.sovrascritti.
 -----------------
-nella di tmp
+nella di tmp si trovano i seguenti files
 
 lista delle modifiche sul testo
 diff_upd.txt
@@ -281,6 +309,10 @@ Per completare da browser eseguire
 4) update corpus
 
 =========================
-annullare le correzioni
+ANNULLARE LE CORREZIONI
+=========================
 
 textunupd,py <text_path>
+ATTENZIONE
+ Il comando può essere lanciato UN SOLA VOLTA
+ per ogni correzione da annullare
