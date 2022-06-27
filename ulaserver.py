@@ -103,7 +103,7 @@ def diff_text_corpus():
         rows = upd_data.set_text_corpus_diff_lst()
         data = {"data": rows}
     except IOError as e:
-        msg = f"ERRORO diff_text_corpus()\n{e}"
+        msg = f"ERRORO diff_text_corpus()"
         raise Exception(f"{msg}\n{e}")
     return data
 
@@ -119,7 +119,7 @@ def write(filepath=""):
         os.chmod(fpath, 0o777)
         save_text_data_back(fpath)
     except IOError as e:
-        msg = f"ERRORO write()\n{e}"
+        msg = f"ERRORO write()"
         raise Exception(f"{msg}\n{e}")
     return "1"
 
@@ -139,7 +139,7 @@ def update_corpus(filepath=""):
         # row=form|formkey...$forma|formakey|..
         data = {"data": rows}
     except IOError as e:
-        msg = f"ERRORO update_corpus()\n{e}"
+        msg = f"ERRORO update_corpus()"
         raise Exception(f"{msg}\n{e}")
     return data
 
@@ -152,7 +152,7 @@ def update_text(filepath=""):
         upd_data.set_text_name(text_name)
         upd_data.update_text_forms()
     except IOError as e:
-        msg = f"ERRORO update_text()\n{e}"
+        msg = f"ERRORO update_text()"
         raise Exception(f"{msg}\n{e}")
     return "1"
 

@@ -12,8 +12,8 @@ import ulalib.pathutils as ptu
 from ulalib.ula_setting import CORPUS_NAME, DATA_DIR, CORPUS_DIR
 from ulalib.ula_setting import ENCODING, NAME_TEXT_LIST
 
-__date__ = "10-04-2022"
-__version__ = "0.3.2"
+__date__ = "27-06-2022"
+__version__ = "0.3.3"
 __author__ = "Marta Materni"
 
 
@@ -251,8 +251,9 @@ class UpdateData(object):
             # non aggiorna le righe settate
             lemma = text_form[LEMMA].strip()
             # pos=text_form[POS].strip()
-            if lemma != "":
-                continue
+            # AAA nodificato aggoiornamento tetext
+            # if lemma != "":
+            #     continue
 
             try:
                 # verifica se in corpus esiste formakey

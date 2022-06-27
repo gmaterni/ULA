@@ -238,7 +238,7 @@ dal browser eseguire i seguenti comandi:
 2) update corpus
 ---------------
 lanciare
-textuod.py <text_path>
+textupd.py <text_path>
 sone eseguite le seguenti azioni
 
 1) muove files

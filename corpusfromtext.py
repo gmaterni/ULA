@@ -13,7 +13,7 @@ __version__ = "0.1.4"
 __author__ = "Marta Materni"
 
 """
-Aggiorna data_corpus/corpus_name.form.csv
+Aggiorna data_corpus/corpus.form.csv
 con i dati di data/text_name.form.csv
 """
 
