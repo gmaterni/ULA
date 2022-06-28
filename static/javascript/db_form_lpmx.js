@@ -367,7 +367,7 @@ var DbFormLpmx = {
         }
       }
     }
-    console.log(this.rows_js[1])
+    // console.log(this.rows_js[1])
   },
   filter_rows_js: function (js) {
     // setta this.rows_js
