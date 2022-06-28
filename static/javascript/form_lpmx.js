@@ -19,32 +19,33 @@ const h_menu_form_lpmx = `
       <span class="tiptextb">Read Data from Server</span>
     </a>
   </li>
+  
   <li class="v">
     <a href="#">Corpus</a>
-    <ul class="v">
-      
-    <li class="h">
-        <a class="tipr" cmd="check_text" href="#">Check Text
-          <span class="tiptextr">Check Homographs and Forms without Tokens</span>
-        </a>
+    <ul class="v">   
+      <li class="h">
+          <a class="tipr" cmd="check_text" href="#">Check Text
+            <span class="tiptextr">Check Homographs and Forms without Tokens</span>
+          </a>
       </li>
       <li class="h">
-        <a class="cmd tipr" cmd="diff_text_corpus" href="#">Compare Corpus
-          <span class="tiptextr">Compare the Text on the server with the Corpus</span>
-        </a>
+          <a class="cmd tipr" cmd="diff_text_corpus" href="#">Compare Corpus
+            <span class="tiptextr">Compare the Text on the server with the Corpus</span>
+          </a>
       </li>
       <li class="h">
-        <a class="cmd tipr" cmd="upd_corpus" href="#">Update Corpus
-          <span class="tiptextr">Update Corpus with the Text</span>
-        </a>
+          <a class="cmd tipr" cmd="upd_corpus" href="#">Update Corpus
+            <span class="tiptextr">Update Corpus with the Text</span>
+          </a>
       </li>
       <li class="h">
         <a class="cmd tipr" cmd="upd_text" href="#">Update Text
-          <span class="tiptextr">Update Text with the Corpus</span>
-        </a>
-      </li>     
+            <span class="tiptextr">Update Text with the Corpus</span>
+          </a>
+        </li>     
     </ul>
   </li>
+
   <li class="v">
     <a class="tipb title" cmd="select_text" href="#">Select Text
       <span class="tiptextb">Load selected Text</span>

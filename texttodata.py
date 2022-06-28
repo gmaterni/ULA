@@ -21,6 +21,7 @@ class Text2Data(object):
     text2data(text_path) 
     estrai dati li scrive in formato csv
     aggiorna data/text_list.txt
+    
     es.
     txt_path =   text_src/<name_file>.txt
 
