@@ -456,6 +456,7 @@ class UpdateData(object):
         names = self.read_text_list()
         try:
             for text_name in names:
+                print(text_name)
                 text_form_name = text_name+".form.csv"
                 self.text_form_path = ptu.join(DATA_DIR, text_form_name)
                 self.read_text_form_csv()

@@ -212,9 +212,9 @@ dal browser eseguire i seguenti comandi:
 lanciare
 textupd.py <text_path>
 N.B.
-COnsidera  in ogni caso solo il nome del file
+Considera  in ogni caso solo il nome del file
 
-sone eseguite le seguenti azioni
+sono eseguite le seguenti azioni
 
 1) muove files
    data/name.token.csv => tmp/name.token1.csv
