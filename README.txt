@@ -50,29 +50,30 @@ posmsd2json.py
 ====================================================
 Aggiunta di un testo e dei suoi dati 
 ===================================================
-- Posizionarsi nella dir 
+textadd.py <text_path>
 
-BASEDIR/ula
-
-- lanciare 
-
-textadd.py -i path_testo.txt
-N.B.
- per default i testi sono nella dir text,
- ma possono trovarsi in qualsiasi dir, in quanto viene
- poi utilizzato solo il nome del file
-
--> salva nella dir    ./text_src
-   il testo pulito 
--> salva nella dir    ./data 
-   i dati dei testi
-   nome_testo.form.csv
-   nome_testo.token.csv
--> aggiorna l'elenco dei testi disponibili nel file 
-   text_list.txt 
+Per default il testo si trova nella dir text,
+ma può trovarsi in qualsiasi dir.
+Il comando eseguie
+textcleaner.py
+texttodata.py
+es.
+textadd.py ./text/fie_name.txt
+legge 
+   ./text/file_nametxt
+TextCleaner pulisce dati e 
+salva
+   ./text_src/file_name.txt
+legge 
+   ./text_src/file_nametxt
+Text2Data  estra i dati
+salva 
+./data/file_name.form.csv
+./data/file_name.token.csv
+salva
+./data/text_list.txt
 
 ATTENZIONE !!
-  textadd.py 
   Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
   dello stesso testo.
 
@@ -97,8 +98,7 @@ Si possono usare porte diverse.
 Nel caso sia possibile utilizzare la poeta 80  
 si può usare l'url:
 
-http://127.0.0.1  
-   
+http://127.0.0.1   
       
 ========================
 Gestione dello Store 
@@ -185,60 +185,7 @@ text_cleaner.py -i ./text_line/<name_file> -o ./text_src/</name_file> -l 70
 
 ./text_lb/name_file.txt => ./text_src/name_file.txt
 
-===============================
-Aggiunta di un Testo
-===============================
-- Posizionarsi sulla dir BASEDIR/ula
-
-- Trasferire il testo nella dir 
-  ./text_src
-
-- lanciare 
-
-  text2data.py -i path_testo.txt
-
--> salva nella dir    BASEDIR/ula/data 
-   i dati dei testi
-   nome_testo.form.csv
-   nome_testo.token.csv
--> aggiorna l'elenco dei testi disponibili nel file 
-   text_list.txt 
-
-ATTENZIONE !!
-  textrodata.py 
-  Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
-  dello stesso testo.
-
-**********************************
-==================================
-AGGIUNTA DI UN TESTO SEMPLIFICATA
-==================================
-textadd.py <text_path>
-
-Per default il testo si trova nella dir text,
-ma può trovarsi in qualsiasi dir.
-Il comando eseguire
-textcleaner.py
-texttodata.py
-es.
-textadd.py ./text/fie_name.txt
-legge 
-   ./text/file_nametxt
-TextCleaner pulisce dati e 
-salva
-   ./text_src/file_name.txt
-legge 
-   ./text_src/file_nametxt
-Text2Data  estra i dati
-salva 
-./data/file_name.form.csv
-./data/file_name.token.csv
-salva
-./data/text_list.txt
-
-ATTENZIONE !!
-  Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
-  dello stesso testo.
+o.
 =================================
 BROWSER COMANDI
 =================================
