@@ -185,7 +185,7 @@ text_cleaner.py -i ./text_line/<name_file> -o ./text_src/</name_file> -l 70
 
 ./text_lb/name_file.txt => ./text_src/name_file.txt
 
-o.
+
 =================================
 BROWSER COMANDI
 =================================
@@ -198,6 +198,16 @@ stampa la lista dei campi sovrascritti
 
 update text
 aggiorna text per tutti i valori di corpus
+
+=================================================
+AGGIOORNAMENTI GLOBALI 
+================================================
+corpusfromalltext.py
+Aggiorna il corpus con i dati di tutti i test 
+
+corpustoalltext.py
+Aggiorna tutti i test con i dati del corpus
+
 
 =================================================
 CORREZIONE TESTO 
