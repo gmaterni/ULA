@@ -32,6 +32,23 @@ BASEDIR/ula/data
    pinocchio.txt => pinocchio.form.csv
                      pinocchio.token.csv
 
+BASEDIR/ula/data_corpus
+contiene i dati del corpus
+corpus.form.csv
+corpus_omogr.json
+
+BASEDIR/ula/data_back
+copie di sicurezz gestite automaticamente
+contiene per ogmi data
+BASEDIR/ula/data_back/aammgg
+contirne i files nella forma
+nomefile.form_aammgg_hh.csv
+nomefile.token_aammgg_hh.csv
+es.
+Salvataggio eseguito il 10/11/2022 dla 13.00 al 13.59
+BASEDIR/ula/data_back/110112/kafka_110112_13.csv
+BASEDIR/ula/data_back/110112/kafka_110112_13.form
+
 =============================
 Tabelle di  Configurazione 
 ============================
