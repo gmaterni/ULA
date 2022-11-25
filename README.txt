@@ -38,7 +38,8 @@ corpus.form.csv
 corpus_omogr.json
 
 BASEDIR/ula/data_back
-copie di sicurezz gestite automaticamente
+copie di sicurezz gestite automaticamente ad ogni 
+salvatggio dal browse
 contiene per ogmi data
 BASEDIR/ula/data_back/aammgg
 contirne i files nella forma
@@ -48,6 +49,15 @@ es.
 Salvataggio eseguito il 10/11/2022 dla 13.00 al 13.59
 BASEDIR/ula/data_back/110112/kafka_110112_13.csv
 BASEDIR/ula/data_back/110112/kafka_110112_13.form
+
+
+BASEDIR/ula/data_corpus_back
+copie di sicurezz gestite automaticamente ad ogni 
+aggiornamento del corpus
+contiene per ogmi data
+BASEDIR/ula/data_corpus_back/aammgg
+contirne i files nella forma
+corpus.form_aammgg_hh.csv
 
 =============================
 Tabelle di  Configurazione 
