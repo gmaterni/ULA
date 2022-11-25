@@ -156,12 +156,17 @@ class AddUpdText(object):
 
     """
     Prima di lanciare la procdure per le modifiche
-    dal browser
+    
+    eseguire dal browser
+
     1) save data
 
     2) update corpus
-
-    la procedura addupd_text.py
+ 
+    ------------------------------------------------
+    
+    lanciare la procedura addupd_text.py
+    
     1) muove
        data/name.token.csv => tmp/name.token1.csv
        data/name.form.csv  => tmp/name.form1.csv
@@ -182,7 +187,12 @@ class AddUpdText(object):
        tmp/name.form3.csv  => data/name.form.csv
        stampa lista disamb.sovrascritti.
     
-    Per completare da browser
+ ------------------------------------------------
+
+    Per completare 
+ 
+     eseguire daal browser
+    
     1)load_data
 
     2) update_text
@@ -220,7 +230,7 @@ class AddUpdText(object):
         # if ptu.exists(token_path) is False:
         if pth.Path(tk_path).exists() is False:
             print(f"{tk_path} Non  esistente")
-            print("Lanciare prima add_text con il testo originale")
+            print("Lanciare prima textadd.py con il testo originale")
             sys.exit()
         # set_trace()
         # crea se non esiste la dir tmp

@@ -54,7 +54,7 @@ textadd.py <text_path>
 
 Per default il testo si trova nella dir text,
 ma può trovarsi in qualsiasi dir.
-Il comando eseguie
+Il comando esegue lancia:
 textcleaner.py
 texttodata.py
 es.
@@ -74,7 +74,8 @@ salva
 ./data/text_list.txt
 
 ATTENZIONE !!
-  Sovrascrive i dati di una eventuale elaborazione PRECEDENTE
+  Sovrascrive i dati di una eventuale elaborazione 
+  PRECEDENTE
   dello stesso testo.
 
 ==============================
@@ -211,18 +212,18 @@ Aggiorna tutti i test con i dati del corpus
 
 =================================================
 CORREZIONE TESTO 
+Comandi da eseguire per adegfuare i datri ad un testo modificato
 ================================================
-Prima di lanciare la procedure per le modifiche
+A)
 dal browser eseguire i seguenti comandi:
 
 1) save data
 
 2) update corpus
----------------
+--------------
+B)
 lanciare
 textupd.py <text_path>
-N.B.
-Considera  in ogni caso solo il nome del file
 
 sono eseguite le seguenti azioni
 
@@ -245,7 +246,7 @@ sono eseguite le seguenti azioni
    tmp/name.token3.csv => data/name.token.csv
    tmp/name.form3.csv  => data/name.form.csv
    stampa lista disamb.sovrascritti.
------------------
+..............
 nella di tmp si trovano i seguenti files
 
 lista delle modifiche sul testo
@@ -255,6 +256,7 @@ lsta degli omografi sovrascritti
 diff_over.txt
 
 ------------------
+C)
 Per completare da browser eseguire
 
 1) load_data
@@ -269,7 +271,17 @@ Per completare da browser eseguire
 ANNULLARE LE CORREZIONI
 =========================
 
-textunupd,py <text_path>
+textunupd.py <text_name>
+N.B.
+SOLO il nome del file
+es.
+textunupd.py kafka.txt
+----------------------
+Dal browser
+load
+del file
+
 ATTENZIONE
  Il comando può essere lanciato UN SOLA VOLTA
  per ogni correzione da annullare
+
