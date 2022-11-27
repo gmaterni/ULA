@@ -372,6 +372,7 @@ var DbFormLpmx = {
   filter_rows_js: function (js) {
     // setta this.rows_js
     // i nomi dei campi derivano dall'input di filtraggio
+    //TODO controllare find
     let formkey = js.formkey.trim();
     let form = js.form.trim();
     let lemma = js.lemma.trim();

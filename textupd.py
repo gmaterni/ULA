@@ -165,7 +165,7 @@ class AddUpdText(object):
  
     ------------------------------------------------
     
-    lanciare la procedura addupd_text.py
+    lanciare la procedura textupd.py
     
     1) muove
        data/name.token.csv => tmp/name.token1.csv
