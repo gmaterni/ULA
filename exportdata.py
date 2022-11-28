@@ -7,7 +7,7 @@ import argparse
 import pathlib as pth
 import os
 from ulalib.ula_setting import *
-# from openpyxl import Workbook
+from openpyxl import Workbook
 
 __date__ = "28-11-2022"
 __version__ = "0.1.0"
@@ -40,8 +40,6 @@ class ExportData(object):
         self.dir_exp = dir_exp
         self.sep = csv_sep
 
-
-        
     def export_corpus(self):
         corpus_path = os.path.join(CORPUS_DIR, CORPUS_NAME)
         if pth.Path(corpus_path).exists() is False:
@@ -56,14 +54,14 @@ class ExportData(object):
             print(msg)
             raise Exception(msg)
         try:
-            # head_csv = self.sep.join(HEAD)     
-            corpus_name=CORPUS_NAME.replace('csv','.ula.csv')       
+            # head_csv = self.sep.join(HEAD)
+            corpus_name = CORPUS_NAME.replace('csv', '.ula.csv')
             exp_path = os.path.join(self.dir_exp, corpus_name)
             fw = open(exp_path, "w", encoding=ENCODING)
             # fw.write(head_csv)
             # fw.write(os.linesep)
             for item in lst:
-                row = item.replace('|',self.sep)
+                row = item.replace('|', self.sep)
                 fw.write(row)
                 fw.write(os.linesep)
             fw.close()
@@ -141,18 +139,6 @@ class ExportData(object):
             token_form_lst.append(form)
         return token_form_lst
 
-    # def write_token_form_xlsx(self, csv_path):
-    #     wb = Workbook()
-    #     ws = wb.active
-    #     with open(csv_path, 'r') as f:
-    #         lst = f.readlines()
-    #     for row in lst:
-    #         r = row.split(self.sep)
-    #         ws.append(r)
-    #     xls_path = csv_path.replace('.csv', '.xlsx')
-    #     wb.save(xls_path)
-    #     os.chmod(xls_path, 0o777)
-
     def write_token_form_csv(self, exp_path, token_fom_lst):
         try:
             head_csv = self.sep.join(HEAD)
@@ -179,7 +165,20 @@ class ExportData(object):
         exp_csv_path = os.path.join(self.dir_exp, exp_name)
         print(exp_csv_path)
         self.write_token_form_csv(exp_csv_path, token_form_lst)
-        # self.write_token_form_xlsx(exp_csv_path)
+        self.write_token_form_xlsx(exp_csv_path)
+
+    def write_token_form_xlsx(self, csv_path):
+        wb = Workbook()
+        ws = wb.active
+        with open(csv_path, 'r') as f:
+            lst = f.readlines()
+        for row in lst:
+            r = row.strip().split(self.sep)
+            ws.append(r)
+        xls_path = csv_path.replace('.csv', '.xlsx')
+        print(xls_path)
+        wb.save(xls_path)
+        os.chmod(xls_path, 0o777)
 
     def read_text_list(self):
         if pth.Path(NAME_TEXT_LIST).exists() is False:
@@ -201,8 +200,10 @@ class ExportData(object):
         os.chmod(self.dir_exp, 0o777)
         names = self.read_text_list()
         for name in names:
+            if name.strip() == '':
+                continue
             text_name = name + ".txt"
-            # print(text_name)
+            print(text_name)
             self.export_text_data(text_name)
         self.export_corpus()
 
@@ -229,12 +230,12 @@ if __name__ == "__main__":
                         metavar="",
                         help="-d <dir_export> (default ./data_export)")
     args = parser.parse_args()
-    if args.sep=='t':
-        sep='\t'
-    elif args.sep=='p':
-        sep='|'
-    elif args.sep=='s':
-        sep=';'
+    if args.sep == 't':
+        sep = '\t'
+    elif args.sep == 'p':
+        sep = '|'
+    elif args.sep == 's':
+        sep = ';'
     else:
         print("options for flag -s are t/p/s")
         sys.exit()
