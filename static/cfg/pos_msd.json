@@ -5,8 +5,9 @@
       {
         "msd_name": "gender",
         "attrs": [
+          "Masc",
           "Fem",
-          "Masc"
+          "Neut"
         ]
       },
       {
@@ -19,8 +20,8 @@
       {
         "msd_name": "case",
         "attrs": [
-          "SO",
-          "OC"
+          "Nom",
+          "Acc"
         ]
       }
     ]
@@ -31,8 +32,9 @@
       {
         "msd_name": "gender",
         "attrs": [
+          "Masc",
           "Fem",
-          "Masc"
+          "Neut"
         ]
       },
       {
@@ -45,8 +47,8 @@
       {
         "msd_name": "case",
         "attrs": [
-          "SO",
-          "OC"
+          "Nom",
+          "Acc"
         ]
       }
     ]
@@ -57,8 +59,9 @@
       {
         "msd_name": "gender",
         "attrs": [
+          "Masc",
           "Fem",
-          "Masc"
+          "Neut"
         ]
       },
       {
@@ -71,8 +74,8 @@
       {
         "msd_name": "case",
         "attrs": [
-          "SO",
-          "OC"
+          "Nom",
+          "Acc"
         ]
       },
       {
@@ -90,10 +93,25 @@
     "pos_name": "determiner",
     "msd_list": [
       {
+        "msd_name": "deterType",
+        "attrs": [
+          "ArtDef",
+          "ArtIndef",
+          "Poss",
+          "Rel",
+          "Dem",
+          "Neg",
+          "Ind",
+          "Int",
+          "Exc"
+        ]
+      },
+      {
         "msd_name": "gender",
         "attrs": [
+          "Masc",
           "Fem",
-          "Masc"
+          "Neut"
         ]
       },
       {
@@ -106,21 +124,14 @@
       {
         "msd_name": "case",
         "attrs": [
-          "SO",
-          "OC"
+          "Nom",
+          "Acc"
         ]
       },
       {
-        "msd_name": "deterType",
+        "msd_name": "MWEs",
         "attrs": [
-          "ArtDef",
-          "ArtIndef",
-          "Poss",
-          "Int",
-          "Rel",
-          "Dem",
-          "Neg",
-          "Ind"
+          "MWEs"
         ]
       }
     ]
@@ -129,10 +140,31 @@
     "pos_name": "pronoun",
     "msd_list": [
       {
+        "msd_name": "pronType",
+        "attrs": [
+          "Prs",
+          "Poss",
+          "Rel",
+          "Dem",
+          "Neg",
+          "Ind",
+          "Int"
+        ]
+      },
+      {
+        "msd_name": "person",
+        "attrs": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
         "msd_name": "gender",
         "attrs": [
+          "Masc",
           "Fem",
-          "Masc"
+          "Neut"
         ]
       },
       {
@@ -145,21 +177,14 @@
       {
         "msd_name": "case",
         "attrs": [
-          "SO",
-          "OC"
+          "Nom",
+          "Acc"
         ]
       },
       {
-        "msd_name": "pronType",
+        "msd_name": "MWEs",
         "attrs": [
-          "Prs",
-          "Poss",
-          "Int",
-          "Rel",
-          "Dem",
-          "Neg",
-          "Ind",
-          "Reflex"
+          "MWEs"
         ]
       }
     ]
@@ -171,14 +196,15 @@
         "msd_name": "verbForm",
         "attrs": [
           "Fin",
-          "Inf",
-          "Part",
-          "Ger"
+          "Ind"
         ]
       },
       {
         "msd_name": "mood",
         "attrs": [
+          "Inf",
+          "Part",
+          "Ger",
           "Ind",
           "Imp",
           "Cnd",
@@ -199,7 +225,14 @@
         "attrs": [
           "Act",
           "Pass",
-          "Reflex"
+          "Rfl"
+        ]
+      },
+      {
+        "msd_name": "property",
+        "attrs": [
+          "Intr",
+          "Trans"
         ]
       },
       {
@@ -218,10 +251,17 @@
         ]
       },
       {
-        "msd_name": "subCat",
+        "msd_name": "gender",
         "attrs": [
-          "Intr",
-          "Tran"
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
         ]
       }
     ]
@@ -235,12 +275,38 @@
           "PrepS",
           "PrepArt"
         ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
       }
     ]
   },
   "ADV": {
     "pos_name": "adverb",
     "msd_list": [
+      {
+        "msd_name": "advType",
+        "attrs": [
+          "Man",
+          "Loc",
+          "Tim",
+          "Deg",
+          "Freq"
+        ]
+      },
+      {
+        "msd_name": "advType2",
+        "attrs": [
+          "Dem",
+          "Ind",
+          "Neg",
+          "Int",
+          "Tot"
+        ]
+      },
       {
         "msd_name": "degree",
         "attrs": [
@@ -251,24 +317,34 @@
         ]
       },
       {
-        "msd_name": "advType",
+        "msd_name": "MWEs",
         "attrs": [
-          "Man",
-          "Loc",
-          "Tim",
-          "Deg",
-          "Cau"
+          "MWEs"
         ]
       }
     ]
   },
   "CCONJ": {
     "pos_name": "coordinating conjunction",
-    "msd_list": []
+    "msd_list": [
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
   },
   "SCONJ": {
     "pos_name": "subordinating conjunction",
-    "msd_list": []
+    "msd_list": [
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
   },
   "NUM": {
     "pos_name": "numeral",
@@ -288,9 +364,11 @@
       {
         "msd_name": "partType",
         "attrs": [
+          "Pos",
           "Neg",
           "Int",
-          "Exc"
+          "Exc",
+          "Verb"
         ]
       }
     ]
@@ -300,7 +378,7 @@
     "msd_list": []
   },
   "X": {
-    "pos_name": "punctuation",
+    "pos_name": "other",
     "msd_list": []
   },
   "-": {
