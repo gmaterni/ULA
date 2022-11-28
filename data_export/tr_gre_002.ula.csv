@@ -1,0 +1,4187 @@
+FORMA	FORMAKEY	LEMMA	ETIMO	LANG	POS	FUNCT	MSD
+coment	coment	coment	QUOMODO		ADV		Int
+jason	jason	Jason			PROPN		Masc,Sing,Nom
+ariva	ariva	ariver	*ARRIPARE		VERB		Fin,Ind,Past,Intr,3,Sing
+et	et	et	ET		CCONJ		
+coment	coment	coment	QUOMODO		ADV		Int
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+furent	furent3	estre1	ESSE		VERB		Fin,Ind,Past,Intr,3,Sing
+en	en	en1	IN		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+.	.						
+jason	jason	Jason			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+conpaignie	conpaignie	compagnie	COMPANIO		NOUN		Fem,Sing
+.	.						
+puis_q’	puis_q’	plus	POSTEA		ADV	SConj 	Tim,MWEs
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+mis	mis1	metre2	MITTERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+en	en	en1	IN		ADP		
+mer	mer	mer	MARE		NOUN		Fem,Sing
+.	.						
+nagerent	nagerent	nagier	NAVIGARE		VERB		Fin,Ind,Past,Intr,3,Plur
+tant_q’	tant_q’	tant	TANTUS		ADV	SConj 	MWEs
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+vindrent	vindrent	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Plur
+en	en	en1	IN		ADP		
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+ariverent	ariverent	ariver	*ARRIPARE		VERB		Fin,Ind,Past,Intr,3,Plur
+à	à	a3	AD		ADP		
+celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
+meïsmes	meïsmes	mëisme	IPSE		DET		Ind,Masc,Sing,Acc
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+dont	dont	dont	UNDE		ADV		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+meü	meü	movoir	MOVERE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+lor	lor7	lor3	ILLE		DET		Poss,Masc,Plur,Nom
+amis	amis1	ami	AMICUS		NOUN		Masc,Plur,Nom
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+virent	virent	vëoir	VIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+ens	ens	enz	INTUS		ADV		Loc
+ariver	ariver	ariver	*ARRIPARE		VERB		Ind,Inf,Pres,Intr
+.	.						
+sachés	sachés	savoir	SAPERE		VERB		Fin,Sub,Pres,Act,Trans,2,Plur
+veraiement	veraiement	veraiement	*VERACUS		ADV		Man
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+firent	firent	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+joie	joie	joie	GAUDIUM		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+le	le7	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+receivent	receivent	recevoir	RECIPERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+à	à	a3	AD		ADP		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+henor	henor	onor	HONOS		NOUN		Masc,Sing,Acc
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+toison	toison	toison	TONSIO		NOUN		Fem,Sing
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+aporta	aporta	aporter	APPORTARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+dou	dou	de	DE		ADP		PrepArt
+colcos	colcos	Colcos			PROPN		Masc,Sing,Acc
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+esgardee	esgardee	esgarder	*WARDôN		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+à	à	a3	AD		ADP		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+mervoille	mervoille	merveille	MIRABILIA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+paroille	paroille	parole	PARABOLA		NOUN		Fem,Sing
+en	en2	en2	INDE		PRON		
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+tenue	tenue	tenir1	TENERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+por	por	por2	PRO		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+pris	pris	prix	PRETIUM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+los	los	los	LAUS		NOUN		Masc,Sing,Acc
+en	en2	en2	INDE		PRON		
+recut	recut	recevoir	RECIPERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+jason	jason	Jason			PROPN		Masc,Sing,Nom
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+re	re	roi	REX		NOUN		Masc,Sing,Nom
+pelleus	pelleus	Pelleus			PROPN		Masc,Sing,Nom
+honora	honora	onorer	HONORARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+jason	jason1	Jason			PROPN		Masc,Sing,Acc
+.	.						
+ja	ja	ja	JAM		ADV		
+fust	fust1	estre1	ESSE		VERB		Fin,Ind,Past,Intr,3,Sing
+ce_qu’	ce_qu’						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+fust	fust	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+moult	moult	mout	MULTUS		ADV		
+doulent	doulent	dolent	DOLERE		ADJ		Masc,Sing,Nom
+de	de	de	DE		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+venue	venue	venüe	VENIRE		NOUN		Fem,Sing
+mes	mes	mais1	MAGIS2		CCONJ		
+senblant	senblant	semblant	SIMILARE		NOUN		Masc,Sing,Acc
+ne	ne	ne1	NON		ADV		Neg
+fesoit	fesoit	faire	FACERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+laisse	laisse	laissier	LAXARE		VERB		Fin,Ind,Pres,Intr,3,Sing
+hore	hore	or4	HORA		ADV		Tim
+nostre	nostre2	nostre	NOSTER		DET		Poss,Masc,Sing,Nom
+conte	conte1	conte2	COMPUTUS		NOUN		Masc,Sing,Nom
+à	à	a3	AD		ADP		
+parler	parler	parler	PARABOLARE		VERB		Ind,Inf,Pres,Intr
+de	de	de	DE		ADP		
+jason	jason	Jason			PROPN		Masc,Sing,Nom
+si	si	si	SIC		ADV		
+outreement	outreement	outreement	ULTRA		ADV		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+parole	parole	parler	PARABOLARE		VERB		Fin,Ind,Pres,Intr,3,Sing
+plus	plus	plus	PLUS		ADV		
+en	en	en1	IN		ADP		
+nulle	nulle	nul	NULLUS		DET		Ind,Fem,Sing
+part	part	part1	PARS		NOUN		Fem,Sing
+por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
+daire	daire	Daires			PROPN		Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+escrist	escrist	escrire	SCRIBERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+plus	plus	plus	PLUS		ADV		
+.	.						
+meïsmement	meïsmement	mëismement	IPSE		ADV		
+beneoit	beneoit	Benoît			NOUN		Masc,Sing,Nom
+qui	qui	qui	QUI		PRON		Rel,Nom
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+livre	livre1	livre2	LIBER2		NOUN		Masc,Sing,Acc
+trelaica	trelaica						
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
+tesmoigne	tesmoigne	tesmoignier	TESTIMONIUM		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+ausi	ausi	aussi	SIC		ADV		
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+traiterons	traiterons	traitier	TRACTARE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+de	de	de	DE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+plus	plus	plus	PLUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+hovre	hovre	uevre	OPERA		NOUN		Fem,Sing
+qui	qui	qui	QUI		PRON		Rel,Nom
+jamés	jamés	ja	JAM		ADV		Tim
+fust	fust1	estre1	ESSE		VERB		Fin,Ind,Past,Intr,3,Sing
+ni	ni	ne2	NEC		CCONJ		
+doie	doie	devoir	DEBERE		VERB	auxMod	Fin,Sub,Pres,2,Sing
+estre	estre2	estre1	ESSE		VERB		Ind,Inf,Pres,Intr
+.	.						
+se	se4	ce1	HOC		PRON		Dem,Neut,Sing,Acc
+cuit	cuit	cuidier1	COGITARE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+.	.						
+ce	ce	ce1	HOC		PRON		Dem,Neut,Sing,Nom
+est	est	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,3,Sing
+des	des2	de	DE		ADP		PrepArt
+tres	tres						
+mortels	mortels1	mortel	MORTALIS		ADJ		Fem,Plur
+batailles	batailles	bataille	BATTUALIA		NOUN		Fem,Plur
+là_où	là_où	là	ILLAC		ADV	Adv	Loc,MWEs
+morut	morut	morir	MORI		VERB		Fin,Ind,Past,Intr,3,Sing
+toute	toute	tot	TOTUS		DET		Ind,Fem,Sing
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+aute	aute	haut	ALTUS		ADJ		Fem,Sing
+chevalerie	chevalerie	chevalerie	CABALLARIUS		NOUN		Fem,Sing
+qi	qi	qui	QUI		PRON		Rel,Nom
+à	à	a3	AD		ADP		
+celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
+tenp	tenp	tens	TEMPS1		NOUN		Masc,Sing,Acc
+estoit	estoit	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Sing
+au	au	a3	AD		ADP		PrepArt
+monde	monde1	monde1	MUNDUS1		NOUN		Masc,Sing,Acc
+.	.						
+et	et	et	ET		CCONJ		
+coment	coment	coment	QUOMODO		ADV		Int
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+mise	mise	metre2	MITTERE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+à	à	a3	AD		ADP		
+feu	feu1	feu	FOCUS		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+ruine	ruine	rüine	RUINA		NOUN		Fem,Sing
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+jason	jason	Jason			PROPN		Masc,Sing,Nom
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+plaint	plaint	plaindre	PLANGERE		VERB		Fin,Ind,Pres,Rfl,3,Sing
+au	au	a3	AD		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+pelleus	pelleus1	Pelleus			PROPN		Masc,Sing,Acc
+dou	dou	de	DE		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+laomedon	laomedon1	Laomedon			PROPN		Masc,Sing,Acc
+.	.						
+moult	moult	mout	MULTUS		ADV		
+fist	fist2	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+jason	jason	Jason			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+conplainte	conplainte	complainte	*COMPLANGERE		NOUN		Fem,Sing
+au	au	a3	AD		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+pelleus	pelleus1	Pelleus			PROPN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+as	as	a3	AD		ADP		PrepArt
+autres	autres2	autre	ALTER		DET		Ind,Masc,Plur,Acc
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+borgois	borgois	borjois	*BURG-		NOUN		Masc,Plur,Acc
+de	de	de	DE		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+ce_qe	ce_qe						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+fet	fet	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+au	au	a3	AD		ADP		PrepArt
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+et	et	et	ET		CCONJ		
+coment	coment	coment	QUOMODO		ADV		Int
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+le	le1	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+conjea	conjea	congeer	COMMEATUS		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+honteusement	honteusement	hontosement	*HAUNIþA		ADV		Man
+.	.						
+et	et	et	ET		CCONJ		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+vost	vost	voloir	VELLE		VERB	auxMod	Fin,Ind,Past,3,Sing
+soufrir	soufrir	sofrir	SUFFERRE		VERB		Ind,Inf,Pres,Act,Trans
+ses	ses2	suen	SUUS		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+en	en	en1	IN		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+por	por	por2	PRO		ADP		
+demorer	demorer	demorer	DEMORARI		VERB		Ind,Inf,Pres,Intr
+.	.						
+moult	moult	mout	MULTUS		ADV		
+tindrent	tindrent	tenir1	TENERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+de	de	de	DE		ADP		
+ce	ce1	ce1	HOC		PRON		Dem,Neut,Sing,Acc
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+paroille	paroille	parole	PARABOLA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+en	en2	en2	INDE		PRON		
+pesa	pesa	peser	PENSARE		VERB		Fin,Ind,Past,Intr,3,Sing
+au	au	a3	AD		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+pelleus	pelleus1	Pelleus			PROPN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+as	as	a3	AD		ADP		PrepArt
+autres	autres2	autre	ALTER		DET		Ind,Masc,Plur,Acc
+barons	barons1	baron	*BARO		NOUN		Masc,Plur,Acc
+de	de	de	DE		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+reigne	reigne	regne	REGNUM		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+ce_que	ce_que						
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+fet	fet	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+si	si	si	SIC		ADV		
+ont	ont1	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Plur,MWEs
+tot	tot6	tot	TOTUS		PRON		Ind,Masc,Plur,Nom
+jurés	jurés	jurer	JURARE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+et	et	et	ET		CCONJ		
+afïés	afïés	afier	*FIDARE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+et	et	et	ET		CCONJ		
+promis	promis	prometre	PROMITTERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+destrueroit	destrueroit	destruire	DESTRUERE		VERB		Fin,Cnd,Pres,Act,Trans,3,Sing
+troie	troie	Troie			PROPN		Fem,Sing
+et	et	et	ET		CCONJ		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+d_environ	d_environ	environ	VIBRARE		NOUN	Adv	Masc,Sing,Acc
+.	.						
+si	si	si	SIC		ADV		
+puet	puet	pöoir	POSSE		VERB	auxMod	Fin,Ind,Pres,3,Sing
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+estre	estre3	estre1	ESSE		VERB	auxCop	Ind,Inf,Pres
+seür	seür	sëur2	SECURUS		ADJ		Masc,Sing,Nom
+de	de	de	DE		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+guise	guise	guise	*WîSA		NOUN		Fem,Sing
+re	re1	X	X		X		
+donc	donc	donc	DUNC		ADV		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+mors	mors1	morir	MORI		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+et	et	et	ET		CCONJ		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+son	son	suen	SUUS		DET		Poss,Masc,Sing,Nom
+païs	païs1	päis	PAGENSIS		NOUN		Masc,Sing,Nom
+sera	sera1	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,3,Sing,MWEs
+destruit	destruit	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+moult	moult	mout	MULTUS		ADV		
+enprist	enprist	emprendre	*IMPREHENDERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+fais	fais2	fait1	FACTUM		NOUN		Masc,Sing,Acc
+sor	sor	sor2	SUPER		ADP		
+soi	soi	soi1	SE		PRON		Prs,3,Acc
+car	car	car	QUARE		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ala	ala	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Intr,3,Sing
+mostrer	mostrer	mostrer	MONSTRARE		VERB		Ind,Inf,Pres,Act,Trans
+à	à	a3	AD		ADP		
+tos	tos1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+sez	sez	suen	SUUS		DET		Poss,Masc,Plur,Acc
+amis	amis2	ami	AMICUS		NOUN		Masc,Plur,Acc
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+honte	honte	honte	*HAUNIþA		NOUN		Fem,Sing
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+receüe	receüe	recevoir	RECIPERE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+au	au	a3	AD		ADP		PrepArt
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+a	a1	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Sing,MWEs
+par	par	par	PER		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+porchas	porchas	porchaz	*CAPTIARE		NOUN		Masc,Sing,Acc
+toute	toute	tot	TOTUS		DET		Ind,Fem,Sing
+grese	grese	Grèce			PROPN		Fem,Sing
+esmeü	esmeü	esmovoir	EXMOVERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+vers	vers	vers2	VERSUS1		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+troienz	troienz1	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Acc
+.	.						
+donc	donc	donc	DUNC		ADV		
+troie	troie	Troie			PROPN		Fem,Sing
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+destruite	destruite	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+premiere	premiere	premier	PRIMARIUS		ADJ		Fem,Sing
+fois	fois1	foi	FIDES		NOUN		Fem,Sing
+ensi	ensi	ainsi	SIC		ADV		
+com	com	come1	QUOMODO		SCONJ		
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+horois	horois	öir	AUDIRE		VERB		Fin,Ind,Fut,Act,Trans,2,Plur
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+ala	ala	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Intr,3,Sing
+en	en	en1	IN		ADP		
+grese	grese	Grèce			PROPN		Fem,Sing
+.	.						
+or	or	or4	HORA		ADV		Tim
+dit	dit	dire	DICERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+contes	contes	conte2	COMPUTUS		NOUN		Masc,Sing,Nom
+qe	qe3	queque	QUID		SCONJ		
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+aparoilla	aparoilla	apareillier1	*APPARICULARE		VERB		Fin,Ind,Past,Rfl,3,Sing
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+et	et	et	ET		CCONJ		
+richement	richement	richement	RîKI		ADV		Man
+et	et	et	ET		CCONJ		
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+mist	mist1	metre2	MITTERE		VERB		Fin,Ind,Past,Rfl,3,Sing
+à	à	a3	AD		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+voie	voie	voie	VIA		NOUN		Fem,Sing
+por	por	por2	PRO		ADP		
+aler	aler	aler (GDC)	AMBULARE		VERB		Ind,Inf,Pres,Intr
+proier	proier	priier	PRECARI		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+reqerre	reqerre	requerre	REQUIRERE		VERB		Ind,Inf,Pres,Act,Trans
+tos	tos1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+amis	amis2	ami	AMICUS		NOUN		Masc,Plur,Acc
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+avoit	avoit	avoir	HABERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
+en	en	en1	IN		ADP		
+gresse	gresse	Grèce			PROPN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+premierement	premierement	premierement	PRIMARIUS		ADV		
+à	à	a3	AD		ADP		
+parche	parche	Parche			PROPN		Fem,Sing
+là_où	là_où	là	ILLAC		ADV	Adv	Loc,MWEs
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+trova	trova	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+gastor	gastor	Castor			PROPN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+pollus	pollus	Pollus			PROPN		Masc,Sing,Acc
+qe	qe	queque	QUID		PRON		Rel,Nom
+freres	freres	frere	FRATER		NOUN		Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+.	.						
+ces	ces	ce2	ISTE		DET		Dem,Masc,Plur,Nom
+dui	dui	deus	DUO		NUM		Ord
+rois	rois1	roi	REX		NOUN		Masc,Plur,Nom
+receürent	receürent	recevoir	RECIPERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+hercules	hercules1	Hercule			PROPN		Masc,Sing,Acc
+moult	moult	mout	MULTUS		ADV		
+honoreement	honoreement	onoreement	HONORARE		ADV		Man
+et	et	et	ET		CCONJ		
+firent	firent	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+de	de	de	DE		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+joie	joie	joie	GAUDIUM		NOUN		Fem,Sing
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+enqistrent	enqistrent	enquerre	INQUIRERE		VERB		Fin,Ind,Past,Intr,3,Plur
+q	q						
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+aloit	aloit	aler (GDC)	AMBULARE		VERB		Fin,Ind,Imp,Intr,3,Sing
+chersant	chersant	cerchier	CIRCARE		VERB		Ind,Ger,Pres,Act,Trans
+par	par	par	PER		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+.	.						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+respondi	respondi	respondre1	RESPONDERE		VERB		Fin,Ind,Past,Intr,3,Sing
+et	et	et	ET		CCONJ		
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+ce_qe	ce_qe						
+avenus	avenus	avenir	ADVENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+estoit	estoit3	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+à	à	a3	AD		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+et	et	et	ET		CCONJ		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit3	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+à	à	a3	AD		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+venus	venus	venir	VENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+por	por	por2	PRO		ADP		
+proier	proier	priier	PRECARI		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+por	por	por2	PRO		ADP		
+demander	demander	demander	DEMANDARE		VERB		Ind,Inf,Pres,Act,Trans
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+alassent	alassent	aler (GDC)	AMBULARE		VERB		Fin,Sub,Imp,Intr,3,Plur
+aidier	aidier	aidier	ADJUTARE		VERB		Ind,Inf,Pres,Act,Trans
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+honte	honte	honte	*HAUNIþA		NOUN		Fem,Sing
+vengier	vengier	vengier	VINDICARE		VERB		Ind,Inf,Pres,Act,Trans
+qe	qe1	queque	QUID		PRON		Rel,Acc
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+fet	fet	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+à	à	a3	AD		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+.	.						
+qé	qé						
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+diroie	diroie	dire	DICERE		VERB		Fin,Cnd,Pres,Intr,1,Sing
+.	.						
+tant	tant	tant	TANTUS		ADV		
+li	li5	li	ILLE		PRON		Prs,3,Masc,Plur,Acc
+pria	pria	priier	PRECARI		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+tant	tant	tant	TANTUS		ADV		
+le	le7	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+reqis	reqis	requerre	REQUIRERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+otroierent	otroierent	otroiier	*AUCTORIZARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+plaisir	plaisir	plaisir	PLACERE		NOUN		Masc,Sing,Acc
+faire	faire	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+volonté	volonté	volenté	VOLUNTAS		NOUN		Fem,Sing
+ho	ho	avuec	AB HOC		ADP		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+conpaignie	conpaignie	compagnie	COMPANIO		NOUN		Fem,Sing
+de	de	de	DE		ADP		
+vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+hardis	hardis	hardi	*HARDJAN		ADJ		Masc,Plur,Acc
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+hoï	hoï	öir	AUDIRE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+dui	dui	deus	DUO		NUM		Ord
+rois	rois2	roi	REX		NOUN		Masc,Plur,Acc
+ensi	ensi	ainsi	SIC		ADV		
+parler	parler	parler	PARABOLARE		VERB		Ind,Inf,Pres,Intr
+de	de	de	DE		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+besoigne	besoigne	besoigne	*SUNNI		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+aideront	aideront	aidier	ADJUTARE		VERB		Fin,Ind,Fut,Act,Trans,3,Plur
+si	si	si	SIC		ADV		
+largement	largement	lergement	LARGUS		ADV		Man
+ho	ho	avuec	AB HOC		ADP		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+d’	d’	de	DE		ADP		
+esfors	esfors	esforz2	*FORTIARE		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+vaillans	vaillans	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+hardis	hardis	hardi	*HARDJAN		ADJ		Masc,Plur,Acc
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+en	en2	en2	INDE		PRON		
+fu	fu	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+moult	moult	mout	MULTUS		ADV		
+joiant	joiant	joir	GAUDERE		VERB	Adj	Ind,Part,Pres
+et	et	et	ET		CCONJ		
+lié	lié	lié1	LAETUS		ADJ		Masc,Sing,Nom
+.	.						
+si	si	si	SIC		ADV		
+li	li5	li	ILLE		PRON		Prs,3,Masc,Plur,Acc
+en	en2	en2	INDE		PRON		
+mercia	mercia	mercïer	MERCES		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+de_bonerement	de_bonerement	debonairement	AGER		ADV		
+et	et	et	ET		CCONJ		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+parti	parti	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Sing
+à	à	a3	AD		ADP		
+lor	lor1	lor3	ILLE		DET		Poss,Masc,Sing,Acc
+conjé	conjé	congié	COMMEATUS		NOUN		Masc,Sing,Acc
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+ala	ala1	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Rfl,3,Sing
+à	à	a3	AD		ADP		
+salemine	salemine	Salemine			PROPN		Fem,Sing
+là_où	là_où	là	ILLAC		ADV	Adv	Loc,MWEs
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+trova	trova	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+salemon	salemon1	Salomon			PROPN		Masc,Sing,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+moult	moult	mout	MULTUS		ADV		
+vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+et	et	et	ET		CCONJ		
+saje	saje	sage	SAPIDUS		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+servise	servise	servise	SERVITIUM		NOUN		Masc,Sing,Acc
+à	à	a3	AD		ADP		
+ses	ses1	suen	SUUS		DET		Poss,Masc,Plur,Acc
+amis	amis2	ami	AMICUS		NOUN		Masc,Plur,Acc
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+fu	fu2	estre1	ESSE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
+devant	devant1	devant	ABANTE		ADP		
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+venus	venus	venir	VENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+talemon	talemon	Talemon			PROPN		Masc,Sing,Nom
+l’	l’5	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+acoilli	acoilli	acoillir	*ACCOLLIGERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+honoreement	honoreement	onoreement	HONORARE		ADV		Man
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+conta	conta	conter	COMPUTARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+retrest	retrest	retraire	RETRAHERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+tost	tost	tost	TOSTUS		ADV		
+à	à	a3	AD		ADP		
+fer	fer	X	X		X		
+por_qoi	por_qoi	por2	PRO/QUID		ADV		Int
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit3	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+à	à	a3	AD		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+venus	venus	venir	VENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+si	si	si	SIC		ADV		
+le	le1	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+pria	pria	priier	PRECARI		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+reqist	reqist	requerre	REQUIRERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+por	por	por2	PRO		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+amor	amor2	amor	AMOR		NOUN		Masc,Sing,Acc
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+aille	aille	aler (GDC)	AMBULARE		VERB		Fin,Sub,Pres,Intr,3,Sing
+aidier	aidier	aidier	ADJUTARE		VERB		Ind,Inf,Pres,Act,Trans
+ceste	ceste1	cest	ISTE		DET		Dem,Fem,Sing
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+honte	honte	honte	*HAUNIþA		NOUN		Fem,Sing
+vengier	vengier	vengier	VINDICARE		VERB		Ind,Inf,Pres,Act,Trans
+qe	qe1	queque	QUID		PRON		Rel,Acc
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+fet	fet	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+à	à	a3	AD		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+.	.						
+car	car	car	QUARE		SCONJ		
+en	en	en1	IN		ADP		
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+a	a2	avoir	HABERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+partie	partie	partie	PARTIRE		NOUN		Fem,Sing
+de	de	de	DE		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+esperance	esperance	esperance	SPERARE		NOUN		Fem,Sing
+.	.						
+talemon	talemon	Talemon			PROPN		Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+respondi	respondi	respondre1	RESPONDERE		VERB		Fin,Ind,Past,Intr,3,Sing
+moult	moult	mout	MULTUS		ADV		
+largement	largement	lergement	LARGUS		ADV		Man
+et	et	et	ET		CCONJ		
+bien	bien	bien2	BENE		ADV		Man
+de	de	de	DE		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+aidier	aidier	aidier	ADJUTARE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+servir	servir	servir	SERVIRE		VERB		Ind,Inf,Pres,Act,Trans
+à	à	a3	AD		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+requeste	requeste	request	REQUIRERE		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+voleir	voleir	voloir	VELLE		VERB	Noun	Ind,Inf,Pres
+.	.						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+l’	l’5	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+en	en2	en2	INDE		PRON		
+mercia	mercia	mercïer	MERCES		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+et	et	et	ET		CCONJ		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+parti	parti	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Sing
+tantos	tantos	tantost	TOSTUS		ADV		Tim
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+vint	vint1	venir	VENIRE		VERB		Fin,Ind,Past,Rfl,3,Sing
+en	en	en1	IN		ADP		
+siche	siche	Siche			PROPN		
+là_où	là_où	là	ILLAC		ADV	Adv	Loc,MWEs
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+trova	trova	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+pelleus	pelleus1	Pelleus			PROPN		Masc,Sing,Acc
+à	à	a3	AD		ADP		
+cui	cui	qui	QUI		PRON		Rel,Acc
+proia	proia	priier	PRECARI		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+tant	tant	tant	TANTUS		ADV		
+et	et	et	ET		CCONJ		
+reqist	reqist	requerre	REQUIRERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+otroia	otroia	otroiier	*AUCTORIZARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+d’	d’	de	DE		ADP		
+aler	aler	aler (GDC)	AMBULARE		VERB		Ind,Inf,Pres,Intr
+en	en	en1	IN		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+conpaignie	conpaignie	compagnie	COMPANIO		NOUN		Fem,Sing
+ho	ho	avuec	AB HOC		ADP		
+tot	tot3	tot	TOTUS		DET		Ind,Masc,Sing,Acc
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+effors	effors	esforz2	*FORTIARE		NOUN		Masc,Sing,Acc
+.	.						
+et	et	et	ET		CCONJ		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+amerra	amerra	amener	MINARE		VERB		Fin,Ind,Fut,Intr,3,Sing
+ho	ho	avuec	AB HOC		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+tot	tot1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+cels	cels1	cel	ILLE		PRON		Dem,Masc,Plur,Acc
+de	de	de	DE		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+terre	terre	terre	TERRA		NOUN		Fem,Sing
+qi	qi	qui	QUI		PRON		Rel,Nom
+miels	miels	mieus	MELIOR		ADV		Cmp
+savront	savront	savoir	SAPERE		VERB		Fin,Ind,Fut,Act,Trans,3,Sing
+guerroier	guerroier	guerroiier2	*WERRA		VERB		Ind,Inf,Pres,Intr
+.	.						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+l’	l’5	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+en	en2	en2	INDE		PRON		
+mercia	mercia	mercïer	MERCES		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+.	.						
+si	si	si	SIC		ADV		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+ala	ala1	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Rfl,3,Sing
+tot_droit	tot_droit						
+à	à	a3	AD		ADP		
+nestor	nestor	Nestor			PROPN		Masc,Sing,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+moult	moult	mout	MULTUS		ADV		
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+aut	aut2	haut	ALTUS		ADJ		Masc,Sing,Nom
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+puissant	puissant	poissant	POSSE		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+plains	plains	plein	PLENUS		ADJ		Masc,Sing,Nom
+de	de	de	DE		ADP		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+savoir	savoir	savoir	SAPERE		VERB	Noun	Ind,Inf,Pres
+.	.						
+si	si	si	SIC		ADV		
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+retraïst	retraïst	retraire	RETRAHERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+toute	toute	tot	TOTUS		DET		Ind,Fem,Sing
+l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
+aventure	aventure	aventure	*ADVENTURA		NOUN		Fem,Sing
+por	por	por2	PRO		ADP		
+qoi	qoi	coi2	QUID		PRON		Rel,Acc
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit3	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+à	à	a3	AD		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+venus	venus	venir	VENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+aprés	aprés1	après	AD PRESSUM		ADV		Tim
+le	le1	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+pria	pria	priier	PRECARI		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+reqist	reqist	requerre	REQUIRERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+de_bonerement	de_bonerement	debonairement	AGER		ADV		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+le	le1	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+deüst	deüst	devoir	DEBERE		VERB	auxMod	Fin,Sub,Imp,3,Sing
+aidier	aidier	aidier	ADJUTARE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+secorre	secorre	secorre1	SUCCURRERE		VERB		Ind,Inf,Pres,Act,Trans
+en	en	en1	IN		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+besoigne	besoigne	besoigne	*SUNNI		NOUN		Fem,Sing
+.	.						
+nestor	nestor1	Nestor			PROPN		Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+respondi	respondi	respondre1	RESPONDERE		VERB		Fin,Ind,Past,Intr,3,Sing
+et	et	et	ET		CCONJ		
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+.	.						
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+moult	moult	mout	MULTUS		ADV		
+aleigre	aleigre	haliegre	ALACER		ADJ		Masc,Sing,Nom
+de	de	de	DE		ADP		
+ce_q’	ce_q’						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit3	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+venus	venus	venir	VENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+à	à	a3	AD		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+reqerre	reqerre	requerre	REQUIRERE		VERB		Ind,Inf,Pres,Act,Trans
+de	de	de	DE		ADP		
+secors	secors	secors	SUCCURRERE		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+d’	d’	de	DE		ADP		
+aide	aide	äie	ADJUTARE		NOUN		Masc,Sing,Acc
+.	.						
+et	et	et	ET		CCONJ		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+tos	tos	tot	TOTUS		DET		Ind,Masc,Sing,Nom
+aparoillés	aparoillés1	apareillier1	*APPARICULARE		VERB	Adj	Ind,Part,Past,Sing,Masc
+d’	d’	de	DE		ADP		
+aler	aler	aler (GDC)	AMBULARE		VERB		Ind,Inf,Pres,Intr
+avec	avec	avuec	AB HOC		ADP		
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+hot	hot2						
+son	son	suen	SUUS		DET		Poss,Masc,Sing,Nom
+esfors	esfors	esforz2	*FORTIARE		NOUN		Masc,Sing,Acc
+tot	tot2	tot	TOTUS		DET		Ind,Fem,Plur
+le	le3	le	ILLE		DET		ArtDef,Fem,Plur
+foi	foi1	foi	FIDES		NOUN		Fem,Plur
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+en	en	en1	IN		ADP		
+fera	fera	faire	FACERE		VERB		Fin,Ind,Fut,Act,Trans,3,Sing
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+mondre	mondre						
+ni	ni	ne2	NEC		CCONJ		
+reqerre	reqerre	requerre	REQUIRERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+hoï	hoï	öir	AUDIRE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+ce_qe	ce_qe						
+nestor	nestor1	Nestor			PROPN		Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+.	.						
+moult	moult	mout	MULTUS		ADV		
+fu	fu	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+aleigre	aleigre	haliegre	ALACER		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+trova	trova	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+en	en	en1	IN		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+plaisir	plaisir	plaisir	PLACERE		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+son	son2	suen	SUUS		DET		Poss,Masc,Plur,Acc
+desiriers	desiriers1	desirrier	DESIDERARE		NOUN		Masc,Plur,Acc
+aconplis	aconplis2	acomplir	COMPLERE		VERB	Adj	Ind,Part,Past,Plur,Masc
+.	.						
+atant	atant	tant	TANTUS		ADV		Tim
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+parti	parti	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Sing
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+de	de	de	DE		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+moult	moult	mout	MULTUS		ADV		
+liés	liés	lié1	LAETUS		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+joios	joios	joios	GAUDIUM		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+vint	vint1	venir	VENIRE		VERB		Fin,Ind,Past,Rfl,3,Sing
+en	en	en1	IN		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+là_où	là_où	là	ILLAC		ADV	Adv	Loc,MWEs
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+fist	fist1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
+fere	fere	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+xv	xv						
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+aparoillee	aparoillee1	apareillier1	*APPARICULARE		VERB	Adj	Ind,Part,Past,Plur,Fem
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+et	et	et	ET		CCONJ		
+richement	richement	richement	RîKI		ADV		Man
+d’	d’	de	DE		ADP		
+ancres	ancres	ancre	ANCORA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+voilles	voilles	voile2	VELUM2		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+tos	tos2	tot	TOTUS		DET		Ind,Masc,Sing,Acc
+autre	autre4	autre	ALTER		DET		Ind,Masc,Plur,Acc
+garnimenz	garnimenz1	warnement	*WARNJAN		NOUN		Masc,Sing,Acc
+qe	qe	queque	QUID		PRON		Rel,Nom
+à	à	a3	AD		ADP		
+riche	riche	riche	 RîKI		ADJ		Fem,Sing
+nes	nes2	nef2	NAVIS		NOUN		Fem,Sing
+convenoit	convenoit	covenir	CONVENIRE		VERB		Fin,Ind,Imp,Intr,3,Sing
+por	por	por2	PRO		ADP		
+nagier	nagier	nagier	NAVIGARE		VERB		Ind,Inf,Pres,Intr
+en	en	en1	IN		ADP		
+aute	aute	haut	ALTUS		ADJ		Fem,Sing
+mer	mer	mer	MARE		NOUN		Fem,Sing
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+i	i	i2	HIC		PRON		
+mistrent	mistrent1	metre2	MITTERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+viande	viande	vïande	VIVENDA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+vituaille	vituaille	vitaille	VICTUALIA		NOUN		Fem,Sing
+tant_com	tant_com						
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+senbla	senbla	sembler	SIMILARE		VERB		Fin,Ind,Past,Intr,3,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+besoignast	besoignast	besoignier	*SUNNI		VERB		Fin,Sub,Imp,Intr,3,Sing
+.	.						
+si	si2	ici	HIC		ADV		Loc
+dit	dit	dire	DICERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+coment	coment	coment	QUOMODO		ADV		Int
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+partirent	partirent	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Plur
+de	de	de	DE		ADP		
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+por	por	por2	PRO		ADP		
+aler	aler	aler (GDC)	AMBULARE		VERB		Ind,Inf,Pres,Intr
+à	à	a3	AD		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+et	et	et	ET		CCONJ		
+coment	coment	coment	QUOMODO		ADV		Int
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+arivierent	arivierent	ariver	*ARRIPARE		VERB		Fin,Ind,Past,Intr,3,Plur
+.	.						
+ce	ce	ce1	HOC		PRON		Dem,Neut,Sing,Nom
+fu	fu3	estre1	ESSE		VERB		Fin,Ind,Past,Intr,3,Sing
+dou	dou	de	DE		ADP		PrepArt
+mois	mois	mois	MENSIS		NOUN		Masc,Sing,Acc
+d’	d’	de	DE		ADP		
+avril	avril	avril	APRILIS		NOUN		Masc,Sing,Acc
+quant	quant	cant1	QUANDO		SCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+saison	saison	saison	SATIO		NOUN		Fem,Sing
+est	est1	estre1	ESSE		VERB	auxCop	Fin,Ind,Pres,3,Sing
+doux	doux1	douz	DULCIS		ADJ		Fem,Sing
+et	et	et	ET		CCONJ		
+soës	soës	söef	SUAVIS		ADJ		Fem,Sing
+.	.						
+qe	qe	queque	QUID		PRON		Rel,Nom
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+hosels	hosels	oisel	AUCELLUS		NOUN		Masc,Plur,Nom
+chanton	chanton	chanter	CANTARE		VERB		Fin,Ind,Pres,Intr,3,Plur
+por	por	por2	PRO		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+versiers	versiers1	vergier1	VIRIDIARIUM		NOUN		Masc,Plur,Acc
+doucement	doucement	doucement	DULCIS		ADV		Man
+.	.						
+si	si	si	SIC		ADV		
+font	font	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+de	de	de	DE		ADP		
+lor	lor1	lor3	ILLE		DET		Poss,Masc,Sing,Acc
+dous	dous2	douz	DULCIS		ADJ		Masc,Sing,Acc
+chant	chant	chant	CANTUS		NOUN		Masc,Sing,Acc
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+vallees	vallees	valee	VALLIS		NOUN		Fem,Plur
+retentir	retentir	retentir	TINNIRE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+fist	fist1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
+ses	ses2	suen	SUUS		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+jeter	jeter	jeter	JACTARE		VERB		Ind,Inf,Pres,Act,Trans
+de_denz	de_denz	dedans	DEINTUS		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+mer	mer	mer	MARE		NOUN		Fem,Sing
+ensi	ensi	ainsi	SIC		ADV		
+aparoillee	aparoillee1	apareillier1	*APPARICULARE		VERB	Adj	Ind,Part,Past,Plur,Fem
+com	com	come1	QUOMODO		SCONJ		
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+ai	ai	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,1,Sing,MWEs
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+venus	venus1	venir	VENIRE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+rois	rois1	roi	REX		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+barons	barons	baron	*BARO		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+chevaliers	chevaliers	chevalier	CABALLARIUS		NOUN		Masc,Plur,Nom
+qe	qe1	queque	QUID		PRON		Rel,Acc
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+semos	semos	semondre	SUBMONERE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+si	si	si	SIC		ADV		
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+mistrent	mistrent	metre2	MITTERE		VERB		Fin,Ind,Past,Rfl,3,Plur
+de_denz	de_denz	dedans	DEINTUS		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+tos	tos4	tot	TOTUS		PRON		Ind,Masc,Plur,Nom
+recoillis	recoillis1	recoillir	COLLIGERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+ore	ore	ore1	AURA		NOUN		Fem,Sing
+venta	venta	venter	VENTUS		VERB		Fin,Ind,Past,Intr,3,Sing
+dous	dous1	douz	DULCIS		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+soëf	soëf	söef	SUAVIS		ADJ		Masc,Sing,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+tost	tost	tost	TOSTUS		ADV		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+ot	ot1	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
+paint	paint						
+en	en	en1	IN		ADP		
+aute	aute	haut	ALTUS		ADJ		Fem,Sing
+mer	mer	mer	MARE		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+siglerent	siglerent	sigler	CINGLER2		VERB		Fin,Ind,Past,Intr,3,Plur
+tant	tant	tant	TANTUS		ADV		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+nuit	nuit	nuit	NOX		NOUN		Fem,Sing
+as	as	a3	AD		ADP		PrepArt
+estoilles	estoilles	estoile	STELLA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+jor	jor1	jor	DIURNUM		NOUN		Masc,Sing,Nom
+au	au	a3	AD		ADP		PrepArt
+soleil	soleil	soleil	SOL		NOUN		Masc,Sing,Acc
+sans	sans	sans	SINE		ADP		
+prendre	prendre	prendre	PREHENDERE		VERB		Ind,Inf,Pres,Act,Trans
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+ni	ni	ne2	NEC		CCONJ		
+terre	terre	terre	TERRA		NOUN		Fem,Sing
+en	en	en1	IN		ADP		
+nulle	nulle	nul	NULLUS		DET		Ind,Fem,Sing
+part	part	part1	PARS		NOUN		Fem,Sing
+.	.						
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ont	ont1	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Plur,MWEs
+cousi	cousi	choisir	KAUSJAN		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+voloient	voloient1	voloir	VELLE		VERB		Fin,Ind,Imp,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+desiroient	desiroient	desirrer	DESIDERARE		VERB		Fin,Ind,Imp,Act,Trans,3,Plur
+de	de	de	DE		ADP		
+veoir	veoir	vëoir	VIDERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+virent	virent	vëoir	VIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+orent	orent	avoir	HABERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+joie	joie	joie	GAUDIUM		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+laësse	laësse	lëece	LAETITIA		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+laisserent	laisserent	laissier	LAXARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+trepasser	trepasser	trespasser	*PASSARE		VERB		Ind,Inf,Pres,Act,Trans
+celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
+jor	jor	jor	DIURNUM		NOUN		Masc,Sing,Acc
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+nuit	nuit	nuit	NOX		NOUN		Fem,Sing
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ariverent	ariverent	ariver	*ARRIPARE		VERB		Fin,Ind,Past,Intr,3,Plur
+au	au	a3	AD		ADP		PrepArt
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+segeon	segeon						
+ho	ho	avuec	AB HOC		ADP		
+toutes	toutes	tot	TOTUS		DET		Ind,Fem,Plur
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+nef	nef1	nef2	NAVIS		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+en_luec	en_luec	iluec	ILLOC		ADV		Loc
+les	les3	le	ILLE		PRON		Prs,3,Fem,Plur,Acc
+ancrerent	ancrerent	ancrer	ANCORA		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+toutes	toutes	tot	TOTUS		DET		Ind,Fem,Plur
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+aprés	aprés1	après	AD PRESSUM		ADV		Tim
+le	le6	le	ILLE		PRON		Prs,3,Fem,Plur,Acc
+firent	firent1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
+enchasteller	enchasteller	enchasteler	CASTELLUM		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+garnir	garnir	warnir	*WARNJAN		VERB		Ind,Inf,Pres,Act,Trans
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+de	de	de	DE		ADP		
+bones	bones	bon	BONUS		ADJ		Fem,Plur
+armeürez	armeürez	armëure	ARMATURA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+asés	asés	assez	AD SATIS		ADV		
+por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
+.	.						
+c’	c’	se	SI		SCONJ		
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+avenist	avenist	avenir	ADVENIRE		VERB		Fin,Sub,Imp,Intr,3,Sing
+qe	qe3	queque	QUID		SCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+desconfiture	desconfiture	desconfiture	CONFICERE		NOUN		Fem,Sing
+tornast	tornast	torner	TORNARE		VERB		Fin,Sub,Imp,Intr,3,Sing
+sors	sors	sor2	SUPER		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+.	.						
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+peüssent	peüssent	pöoir	POSSE		VERB	auxMod	Fin,Sub,Imp,3,Plur
+de	de	de	DE		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+fer	fer1	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+forteresse	forteresse	forterece	FORTIS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+lor	lor1	lor3	ILLE		DET		Poss,Masc,Sing,Acc
+chastel	chastel	chastel	CASTELLUM		NOUN		Masc,Sing,Acc
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+lune	lune	lune	LUNA		NOUN		Fem,Sing
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+levee	levee	lever	LEVARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+rois	rois1	roi	REX		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+barons	barons	baron	*BARO		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+chevaliers	chevaliers	chevalier	CABALLARIUS		NOUN		Masc,Plur,Nom
+hosirent	hosirent	issir	EXIRE		VERB		Fin,Ind,Past,Intr,3,Plur
+tos	tos7	tot	TOTUS		DET		Ind,Masc,Plur,Nom
+fors	fors	fors1	FORAS		ADP		
+de	de	de	DE		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+trestent	trestent	traire	TRAHERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+chevals	chevals	cheval	CABALLUS		NOUN		Masc,Plur,Acc
+aprés	aprés	après	AD PRESSUM		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+tos	tos1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+autres	autres2	autre	ALTER		DET		Ind,Masc,Plur,Acc
+aparoil	aparoil1	apareil	*APPARICULARE		NOUN		Masc,Plur,Acc
+qe	qe	queque	QUID		PRON		Rel,Nom
+à	à	a3	AD		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+convenoit	convenoit	covenir	CONVENIRE		VERB		Fin,Ind,Imp,Intr,3,Sing
+.	.						
+si	si	si	SIC		ADV		
+asenblerent	asenblerent	assembler	ASSIMILARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+enluec	enluec	iluec	ILLOC		ADV		
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+parlement	parlement	parlement	PARABOLARE		NOUN		Masc,Sing,Acc
+por	por	por2	PRO		ADP		
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+beisoigne	beisoigne	besoigne	*SUNNI		NOUN		Fem,Sing
+hordener	hordener	ordener	ORDINARE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+establir	establir	establir	STABILIRE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+ajousta	ajousta	ajoster	*JUXTARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+sor	sor	sor2	SUPER		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+marine	marine	marine	MARINUS		NOUN		Fem,Sing
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+parlement	parlement	parlement	PARABOLARE		NOUN		Masc,Sing,Acc
+.	.						
+à	à	a3	AD		ADP		
+celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
+parlement	parlement	parlement	PARABOLARE		NOUN		Masc,Sing,Acc
+parla	parla	parler	PARABOLARE		VERB		Fin,Ind,Past,Intr,3,Sing
+premierement	premierement	premierement	PRIMARIUS		ADV		
+pelleu	pelleu	Pelleus			PROPN		Masc,Sing,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+moult	moult	mout	MULTUS		ADV		
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+saje	saje	sage	SAPIDUS		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+.	.						
+si	si	si	SIC		ADV		
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+.	.						
+.	.						
+biaus	biaus1	bel	BELLUS		ADJ		Masc,Plur,Nom
+seignors	seignors	seignor	SENIOR		NOUN		Masc,Plur,Nom
+.	.						
+fist	fist	faire	FACERE		VERB		Fin,Ind,Past,Intr,3,Sing
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+.	.						
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+sai	sai	savoir	SAPERE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+bien	bien	bien2	BENE		ADV		Man
+qe	qe3	queque	QUID		SCONJ		
+en	en	en1	IN		ADP		
+tot	tot3	tot	TOTUS		DET		Ind,Masc,Sing,Acc
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+monde	monde1	monde1	MUNDUS1		NOUN		Masc,Sing,Acc
+nen	nen	non	NON		ADV		Neg
+a	a2	avoir	HABERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+autant	autant						
+de	de	de	DE		ADP		
+valor	valor	valor	VALOR		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+bonté	bonté	bonté	BONITAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+proësse	proësse	pröece	PRODE		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+savoir	savoir	savoir	SAPERE		VERB	Noun	Ind,Inf,Pres
+com	com	come1	QUOMODO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+l’	l’5	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+a	a1	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Sing,MWEs
+isi	isi	ici	HIC		ADV		Loc
+asenblés	asenblés	assembler	ASSIMILARE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+por	por	por2	PRO		ADP		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+amor	amor2	amor	AMOR		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+por	por	por2	PRO		ADP		
+l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
+amisté	amisté	amistié	*AMICITAS		NOUN		Fem,Sing
+qe	qe1	queque	QUID		PRON		Rel,Acc
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+avons	avons	avoir	HABERE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+por	por	por2	PRO		ADP		
+vengier	vengier	vengier	VINDICARE		VERB		Ind,Inf,Pres,Act,Trans
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+forfet	forfet	forfait	FACERE		NOUN		Masc,Sing,Acc
+qi	qi2	qui	QUI		PRON		Rel,Acc
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+fet	fet5	faire	FACERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+à	à	a3	AD		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+et	et	et	ET		CCONJ		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+conpaignie	conpaignie	compagnie	COMPANIO		NOUN		Fem,Sing
+.	.						
+et	et	et	ET		CCONJ		
+puis_qe	puis_qe	plus	POSTEA		ADV	SConj 	Tim,MWEs
+ensi	ensi	ainsi	SIC		ADV		
+soumes	soumes	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,1,Plur
+.	.						
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+convient	convient	covenir	CONVENIRE		VERB		Fin,Ind,Pres,Intr,3,Sing
+tel	tel2	tel	TALIS		DET		Ind,Masc,Sing,Acc
+consoil	consoil	conseil	CONSILIUM		NOUN		Masc,Sing,Acc
+prendre	prendre	prendre	PREHENDERE		VERB		Ind,Inf,Pres,Act,Trans
+qi	qi	qui	QUI		PRON		Rel,Nom
+bon	bon2	bon	BONUS		ADJ		Masc,Sing,Nom
+soit	soit	estre1	ESSE		VERB		Fin,Sub,Pres,Intr,3,Sing
+.	.						
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+maniere	maniere	maniere	MANUARIUS		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+henor	henor1	onor	HONOS		NOUN		Fem,Sing
+qe	qe1	queque	QUID		PRON		Rel,Acc
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+avons	avons1	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,1,Plur,MWEs
+conqise	conqise	conquerir	CONQUIRERE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+de	de	de	DE		ADP		
+maintes	maintes3	maint	*MANIGIþô-		DET		Ind,Fem,Plur
+batailles	batailles	bataille	BATTUALIA		NOUN		Fem,Plur
+vaincre	vaincre	veintre	VINCERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+maintes	maintes3	maint	*MANIGIþô-		DET		Ind,Fem,Plur
+terres	terres	terre	TERRA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+païs	païs2	päis	PAGENSIS		NOUN		Masc,Plur,Acc
+conqerre	conqerre	conquerir	CONQUIRERE		VERB		Ind,Inf,Pres,Act,Trans
+ni	ni	ne2	NEC		CCONJ		
+soit	soit2	estre1	ESSE		VERB	auxPass	Fin,Sub,Pres,3,Sing,MWEs
+enpiree	enpiree1	empirier	PEJOR		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+ni	ni	ne2	NEC		CCONJ		
+gastee	gastee	gaster	VASTARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+soumes	soumes1	estre1	ESSE		VERB	auxTens	Fin,Ind,Pres,1,Plur,MWEs
+entrés	entrés	entrer	INTRARE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+en	en	en1	IN		ADP		
+cestui	cestui1	cest	ISTE		DET		Dem,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+ne	ne	ne1	NON		ADV		Neg
+nuls	nuls	nul	NULLUS		DET		Ind,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+set	set	savoir	SAPERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+encore	encore	encore	HORA		ADV		
+.	.						
+et	et	et	ET		CCONJ		
+por	por	por2	PRO		ADP		
+ce	ce1	ce1	HOC		PRON		Dem,Neut,Sing,Acc
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+vuoil	vuoil	voloir	VELLE		VERB	auxMod	Fin,Ind,Pres,1,Sing
+trois	trois	trois1	TRES		NUM		Ord
+chouses	chouses	chose	CAUSA		NOUN		Fem,Plur
+moustrer	moustrer	mostrer	MONSTRARE		VERB		Ind,Inf,Pres,Act,Trans
+avant_qe	avant_qe	avant	ABANTE		ADV	SConj 	
+plus	plus	plus	PLUS		ADV		
+en	en2	en2	INDE		PRON		
+feisons	feisons	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+moult	moult	mout	MULTUS		ADV		
+font	font	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+à	à	a3	AD		ADP		
+regarder	regarder	regarder	*WARDôN		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+penser	penser	penser	PENSARE		VERB		Ind,Inf,Pres,Intr
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+premiere	premiere	premier	PRIMARIUS		ADJ		Fem,Sing
+si	si	si	SIC		ADV		
+est	est	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,3,Sing
+se_qe	se_qe						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+gent	gent1	gent1	GENS		NOUN		Fem,Sing
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+ensi	ensi	ainsi	SIC		ADV		
+deshonoree	deshonoree	desonorer	HONORARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+et	et	et	ET		CCONJ		
+chasee	chasee	chacier	*CAPTIARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+de	de	de	DE		ADP		
+cestui	cestui1	cest	ISTE		DET		Dem,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+com	com	come1	QUOMODO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
+dit	dit	dire	DICERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+est	est1	estre1	ESSE		VERB	auxCop	Fin,Ind,Pres,3,Sing
+ausi	ausi	aussi	SIC		ADV		
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+com	com	come1	QUOMODO		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+soumes	soumes	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,1,Plur
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+segonde	segonde	secont1	SECUNDUS		ADJ		Fem,Sing
+si	si	si	SIC		ADV		
+est	est	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,3,Sing
+de	de	de	DE		ADP		
+cestui	cestui1	cest	ISTE		DET		Dem,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+isillier	isillier	essillier	EXCIDIUM		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+asaillir	asaillir	assalir	*ASSALIRE		VERB		Ind,Inf,Pres,Act,Trans
+de	de	de	DE		ADP		
+guerre	guerre	guerre	*WERRA		NOUN		Fem,Sing
+por	por	por2	PRO		ADP		
+ceste	ceste1	cest	ISTE		DET		Dem,Fem,Sing
+honte	honte	honte	*HAUNIþA		NOUN		Fem,Sing
+qe	qe1	queque	QUID		PRON		Rel,Acc
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+ai	ai	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,1,Sing,MWEs
+.	.						
+car	car	car	QUARE		SCONJ		
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+sai	sai	savoir	SAPERE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+penseront	penseront	penser	PENSARE		VERB		Fin,Ind,Fut,Act,Trans,3,Plur
+moult	moult	mout	MULTUS		ADV		
+de	de	de	DE		ADP		
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+defendre	defendre1	defendre	DEFENDERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
+ocire	ocire	ocire	OCCIDERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+detrenchier	detrenchier	detrenchier	*TRINICARE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+terce	terce	tierce	TERTIUS		ADJ		Fem,Sing
+chouse	chouse	chose	CAUSA		NOUN		Fem,Sing
+qe	qe1	queque	QUID		PRON		Rel,Acc
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+devons	devons1	devoir	DEBERE		VERB	auxMod	Fin,Ind,Pres,1,Plur
+penser	penser	penser	PENSARE		VERB		Ind,Inf,Pres,Intr
+si	si	si	SIC		ADV		
+est	est	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,3,Sing
+qe	qe3	queque	QUID		SCONJ		
+.	.						
+se	se2	se	SI		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+veïsons	veïsons	veintre	VINCERE		VERB		Fin,Sub,Imp,Act,Trans,1,Plur
+cestui	cestui1	cest	ISTE		DET		Dem,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+ceste	ceste1	cest	ISTE		DET		Dem,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+.	.						
+li	li3	le	ILLE		DET		ArtDef,Masc,Plur
+tresor	tresor1	tresor	THESAURUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+dras	dras	drap	DRAPPUS		NOUN		Masc,Plur,Acc
+de	de	de	DE		ADP		
+soie	soie	soie3	SAETA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+pailés	pailés	paile	PALLIUM		NOUN		Masc,Plur,Acc
+à	à	a3	AD		ADP		
+hor	hor1	or1	AURUM		NOUN		Masc,Sing,Acc
+batus	batus	batre	BATTUERE		VERB	Adj	Ind,Part,Past,Sing,Masc
+ne	ne	ne1	NON		ADV		Neg
+poiront	poiront	pöoir	POSSE		VERB	auxMod	Fin,Ind,Fut,3,Plur
+tos	tos8	tot	TOTUS		DET		Ind,Fem,Plur
+nos	nos3	nos	NOSTER		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+porter	porter	porter	PORTARE		VERB		Ind,Inf,Pres,Act,Trans
+tant	tant	tant	TANTUS		ADV		
+seront	seront1	estre1	ESSE		VERB		Fin,Ind,Fut,Intr,3,Plur
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+.	.						
+se	se2	se	SI		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+veïsons	veïsons	veintre	VINCERE		VERB		Fin,Sub,Imp,Act,Trans,1,Plur
+.	.						
+grese	grese	Grèce			PROPN		Fem,Sing
+en	en2	en2	INDE		PRON		
+sera	sera1	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,3,Sing,MWEs
+à	à	a3	AD		ADP		
+tot	tot1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+jors	jors	jor	DIURNUM		NOUN		Masc,Plur,Acc
+enrichie	enrichie	enrichir	RîKI		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+et	et	et	ET		CCONJ		
+honoree	honoree	onorer	HONORARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+ses	ses3	ce	HOC		DET		Dem,Fem,Plur
+chouses	chouses	chose	CAUSA		NOUN		Fem,Plur
+avrons	avrons	avoir	HABERE		VERB	auxTens	Fin,Ind,Fut,1,Plur,MWEs
+pensees	pensees	penser	PENSARE		VERB	compTens	Ind,Part,Past,Plur,Fem,MWEs
+en	en	en1	IN		ADP		
+nos	nos4	nos	NOSTER		DET		Poss,Masc,Plur,Acc
+cuors	cuors	cuer2	COR		NOUN		Masc,Plur,Acc
+.	.						
+lor	lor3	lors	HORA		ADV		
+si	si	si	SIC		ADV		
+ne	ne	ne1	NON		ADV		Neg
+devons	devons1	devoir	DEBERE		VERB	auxMod	Fin,Ind,Pres,1,Plur
+armer	armer	armer	ARMARE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+aparoillier	aparoillier	apareillier1	*APPARICULARE		VERB		Ind,Inf,Pres,Act,Trans
+sanz	sanz	sans	SINE		ADP		
+targier	targier	targier2	*TARDICARE		VERB		Ind,Inf,Pres,Intr
+et	et	et	ET		CCONJ		
+sans	sans	sans	SINE		ADP		
+demorer	demorer	demorer	DEMORARI		VERB		Ind,Inf,Pres,Intr
+.	.						
+et	et	et	ET		CCONJ		
+nos	nos3	nos	NOSTER		DET		Poss,Fem,Plur
+gens	gens1	gent1	GENS		NOUN		Fem,Plur
+hordener	hordener	ordener	ORDINARE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+deviser	deviser	deviser	*DEVISARE		VERB		Ind,Inf,Pres,Act,Trans
+nos	nos3	nos	NOSTER		DET		Poss,Fem,Plur
+batailles	batailles	bataille	BATTUALIA		NOUN		Fem,Plur
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+qi	qi	qui	QUI		PRON		Rel,Nom
+bon	bon1	bon	BONUS		ADJ		Neut,Sing,Nom
+soit	soit	estre1	ESSE		VERB		Fin,Sub,Pres,Intr,3,Sing
+por	por	por2	PRO		ADP		
+nos	nos4	nos	NOSTER		DET		Poss,Masc,Plur,Acc
+henemis	henemis	enemi	INIMICUS		NOUN		Masc,Plur,Acc
+vaincre	vaincre	veintre	VINCERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+hocire	hocire	ocire	OCCIDERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+detrenchier	detrenchier	detrenchier	*TRINICARE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+pri	pri	priier	PRECARI		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+et	et	et	ET		CCONJ		
+amonest	amonest1	amonester	*ADMONESTARE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+nus	nus	nul	NULLUS		PRON		Ind,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+doie	doie	devoir	DEBERE		VERB	auxMod	Fin,Sub,Pres,2,Sing
+estre	estre	estre1	ESSE		VERB	auxPass	Ind,Inf,Pres,MWEs
+à	à	a3	AD		ADP		
+ce	ce1	ce1	HOC		PRON		Dem,Neut,Sing,Acc
+faire	faire	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+esbaïs	esbaïs	esbäir	BATARE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+toutes_fois	toutes_fois	totesfoiz	VICES		ADV		
+.	.						
+qi	qi4	qui	QUI		PRON		Int,Sing,Nom
+miels	miels	mieus	MELIOR		ADV		Cmp
+savra	savra1	savoir	SAPERE		VERB	auxMod	Fin,Ind,Fut,3,Sing
+dir	dir	dire	DICERE		VERB		Ind,Inf,Pres,Intr
+et	et	et	ET		CCONJ		
+conseillier	conseillier	conseillier3	CONSILIARE		VERB		Ind,Inf,Pres,Intr
+.	.						
+si	si	si	SIC		ADV		
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+di	di2	dire	DICERE		VERB		Fin,Sub,Pres,Intr,3,Sing
+.	.						
+et	et	et	ET		CCONJ		
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+lou	lou	löer1	LAUDARE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+feisons	feisons	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+.	.						
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+parla	parla	parler	PARABOLARE		VERB		Fin,Ind,Past,Intr,3,Sing
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+pelleus	pelleus	Pelleus			PROPN		Masc,Sing,Nom
+hot	hot	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
+ensi	ensi	ainsi	SIC		ADV		
+parlé	parlé	parler	PARABOLARE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+si	si	si	SIC		ADV		
+parla	parla	parler	PARABOLARE		VERB		Fin,Ind,Past,Intr,3,Sing
+adonc	adonc	adonc	DUNC		ADV		
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+.	.						
+.	.						
+biau	biau	bel	BELLUS		ADJ		Masc,Sing,Nom
+sire	sire	seignor	SENIOR		NOUN		Masc,Sing,Nom
+pelleus	pelleus	Pelleus			PROPN		Masc,Sing,Nom
+.	.						
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+n’	n’1	en2	INDE		PRON		
+avés	avés	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,2,Plur,MWEs
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+consoilliés	consoilliés	conseillier3	CONSILIARE		VERB	compTens	Ind,Inf,Sing,Masc,MWEs
+et	et	et	ET		CCONJ		
+por_ce	por_ce						
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+lou	lou	löer1	LAUDARE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+fesons	fesons	faire	FACERE		VERB	auxMod	Fin,Ind,Pres,1,Plur
+nos	nos3	nos	NOSTER		DET		Poss,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+armer	armer	armer	ARMARE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+hordener	hordener	ordener	ORDINARE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+et	et	et	ET		CCONJ		
+qe	qe3	queque	QUID		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+en	en2	en2	INDE		PRON		
+laisons	laisons	laissier	LAXARE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+une	une	un	UNUS		DET		ArtIndef,Fem,Sing
+partie	partie	partie	PARTIRE		NOUN		Fem,Sing
+lou	lou	löer1	LAUDARE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+et	et	et	ET		CCONJ		
+consoil	consoil1	conseillier3	CONSILIARE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe1	queque	QUID		PRON		Rel,Acc
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+envoions	envoions	envoiier	INVIARE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+à	à	a3	AD		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+.	.						
+la_qels	la_qels	quel1	QUALIS		PRON		Rel,Fem,Sing
+guierai	guierai	guiier	*WîTAN		VERB		Fin,Ind,Fut,Act,Trans,1,Sing
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+et	et	et	ET		CCONJ		
+talemon	talemon	Talemon			PROPN		Masc,Sing,Nom
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+ne	ne	ne1	NON		ADV		Neg
+irons	irons	tresaler	AMBULARE		VERB		Fin,Ind,Fut,Intr,1,Plur
+pres	pres						
+de	de	de	DE		ADP		
+murs	murs	mur	MURUS		NOUN		Masc,Plur,Acc
+de	de	de	DE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+là	là	là	ILLAC		ADV		Loc
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+enbucherons	enbucherons	embuschier	*BUSK-		VERB		Fin,Ind,Fut,Rfl,1,Plur
+en	en	en1	IN		ADP		
+celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
+leu	leu	lieu	LOCUS		NOUN		Masc,Sing,Acc
+qe	qe	queque	QUID		PRON		Rel,Nom
+plus	plus	plus	PLUS		ADV		
+convenable	convenable	covenable	CONVENIRE		ADJ		Masc,Sing,Nom
+sera	sera	estre1	ESSE		VERB		Fin,Ind,Fut,Intr,3,Sing
+.	.						
+et	et	et	ET		CCONJ		
+là	là	là	ILLAC		ADV		Loc
+demorons	demorons	demorer	DEMORARI		VERB		Fin,Ind,Pres,Intr,1,Plur
+bien	bien	bien2	BENE		ADV		Man
+et	et	et	ET		CCONJ		
+sajement	sajement	sagement	SAPIDUS		ADV		Man
+et	et	et	ET		CCONJ		
+à_sellee	à_sellee	celee1	CELARE		NOUN	Adv	Fem,Sing
+.	.						
+et	et	et	ET		CCONJ		
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+.	.						
+sire	sire	seignor	SENIOR		NOUN		Masc,Sing,Nom
+.	.						
+avec	avec	avuec	AB HOC		ADP		
+vostre	vostre2	vostre	VESTER		DET		Poss,Fem,Sing
+conpaignie	conpaignie	compagnie	COMPANIO		NOUN		Fem,Sing
+chevaucherés	chevaucherés	chevauchier	CABALLICARE		VERB		Fin,Ind,Fut,Intr,2,Plur
+aprés	aprés	après	AD PRESSUM		ADP		
+nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
+.	.						
+et	et	et	ET		CCONJ		
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+sai	sai	savoir	SAPERE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+nostre	nostre	nostre	NOSTER		DET		Poss,Fem,Sing
+venue	venue	venüe	VENIRE		NOUN		Fem,Sing
+sera	sera	estre1	ESSE		VERB		Fin,Ind,Fut,Intr,3,Sing
+à	à	a3	AD		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+descoverte	descoverte	descovrir	COOPERIRE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+sailleront	sailleront	salir1	SALIRE		VERB		Fin,Ind,Fut,Intr,3,Plur
+tos	tos4	tot	TOTUS		PRON		Ind,Masc,Plur,Nom
+as	as	a3	AD		ADP		PrepArt
+armes	armes	arme	ARMA		NOUN		Fem,Plur
+maintenant	maintenant	maintenant	MANU TENERE		ADV		Tim
+.	.						
+si	si	si	SIC		ADV		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+verront	verront	venir	VENIRE		VERB		Fin,Ind,Fut,Rfl,3,Plur
+jusqe	jusqe	jusque	USQUE		ADP		
+au	au	a3	AD		ADP		PrepArt
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+sans	sans	sans	SINE		ADP		
+nuls	nuls	nul	NULLUS		DET		Ind,Masc,Sing,Nom
+coroi	coroi1	conroi	*REþS		NOUN		Masc,Sing,Acc
+.	.						
+adonc	adonc	adonc	DUNC		ADV		
+sera	sera	estre1	ESSE		VERB		Fin,Ind,Fut,Intr,3,Sing
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+desgarnie	desgarnie	desgarnir	*WARNJAN		VERB	Adj	Ind,Part,Past,Sing,Fem
+et	et	et	ET		CCONJ		
+voudié	voudié	vuidier	*VOCITUS		VERB	compPass	Ind,Inf,Past,Sing,Fem,MWEs
+por_ce_q’	por_ce_q’	por2	PRO		ADP	SConj 	MWEs
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+seront	seront	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,3,Plur,MWEs
+au	au	a3	AD		ADP		PrepArt
+rivaje	rivaje	rivage2	RIPA		NOUN		Masc,Sing,Acc
+venus	venus1	venir	VENIRE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+et	et	et	ET		CCONJ		
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+.	.						
+qe	qe	queque	QUID		PRON		Rel,Nom
+au	au	a3	AD		ADP		PrepArt
+rivages	rivages	rivage2	RIPA		NOUN		Masc,Sing,Acc
+serés	serés	estre1	ESSE		VERB	auxCop	Fin,Ind,Fut,2,Plur
+.	.						
+ferés	ferés	faire	FACERE		VERB		Fin,Ind,Fut,Act,Trans,2,Plur
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+com	com	come1	QUOMODO		SCONJ		
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+dirai	dirai	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+.	.						
+car	car	car	QUARE		SCONJ		
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+tendrés	tendrés	tenir1	TENERE		VERB		Fin,Ind,Fut,Act,Trans,2,Plur
+à	à	a3	AD		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+tout	tout	tot	TOTUS		DET		Ind,Masc,Sing,Acc
+bellement	bellement	belement	BELLUS		ADV		Man
+sans	sans	sans	SINE		ADP		
+chaser	chaser	chacier	*CAPTIARE		VERB		Ind,Inf,Pres,Act,Trans
+-les	-les						
+et	et	et	ET		CCONJ		
+sans	sans	sans	SINE		ADP		
+remuer	remuer	remüer	MUTARE		VERB		Ind,Inf,Pres,Act,Trans
+-les	-les						
+.	.						
+et	et	et	ET		CCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+.	.						
+qe	qe	queque	QUID		PRON		Rel,Nom
+enbuchés	enbuchés	embuschier	*BUSK-		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+serons	serons	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,1,Plur,MWEs
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+veirons	veirons	vëoir	VIDERE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+si	si	si	SIC		ADV		
+voudié	voudié1	vuidier	*VOCITUS		VERB	Adj	Ind,Part,Past,Sing,Fem
+.	.						
+chevaucherons	chevaucherons	chevauchier	CABALLICARE		VERB		Fin,Ind,Fut,Intr,1,Plur
+maintenant	maintenant	maintenant	MANU TENERE		ADV		Tim
+vers	vers	vers2	VERSUS1		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+sai	sai	savoir	SAPERE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+poi_de	poi_de	poi	PAUCUS		ADV	Adv	MWEs
+defense	defense	defense	DEFENSA		NOUN		Fem,Sing
+i	i	i2	HIC		PRON		
+troveirons	troveirons	trover	*TROPARE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+.	.						
+tot_maintenant	tot_maintenant	maintenant	MANU TENERE		ADV	Adv	Tim,MWEs
+saisirons	saisirons	saisir	*SAZJAN		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+portes	portes	porte1	PORTA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+saisies	saisies	saisir	*SAZJAN		VERB	compTens	Ind,Part,Past,Plur,Fem,MWEs
+l’	l’7	le	ILLE		PRON		Prs,3,Fem,Plur,Acc
+avrons	avrons	avoir	HABERE		VERB	auxTens	Fin,Ind,Fut,1,Plur,MWEs
+.	.						
+si	si	si	SIC		ADV		
+les	les3	le	ILLE		PRON		Prs,3,Fem,Plur,Acc
+garnirrons	garnirrons	warnir	*WARNJAN		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+de	de	de	DE		ADP		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+bien	bien	bien2	BENE		ADV		Man
+et	et	et	ET		CCONJ		
+biaus	biaus2	bel	BELLUS		ADJ		Masc,Plur,Acc
+.	.						
+et	et	et	ET		CCONJ		
+puis_aprés	puis_aprés	après	AD PRESSUM		ADV	Adv	Tim,MWEs
+tornerons	tornerons	torner	TORNARE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+devers	devers	devers	VERSUS1		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+dos	dos	dos	DORSUM		NOUN		Masc,Sing,Acc
+à	à	a3	AD		ADP		
+cels	cels1	cel	ILLE		PRON		Dem,Masc,Plur,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+conbatront	conbatront	combatre	COMBATTUERE		VERB		Fin,Ind,Fut,Rfl,3,Plur
+à	à	a3	AD		ADP		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+et	et	et	ET		CCONJ		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+encloerons	encloerons	enclore	CLAUDERE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+et	et	et	ET		CCONJ		
+asaudrons	asaudrons	assalir	*ASSALIRE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+de	de	de	DE		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainere	mainere	maniere	MANUARIUS		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+mors	mors	morir	MORI		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+seront	seront	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,3,Plur,MWEs
+.	.						
+et	et	et	ET		CCONJ		
+c’	c’	se	SI		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+voudront	voudront	voloir	VELLE		VERB	auxMod	Fin,Ind,Fut,3,Plur
+arieres	arieres	ariere	AD RETRO		ADV		Loc
+torner	torner	torner	TORNARE		VERB		Ind,Inf,Pres,Intr
+.	.						
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+convendra	convendra	covenir	CONVENIRE		VERB		Fin,Ind,Fut,Intr,3,Sing
+passer	passer	passer1	*PASSARE		VERB		Ind,Inf,Pres,Act,Trans
+par	par	par	PER		ADP		
+nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
+.	.						
+et	et	et	ET		CCONJ		
+c’	c’	se	SI		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+verront	verront1	venir	VENIRE		VERB		Fin,Ind,Fut,Intr,3,Plur
+par	par	par	PER		ADP		
+nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
+passer	passer	passer1	*PASSARE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+sachés	sachés	savoir	SAPERE		VERB		Fin,Sub,Pres,Act,Trans,2,Plur
+veraiement	veraiement	veraiement	*VERACUS		ADV		Man
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ne	ne	ne1	NON		ADV		Neg
+troverent	troverent	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+jamés	jamés	ja	JAM		ADV		Tim
+si	si	si	SIC		ADV		
+fort	fort	fort	FORTIS		ADV		
+pasaje	pasaje						
+car	car	car	QUARE		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+seront	seront	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,3,Plur,MWEs
+tos	tos4	tot	TOTUS		PRON		Ind,Masc,Plur,Nom
+mors	mors	morir	MORI		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+et	et	et	ET		CCONJ		
+pris	pris	prix	PRETIUM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+detrenchés	detrenchés	detrenchier	*TRINICARE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+ja	ja	ja	JAM		ADV		
+nuls	nuls	nul	NULLUS		DET		Ind,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+escapera	escapera	eschaper	*EXCAPPARE		VERB		Fin,Ind,Fut,Intr,3,Sing
+.	.						
+se_qe	se_qe						
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+ai	ai	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,1,Sing,MWEs
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+me	me	moi	ME		PRON		Prs,1,Sing,Acc
+senble	senble	sembler	SIMILARE		VERB		Fin,Ind,Pres,Intr,3,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+soit	soit	estre1	ESSE		VERB		Fin,Sub,Pres,Intr,3,Sing
+à	à	a3	AD		ADP		
+fer	fer1	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+et	et	et	ET		CCONJ		
+qi	qi4	qui	QUI		PRON		Int,Sing,Nom
+miels	miels	mieus	MELIOR		ADV		Cmp
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+die	die	dire	DICERE		VERB		Fin,Sub,Pres,Intr,3,Sing
+sans	sans	sans	SINE		ADP		
+targier	targier	targier2	*TARDICARE		VERB		Ind,Inf,Pres,Intr
+.	.						
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+barons	barons	baron	*BARO		NOUN		Masc,Plur,Nom
+horent	horent1	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Plur,MWEs
+hoï	hoï	öir	AUDIRE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+ce_qe	ce_qe						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+hot	hot	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+tos	tos4	tot	TOTUS		PRON		Ind,Masc,Plur,Nom
+si	si	si	SIC		ADV		
+acorderent	acorderent	acorder	*ACCORDARE		VERB		Fin,Ind,Past,Rfl,3,Plur
+sans	sans	sans	SINE		ADP		
+plus	plus	plus	PLUS		ADV		
+dir	dir	dire	DICERE		VERB		Ind,Inf,Pres,Intr
+.	.						
+si	si	si	SIC		ADV		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+armerent	armerent	armer	ARMARE		VERB		Fin,Ind,Past,Rfl,3,Plur
+demanois	demanois	demanois	MANUS		ADV		
+de	de	de	DE		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+riches	riches	riche	RîKI		ADJ		Fem,Plur
+armes	armes	arme	ARMA		NOUN		Fem,Plur
+.	.						
+si	si	si	SIC		ADV		
+hordena	hordena	ordener	ORDINARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+chascun	chascun1	chascun	CATA		PRON		Ind,Masc,Sing,Nom
+de	de	de	DE		ADP		
+chevacains	chevacains	chevetaigne	CAPITANEUS		NOUN		Masc,Plur,Acc
+ses	ses2	suen	SUUS		DET		Poss,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+.	.						
+cels	cels	cel	ILLE		PRON		Dem,Masc,Plur,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+de_sus	de_sus	desus	SURSUM		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+marine	marine	marine	MARINUS		NOUN		Fem,Sing
+estoient	estoient1	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+.	.						
+si	si	si	SIC		ADV		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+partirent	partirent	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Plur
+en	en	en1	IN		ADP		
+trois	trois	trois1	TRES		NUM		Ord
+eschielles	eschielles	eschiele1	SCALA		NOUN		Fem,Plur
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+premiere	premiere	premier	PRIMARIUS		ADJ		Fem,Sing
+guia	guia	guiier	*WîTAN		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+nestor	nestor1	Nestor			PROPN		Masc,Sing,Nom
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+segonde	segonde	secont1	SECUNDUS		ADJ		Fem,Sing
+guia	guia	guiier	*WîTAN		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+pelleus	pelleus	Pelleus			PROPN		Masc,Sing,Nom
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+tierce	tierce	tierce	TERTIUS		ADJ	Noun	Fem,Sing
+guia	guia	guiier	*WîTAN		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+castor	castor	Castor			PROPN		Masc,Sing,Nom
+.	.						
+ses	ses	suen	SUUS		DET		Poss,Masc,Plur,Nom
+trois	trois	trois1	TRES		NUM		Ord
+furent	furent	estre1	ESSE		VERB		Fin,Ind,Past,Intr,3,Plur
+lor	lor7	lor3	ILLE		DET		Poss,Masc,Plur,Nom
+maistres	maistres	maistre	MAGISTER		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+lor	lor7	lor3	ILLE		DET		Poss,Masc,Plur,Nom
+cheveitaines	cheveitaines	chevetaigne	CAPITANEUS		NOUN		Masc,Plur,Nom
+.	.						
+por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
+moult	moult	mout	MULTUS		ADV		
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+sajes	sajes	sage	SAPIDUS		ADJ		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+vaillans	vaillans	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+o	o	o4	APUD		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+gent	gent1	gent1	GENS		NOUN		Fem,Sing
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+enbucha	enbucha	embuschier	*BUSK-		VERB		Fin,Ind,Past,Rfl,3,Sing
+.	.						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+talemon	talemon	Talemon			PROPN		Masc,Sing,Nom
+chevaucherent	chevaucherent	chevauchier	CABALLICARE		VERB		Fin,Ind,Past,Intr,3,Plur
+ho	ho	avuec	AB HOC		ADP		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+dui	dui	deus	DUO		NUM		Ord
+corois	corois	conroi	*REþS		NOUN		Masc,Plur,Acc
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+plus	plus	plus	PLUS		ADV		
+de	de	de	DE		ADP		
+trois_miles	trois_miles						
+chevaliers	chevaliers	chevalier	CABALLARIUS		NOUN		Masc,Plur,Nom
+preuz	preuz	pro	PRODE		ADJ		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+hardis	hardis1	hardi	*HARDJAN		ADJ		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+.	.						
+moult	moult	mout	MULTUS		ADV		
+priveement	priveement	priveement	PRIVATUS		ADV		Man
+et	et	et	ET		CCONJ		
+à_selee	à_selee	celee1	CELARE		NOUN	Adv	Fem,Sing
+.	.						
+estorrroit	estorrroit	X	X		X		
+et	et	et	ET		CCONJ		
+serrés	serrés	serrer	SERARE		VERB	Adj	Ind,Part,Past,Plur,Masc
+le_petit_pas	le_petit_pas	pas	PASSUS1		NOUN	Adv	Masc,Sing,Nom
+.	.						
+ses	ses	suen	SUUS		DET		Poss,Masc,Plur,Nom
+dui	dui	deus	DUO		NUM		Ord
+conpaignes	conpaignes	compagne	COMPANIO		NOUN		Fem,Plur
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+repostrent	repostrent	reposter (GD)	REPONERE		VERB		Fin,Ind,Past,Rfl,3,Plur
+dedenz	dedenz	dedans	DEINTUS		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+vergiés	vergiés	vergier1	VIRIDIARIUM		NOUN		Masc,Plur,Acc
+.	.						
+près_de	près_de	près	PRESSE		ADP	Adp	MWEs
+murs	murs	mur	MURUS		NOUN		Masc,Plur,Acc
+.	.						
+plus	plus	plus	PLUS		ADV		
+celeement	celeement	celeement	CELARE		ADV		Man
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+poient	poient	pöoir	POSSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+hosi	hosi	issir	EXIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+ho	ho	avuec	AB HOC		ADP		
+tute	tute	tot	TOTUS		DET		Ind,Fem,Sing
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+gent	gent1	gent1	GENS		NOUN		Fem,Sing
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+versiers	versiers	vergier1	VIRIDIARIUM		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+buchages	buchages	boschage	*BOSK-		NOUN		Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+adonc	adonc	adonc	DUNC		ADV		
+flori	flori	flori	FLORERE		ADJ		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+foillus	foillus	foillu	FOLIUM		ADJ		Masc,Plur,Nom
+ensi_com	ensi_com	ainsi	SIC		ADV	Adv	MWEs
+el	el	en1	IN		ADP		PrepArt
+tens	tens	tens	TEMPS1		NOUN		Masc,Sing,Nom
+d’	d’	de	DE		ADP		
+esté	esté4	esté1	AESTAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+por_ce	por_ce						
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+porent	porent1	pöoir	POSSE		VERB	auxMod	Fin,Ind,Past,3,Plur
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+enbuchier	enbuchier	embuschier	*BUSK-		VERB		Ind,Inf,Pres,Rfl
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+et	et	et	ET		CCONJ		
+re_porre	re_porre						
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ne	ne	ne1	NON		ADV		Neg
+fussent	fussent	estre1	ESSE		VERB	auxPass	Fin,Sub,Imp,3,Plur,MWEs
+pas	pas	pas	PASSUS1		PART		Neg
+de	de	de	DE		ADP		
+nuls	nuls	nul	NULLUS		DET		Ind,Masc,Sing,Nom
+aperceüs	aperceüs1	apercevoir	PERCIPERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+jor	jor1	jor	DIURNUM		NOUN		Masc,Sing,Nom
+aparut	aparut	aparoir	*APPARESCERE		VERB		Fin,Ind,Past,Intr,3,Sing
+et	et	et	ET		CCONJ		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+soleil	soleil	soleil	SOL		NOUN		Masc,Sing,Acc
+leva	leva	lever	LEVARE		VERB		Fin,Ind,Past,Rfl,3,Sing
+et	et	et	ET		CCONJ		
+espandi	espandi	espandre	EXPANDERE		VERB		Fin,Ind,Past,Intr,3,Sing
+par	par	par	PER		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+.	.						
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+qi	qi	qui	QUI		PRON		Rel,Nom
+por	por	por2	PRO		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+estoient	estoient1	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+apercuerent	apercuerent	apercevoir	PERCIPERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+adonc	adonc	adonc	DUNC		ADV		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+qi	qi	qui	QUI		PRON		Rel,Nom
+au	au	a3	AD		ADP		PrepArt
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+arivees	arivees	ariver	*ARRIPARE		VERB	compTens	Ind,Part,Past,Plur,Fem,MWEs
+.	.						
+et	et	et	ET		CCONJ		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+armees	armees	armer	ARMARE		VERB	Adj	Ind,Part,Past,Plur,Fem
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+sor	sor	sor2	SUPER		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+marine	marine	marine	MARINUS		NOUN		Fem,Sing
+estoient	estoient1	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+.	.						
+si	si	si	SIC		ADV		
+furent	furent	estre1	ESSE		VERB		Fin,Ind,Past,Intr,3,Plur
+mult	mult	mout	MULTUS		ADV		
+esfreés	esfreés	esfrëer	*EXFRIDARE		VERB	compPass	Ind,Part,Past,Plur,Fem,MWEs
+et	et	et	ET		CCONJ		
+espaontés	espaontés1	espöenter	*EXPAVENTARE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+si	si	si	SIC		ADV		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+fuoient	fuoient	fuir	FUGERE		VERB		Fin,Ind,Imp,Rfl,3,Plur
+et	et	et	ET		CCONJ		
+anuisoient	anuisoient						
+por	por	por2	PRO		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+boisons	boisons	boisson (GDC)	BIBITIO		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+por	por	por2	PRO		ADP		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+repostailles	repostailles	repostaille	REPONERE		NOUN		Fem,Plur
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+cri	cri	cri	QUIRITARE		NOUN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+timulte	timulte	tumult	TUMULTUS		NOUN		Fem,Sing
+comensa	comensa	comencier	COMINITIARE		VERB		Fin,Ind,Past,Intr,3,Sing
+par	par	par	PER		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+si	si	si	SIC		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+en	en	en1	IN		ADP		
+nen	nen	non	NON		ADV		Neg
+oïst	oïst	öir	AUDIRE		VERB		Fin,Sub,Imp,Act,Trans,3,Sing
+dieu	dieu	dieu	DEUS		NOUN		Masc,Sing,Nom
+tonant	tonant	toner	TONARE		VERB	Adj	Ind,Part,Pres
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+cels	cels	cel	ILLE		PRON		Dem,Masc,Plur,Nom
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+hoïrent	hoïrent	öir	AUDIRE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+cri	cri1	cri	QUIRITARE		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+i	i	i2	HIC		PRON		
+vient	vient	venir	VENIRE		VERB		Fin,Ind,Pres,Intr,3,Sing
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+navie	navie						
+et	et	et	ET		CCONJ		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+armee	armee	armer	ARMARE		VERB	Adj	Ind,Part,Past,Plur,Fem
+sor	sor	sor2	SUPER		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+rivaje	rivaje	rivage2	RIPA		NOUN		Masc,Sing,Acc
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+saillirent	saillirent	salir1	SALIRE		VERB		Fin,Ind,Past,Intr,3,Plur
+tot	tot	tot	TOTUS		DET		Ind,Masc,Sing,Nom
+maintenant	maintenant	maintenant	MANU TENERE		ADV		Tim
+as	as	a3	AD		ADP		PrepArt
+armes	armes	arme	ARMA		NOUN		Fem,Plur
+ensi	ensi	ainsi	SIC		ADV		
+esfreés	esfreés1	esfrëer	*EXFRIDARE		VERB		Ind,Part,Past,Plur,Masc
+com	com	come1	QUOMODO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+meïsmement	meïsmement	mëismement	IPSE		ADV		
+arma	arma1	armer	ARMARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+oïssi	oïssi	issir	EXIRE		VERB		Fin,Ind,Past,Rfl,3,Sing
+fors_de	fors_de						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+ville	ville	vile	VILLA		NOUN		Fem,Sing
+ensi	ensi	ainsi	SIC		ADV		
+armés	armés1	armer	ARMARE		VERB	Adj	Ind,Part,Past,Sing,Masc
+com	com	come1	QUOMODO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+et	et	et	ET		CCONJ		
+ho	ho	avuec	AB HOC		ADP		
+tant	tant	tant	TANTUS		ADV		
+de	de	de	DE		ADP		
+gent	gent1	gent1	GENS		NOUN		Fem,Sing
+com	com	come1	QUOMODO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+puet	puet	pöoir	POSSE		VERB	auxMod	Fin,Ind,Pres,3,Sing
+avoir	avoir	avoir	HABERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+iriéz	iriéz	irier	IRA		VERB	Adj	Ind,Part,Past,Sing,Masc
+et	et	et	ET		CCONJ		
+corrociéz	corrociéz	corrocier	*CORRUPTUM		VERB		Ind,Part,Past,Sing,Masc
+moult	moult	mout	MULTUS		ADV		
+durement	durement	durement	DURUS		ADV		Man
+de	de	de	DE		ADP		
+ce_qe	ce_qe						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+en	en	en1	IN		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+terre	terre	terre	TERRA		NOUN		Fem,Sing
+retornés	retornés	retorner	TORNARE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+puis	puis	puis	POSTEA		ADV		Tim
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+ala	ala1	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Rfl,3,Sing
+vers	vers	vers2	VERSUS1		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+marine	marine	marine	MARINUS		NOUN		Fem,Sing
+.	.						
+là_où	là_où	là	ILLAC		ADV	Adv	Loc,MWEs
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+armés	armés	armer	ARMARE		VERB	Adj	Ind,Part,Past,Plur,Masc
+et	et	et	ET		CCONJ		
+montés	montés	monter	*MONTARE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+et	et	et	ET		CCONJ		
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+feri	feri	ferir	FERIRE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+entr’	entr’	entre2	INTER		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+moult	moult	mout	MULTUS		ADV		
+hardiement	hardiement	hardement1	*HARDJAN		ADV		Man
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+le	le1	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+recoillirent	recoillirent1	recoillir	COLLIGERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+ensi_com	ensi_com	ainsi	SIC		ADV	Adv	MWEs
+vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+homes	homes	ome	HOMO		NOUN		Masc,Plur,Nom
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+.	.						
+si	si	si	SIC		ADV		
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+conmencerent	conmencerent	comencier	COMINITIARE		VERB		Fin,Ind,Past,Rfl,3,Plur
+à	à	a3	AD		ADP		
+hocire	hocire	ocire	OCCIDERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+ferir	ferir	ferir	FERIRE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+detrenchier	detrenchier	detrenchier	*TRINICARE		VERB		Ind,Inf,Pres,Act,Trans
+entr’	entr’	entre2	INTER		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+ausi_com	ausi_com	aussi	SIC		ADV	Adv	MWEs
+c’	c’	se	SI		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+fussent	fussent	estre1	ESSE		VERB	auxPass	Fin,Sub,Imp,3,Plur,MWEs
+bestes	bestes	beste	BESTIA		NOUN		Fem,Plur
+mues	mues	mu1	MUTUS		ADJ		Fem,Plur
+.	.						
+sans	sans	sans	SINE		ADP		
+mercis	mercis	merci	MERCES		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+sans	sans	sans	SINE		ADP		
+pitiés	pitiés	pitié	PIETAS		NOUN		Fem,Plur
+avoir	avoir	avoir	HABERE		VERB		Ind,Inf,Pres,Act,Trans
+d’	d’	de	DE		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+mistrent	mistrent1	metre2	MITTERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+mains	mains	main2	MANUS		NOUN		Fem,Plur
+as	as	a3	AD		ADP		PrepArt
+espees	espees	espee	SPATHA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+commencerent	commencerent	comencier	COMINITIARE		VERB		Fin,Ind,Past,Rfl,3,Plur
+à	à	a3	AD		ADP		
+douner	douner	doner	DONARE		VERB		Ind,Inf,Pres,Act,Trans
+moult	moult	mout	MULTUS		ADV		
+grant	grant4	grant	GRANDIS		ADJ		Masc,Plur,Acc
+coux	coux	coup	COLAPHUS		NOUN		Masc,Plur,Acc
+sor	sor	sor2	SUPER		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+hiaumes	hiaumes	heaume	*HELM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+sor	sor	sor2	SUPER		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+escus	escus	escu	SCUTUM		NOUN		Masc,Plur,Acc
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+detrencherent	detrencherent1	detrenchier	*TRINICARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+eschartellerent	eschartellerent	escarteler	QUARTUS		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+aubers	aubers	herberc	*HARIBERGôN		NOUN		Masc,Plur,Acc
+desmaaillierent	desmaaillierent	desmaillier	MACULA		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+deronpirent	deronpirent	desrompre	RUMPERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+en	en	en1	IN		ADP		
+plusor	plusor	plusor	PLURIORES		DET		Ind,Masc,Plur,Acc
+leus	leus	lieu	LOCUS		NOUN		Masc,Plur,Acc
+sor	sor	sor2	SUPER		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+bras	bras	braz	BRACHIUM		PROPN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+sor	sor	sor2	SUPER		ADP		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+espaules	espaules	espaula	SPATULA		NOUN		Fem,Plur
+neis	neis	nëis	NEC		ADV		Neg
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
+meïsmement	meïsmement	mëismement	IPSE		ADV		
+.	.						
+et	et	et	ET		CCONJ		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+menbres	menbres						
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+detrenchoient	detrenchoient	detrenchier	*TRINICARE		VERB		Fin,Ind,Imp,Rfl,3,Plur
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+moult	moult	mout	MULTUS		ADV		
+durement	durement	durement	DURUS		ADV		Man
+.	.						
+premierement	premierement	premierement	PRIMARIUS		ADV		
+fu	fu	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+encontres	encontres	encontre1	CONTRA		ADP		
+nestor	nestor	Nestor			PROPN		Masc,Sing,Acc
+ho	ho	avuec	AB HOC		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+sien	sien	suen	SUUS		DET		Poss,Masc,Sing,Acc
+corroi	corroi	conroi	*REþS		NOUN		Masc,Sing,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+moult	moult	mout	MULTUS		ADV		
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+grevés	grevés	grever	GRAVARE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+et	et	et	ET		CCONJ		
+maumis	maumis						
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+nestor	nestor1	Nestor			PROPN		Masc,Sing,Nom
+por	por	por2	PRO		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
+seulement	seulement	solement	SOLUS		ADV		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+defendi	defendi	defendre	DEFENDERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+garda	garda	warder	*WARDôN		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+moult	moult	mout	MULTUS		ADV		
+car	car	car	QUARE		SCONJ		
+mervoilleus	mervoilleus	merveillos	MIRABILIA		ADJ		Masc,Sing,Nom
+chevaliers	chevaliers2	chevalier	CABALLARIUS		NOUN		Masc,Sing,Nom
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+de	de	de	DE		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+horent	horent1	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Plur,MWEs
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+piece	piece	piece	*PETTIA		NOUN		Fem,Sing
+soufert	soufert	sofrir	SUFFERRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+dure	dure	dur	DURUS		ADJ		Fem,Sing
+meslee	meslee	meslee	MISCULARE		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+le	le7	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+secore	secore	secorre1	SUCCURRERE		VERB		Ind,Inf,Pres,Act,Trans
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+gastor	gastor1	Castor			PROPN		Masc,Sing,Nom
+ho	ho	avuec	AB HOC		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+soe	soe	suen	SUUS		DET		Poss,Fem,Sing
+conpaignie	conpaignie	compagnie	COMPANIO		NOUN		Fem,Sing
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+escus	escus	escu	SCUTUM		NOUN		Masc,Plur,Acc
+pris	pris	prix	PRETIUM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+lancies	lancies	lance	LANCEA		NOUN		Fem,Plur
+baissiees	baissiees	baissier	*BASSIARE		VERB		Ind,Part,Past,Plur,Fem
+.	.						
+moult	moult	mout	MULTUS		ADV		
+vigoreusement	vigoreusement	vigorosement	VIGOR		ADV		Man
+.	.						
+si	si	si	SIC		ADV		
+i	i	i2	HIC		PRON		
+ot	ot2	avoir	HABERE		VERB		Fin,Ind,Past,Intr,3,Sing
+au	au	a3	AD		ADP		PrepArt
+venir	venir	venir	VENIRE		VERB		Ind,Inf,Pres,Intr
+maintes	maintes3	maint	*MANIGIþô-		DET		Ind,Fem,Plur
+enseignes	enseignes	enseigne	INSIGNIA		NOUN		Fem,Plur
+escriees	escriees	escrïer	QUIRITARE		VERB	Adj	Ind,Part,Past,Plur,Fem
+et	et	et	ET		CCONJ		
+maint	maint	maint	*MANIGIþô-		DET		Ind,Masc,Plur,Nom
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+abatus	abatus	abatre	ABBATTUERE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+de	de	de	DE		ADP		
+cels	cels1	cel	ILLE		PRON		Dem,Masc,Plur,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+puis	puis	puis	POSTEA		ADV		Tim
+ne	ne	ne1	NON		ADV		Neg
+leverent	leverent	lever	LEVARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+.	.						
+et	et	et	ET		CCONJ		
+maint	maint	maint	*MANIGIþô-		DET		Ind,Masc,Plur,Nom
+hocis	hocis	ocire	OCCIDERE		VERB		Ind,Part,Past,Plur,Masc
+et	et	et	ET		CCONJ		
+detrenchés	detrenchés	detrenchier	*TRINICARE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+adonc	adonc	adonc	DUNC		ADV		
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+feri	feri	ferir	FERIRE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+en	en	en1	IN		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+moult	moult	mout	MULTUS		ADV		
+mervoilleusement	mervoilleusement	merveillosement	MIRABILIA		ADV		Man
+à	à	a3	AD		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+fois	fois1	foi	FIDES		NOUN		Fem,Sing
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+troienz	troienz2	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Nom
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+tindrent	tindrent1	tenir1	TENERE		VERB		Fin,Ind,Past,Rfl,3,Plur
+moult	moult	mout	MULTUS		ADV		
+vigoreusement	vigoreusement	vigorosement	VIGOR		ADV		Man
+por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+secors	secors	secors	SUCCURRERE		NOUN		Masc,Sing,Acc
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+venoit	venoit	venir	VENIRE		VERB		Fin,Ind,Imp,Intr,3,Sing
+toute_fois	toute_fois	totesfoiz	VICES		ADV		
+de	de	de	DE		ADP		
+grant	grant3	grant	GRANDIS		ADJ		Fem,Plur
+conpaignes	conpaignes	compagne	COMPANIO		NOUN		Fem,Plur
+qi	qi	qui	QUI		PRON		Rel,Nom
+venoient	venoient	venir	VENIRE		VERB		Fin,Ind,Imp,Intr,3,Plur
+de	de	de	DE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+d_entor	d_entor	entor	TORNARE		ADV	Adv	Loc,MWEs
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+tot	tot	tot	TOTUS		DET		Ind,Masc,Sing,Nom
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+tant	tant	tant	TANTUS		ADV		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+esforserent	esforserent	esforcier2	*FORTIARE		VERB		Fin,Ind,Past,Rfl,3,Plur
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+troienz	troienz2	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+reseürent	reseürent	recevoir	RECIPERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois1	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Acc
+plus_de	plus_de	plus	PLUS		ADV	Adv	MWEs
+dui	dui	deus	DUO		NUM		Ord
+archees	archees	archiee	ARCUS		NOUN		Fem,Plur
+ensus	ensus	ensus	SURSUM		ADV		Loc
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+gregierent	gregierent						
+et	et	et	ET		CCONJ		
+afollerent	afollerent	afoler	FULLARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+.	.						
+ce	ce2	se	SI		SCONJ		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+coroi	coroi	conroi	*REþS		NOUN		Masc,Sing,Nom
+pelleus	pelleus1	Pelleus			PROPN		Masc,Sing,Acc
+ne	ne	ne1	NON		ADV		Neg
+fust	fust	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+si	si	si	SIC		ADV		
+tost	tost	tost	TOSTUS		ADV		
+venus	venus	venir	VENIRE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+desconfis	desconfis	desconfire	CONFICERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+fussent	fussent	estre1	ESSE		VERB	auxPass	Fin,Sub,Imp,3,Plur,MWEs
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+sans	sans	sans	SINE		ADP		
+retor	retor						
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+mesaje	mesaje	message2	MITTERE		NOUN		Masc,Sing,Nom
+vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+au	au	a3	AD		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+laomedon	laomedon1	Laomedon			PROPN		Masc,Sing,Acc
+conter	conter	conter	COMPUTARE		VERB		Ind,Inf,Pres,Act,Trans
+que	que	queque	QUID		SCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+de_denz	de_denz	dedans	DEINTUS		ADP		
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+entréz	entréz	entrer	INTRARE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+a	a1	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Sing,MWEs
+fet	fet	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+tant	tant	tant	TANTUS		ADV		
+soner	soner						
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
+d’	d’	de	DE		ADP		
+oulifant	oulifant	olifant	ELEPHAS		NOUN		Masc,Sing,Acc
+moult	moult	mout	MULTUS		ADV		
+autement	autement	hautement	ALTUS		ADV		
+por	por	por2	PRO		ADP		
+ces	ces3	suen	SUUS		DET		Poss,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+ralier	ralier	raliier	LIGARE		VERB		Ind,Inf,Pres,Act,Trans
+entor	entor	entor	TORNARE		ADP		
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
+chevaliers	chevaliers	chevalier	CABALLARIUS		NOUN		Masc,Plur,Nom
+hoïrent	hoïrent	öir	AUDIRE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+corn	corn	cor2	CORNU		NOUN		Masc,Sing,Acc
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+tornerent	tornerent	torner	TORNARE		VERB		Ind,Ind,Past,Intr,3,Plur
+dedenz	dedenz	dedans	DEINTUS		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+batailles	batailles	bataille	BATTUALIA		NOUN		Fem,Plur
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+li	li3	le	ILLE		DET		ArtDef,Masc,Plur
+vils	vils	vil1	VILIS		ADJ	Noun	Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+coars	coars	cöart	CAUDA		ADJ	Noun	Masc,Plur,Nom
+vont	vont	tresaler	AMBULARE		VERB		Fin,Ind,Pres,Intr,3,Plur
+chersant	chersant	cerchier	CIRCARE		VERB		Ind,Ger,Pres,Act,Trans
+garison	garison	garison	*WARJAN		NOUN		Fem,Sing
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+ensi	ensi	ainsi	SIC		ADV		
+raliés	raliés	raliier	LIGARE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+et	et	et	ET		CCONJ		
+aparoillés	aparoillés2	apareillier1	*APPARICULARE		VERB		Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+plus_de	plus_de	plus	PLUS		ADV	Adv	MWEs
+vii_mile	vii_mile						
+chevaliers	chevaliers	chevalier	CABALLARIUS		NOUN		Masc,Plur,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+ferirent	ferirent1	ferir	FERIRE		VERB		Fin,Ind,Past,Rfl,3,Plur
+entres	entres	entre2	INTER		ADP		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+henemis	henemis	enemi	INIMICUS		NOUN		Masc,Plur,Acc
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+li	li5	li	ILLE		PRON		Prs,3,Masc,Plur,Acc
+recoillirent	recoillirent1	recoillir	COLLIGERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+.	.						
+là	là	là	ILLAC		ADV		Loc
+hoïsiéz	hoïsiéz	öir	AUDIRE				
+à	à	a3	AD		ADP		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+encontrer	encontrer	encontrer	CONTRA		VERB	Noun	Ind,Inf,Pres
+si	si	si	SIC		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+noise	noise	noise	NAUSEA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+si	si	si	SIC		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+criee	criee	crïee	QUIRITARE		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+en	en	en1	IN		ADP		
+nen	nen	non	NON		ADV		Neg
+oïst	oïst	öir	AUDIRE		VERB		Fin,Sub,Imp,Act,Trans,3,Sing
+dieu	dieu	dieu	DEUS		NOUN		Masc,Sing,Nom
+tonant	tonant	toner	TONARE		VERB	Adj	Ind,Part,Pres
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+froiseis	froiseis	froissëiz	*FRUSTIARE		NOUN		Masc,Sing,Nom
+de	de	de	DE		ADP		
+lances	lances	lance	LANCEA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+des	des2	de	DE		ADP		PrepArt
+escus	escus	escu	SCUTUM		NOUN		Masc,Plur,Acc
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+moult	moult	mout	MULTUS		ADV		
+desmesurés	desmesurés	desmesurer	MENSURARE		VERB	Adj	Ind,Part,Past,Sing,Masc
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+chapeleis	chapeleis1	chapelet	CAPPELLUS		NOUN		Masc,Plur,Nom
+des	des2	de	DE		ADP		PrepArt
+espees	espees	espee	SPATHA		NOUN		Fem,Plur
+sor	sor	sor2	SUPER		ADP		
+li	li3	le	ILLE		DET		ArtDef,Masc,Plur
+hiaumes	hiaumes	heaume	*HELM		NOUN		Masc,Sing,Acc
+cler	cler2	cler	CLARUS		ADJ		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+bornis	bornis	brunis	*BRUN		VERB	Adj	Ind,Part,Past,Plur,Masc
+ausi	ausi	aussi	SIC		ADV		
+.	.						
+cel	cel	tel	TALIS		DET		Ind,Fem,Sing
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+timulte	timulte	tumult	TUMULTUS		NOUN		Fem,Sing
+à	à	a3	AD		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+fois	fois1	foi	FIDES		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+jamés	jamés	ja	JAM		ADV		Tim
+nen	nen	non	NON		ADV		Neg
+estoit	estoit	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Sing
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+hore	hore1	ore3	HORA		NOUN		Fem,Sing
+.	.						
+moult	moult	mout	MULTUS		ADV		
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+dolereuse	dolereuse	doloros	DOLOROSUS		ADJ		Fem,Sing
+et	et	et	ET		CCONJ		
+pesmés	pesmés	pesme	PESSIMUS		ADJ		Fem,Sing,Sup
+et	et	et	ET		CCONJ		
+mortel	mortel	mortel	MORTALIS		ADJ		Fem,Sing
+à	à	a3	AD		ADP		
+veoir	veoir	vëoir	VIDERE		VERB		Ind,Inf,Pres,Act,Trans
+mes	mes	mais1	MAGIS2		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+ne	ne	ne1	NON		ADV		Neg
+porent	porent1	pöoir	POSSE		VERB	auxMod	Fin,Ind,Past,3,Plur
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+fais	fais2	fait1	FACTUM		NOUN		Masc,Sing,Acc
+soufrir	soufrir	sofrir	SUFFERRE		VERB		Ind,Inf,Pres,Act,Trans
+ains	ains	ainz	ANTE		ADV		
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+convint	convint	covenir	CONVENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+dos	dos	dos	DORSUM		NOUN		Masc,Sing,Acc
+torner	torner1	torner	TORNARE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+si	si	si	SIC		ADV		
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+mistrent	mistrent	metre2	MITTERE		VERB		Fin,Ind,Past,Rfl,3,Plur
+en	en	en1	IN		ADP		
+fuie	fuie	fuie	FUGERE		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+n’	n’	ne1	NON		ADV		Neg
+i	i	i2	HIC		PRON		
+ot	ot2	avoir	HABERE		VERB		Fin,Ind,Past,Intr,3,Sing
+res	res						
+ne	ne	ne1	NON		ADV		Neg
+tenue	tenue1	tenüe	TENERE		NOUN		Fem,Sing
+jusqe	jusqe	jusque	USQUE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+mer	mer	mer	MARE		NOUN		Fem,Sing
+.	.						
+en	en	en1	IN		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+desconfiture	desconfiture	desconfiture	CONFICERE		NOUN		Fem,Sing
+perdirent	perdirent	perdre	PERDERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+de	de	de	DE		ADP		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+meillor	meillor2	meillor	MELIOR		ADJ		Masc,Plur,Acc,Cmp
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+veraiement	veraiement	veraiement	*VERACUS		ADV		Man
+qe	qe3	queque	QUID		SCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+nen	nen	non	NON		ADV		Neg
+eüssent	eüssent	avoir	HABERE		VERB	auxTens	Fin,Sub,Imp,3,Plur,MWEs
+més	més	mais1	MAGIS2		ADV		
+chans	chans	champ	CAMPUS		NOUN		Masc,Sing,Acc
+tenus	tenus	tenir1	TENERE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+messaje	messaje	message2	MITTERE		NOUN		Masc,Sing,Nom
+vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+au	au	a3	AD		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+navréz	navréz	navrer	*NAFRA		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+estoit	estoit2	estre1	ESSE		VERB	auxPass	Fin,Ind,Imp,3,Sing,MWEs
+d’	d’	de	DE		ADP		
+une	une	un	UNUS		DET		ArtIndef,Fem,Sing
+lance	lance	lance	LANCEA		NOUN		Fem,Sing
+parmi	parmi	parmi	MEDIUS		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
+mult	mult	mout	MULTUS		ADV		
+malement	malement	malement	MALUS		ADV		Man
+.	.						
+celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
+messaje	messaje	message2	MITTERE		NOUN		Masc,Sing,Nom
+avoit	avoit	avoir	HABERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
+non	non	non	NON		ADV		Neg
+dirces	dirces	Dirces			PROPN		Masc,Sing,Acc
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+parens	parens	parent	PARENS		NOUN		Masc,Sing,Nom
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+de	de	de	DE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+roïne	roïne	röine1	REGINA		NOUN		Fem,Sing
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+dist	dist	dire	DICERE		VERB		Fin,Ind,Past,Intr,3,Sing
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+.	.						
+.	.						
+sire	sire	seignor	SENIOR		NOUN		Masc,Sing,Nom
+.	.						
+qé	qé						
+fetes	fetes	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,2,Plur
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+.	.						
+sachés	sachés	savoir	SAPERE		VERB		Fin,Sub,Pres,Act,Trans,2,Plur
+qe	qe3	queque	QUID		SCONJ		
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+sont	sont3	estre1	ESSE		VERB	auxTens	Fin,Ind,Pres,3,Plur,MWEs
+entrés	entrés	entrer	INTRARE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+de_denz	de_denz	dedans	DEINTUS		ADP		
+vostre	vostre2	vostre	VESTER		DET		Poss,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+hont	hont	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Plur,MWEs
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+portes	portes	porte1	PORTA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+li	li3	le	ILLE		DET		ArtDef,Masc,Plur
+murs	murs	mur	MURUS		NOUN		Masc,Plur,Acc
+garnis	garnis1	warnir	*WARNJAN		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+de	de	de	DE		ADP		
+plus_de	plus_de	plus	PLUS		ADV	Adv	MWEs
+m	m	mil1	MILLE		NUM		Card
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+autres	autres1	autre	ALTER		DET		Ind,Masc,Plur,Nom
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+sont	sont1	estre1	ESSE		VERB	auxCop	Fin,Ind,Pres,3,Plur
+plus	plus	plus	PLUS		ADV		
+de	de	de	DE		ADP		
+dui_mille	dui_mille	mil1	MILLE		NUM		Card
+.	.						
+vienent	vienent	venir	VENIRE		VERB		Fin,Ind,Pres,Intr,3,Plur
+ceste	ceste1	cest	ISTE		DET		Dem,Fem,Sing
+part	part	part1	PARS		NOUN		Fem,Sing
+por	por	por2	PRO		ADP		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+asaillir	asaillir	assalir	*ASSALIRE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+hocire	hocire	ocire	OCCIDERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+et	et	et	ET		CCONJ		
+por_ce	por_ce						
+.	.						
+sire	sire	seignor	SENIOR		NOUN		Masc,Sing,Nom
+.	.						
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+conseil	conseil1	conseillier3	CONSILIARE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+vos	vos1	vos	VOS		PRON		Prs,2,Plur,Nom
+alïés	alïés	aler (GDC)	AMBULARE		VERB		Fin,Sub,Pres,Intr,2,Plur
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+à	à	a3	AD		ADP		
+l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
+encontre	encontre						
+car	car	car	QUARE		SCONJ		
+miels	miels	mieus	MELIOR		ADV		Cmp
+vaudra	vaudra	valoir	VALERE		VERB		Fin,Ind,Fut,Intr,3,Sing
+qe	qe3	queque	QUID		SCONJ		
+ensi	ensi	ainsi	SIC		ADV		
+demorer	demorer	demorer	DEMORARI		VERB		Ind,Inf,Pres,Intr
+.	.						
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+mis	mis3	metre2	MITTERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+à	à	a3	AD		ADP		
+desconfiture	desconfiture	desconfiture	CONFICERE		NOUN		Fem,Sing
+entre	entre	entre2	INTER		ADP		
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+ses	ses2	suen	SUUS		DET		Poss,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+coment	coment	coment	QUOMODO		ADV		Int
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+l’	l’5	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
+ocist	ocist	ocire	OCCIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+hot	hot	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
+entendu	entendu1	entendre	INTENDERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+ce_qe	ce_qe						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+mesaje	mesaje	message2	MITTERE		NOUN		Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+ot	ot1	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+avoient	avoient1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+prise	prise1	prendre	PREHENDERE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+et	et	et	ET		CCONJ		
+garnie	garnie	warnir	*WARNJAN		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ot	ot	avoir	HABERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+si	si	si	SIC		ADV		
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+duel	duel1	duel	DOLUS		NOUN		Masc,Sing,Acc
+au	au	a3	AD		ADP		PrepArt
+cuor	cuor	cuer2	COR		NOUN		Masc,Sing,Acc
+qe	qe3	queque	QUID		SCONJ		
+poi	poi	poi	PAUCUS		ADV		
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+failli	failli	falir	FALLERE		VERB		Fin,Ind,Past,Rfl,3,Sing
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+morut	morut	morir	MORI		VERB		Fin,Ind,Past,Intr,3,Sing
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+plore	plore	plorer	PLORARE		VERB		Fin,Ind,Pres,Intr,3,Sing
+fort	fort	fort	FORTIS		ADV		
+de_sous	de_sous	desoz	SUBTUS		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+hiaume	hiaume	heaume	*HELM		NOUN		Masc,Sing,Acc
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+.	.						
+c’	c’	se	SI		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+a	a	avoir	HABERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+doulor	doulor	dolor	DOLOR		NOUN		Masc,Sing,Acc
+.	.						
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+n’	n’	ne1	NON		ADV		Neg
+est	est1	estre1	ESSE		VERB	auxCop	Fin,Ind,Pres,3,Sing
+pas	pas	pas	PASSUS1		PART		Neg
+mervoille	mervoille	merveille	MIRABILIA		NOUN		Fem,Sing
+por_ce_q’	por_ce_q’	por2	PRO		ADP	SConj 	MWEs
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+connoist	connoist	conoistre	COGNOSCERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+bien	bien	bien2	BENE		ADV		Man
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+puet	puet	pöoir	POSSE		VERB	auxMod	Fin,Ind,Pres,3,Sing
+sans	sans	sans	SINE		ADP		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+perte	perte	perte	PERDERE		NOUN		Fem,Sing
+escaper	escaper	eschaper	*EXCAPPARE		VERB		Ind,Inf,Pres,Intr
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+fist	fist1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
+adonc	adonc	adonc	DUNC		ADV		
+ses	ses1	suen	SUUS		DET		Poss,Masc,Plur,Acc
+grelles	grelles	graisle	GRACILIS		NOUN		Masc,Plur,Acc
+souner	souner	soner	SONARE		VERB		Ind,Inf,Pres,Act,Trans
+por	por	por2	PRO		ADP		
+ces	ces3	suen	SUUS		DET		Poss,Fem,Plur
+genz	genz	gent1	GENS		NOUN		Fem,Plur
+ralier	ralier	raliier	LIGARE		VERB		Ind,Inf,Pres,Act,Trans
+d_entor	d_entor1	entor	TORNARE		ADV	Adp	Loc,MWEs
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+mes	mes	mais1	MAGIS2		CCONJ		
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+vont	vont	tresaler	AMBULARE		VERB		Fin,Ind,Pres,Intr,3,Plur
+ferir	ferir	ferir	FERIRE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+asaillir	asaillir	assalir	*ASSALIRE		VERB		Ind,Inf,Pres,Act,Trans
+si	si	si	SIC		ADV		
+de_près	de_près	près	PRESSE		ADV	Adv	Loc,MWEs
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ne	ne	ne1	NON		ADV		Neg
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+laissent	laissent	laissier	LAXARE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+coroi	coroi1	conroi	*REþS		NOUN		Masc,Sing,Acc
+fer	fer1	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+ains	ains	ainz	ANTE		ADV		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+hocïent	hocïent	ocire	OCCIDERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+detrenchent	detrenchent	detrenchier	*TRINICARE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+muolt	muolt						
+durement	durement	durement	DURUS		ADV		Man
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+vit	vit	vëoir	VIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+qi	qi1	queque	QUID		SCONJ		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+afer	afer	afaire	FACERE		NOUN		Masc,Sing,Nom
+aloit	aloit	aler (GDC)	AMBULARE		VERB		Fin,Ind,Imp,Intr,3,Sing
+en	en	en1	IN		ADP		
+tel	tel6	tel	TALIS		DET		Ind,Fem,Sing
+mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+ala	ala1	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Rfl,3,Sing
+ferir	ferir	ferir	FERIRE		VERB		Ind,Inf,Pres,Act,Trans
+entre	entre	entre2	INTER		ADP		
+ses	ses1	suen	SUUS		DET		Poss,Masc,Plur,Acc
+henemis	henemis	enemi	INIMICUS		NOUN		Masc,Plur,Acc
+moult	moult	mout	MULTUS		ADV		
+vigoreusement	vigoreusement	vigorosement	VIGOR		ADV		Man
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+à	à	a3	AD		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+enpointe	enpointe	empointe2	PUNGERE		NOUN		Fem,Sing
+n’	n’1	en2	INDE		PRON		
+abatirent	abatirent	abatre	ABBATTUERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+hocistrent	hocistrent	ocire	OCCIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+qantité	qantité	cantité	QUANTITAS		NOUN		Fem,Sing
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+noise	noise	noise	NAUSEA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+criee	criee	crïee	QUIRITARE		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+timulte	timulte	tumult	TUMULTUS		NOUN		Fem,Sing
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+adonc	adonc	adonc	DUNC		ADV		
+si	si	si	SIC		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+en	en	en1	IN		ADP		
+nen	nen	non	NON		ADV		Neg
+oïst	oïst	öir	AUDIRE		VERB		Fin,Sub,Imp,Act,Trans,3,Sing
+dieu	dieu	dieu	DEUS		NOUN		Masc,Sing,Nom
+tonant	tonant	toner	TONARE		VERB	Adj	Ind,Part,Pres
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+fesoit	fesoit	faire	FACERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
+adonc	adonc	adonc	DUNC		ADV		
+aussi	aussi						
+come	come						
+hom	hom	ome	HOMO		NOUN		Masc,Sing,Nom
+desperés	desperés	desperer	DESPERARE		VERB	Adj	Ind,Part,Past,Sing,Masc
+car	car	car	QUARE		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+aloit	aloit1	aler (GDC)	AMBULARE		VERB		Fin,Ind,Imp,Rfl,3,Sing
+ferir	ferir	ferir	FERIRE		VERB		Ind,Inf,Pres,Act,Trans
+entre	entre	entre2	INTER		ADP		
+ses	ses1	suen	SUUS		DET		Poss,Masc,Plur,Acc
+henemis	henemis	enemi	INIMICUS		NOUN		Masc,Plur,Acc
+tos	tos	tot	TOTUS		DET		Ind,Masc,Sing,Nom
+ausi	ausi	aussi	SIC		ADV		
+com	com	come1	QUOMODO		SCONJ		
+fait	fait1	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+lous	lous	lou	LUPUS		NOUN		Masc,Sing,Nom
+entres	entres	entre2	INTER		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+berbis	berbis	brebix	VERVEX		NOUN		Masc,Plur,Acc
+quant	quant	cant1	QUANDO		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+est	est1	estre1	ESSE		VERB	auxCop	Fin,Ind,Pres,3,Sing
+moult	moult	mout	MULTUS		ADV		
+famillous	famillous	fameillos	FAMES		ADJ		Masc,Sing,Nom
+.	.						
+lor	lor3	lors	HORA		ADV		
+prime	prime	prim	PRIMUS		NOUN	Adv	Fem,Sing
+vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+à	à	a3	AD		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+gent	gent1	gent1	GENS		NOUN		Fem,Sing
+moult	moult	mout	MULTUS		ADV		
+bien	bien	bien2	BENE		ADV		Man
+entalentés	entalentés1	entalenter	TALENTUM		VERB	Adj	Ind,Part,Past,Sing,Masc
+de	de	de	DE		ADP		
+bien	bien	bien2	BENE		ADV		Man
+fere	fere	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+nestor	nestor1	Nestor			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+pelleus	pelleus	Pelleus			PROPN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+castor	castor	Castor			PROPN		Masc,Sing,Nom
+i	i	i2	HIC		PRON		
+vindrent	vindrent	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Plur
+ho	ho	avuec	AB HOC		ADP		
+tot	tot7	tot	TOTUS		DET		Ind,Fem,Sing
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+gent	gent1	gent1	GENS		NOUN		Fem,Sing
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+hoient	hoient	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Plur,MWEs
+chousi	chousi	choisir	KAUSJAN		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+de_près	de_près	près	PRESSE		ADV	Adv	Loc,MWEs
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+baiserent	baiserent1	baissier	*BASSIARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+plus_de	plus_de	plus	PLUS		ADV	Adv	MWEs
+mil	mil	mil1	MILLE		NUM		Card
+enseignes	enseignes	enseigne	INSIGNIA		NOUN		Fem,Plur
+de	de	de	DE		ADP		
+coulor	coulor	color	COLOR		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+alerent	alerent	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Intr,3,Plur
+ferir	ferir	ferir	FERIRE		VERB		Ind,Inf,Pres,Act,Trans
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+henemis	henemis	enemi	INIMICUS		NOUN		Masc,Plur,Acc
+moult	moult	mout	MULTUS		ADV		
+vigoreusement	vigoreusement	vigorosement	VIGOR		ADV		Man
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+criee	criee	crïee	QUIRITARE		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+noise	noise	noise	NAUSEA		NOUN		Fem,Sing
+fu	fu	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+à	à	a3	AD		ADP		
+cele	cele	cel	ILLE		DET		Dem,Fem,Sing
+enpointe	enpointe	empointe2	PUNGERE		NOUN		Fem,Sing
+mult	mult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+car	car	car	QUARE		SCONJ		
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+frois	frois	froïs	*FRUSTIARE		NOUN		Masc,Sing,Nom
+de	de	de	DE		ADP		
+lances	lances	lance	LANCEA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+retentir	retentir1	retentir	TINNIRE		VERB	Noun	Ind,Inf,Pres
+des	des2	de	DE		ADP		PrepArt
+espees	espees	espee	SPATHA		NOUN		Fem,Plur
+estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
+trop	trop	trop	THORP		ADV		
+desmesurés	desmesurés	desmesurer	MENSURARE		VERB	Adj	Ind,Part,Past,Sing,Masc
+.	.						
+avec	avec	avuec	AB HOC		ADP		
+tot_ce	tot_ce	tot	TOTUS		DET	Pron	Ind,Neut,Sing,MWEs
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+plainte	plainte	plainte	PLANGERE		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+criee	criee	crïee	QUIRITARE		NOUN		Fem,Sing
+des	des2	de	DE		ADP		PrepArt
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+navrés	navrés	navrer	*NAFRA		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+estoient	estoient3	estre1	ESSE		VERB	auxPass	Fin,Ind,Imp,3,Plur,MWEs
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+et	et	et	ET		CCONJ		
+mervoilleuse	mervoilleuse	merveillos	MIRABILIA		ADJ		Fem,Sing
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+troiens	troiens	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+moult	moult	mout	MULTUS		ADV		
+las	las1	las	LASSUS		ADJ		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+estoient	estoient	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Plur
+moult	moult	mout	MULTUS		ADV		
+frois	frois1	frois1	FRISK		ADJ		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+reposés	reposés	reposer	REPAUSARE		VERB	Adj	Ind,Part,Past,Plur,Masc
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+ferirent	ferirent	ferir	FERIRE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+derieres	derieres	derriere	DE RETRO		ADV		Loc
+et	et	et	ET		CCONJ		
+devant	devant	devant	ABANTE		ADV		Loc
+de	de	de	DE		ADP		
+teu	teu1	tel	TALIS		DET		Ind,Masc,Sing,Acc
+randon	randon	randon	RAND		NOUN		Masc,Sing,Acc
+qi	qi1	queque	QUID		SCONJ		
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+abatoient	abatoient	abatre	ABBATTUERE		VERB		Fin,Ind,Imp,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+hocïoient	hocïoient	ocire	OCCIDERE		VERB		Fin,Ind,Imp,Act,Trans,3,Plur
+sans	sans	sans	SINE		ADP		
+merci	merci1	merci	MERCES		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+sans	sans	sans	SINE		ADP		
+pitié	pitié	pitié	PIETAS		NOUN		Fem,Sing
+avoir	avoir	avoir	HABERE		VERB		Ind,Inf,Pres,Act,Trans
+d’	d’	de	DE		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+.	.						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+estoit	estoit	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Sing
+sor	sor	sor2	SUPER		ADP		
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
+destrier	destrier	destrier1	DEXTER		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+vaillance	vaillance	vailance	VALERE		NOUN		Fem,Sing
+.	.						
+de	de	de	DE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+biauté	biauté	biauté	BELLUS		NOUN		Fem,Sing
+au	au	a3	AD		ADP		PrepArt
+cheval	cheval	cheval	CABALLUS		NOUN		Masc,Sing,Acc
+ni	ni	ne2	NEC		CCONJ		
+de	de	de	DE		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+valor	valor	valor	VALOR		NOUN		Fem,Sing
+ni	ni	ne2	NEC		CCONJ		
+de	de	de	DE		ADP		
+son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
+nasiment	nasiment	naissement	NASCI		NOUN		Masc,Sing,Acc
+ni	ni1	ne1	NON		ADV		Neg
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+voil	voil	voloir	VELLE		VERB	auxMod	Fin,Ind,Pres,1,Sing
+parler	parler	parler	PARABOLARE		VERB		Ind,Inf,Pres,Intr
+por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
+creüs	creüs	croire	CREDERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+ne	ne	ne1	NON		ADV		Neg
+seroit	seroit	estre1	ESSE		VERB	auxPass	Fin,Cnd,Pres,3,Sing,MWEs
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+tenoit	tenoit	tenir1	TENERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+espee	espee	espee	SPATHA		NOUN		Fem,Sing
+nue	nue	nu	NUDUS		ADJ		Fem,Sing
+en	en	en1	IN		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+main	main	main2	MANUS		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+fiert	fiert	ferir	FERIRE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+boute	boute	boter	*BOTAN		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+doune	doune	doner	DONARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+enpaint	enpaint1	empeindre1	IMPINGERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+.	.						
+tot	tot8	tot	TOTUS		PRON		Ind,Neut,Sing,Acc
+detrenche	detrenche	detrenchier	*TRINICARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+hocit	hocit	ocire	OCCIDERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+trebuche	trebuche	trebuchier	BUK		VERB		Fin,Ind,Pres,Intr,3,Sing
+et	et	et	ET		CCONJ		
+hocit	hocit	ocire	OCCIDERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+et	et	et	ET		CCONJ		
+trebuche	trebuche	trebuchier	BUK		VERB		Fin,Ind,Pres,Intr,3,Sing
+à	à	a3	AD		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+terre	terre	terre	TERRA		NOUN		Fem,Sing
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+part	part1	partir	PARTIRE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+à	à	a3	AD		ADP		
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+seul	seul	sol1	SOLUS		ADJ		Masc,Sing,Acc
+coup	coup	coup	COLAPHUS		NOUN		Masc,Sing,Acc
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+chevalier	chevalier1	chevalier	CABALLARIUS		NOUN		Masc,Sing,Acc
+en	en	en1	IN		ADP		
+dui	dui	deus	DUO		NUM		Ord
+moitiez	moitiez	moitié	MEDIETAS		NOUN		Fem,Plur
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+en	en	en1	IN		ADP		
+poi_d’	poi_d’	poi	PAUCUS		ADV	Adv	MWEs
+ore	ore1	ore3	HORA		NOUN		Fem,Sing
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+orent	orent1	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Plur,MWEs
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+troienz	troienz2	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Nom
+toute	toute	tot	TOTUS		DET		Ind,Fem,Sing
+vuodié	vuodié	vuidier	*VOCITUS		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+d_entor	d_entor1	entor	TORNARE		ADV	Adp	Loc,MWEs
+lui	lui	lui	ILLE		PRON		Prs,3,Sing,Acc
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+vait	vait	tresaler	AMBULARE		VERB		Fin,Ind,Pres,Intr,3,Sing
+parmi	parmi	parmi	MEDIUS		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+rent	rent	renc	HRING		NOUN		Masc,Sing,Acc
+tot	tot	tot	TOTUS		DET		Ind,Masc,Sing,Nom
+autressi	autressi	autresi	SIC		ADV		
+com	com	come1	QUOMODO		SCONJ		
+fait	fait1	faire	FACERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+lion	lion	lïon	LEO		NOUN		Masc,Sing,Nom
+entres	entres	entre2	INTER		ADP		
+le	le3	le	ILLE		DET		ArtDef,Fem,Plur
+bestes	bestes	beste	BESTIA		NOUN		Fem,Plur
+mues	mues	mu1	MUTUS		ADJ		Fem,Plur
+.	.						
+tant	tant	tant	TANTUS		ADV		
+ala	ala	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Intr,3,Sing
+sa_et_là	sa_et_là	ça	HAC		ADV	Adv	Loc,MWEs
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+encontra	encontra	encontrer	CONTRA		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+laomedon	laomedon1	Laomedon			PROPN		Masc,Sing,Acc
+en_mi	en_mi	enmi	MEDIUS		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+.	.						
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+dona	dona	doner	DONARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+tot_maintenant	tot_maintenant	maintenant	MANU TENERE		ADV	Adv	Tim,MWEs
+de	de	de	DE		ADP		
+l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
+espé	espé	espee	SPATHA		NOUN		Fem,Sing
+si	si	si	SIC		ADV		
+grant	grant4	grant	GRANDIS		ADJ		Masc,Plur,Acc
+coux	coux	coup	COLAPHUS		NOUN		Masc,Plur,Acc
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
+fist	fist1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
+les	les5	le	ILLE		DET		ArtDef,Masc,Sing
+chief	chief	chief1	CAPUT		NOUN		Masc,Sing,Acc
+voler	voler	voler	VOLARE		VERB		Ind,Inf,Pres,Act,Trans
+auques	auques	auques	ALIQUID		ADV		
+loins	loins	loing	LONGE		ADV		Loc
+dou	dou	de	DE		ADP		PrepArt
+bust	bust						
+.	.						
+voiant	voiant	vëoir	VIDERE		VERB		Ind,Part,Pres,Act,Trans
+tot	tot4	tot	TOTUS		ADV		
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+meillors	meillors	meillor	MELIOR		ADJ	Noun	Masc,Plur,Nom,Cmp
+de	de	de	DE		ADP		
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+maisnee	maisnee	maisniee	MANSIO		NOUN		Fem,Sing
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+le	le8	le	ILLE		DET		ArtDef,Masc,Plur
+troienz	troienz2	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Nom
+virent	virent	vëoir	VIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+seignors	seignors2	seignor	SENIOR		NOUN		Masc,Sing,Acc
+mort	mort3	morir	MORI		VERB	Adj	Ind,Part,Past,Sing,Masc
+et	et	et	ET		CCONJ		
+q’	q’1	queque	QUID		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient1	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+sans	sans	sans	SINE		ADP		
+chevetaine	chevetaine	chevetaigne	CAPITANEUS		NOUN		Masc,Sing,Acc
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ne	ne	ne1	NON		ADV		Neg
+demorerent	demorerent	demorer	DEMORARI		VERB		Fin,Ind,Past,Intr,3,Plur
+plus	plus	plus	PLUS		ADV		
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+mistrent	mistrent	metre2	MITTERE		VERB		Fin,Ind,Past,Rfl,3,Plur
+à	à	a3	AD		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+voie	voie	voie	VIA		NOUN		Fem,Sing
+vers	vers	vers2	VERSUS1		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+devant	devant1	devant	ABANTE		ADP		
+els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
+estoient	estoient1	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+les	les4	le	ILLE		PRON		Prs,3,Masc,Plur,Acc
+hocïent	hocïent	ocire	OCCIDERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+detrenchient	detrenchient	detrenchier	*TRINICARE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+à	à	a3	AD		ADP		
+cent	cent	cent	CENTUM		NUM		Card
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+milliers	milliers	milier	MILLE		NOUN		Masc,Plur,Acc
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+poi	poi	poi	PAUCUS		ADV		
+en	en2	en2	INDE		PRON		
+eschaperent	eschaperent	eschaper	*EXCAPPARE		VERB		Fin,Ind,Past,Intr,3,Plur
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+roi	roi	roi	REX		NOUN		Masc,Sing,Nom
+laomedon	laomedon	Laomedon			PROPN		Masc,Sing,Nom
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+ocis	ocis	ocire	OCCIDERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+ensi_com	ensi_com	ainsi	SIC		ADV	Adv	MWEs
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+ai	ai	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,1,Sing,MWEs
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+ausi	ausi	aussi	SIC		ADV		
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+entrerent	entrerent	entrer	INTRARE		VERB		Fin,Ind,Past,Intr,3,Plur
+de_denz	de_denz	dedans	DEINTUS		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+roberent	roberent	rober	*RAUBôN 		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+et	et	et	ET		CCONJ		
+gasterent	gasterent	gaster	VASTARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+.	.						
+quant	quant	cant1	QUANDO		SCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+mortel	mortel	mortel	MORTALIS		ADJ		Fem,Sing
+bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+ensi	ensi	ainsi	SIC		ADV		
+finee	finee	finer	FINIRE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+et	et	et	ET		CCONJ		
+partie	partie1	partir	PARTIRE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+entrerent	entrerent1	entrer	INTRARE		VERB		Fin,Ind,Past,Rfl,3,Plur
+de_denz	de_denz	dedans	DEINTUS		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+sanz	sanz	sans	SINE		ADP		
+contredit	contredit	contredit	CONTRADICERE		NOUN		Masc,Sing,Acc
+.	.						
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+homes	homes	ome	HOMO		NOUN		Masc,Plur,Nom
+et	et	et	ET		CCONJ		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+femes	femes	feme	FEMINA		NOUN		Fem,Plur
+q’	q’	queque	QUID		PRON		Rel,Acc
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+troverent	troverent	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+de_denz	de_denz1	dedans	DEINTUS		ADV		Loc
+et	et	et	ET		CCONJ		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+petit	petit	petit	*PETTITTUS		ADJ		Masc,Sing,Acc
+enfanz	enfanz	enfant	INFANS		NOUN		Masc,Plur,Acc
+detrencherent	detrencherent1	detrenchier	*TRINICARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+tos	tos1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+à	à	a3	AD		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+volontés	volontés	volenté	VOLUNTAS		NOUN		Fem,Plur
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+s’	s’	soi	SE		PRON		Prs,3,Sing,Acc
+en	en2	en2	INDE		PRON		
+fuoient	fuoient	fuir	FUGERE		VERB		Fin,Ind,Imp,Rfl,3,Plur
+as	as	a3	AD		ADP		PrepArt
+temples	temples	temple3	TEMPLUM		NOUN		Masc,Plur,Acc
+devant	devant1	devant	ABANTE		ADP		
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+diex	diex	dieu	DEUS		NOUN		Masc,Plur,Acc
+por	por	por2	PRO		ADP		
+garentie	garentie	garantie	*WERJAN		NOUN		Fem,Sing
+avoir	avoir	avoir	HABERE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+si	si	si	SIC		ADV		
+poisiés	poisiés	pöoir	POSSE		VERB	auxMod	Fin,Sub,Pres,2,Plur
+veoir	veoir	vëoir	VIDERE		VERB		Ind,Inf,Pres,Act,Trans
+por	por	por2	PRO		ADP		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+rues	rues	rüe2	RUGA		NOUN		Fem,Plur
+aler	aler	aler (GDC)	AMBULARE		VERB		Ind,Inf,Pres,Intr
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+dames	dames	dame	DOMINA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+damoiselles	damoiselles	damoisele	*DOMNICELLA		NOUN		Fem,Plur
+tot	tot4	tot	TOTUS		ADV		
+deschevellés	deschevellés	descheveler	CAPILLUS		VERB	Adj	Ind,Part,Past,Plur,Fem
+.	.						
+filles	filles	fille	FILIA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+femes	femes	feme	FEMINA		NOUN		Fem,Plur
+des	des2	de	DE		ADP		PrepArt
+aus	aus1	haut	ALTUS		ADJ		Masc,Plur,Acc
+barons	barons1	baron	*BARO		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+des	des2	de	DE		ADP		PrepArt
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+borgiois	borgiois	borjois	*BURG-		NOUN		Masc,Plur,Acc
+ho	ho	avuec	AB HOC		ADP		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+petis	petis	petit	*PETTITTUS		ADJ		Masc,Plur,Acc
+enfans	enfans	enfant	INFANS		NOUN		Masc,Plur,Acc
+entre	entre	entre2	INTER		ADP		
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+braces	braces	brace	BRACHIUM		NOUN		Fem,Plur
+qi	qi	qui	QUI		PRON		Rel,Nom
+ne	ne	ne1	NON		ADV		Neg
+savoient	savoient	savoir	SAPERE		VERB		Fin,Ind,Imp,Act,Trans,3,Plur
+où	où	où	UBI		PRON		Rel
+aler	aler	aler (GDC)	AMBULARE		VERB		Ind,Inf,Pres,Intr
+à	à	a3	AD		ADP		
+garentie	garentie	garantie	*WERJAN		NOUN		Fem,Sing
+.	.						
+elle	elle1	il	ILLE		PRON		Prs,3,Fem,Plur,Nom
+plangnoient	plangnoient	plaindre	PLANGERE		VERB		Fin,Ind,Imp,Intr,3,Plur
+de	de	de	DE		ADP		
+paor	paor	pëor	PAVOR		NOUN		Fem,Sing
+.	.						
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+duel	duel	duel	DOLUS		NOUN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+pitié	pitié	pitié	PIETAS		NOUN		Fem,Sing
+qi	qi	qui	QUI		PRON		Rel,Nom
+en_luec	en_luec	iluec	ILLOC		ADV		Loc
+estoit	estoit	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Sing
+ne	ne	ne1	NON		ADV		Neg
+porroit	porroit	pöoir	POSSE		VERB	auxMod	Fin,Cnd,Pres,3,Sing
+nuls	nuls	nul	NULLUS		DET		Ind,Masc,Sing,Nom
+home	home	ome	HOMO		NOUN		Masc,Sing,Nom
+conter	conter	conter	COMPUTARE		VERB		Ind,Inf,Pres,Act,Trans
+ni	ni	ne2	NEC		CCONJ		
+dir	dir	dire	DICERE		VERB		Ind,Inf,Pres,Intr
+.	.						
+les	les2	le	ILLE		DET		ArtDef,Fem,Plur
+femes	femes	feme	FEMINA		NOUN		Fem,Plur
+ho	ho	avuec	AB HOC		ADP		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+petis	petis	petit	*PETTITTUS		ADJ		Masc,Plur,Acc
+enfant	enfant	enfant	INFANS		NOUN		Masc,Plur,Acc
+hont	hont	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,3,Plur,MWEs
+toutes	toutes	tot	TOTUS		DET		Ind,Fem,Plur
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+maisons	maisons	maison	MANSIO		NOUN		Fem,Plur
+grepies	grepies	guerpir	*WERPJAN		VERB	compTens	Ind,Part,Past,Plur,Fem,MWEs
+.	.						
+toutes	toutes	tot	TOTUS		DET		Ind,Fem,Plur
+plaines	plaines	plein	PLENUS		ADJ		Fem,Plur
+de	de	de	DE		ADP		
+tot	tot1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+biens	biens	bien2	BENE		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+moult	moult	mout	MULTUS		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+richesse	richesse	richece	RîKI		NOUN		Fem,Sing
+.	.						
+de	de	de	DE		ADP		
+qoi	qoi	coi2	QUID		PRON		Rel,Acc
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+horent	horent	avoir	HABERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+abondance	abondance	abondance	ABUNDANTIA		NOUN		Fem,Sing
+car	car	car	QUARE		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+i	i	i2	HIC		PRON		
+demorerent	demorerent	demorer	DEMORARI		VERB		Fin,Ind,Past,Intr,3,Plur
+un	un	un	UNUS		DET		ArtIndef,Masc,Sing
+mois	mois1	mois	MENSIS		NOUN		Masc,Sing,Nom
+tos	tos	tot	TOTUS		DET		Ind,Masc,Sing,Nom
+entiers	entiers1	entier	INTEGER		ADJ		Masc,Sing,Nom
+por	por	por2	PRO		ADP		
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+tresor	tresor	tresor	THESAURUS		NOUN		Masc,Sing,Acc
+coillir	coillir	coillir	COLLIGERE		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+amasser	amasser	amasser	MASSA		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+de	de	de	DE		ADP		
+qoi	qoi	coi2	QUID		PRON		Rel,Acc
+il	il2	il	ILLE		PRON		Prs,3,Neut,Sing,Nom
+avoit	avoit2	avoir	HABERE		VERB		Fin,Ind,Imp,Intr,3,Sing
+asés	asés	assez	AD SATIS		ADV		
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+i	i	i2	HIC		PRON		
+troverent	troverent	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+hor	hor1	or1	AURUM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+argent	argent	argent	ARGENTUM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+drap	drap1	drap	DRAPPUS		NOUN		Masc,Plur,Acc
+de	de	de	DE		ADP		
+soie	soie	soie3	SAETA		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+pailés	pailés	paile	PALLIUM		NOUN		Masc,Plur,Acc
+à	à	a3	AD		ADP		
+or	or	or4	HORA		ADV		Tim
+batus	batus	batre	BATTUERE		VERB	Adj	Ind,Part,Past,Sing,Masc
+et	et	et	ET		CCONJ		
+maintes	maintes3	maint	*MANIGIþô-		DET		Ind,Fem,Plur
+riches	riches	riche	RîKI		ADJ		Fem,Plur
+pieres	pieres	piere	PETRA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+maintes	maintes1	maint	*MANIGIþô-		DET		Ind,Masc,Plur,Acc
+riches	riches2	riche	RîKI		ADJ		Masc,Plur,Acc
+anel	anel2	anel	ANELLUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+maint	maint1	maint	*MANIGIþô-		DET		Ind,Masc,Plur,Acc
+riches	riches2	riche	RîKI		ADJ		Masc,Plur,Acc
+chevals	chevals	cheval	CABALLUS		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+maintes	maintes1	maint	*MANIGIþô-		DET		Ind,Masc,Plur,Acc
+riches	riches2	riche	RîKI		ADJ		Masc,Plur,Acc
+vaisels	vaisels	vaissel	VASCELLUM		NOUN		Masc,Plur,Acc
+d’	d’	de	DE		ADP		
+or	or	or4	HORA		ADV		Tim
+et	et	et	ET		CCONJ		
+argent	argent	argent	ARGENTUM		NOUN		Masc,Sing,Acc
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+horent	horent1	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Plur,MWEs
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+tresor	tresor	tresor	THESAURUS		NOUN		Masc,Sing,Acc
+recoilli	recoilli1	recoillir	COLLIGERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+destrustent	destrustent	destruire	DESTRUERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+mistrent	mistrent1	metre2	MITTERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+à	à	a3	AD		ADP		
+feu	feu1	feu	FOCUS		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+ruine	ruine	rüine	RUINA		NOUN		Fem,Sing
+si	si	si	SIC		ADV		
+houtreement	houtreement	outreement	ULTRA		ADV		
+q’	q’1	queque	QUID		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+remest	remest	remaindre	REMANERE		VERB		Fin,Ind,Past,Intr,3,Sing
+ni	ni	ne2	NEC		CCONJ		
+murs	murs1	mur	MURUS		NOUN		Masc,Plur,Nom
+ni	ni	ne2	NEC		CCONJ		
+tors	tors	tor2	TURRIS		NOUN		Fem,Plur
+ni	ni	ne2	NEC		CCONJ		
+masons	masons	maison	MANSIO		NOUN		Fem,Plur
+ni	ni	ne2	NEC		CCONJ		
+temple	temple	temple3	TEMPLUM		NOUN		Masc,Sing,Nom
+qi	qi	qui	QUI		PRON		Rel,Nom
+abatu	abatu	abatre	ABBATTUERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+ne	ne	ne1	NON		ADV		Neg
+fust	fust	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+et	et	et	ET		CCONJ		
+degasté	degasté	degaster	VASTARE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
+.	.						
+de	de	de	DE		ADP		
+fes	fes	X	X		X		
+firent	firent	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+toutes	toutes	tot	TOTUS		DET		Ind,Fem,Plur
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+volontés	volontés	volenté	VOLUNTAS		NOUN		Fem,Plur
+meïsmement	meïsmement	mëismement	IPSE		ADV		
+de	de	de	DE		ADP		
+pulcelles	pulcelles	pucele	*PULLICELLA		NOUN		Fem,Plur
+despulceller	despulceller	despuceler	*PULLICELLA		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+honir	honir	honir	*HAUNJAN		VERB		Ind,Inf,Pres,Act,Trans
+et	et	et	ET		CCONJ		
+mener	mener	mener	MINARE		VERB		Ind,Inf,Pres,Act,Trans
+en	en	en1	IN		ADP		
+servaje	servaje	servage	SERVUS		NOUN		Masc,Sing,Acc
+.	.						
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+fille	fille	fille	FILIA		NOUN		Fem,Sing
+dou	dou	de	DE		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+laomedon	laomedon1	Laomedon			PROPN		Masc,Sing,Acc
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+estoit	estoit2	estre1	ESSE		VERB	auxPass	Fin,Ind,Imp,3,Sing,MWEs
+efionam	efionam	Efionam			PROPN		Fem,Sing
+apellee	apellee	apeler	APPELLARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
+prise	prise	prendre	PREHENDERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
+.	.						
+hercules	hercules	Hercule			PROPN		Masc,Sing,Nom
+la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+douna	douna	doner	DONARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+au	au	a3	AD		ADP		PrepArt
+roi	roi1	roi	REX		NOUN		Masc,Sing,Acc
+talemon	talemon1	Talemon			PROPN		Masc,Sing,Acc
+por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
+premierement	premierement	premierement	PRIMARIUS		ADV		
+entra	entra	entrer	INTRARE		VERB		Fin,Ind,Past,Intr,3,Sing
+de_denz	de_denz	dedans	DEINTUS		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qe	qe3	queque	QUID		SCONJ		
+bia	bia	bel	BELLUS		ADJ		Masc,Sing,Acc
+loier	loier	loiier	LOCARIUM		NOUN		Masc,Sing,Acc
+et	et	et	ET		CCONJ		
+gent	gent2	gent2	GENITUS		ADJ		Masc,Sing,Acc
+n’	n’1	en2	INDE		PRON		
+ot	ot2	avoir	HABERE		VERB		Fin,Ind,Past,Intr,3,Sing
+c’	c’	se	SI		SCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+l’	l’4	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+eüst	eüst1	avoir	HABERE		VERB	auxTens	Fin,Sub,Imp,3,Sing,MWEs
+prise	prise1	prendre	PREHENDERE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+à	à	a3	AD		ADP		
+feme	feme	feme	FEMINA		NOUN		Fem,Sing
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ne	ne	ne1	NON		ADV		Neg
+le	le5	le	ILLE		PRON		Prs,3,Neut,Sing,Acc
+fist	fist2	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+pas	pas	pas	PASSUS1		PART		Neg
+ensi	ensi	ainsi	SIC		ADV		
+.	.						
+ains	ains	ainz	ANTE		ADV		
+la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+tint	tint	tenir1	TENERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+honteusement	honteusement	hontosement	*HAUNIþA		ADV		Man
+en	en	en1	IN		ADP		
+servaje	servaje	servage	SERVUS		NOUN		Masc,Sing,Acc
+.	.						
+de	de	de	DE		ADP		
+qoi	qoi	coi2	QUID		PRON		Rel,Acc
+fu	fu	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
+duel	duel	duel	DOLUS		NOUN		Masc,Sing,Nom
+et	et	et	ET		CCONJ		
+damaje	damaje	damage	DAMNUM		NOUN		Masc,Sing,Nom
+moult	moult	mout	MULTUS		ADV		
+grant	grant2	grant	GRANDIS		ADJ		Masc,Sing,Nom
+.	.						
+coment	coment	coment	QUOMODO		ADV		Int
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+partirent	partirent	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Plur
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+et	et	et	ET		CCONJ		
+ariverent	ariverent	ariver	*ARRIPARE		VERB		Fin,Ind,Past,Intr,3,Plur
+en	en	en1	IN		ADP		
+lor	lor1	lor3	ILLE		DET		Poss,Masc,Sing,Acc
+païs	païs	päis	PAGENSIS		NOUN		Masc,Sing,Acc
+.	.						
+ensi_com	ensi_com	ainsi	SIC		ADV	Adv	MWEs
+je	je	je	EGO		PRON		Prs,1,Sing,Nom
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+ai	ai	avoir	HABERE		VERB	auxTens	Fin,Ind,Pres,1,Sing,MWEs
+dit	dit1	dire	DICERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
+firent	firent	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+gresois	gresois2	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Nom
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+volonté	volonté	volenté	VOLUNTAS		NOUN		Fem,Sing
+de	de	de	DE		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+cité	cité	cité	CIVITAS		NOUN		Fem,Sing
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+cels	cels1	cel	ILLE		PRON		Dem,Masc,Plur,Acc
+qi	qi	qui	QUI		PRON		Rel,Nom
+estoient	estoient1	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Plur
+de_denz	de_denz1	dedans	DEINTUS		ADV		Loc
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+tot	tot3	tot	TOTUS		DET		Ind,Masc,Sing,Acc
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+avoir	avoir1	avoir	HABERE		VERB	Noun	Ind,Inf,Pres
+ausi	ausi	aussi	SIC		ADV		
+.	.						
+puis_aprés	puis_aprés	après	AD PRESSUM		ADV	Adv	Tim,MWEs
+firent	firent1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+lor	lor5	lor3	ILLE		DET		Poss,Fem,Plur
+nes	nes1	nef2	NAVIS		NOUN		Fem,Plur
+aparoiller	aparoiller	apareillier1	*APPARICULARE		VERB		Ind,Inf,Pres,Act,Trans
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+elles	elles	il	ILLE		PRON		Prs,3,Fem,Plur,Nom
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+aparoilliés	aparoilliés	apareillier1	*APPARICULARE		VERB	compPass	Ind,Part,Past,Plur,Fem,MWEs
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+entrerent	entrerent	entrer	INTRARE		VERB		Fin,Ind,Past,Intr,3,Plur
+de_denz	de_denz1	dedans	DEINTUS		ADV		Loc
+et	et	et	ET		CCONJ		
+se	se1	soi	SE		PRON		Prs,3,Plur,Acc
+partirent	partirent	partir	PARTIRE		VERB		Fin,Ind,Past,Rfl,3,Plur
+dou	dou	de	DE		ADP		PrepArt
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+de	de	de	DE		ADP		
+troie	troie	Troie			PROPN		Fem,Sing
+.	.						
+si	si	si	SIC		ADV		
+nagerent	nagerent	nagier	NAVIGARE		VERB		Fin,Ind,Past,Intr,3,Plur
+tant_qu’	tant_qu’	tant	TANTUS		ADV	SConj 	MWEs
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+ariverent	ariverent	ariver	*ARRIPARE		VERB		Fin,Ind,Past,Intr,3,Plur
+en	en	en1	IN		ADP		
+lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
+contree	contree	contree	CONTRA		NOUN		Fem,Sing
+à	à	a3	AD		ADP		
+celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
+meïsmes	meïsmes	mëisme	IPSE		DET		Ind,Masc,Sing,Acc
+port	port	port	PORTUS		NOUN		Masc,Sing,Acc
+dont	dont	dont	UNDE		ADV		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+estoient	estoient2	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Plur,MWEs
+partis	partis	partir	PARTIRE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+si	si	si	SIC		ADV		
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+receüz	receüz	recevoir	RECIPERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+moult	moult	mout	MULTUS		ADV		
+honoreement	honoreement	onoreement	HONORARE		ADV		Man
+et	et	et	ET		CCONJ		
+à	à	a3	AD		ADP		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+joie	joie	joie	GAUDIUM		NOUN		Fem,Sing
+de	de	de	DE		ADP		
+tos	tos1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+amis	amis2	ami	AMICUS		NOUN		Masc,Plur,Acc
+chernels	chernels	charnel2	CARNALIS		ADJ		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+de	de	de	DE		ADP		
+tos	tos1	tot	TOTUS		DET		Ind,Masc,Plur,Acc
+les	les	le	ILLE		DET		ArtDef,Masc,Plur
+autres	autres	autre	ALTER		PRON		Ind,Masc,Plur,Acc
+ausi	ausi	aussi	SIC		ADV		
+.	.						
+et	et	et	ET		CCONJ		
+quant	quant	cant1	QUANDO		SCONJ		
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+furent	furent2	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Plur,MWEs
+ensi	ensi	ainsi	SIC		ADV		
+conjoï	conjoï1	conjöir	GAUDERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+et	et	et	ET		CCONJ		
+festoiés	festoiés1	festiier	FESTA		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
+.	.						
+il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
+rendirent	rendirent	rendre	REDDERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+as	as	a3	AD		ADP		PrepArt
+diex	diex	dieu	DEUS		NOUN		Masc,Plur,Acc
+grant	grant3	grant	GRANDIS		ADJ		Fem,Plur
+loënges	loënges	löenge	LAUDARE		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+graces	graces	grace	GRATIA		NOUN		Fem,Plur
+et	et	et	ET		CCONJ		
+lor	lor4	lor2	ILLE		PRON		Prs,3,Plur,Acc
+firent	firent	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+moult	moult	mout	MULTUS		ADV		
+grant	grant4	grant	GRANDIS		ADJ		Masc,Plur,Acc
+sacrefices	sacrefices	sacrefise	SACRIFICIUM		NOUN		Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+ofrandes	ofrandes	ofrende	OFFERRE		NOUN		Fem,Plur
+.	.						
+puis_aprés	puis_aprés	après	AD PRESSUM		ADV	Adv	Tim,MWEs
+partirent	partirent1	partir	PARTIRE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
+tant_de	tant_de						
+lor	lor1	lor3	ILLE		DET		Poss,Masc,Sing,Acc
+avoir	avoir1	avoir	HABERE		VERB	Noun	Ind,Inf,Pres
+à	à	a3	AD		ADP		
+lor	lor6	lor3	ILLE		DET		Poss,Masc,Plur,Acc
+amis	amis2	ami	AMICUS		NOUN		Masc,Plur,Acc
+qe	qe3	queque	QUID		SCONJ		
+riches	riches1	riche	RîKI		ADJ		Masc,Plur,Nom
+en	en2	en2	INDE		PRON		
+furent	furent4	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Plur
+puis_aprés	puis_aprés	après	AD PRESSUM		ADV	Adv	Tim,MWEs
+moult	moult	mout	MULTUS		ADV		
+longuement	longuement	longement	LONGUS		ADV		
+.	.						
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+enrichi	enrichi	enrichir	RîKI		VERB		Fin,Ind,Past,Act,Trans,3,Sing
+adonc	adonc	adonc	DUNC		ADV		
+troie	troie	Troie			PROPN		Fem,Sing
+de	de	de	DE		ADP		
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+avoir	avoir1	avoir	HABERE		VERB	Noun	Ind,Inf,Pres
+as	as	a3	AD		ADP		PrepArt
+troiens	troiens1	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Acc
+et	et	et	ET		CCONJ		
+moult	moult	mout	MULTUS		ADV		
+en	en	en1	IN		ADP		
+crut	crut	croistre	CRESCERE		VERB		Fin,Ind,Past,Intr,3,Sing
+et	et	et	ET		CCONJ		
+multiplia	multiplia	moutepliier	MULTIPLICARE		VERB		Fin,Ind,Past,Intr,3,Sing
+.	.						
+mes	mes	mais1	MAGIS2		CCONJ		
+atant	atant	tant	TANTUS		ADV		Tim
+laise	laise	laissier	LAXARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+hor	hor	or4	HORA		ADV		Tim
+li	li	le	ILLE		DET		ArtDef,Masc,Sing
+contes	contes	conte2	COMPUTUS		NOUN		Masc,Sing,Nom
+à	à	a3	AD		ADP		
+parler	parler	parler	PARABOLARE		VERB		Ind,Inf,Pres,Intr
+de	de	de	DE		ADP		
+ceste	ceste1	cest	ISTE		DET		Dem,Fem,Sing
+destruition	destruition	destructïon	DESTRUERE		NOUN		Fem,Sing
+por	por	por2	PRO		ADP		
+conter	conter	conter	COMPUTARE		VERB		Ind,Inf,Pres,Act,Trans
+ce_qe	ce_qe						
+avint	avint	avenir	ADVENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+aprés	aprés1	après	AD PRESSUM		ADV		Tim
+car	car	car	QUARE		SCONJ		
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+trovons	trovons	trover	*TROPARE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+lisant	lisant	lire1	LEGERE		VERB		Ind,Part,Pres,Act,Trans
+qi	qi1	queque	QUID		SCONJ		
+.	.						
+aprés	aprés	après	AD PRESSUM		ADP		
+cestui	cestui1	cest	ISTE		DET		Dem,Masc,Sing,Acc
+fet	fet6	fait1	FACTUM		NOUN		Masc,Sing,Acc
+qui	qui	qui	QUI		PRON		Rel,Nom
+avint	avint	avenir	ADVENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+par	par	par	PER		ADP		
+si	si	si	SIC		ADV		
+poi_d’	poi_d’	poi	PAUCUS		ADV	Adv	MWEs
+acheson	acheson	ochaison	OCCASIO		NOUN		Fem,Sing
+.	.						
+avint	avint	avenir	ADVENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+puis	puis	puis	POSTEA		ADV		Tim
+si	si	si	SIC		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+destrution	destrution	destructïon	DESTRUERE		NOUN		Fem,Sing
+qe	qe3	queque	QUID		SCONJ		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+partie	partie	partie	PARTIRE		NOUN		Fem,Sing
+de	de	de	DE		ADP		
+·ls	·ls						
+bons	bons	bon	BONUS		ADJ		Masc,Plur,Acc
+chevaliers	chevaliers1	chevalier	CABALLARIUS		NOUN		Masc,Plur,Acc
+dou	dou	de	DE		ADP		PrepArt
+monde	monde1	monde1	MUNDUS1		NOUN		Masc,Sing,Acc
+i	i	i2	HIC		PRON		
+morirent	morirent	morir	MORI		VERB		Fin,Ind,Past,Intr,3,Plur
+.	.						
+qe	qe	queque	QUID		PRON		Rel,Nom
+d’	d’	de	DE		ADP		
+une	une	un	UNUS		DET		ArtIndef,Fem,Sing
+part	part	part1	PARS		NOUN		Fem,Sing
+qe	qe	queque	QUID		PRON		Rel,Nom
+d’	d’	de	DE		ADP		
+autre	autre1	autre	ALTER		DET		Ind,Fem,Sing
+.	.						
+tant	tant	tant	TANTUS		ADV		
+esforsa	esforsa1	esforcier2	*FORTIARE		VERB		Fin,Ind,Past,Intr,3,Sing
+et	et	et	ET		CCONJ		
+crue	crue	croistre	CRESCERE		VERB		Fin,Ind,Past,Intr,3,Sing
+celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
+afaire	afaire1	afaire	FACERE		NOUN		Masc,Sing,Nom
+qe	qe3	queque	QUID		SCONJ		
+por	por	por2	PRO		ADP		
+ci	ci1	si	SIC				
+poi_d’	poi_d’	poi	PAUCUS		ADV	Adv	MWEs
+acheison	acheison	ochaison	OCCASIO		NOUN		Fem,Sing
+comensa	comensa	comencier	COMINITIARE		VERB		Fin,Ind,Past,Intr,3,Sing
+qi	qi	qui	QUI		PRON		Rel,Nom
+jamés	jamés	ja	JAM		ADV		Tim
+devant	devant	devant	ABANTE		ADV		Loc
+nen	nen	non	NON		ADV		Neg
+avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
+esté	esté1	estre1	ESSE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
+si	si	si	SIC		ADV		
+grant	grant1	grant	GRANDIS		ADJ		Fem,Sing
+destrucions	destrucions	destructïon	DESTRUERE		NOUN		Fem,Sing
+ni	ni	ne2	NEC		CCONJ		
+ne	ne	ne1	NON		ADV		Neg
+cuit	cuit	cuidier1	COGITARE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
+qi	qi	qui	QUI		PRON		Rel,Nom
+aprés	aprés1	après	AD PRESSUM		ADV		Tim
+soit	soit	estre1	ESSE		VERB		Fin,Sub,Pres,Intr,3,Sing
+.	.						
+si	si	si	SIC		ADV		
+vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
+di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
+qui	qui1	queque	QUID		SCONJ		
+en	en	en1	IN		ADP		
+cestui	cestui1	cest	ISTE		DET		Dem,Masc,Sing,Acc
+afaire	afaire	afaire	FACERE		NOUN		Masc,Sing,Acc
+se	se	soi	SE		PRON		Prs,3,Sing,Acc
+puet	puet	pöoir	POSSE		VERB	auxMod	Fin,Ind,Pres,3,Sing
+ramentoir	ramentoir	ramentevoir	MENTE HABERE		VERB		Ind,Inf,Pres,Act,Trans
+le	le	le	ILLE		DET		ArtDef,Masc,Sing
+mot	mot	mot	MUTTUM		NOUN		Masc,Sing,Acc
+au	au	a3	AD		ADP		PrepArt
+villain	villain	vilain	VILLANUS		ADJ	Noun	Masc,Sing,Acc
+qe	qe	queque	QUID		PRON		Rel,Nom
+dit	dit	dire	DICERE		VERB		Fin,Ind,Pres,Intr,3,Sing
+.	.						
+tel	tel	tel	TALIS		PRON		Ind,Masc,Sing,Nom
+cuide	cuide	cuidier1	COGITARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+sa	sa	suen	SUUS		DET		Poss,Fem,Sing
+honte	honte	honte	*HAUNIþA		NOUN		Fem,Sing
+vengier	vengier	vengier	VINDICARE		VERB		Ind,Inf,Pres,Act,Trans
+qi	qi	qui	QUI		PRON		Rel,Nom
+l’	l’4	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
+acroist	acroist	acroistre	CRESCERE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
+.	.						
+si	si	si	SIC		ADV		
+laiserons	laiserons	laissier	LAXARE		VERB		Fin,Ind,Fut,Act,Trans,1,Plur
+l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
+afer	afer1	afaire	FACERE		NOUN		Masc,Sing,Acc
+coment	coment	coment	QUOMODO		ADV		Int
+il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
+ala	ala	aler (GDC)	AMBULARE		VERB		Fin,Ind,Past,Intr,3,Sing
+ensi_com	ensi_com	ainsi	SIC		ADV	Adv	MWEs
+nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
+trovons	trovons	trover	*TROPARE		VERB		Fin,Ind,Pres,Act,Trans,1,Plur
+en	en	en1	IN		ADP		
+la	la	le	ILLE		DET		ArtDef,Fem,Sing
+veraie	veraie	verai	*VERACUS		ADJ		Fem,Sing
+estoire	estoire	estoire1	HISTORIA		NOUN		Fem,Sing
+escrit	escrit2	escrire	SCRIBERE		VERB	Adj	Ind,Part,Past,Sing,Masc
+car	car	car	QUARE		SCONJ		
+.	.						
+qi	qi	qui	QUI		PRON		Rel,Nom
+tot_ce_qi	tot_ce_qi						
+adonc	adonc	adonc	DUNC		ADV		
+avint	avint	avenir	ADVENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
+i	i	i2	HIC		PRON		
+voudroit	voudroit	voloir	VELLE		VERB	auxMod	Fin,Cnd,Pres,3,Sing
+raconter	raconter	raconter	COMPUTARE		VERB		Ind,Inf,Pres,Act,Trans
+ni	ni	ne2	NEC		CCONJ		
+dire	dire	dire	DICERE		VERB		Ind,Inf,Pres,Intr
+.	.						
+trop	trop	trop	THORP		ADV		
+seroit	seroit1	estre1	ESSE		VERB	auxCop	Fin,Cnd,Pres,3,Sing
+l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
+evre	evre	uevre	OPERA		NOUN		Fem,Sing
+desmesuree	desmesuree	desmesurer	MENSURARE		VERB	Adj	Ind,Part,Past,Sing,Fem
+.	.						

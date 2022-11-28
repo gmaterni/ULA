@@ -238,4 +238,4 @@ if __name__ == "__main__":
     else:
         print("options for flag -s are t/p/s")
         sys.exit()
-    do_main(args.dir, args.sep)
+    do_main(args.dir, sep)
