@@ -376,9 +376,10 @@ var DbFormLpmx = {
     let formkey = js.formkey.trim();
     let form = js.form.trim();
     let lemma = js.lemma.trim();
-    let etimo = js.etimo.trim();
-    let pos = js.pos.trim();
-    let phon = js.phon.trim();
+    let etimo = js.etimo.trim().toLowerCase();
+    let pos = js.pos.trim().toLowerCase();
+    let phon = js.phon.trim().toLowerCase(); ///lang
+
     let rows = this.rows_js;
 
     let filter_token = () => {
@@ -393,7 +394,6 @@ var DbFormLpmx = {
         });
     };
     filter_token();
-
     /*
     0: "adonc"
     1: "adonc"
@@ -408,29 +408,30 @@ var DbFormLpmx = {
     1:formakey
     2:lemma
     3:etimo
-    4:loag 
+    4:lang (phon) 
     5:pos
     6:funct 
     7:msd (multiplo)
     */
+    const ilemma = 2, iteimo = 3, ipos = 5, iphon = 4;
     let filter_lemma = () => {
       let rs = this.form_lst.slice();
       let le_start = rs.length;
       if (lemma != "")
         rs = rs.filter((x) => {
-          return x[2] == lemma;
+          return x[ilemma] == lemma;
         });
       if (etimo != "")
         rs = rs.filter((x) => {
-          return x[3] == etimo;
+          return x[ietimo].toLowerCase() == etimo;
         });
       if (pos != "")
         rs = rs.filter((x) => {
-          return x[4] == pos;
+          return x[ipos].toLowerCase() == pos;
         });
-      if (phon != "")
+      if (phon != "")//lang
         rs = rs.filter((x) => {
-          return x[5] == phon;
+          return x[iphon] == phon;
         });
       // set dei token corrispondenti al lemma
       let tks = [];
@@ -453,12 +454,6 @@ var DbFormLpmx = {
         return n > 0;
       });
     }
-
-
-
-
-
-
     // rows selezionate
     if (rows.length == 0) {
       this.rows_js = [];
