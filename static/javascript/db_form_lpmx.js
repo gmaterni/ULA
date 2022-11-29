@@ -413,7 +413,11 @@ var DbFormLpmx = {
     6:funct 
     7:msd (multiplo)
     */
-    const ilemma = 2, iteimo = 3, ipos = 5, iphon = 4;
+    const iformakei = 1,
+      ilemma = 2,
+      ietimo = 3,
+      ipos = 5,
+      iphon = 4;
     let filter_lemma = () => {
       let rs = this.form_lst.slice();
       let le_start = rs.length;
@@ -436,7 +440,7 @@ var DbFormLpmx = {
       // set dei token corrispondenti al lemma
       let tks = [];
       for (let x of rs) {
-        tks.push(x[1]); // tokemkey
+        tks.push(x[iformakei]); // tokemkey
       }
       if (rs.length == le_start)
         tks = [];
