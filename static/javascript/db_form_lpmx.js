@@ -80,7 +80,7 @@ var DbFormLpmx = {
     return ok;
   },
   set_store: function () {
-    //AAA provare JSON
+    //TODO provare JSON
     // let x = JSON.parse(JSON.stringify(this.form_lst));
     // let x = JSON.stringify(this.form_lst);
     try {
@@ -292,7 +292,7 @@ var DbFormLpmx = {
       let lft = Math.max(i - cnt_size, 0);
       let rgt = Math.min(i + cnt_size + 1, le);
       let array = DbFormLpmx.token_lst.slice(lft, rgt);
-      //AAA controlla json
+      //TODO controlla json
       let row = JSON.parse(JSON.stringify(array));
       for (let i = 0; i < row.length; i++)
         row[i].push(lft + i);
@@ -310,7 +310,7 @@ var DbFormLpmx = {
     let build_context = function (i) {
       let lft = Math.max(i - cnt_size, 0);
       let rgt = Math.min(i + cnt_size + 1, le);
-      // XXX controlla JSON
+      // TODO controlla JSON
       let array = DbFormLpmx.token_lst.slice(lft, rgt);
       let row = JSON.parse(JSON.stringify(array));
       for (let i = 0; i < row.length; i++)
@@ -382,6 +382,7 @@ var DbFormLpmx = {
     let rows = this.rows_js;
 
     let filter_token = () => {
+      //setta rows selezionate
       if (form != "")
         rows = rows.filter((x) => {
           return x.t.indexOf(form) > -1;
@@ -391,7 +392,27 @@ var DbFormLpmx = {
           return x.tk.indexOf(formkey) > -1;
         });
     };
+    filter_token();
 
+    /*
+    0: "adonc"
+    1: "adonc"
+    2: "adonc"
+    3: "DUNC"
+    4: "it."
+    5: "ADJ"
+    6: "Pron"
+    7: "Masc,Plur,Acc,Pos"
+    /*
+    0:forma
+    1:formakey
+    2:lemma
+    3:etimo
+    4:loag 
+    5:pos
+    6:funct 
+    7:msd (multiplo)
+    */
     let filter_lemma = () => {
       let rs = this.form_lst.slice();
       let le_start = rs.length;
@@ -416,21 +437,29 @@ var DbFormLpmx = {
       for (let x of rs) {
         tks.push(x[1]); // tokemkey
       }
-      // nessuna selezionae
       if (rs.length == le_start)
-        return [];
+        tks = [];
       return tks;
     };
-    filter_token();
+    //selezione per lemma
     let tk_set = filter_lemma();
     if (tk_set.length > 0) {
+      //x corrisponde a row del text
       rows = rows.filter((x) => {
         let n = 0;
         for (let tk of tk_set)
-          if (x.tk.indexOf(tk) > -1) n += 1;
+          if (x.tk.indexOf(tk) > -1)
+            n += 1;
         return n > 0;
       });
     }
+
+
+
+
+
+
+    // rows selezionate
     if (rows.length == 0) {
       this.rows_js = [];
       return;
