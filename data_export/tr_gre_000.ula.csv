@@ -1,705 +1,705 @@
-FORMA	FORMAKEY	LEMMA	ETIMO	LANG	POS	FUNCT	MSD
-cestui	cestui	cest	ISTE		PRON		Dem,Masc,Sing,Nom
-livre	livre	livre2	LIBER2		NOUN		Masc,Sing,Nom
-paroule	paroule	parler	PARABOLARE		VERB		Fin,Ind,Pres,Intr,3,Sing
-dou	dou	de	DE		ADP		PrepArt
-siege	siege	siege	SEDICARE		NOUN		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-de_la	de_la	de	DE		ADP		PrepArt
-destrucion	destrucion	destructïon	DESTRUERE		NOUN		Fem,Sing
-de	de	de	DE		ADP		
-troie	troie	Troie			PROPN		Fem,Sing
-et	et	et	ET		CCONJ		
-por_qoi	por_qoi	por2	PRO/QUID		ADV		Int
-troie	troie	Troie			PROPN		Fem,Sing
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-destrute	destrute	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-et	et	et	ET		CCONJ		
-issillee	issillee	essillier	EXILIARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-salemon	salemon	Salomon			PROPN		Masc,Sing,Nom
-lu	lu	le	ILLE		DET		ArtDef,Masc,Sing
-trè	trè						
-sage	sage	sage	SAPIDUS				
-nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
-enseigne	enseigne	enseignier	*INSIGNARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
-e	e	et	ET		CCONJ		
-amonest	amonest	amonester	*ADMONESTARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
-en	en	en1	IN		ADP		
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-livre	livre1	livre2	LIBER2		NOUN		Masc,Sing,Acc
-qe	qe3	queque	QUID		SCONJ		
-l_en	l_en	on	HOMO		PRON		Prs,3,Nom
-ne	ne	ne1	NON		ADV		Neg
-doit	doit	devoir	DEBERE		VERB	auxMod	Fin,Ind,Pres,3,Sing
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-sen	sen	sens	SENSUS		NOUN		Masc,Sing,Acc
-ni	ni	ne2	NEC		CCONJ		
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-savoir	savoir	savoir	SAPERE		VERB	Noun	Ind,Inf,Pres
-celer	celer	celer	CELARE		VERB		Ind,Inf,Pres,Act,Trans
-ainc	ainc	ainz	ANTE		ADV		
-doit	doit	devoir	DEBERE		VERB	auxMod	Fin,Ind,Pres,3,Sing
-aprendre	aprendre	aprendre	APPREHENDERE		VERB		Ind,Inf,Pres,Act,Trans
-et	et	et	ET		CCONJ		
-ensegner	ensegner	enseignier	*INSIGNARE		VERB		Ind,Inf,Pres,Act,Trans
-as	as	a3	AD		ADP		PrepArt
-autres	autres	autre	ALTER		PRON		Ind,Masc,Plur,Acc
-por	por	por2	PRO		ADP		
-henor	henor	onor	HONOS		NOUN		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-pris	pris	prix	PRETIUM		NOUN		Masc,Sing,Acc
-conquere	conquere	conquérir	CONQUIRERE		VERB		Ind,Inf,Pres,Act,Trans
-et	et	et	ET		CCONJ		
-avoir	avoir	avoir	HABERE		VERB		Ind,Inf,Pres,Act,Trans
-car	car	car	QUARE		SCONJ		
-ensi	ensi	ainsi	SIC		ADV		
-firent	firent	faire	FACERE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
-les	les	le	ILLE		DET		ArtDef,Masc,Plur
-nos	nos2	nostre	NOSTER		DET		Poss,Masc,Plur,Nom
-ansesors	ansesors	ancessor	ANTECESSOR		NOUN		Masc,Plur,Nom
-.	.						
-car	car	car	QUARE		SCONJ		
-els	els	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
-qui	qui						
-les	les2	le	ILLE		DET		ArtDef,Fem,Plur
-sept	sept	set	SEPTEM		NUM		Card
-ars	ars	art	ARS		NOUN		Fem,Plur
-troverent	troverent	trover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Plur
-.	.						
-c’	c’	se	SI		SCONJ		
-il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
-se	se1	soi	SE		PRON		Prs,3,Plur,Acc
-fusent	fusent	estre1	ESSE		VERB	auxTens	Fin,Sub,Imp,3,Plur,MWEs
-teü	teü	taire	TACERE		VERB	compTens	Ind,Part,Past,Plur,Masc,MWEs
-.	.						
-les	les	le	ILLE		DET		ArtDef,Masc,Plur
-homes	homes	ome	HOMO		NOUN		Masc,Plur,Nom
-vivroient	vivroient	vivre1	VIVERE		VERB		Fin,Cnd,Pres,Intr,3,Plur
-à_la	à_la	a3	AD		ADP		PrepArt
-mainiere	mainiere	maniere	MANUARIUS		NOUN		Fem,Sing
-de	de	de	DE		ADP		
-bestes	bestes	beste	BESTIA		NOUN		Fem,Plur
-car	car	car	QUARE		SCONJ		
-il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
-ne	ne	ne1	NON		ADV		Neg
-savroient	savroient	savoir	SAPERE		VERB		Fin,Cnd,Pres,Act,Trans,3,Plur
-qe	qe2	queque	QUID		DET		Int
-fust	fust	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
-senz	senz	sens	SENSUS		NOUN		Masc,Sing,Nom
-ni	ni	ne2	NEC		CCONJ		
-follie	follie	folie2	FOLLIS		NOUN		Fem,Sing
-ni	ni	ne2	NEC		CCONJ		
-ne	ne	ne1	NON		ADV		Neg
-garderoient	garderoient	warder	*WARDôN		VERB		Fin,Cnd,Pres,Act,Trans,3,Plur
-li	li	le	ILLE		DET		ArtDef,Masc,Sing
-un	un2	un	UNUS		PRON		Ind,Masc,Sing,Nom
-l’	l’	le	ILLE		DET		ArtDef,Masc,Sing
-autre	autre	autre	ALTER		PRON		Ind,Masc,Sing,Acc
-por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
-raison	raison	raison	RATIO		NOUN		Fem,Sing
-ne	ne	ne1	NON		ADV		Neg
-seroit	seroit	estre1	ESSE		VERB	auxPass	Fin,Cnd,Pres,3,Sing,MWEs
-entr’	entr’	entre2	INTER		ADP		
-els	els1	il	ILLE		PRON		Prs,3,Masc,Plur,Acc
-conneüe	conneüe	conoistre	COGNOSCERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-ni	ni	ne2	NEC		CCONJ		
-gardee	gardee	warder	*WARDôN		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-mes	mes	mais1	MAGIS2		CCONJ		
-por_ce_q’	por_ce_q’	por2	PRO		ADP	SConj 	MWEs
-il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
-firent	firent1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
-de	de	de	DE		ADP		
-lor	lor1	lor3	ILLE		DET		Poss,Masc,Sing,Acc
-savoir	savoir	savoir	SAPERE		VERB	Noun	Ind,Inf,Pres
-aprendre	aprendre	aprendre	APPREHENDERE		VERB		Ind,Inf,Pres,Act,Trans
-et	et	et	ET		CCONJ		
-enseignier	enseignier	enseignier	*INSIGNARE		VERB		Ind,Inf,Pres,Act,Trans
-as	as	a3	AD		ADP		PrepArt
-autres	autres	autre	ALTER		PRON		Ind,Masc,Plur,Acc
-.	.						
-seront	seront	estre1	ESSE		VERB	auxPass	Fin,Ind,Fut,3,Plur,MWEs
-il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
-ramenceüs	ramenceüs	ramentevoir	MENTE HABERE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
-et	et	et	ET		CCONJ		
-només	només	nomer	NOMINARE		VERB	compPass	Ind,Part,Past,Plur,Masc,MWEs
-lonc	lonc	lonc	LONGUS		ADJ		Masc,Sing,Acc
-tenz	tenz	tens	TEMPS1		NOUN		Masc,Sing,Acc
-.	.						
-car	car	car	QUARE		SCONJ		
-.	.						
-c’	c’	se	SI		SCONJ		
-il	il1	il	ILLE		PRON		Prs,3,Masc,Plur,Nom
-nen	nen	non	NON		ADV		Neg
-eüssent	eüssent	avoir	HABERE		VERB	auxTens	Fin,Sub,Imp,3,Plur,MWEs
-ensi	ensi	ainsi	SIC		ADV		
-fait	fait	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-.	.						
-lor	lor	lor3	ILLE		DET		Poss,Masc,Sing,Nom
-savoir	savoir	savoir	SAPERE		VERB	Noun	Ind,Inf,Pres
-et	et	et	ET		CCONJ		
-lor	lor2	lor3	ILLE		DET		Poss,Fem,Sing
-ensience	ensience	escïence	SCIENTIA		NOUN		Fem,Sing
-seroit	seroit1	estre1	ESSE		VERB	auxCop	Fin,Cnd,Pres,3,Sing
-chouse	chouse	chose	CAUSA		NOUN		Fem,Sing
-pardue	pardue	perdre	PERDERE		VERB	Adj	Ind,Part,Past,Sing,Fem
-et	et	et	ET		CCONJ		
-non	non	non	NON		ADV		Neg
-porfitable	porfitable	porfitable	PROFECTUS		ADJ		Fem,Sing
-.	.						
-et	et	et	ET		CCONJ		
-por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
-l_en	l_en	on	HOMO		PRON		Prs,3,Nom
-doit	doit	devoir	DEBERE		VERB	auxMod	Fin,Ind,Pres,3,Sing
-tou	tou	tot	TOTUS		DET		Ind,Masc,Sing,Acc
-jor	jor	jor	DIURNUM		NOUN		Masc,Sing,Acc
-aprendre	aprendre	aprendre	APPREHENDERE		VERB		Ind,Inf,Pres,Act,Trans
-et	et	et	ET		CCONJ		
-enseignier	enseignier	enseignier	*INSIGNARE		VERB		Ind,Inf,Pres,Act,Trans
-.	.						
-me	me	moi	ME		PRON		Prs,1,Sing,Acc
-voill	voill	voloir	VELLE		VERB	auxMod	Fin,Ind,Pres,1,Sing
-ge	ge	je	EGO		PRON		Prs,1,Sing,Nom
-travaillier	travaillier	travaillier	*TRIPALIARE		VERB		Ind,Inf,Pres,Act,Trans
-d’	d’	de	DE		ADP		
-une	une	un	UNUS		DET		ArtIndef,Fem,Sing
-estoire	estoire	estoire1	HISTORIA		NOUN		Fem,Sing
-metre	metre	metre2	MITTERE		VERB		Ind,Inf,Pres,Act,Trans
-en	en	en1	IN		ADP		
-romanz	romanz	romanz	ROMANICE		NOUN		Masc,Sing,Acc
-por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
-cels_qe	cels_qe	cel	ILLE		PRON	Pron	Dem,Masc,Plur,Nom,MWEs
-le	le	le	ILLE		DET		ArtDef,Masc,Sing
-latin	latin	latin	LATINUS		ADJ	Noun	Masc,Sing,Acc
-ne	ne	ne1	NON		ADV		Neg
-entendent	entendent	entendre	INTENDERE		VERB		Fin,Ind,Pres,Act,Trans,3,Plur
-se	se1	soi	SE		PRON		Prs,3,Plur,Acc
-puissent	puissent	pöoir	POSSE		VERB	auxMod	Fin,Sub,Imp,3,Plur
-deliter	deliter	delitier	DELECTARE		VERB		Ind,Inf,Pres,Act,Trans
-.	.						
-car	car	car	QUARE		SCONJ		
-l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
-estoire	estoire	estoire1	HISTORIA		NOUN		Fem,Sing
-est	est1	estre1	ESSE		VERB	auxCop	Fin,Ind,Pres,3,Sing
-mult	mult	mout	MULTUS		ADV		
-riche	riche	riche	 RîKI		ADJ		Fem,Sing
-et	et	et	ET		CCONJ		
-de	de	de	DE		ADP		
-grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
-afaire	afaire	afaire	FACERE		NOUN		Masc,Sing,Acc
-.	.						
-ce	ce	ce1	HOC		PRON		Dem,Neut,Sing,Nom
-est	est	estre1	ESSE		VERB		Fin,Ind,Pres,Intr,3,Sing
-comme	comme	come	QUOMODO		ADV		
-troie	troie	Troie			PROPN		Fem,Sing
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-destruice	destruice	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-et	et	et	ET		CCONJ		
-isilliee	isilliee	essillier	EXILIARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-de	de	de	DE		ADP		
-qoi	qoi	coi2	QUID		PRON		Rel,Acc
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-verité	verité	verité	VERITAS		NOUN		Fem,Sing
-est	est2	estre1	ESSE		VERB	auxPass	Fin,Ind,Pres,3,Sing,MWEs
-poi	poi	poi	PAUCUS		ADV		
-seüe	seüe	savoir	SAPERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-ci	ci	ci	HIC		ADV		
-dit	dit	dire	DICERE		VERB		Fin,Ind,Pres,Intr,3,Sing
-coment	coment	coment	QUOMODO		ADV		Int
-homier	homier	Homère			PROPN		Masc,Sing,Nom
-li	li	le	ILLE		DET		ArtDef,Masc,Sing
-clerc	clerc	clerc	CLERICUS		NOUN		Masc,Sing,Nom
-traitai	traitai	traitier	TRACTARE		VERB		Fin,Ind,Past,Intr,3,Sing
-dou	dou	de	DE		ADP		PrepArt
-siege	siege	siege	SEDICARE		NOUN		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-de_la	de_la	de	DE		ADP		PrepArt
-destrucion	destrucion	destructïon	DESTRUERE		NOUN		Fem,Sing
-troie	troie	Troie			PROPN		Fem,Sing
-.	.						
-homier	homier	Homère			PROPN		Masc,Sing,Nom
-fu	fu	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
-un	un	un	UNUS		DET		ArtIndef,Masc,Sing
-clerc	clerc	clerc	CLERICUS		NOUN		Masc,Sing,Nom
-mult	mult	mout	MULTUS		ADV		
-saje	saje	sage	SAPIDUS		ADJ		Masc,Sing,Nom
-selonc_ce_qe	selonc_ce_qe	selonc	SECUNDUS		ADP	SConj 	MWEs
-le	le2	le	ILLE		DET		ArtDef,Fem,Sing
-stoire	stoire	estoire1	HISTORIA		NOUN		Fem,Sing
-nos	nos1	nos	NOS		PRON		Prs,1,Plur,Acc
-raconte	raconte	raconter	COMPUTARE		VERB		Fin,Ind,Pres,Act,Trans,3,Sing
-.	.						
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-homier	homier	Homère			PROPN		Masc,Sing,Nom
-escrist	escrist	escrire	SCRIBERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-dès	dès	des2	DE EX		ADP		
-le	le	le	ILLE		DET		ArtDef,Masc,Sing
-comencement	comencement	comencement	COMINITIARE		NOUN		Masc,Sing,Acc
-de_la	de_la	de	DE		ADP		PrepArt
-guerre	guerre	guerre	*WERRA		NOUN		Fem,Sing
-jusques	jusques	jusque	 USQUE		ADP		
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-destrusion	destrusion	destructïon	DESTRUERE		NOUN		Fem,Sing
-de	de	de	DE		ADP		
-troie	troie	Troie			PROPN		Fem,Sing
-.	.						
-et	et	et	ET		CCONJ		
-por_qoi	por_qoi	por2	PRO/QUID		ADV		Int
-troie	troie	Troie			PROPN		Fem,Sing
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-destruie	destruie	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-et	et	et	ET		CCONJ		
-desiritee	desiritee	desireter	HEREDITARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-mes	mes	mais1	MAGIS2		CCONJ		
-por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
-cestui	cestui	cest	ISTE		PRON		Dem,Masc,Sing,Nom
-homier	homier	Homère			PROPN		Masc,Sing,Nom
-ne	ne	ne1	NON		ADV		Neg
-fu	fu2	estre1	ESSE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
-nés	nés	naistre	NASCI		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-c	c	cent	CENTUM		NUM		Card
-ans	ans	an	ANNUS		NOUN		Masc,Plur,Acc
-aprés_ce_qe	aprés_ce_qe	après	AD PRESSUM		ADV	SConj 	
-troie	troie	Troie			PROPN		Fem,Sing
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-destruite	destruite	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-et	et	et	ET		CCONJ		
-desiritee	desiritee	desireter	HEREDITARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-ne	ne	ne1	NON		ADV		Neg
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-son	son	suen	SUUS		DET		Poss,Masc,Sing,Nom
-livre	livre	livre2	LIBER2		NOUN		Masc,Sing,Nom
-por_verité	por_verité						
-creüz	creüz	croire	CREDERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-car	car	car	QUARE		SCONJ		
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-nen	nen	non	NON		ADV		Neg
-avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
-de	de	de	DE		ADP		
-ce	ce1	ce1	HOC		PRON		Dem,Neut,Sing,Acc
-rienz	rienz	rien	RES		PRON		Ind,Neut,Sing,Acc
-veü	veü	vëoir	VIDERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-.	.						
-et	et	et	ET		CCONJ		
-quant	quant	cant1	QUANDO		SCONJ		
-homier	homier	Homère			PROPN		Masc,Sing,Nom
-hot	hot	avoir	HABERE		VERB	auxTens	Fin,Ind,Past,3,Sing,MWEs
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-livre	livre1	livre2	LIBER2		NOUN		Masc,Sing,Acc
-fet	fet	faire	FACERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-et	et	et	ET		CCONJ		
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-à_la	à_la	a3	AD		ADP		PrepArt
-cité	cité	cité	CIVITAS		NOUN		Fem,Sing
-d’	d’	de	DE		ADP		
-ateines	ateines	Athènes			PROPN		Fem,Sing
-aportés	aportés	aporter	APPORTARE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-et	et	et	ET		CCONJ		
-leüz	leüz	lire1	LEGERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-entres	entres	entre2	INTER		ADP		
-les	les	le	ILLE		DET		ArtDef,Masc,Plur
-sajes	sajes	sage	SAPIDUS		ADJ		Masc,Plur,Acc
-clers	clers	clerc	CLERICUS		NOUN		Masc,Plur,Acc
-.	.						
-si	si						
-le	le4	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
-vostrent	vostrent	voloir	VELLE		VERB	auxMod	Fin,Ind,Past,3,Plur
-por	por	por2	PRO		ADP		
-raison	raison	raison	RATIO		NOUN		Fem,Sing
-danner	danner	damner	DAMNARE		VERB		Ind,Inf,Pres,Act,Trans
-.	.						
-por_ce_q’	por_ce_q’	por2	PRO		ADP	SConj 	MWEs
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-fet	fet1	faire	FACERE		VERB	auxMod	Fin,Ind,Past,3,Sing
-conbatre	conbatre	combatre	COMBATTUERE		VERB		Ind,Inf,Pres,Intr
-demanois	demanois	demanois	MANUS		ADV		
-les	les	le	ILLE		DET		ArtDef,Masc,Plur
-diex	diex	dieu	DEUS		NOUN		Masc,Plur,Acc
-ho	ho	avuec	AB HOC		ADP		
-lez	lez	le	ILLE		DET		ArtDef,Masc,Plur
-troienz	troienz1	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Acc
-.	.						
-ensement	ensement	ensement	IPSE		ADV		
-avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
-conbatre	conbatre	combatre	COMBATTUERE		VERB		Ind,Inf,Pres,Intr
-le	le3	le	ILLE		DET		ArtDef,Fem,Plur
-deesses	deesses	dieuesse	DEUS		NOUN		Fem,Plur
-ho	ho	avuec	AB HOC		ADP		
-les	les	le	ILLE		DET		ArtDef,Masc,Plur
-charnels	charnels	charnel2	CARNALIS		ADJ		Masc,Plur,Acc
-.	.						
-la_quel	la_quel	quel1	QUALIS		PRON		Rel,Fem,Sing
-chouse	chouse	chose	CAUSA		NOUN		Fem,Sing
-li	li1	li	ILLE		PRON		Prs,3,Masc,Sing,Acc
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-tornee	tornee	tonrner	TORNARE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-à	à	a3	AD		ADP		
-grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
-follie	follie	folie2	FOLLIS		NOUN		Fem,Sing
-.	.						
-mes	mes	mais1	MAGIS2		CCONJ		
-por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
-homier	homier	Homère			PROPN		Masc,Sing,Nom
-estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
-mult	mult	mout	MULTUS		ADV		
-saje	saje	sage	SAPIDUS		ADJ		Masc,Sing,Nom
-clerc	clerc	clerc	CLERICUS		NOUN		Masc,Sing,Nom
-.	.						
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-son	son	suen	SUUS		DET		Poss,Masc,Sing,Nom
-livre	livre	livre2	LIBER2		NOUN		Masc,Sing,Nom
-enn	enn	en1	IN		ADP		
-ahotiricés	ahotiricés	autorités	AUCTORITAS		NOUN		Fem,Sing
-mis	mis3	metre2	MITTERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-et	et	et	ET		CCONJ		
-receüs	receüs	recevoir	RECIPERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-.	.						
-coment	coment	coment	QUOMODO		ADV		Int
-cornelius	cornelius	Cornelius			PROPN		Masc,Sing,Nom
-retrova	retrova	retrover	*TROPARE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-veraie	veraie	verai	*VERACUS		ADJ		Fem,Sing
-estoire	estoire	estoire1	HISTORIA		NOUN		Fem,Sing
-de	de	de	DE		ADP		
-troie	troie	Troie			PROPN		Fem,Sing
-.	.						
-li_qel	li_qel	quel1	QUALIS		PRON		Rel,Masc,Sing,Acc
-livre	livre1	livre2	LIBER2		NOUN		Masc,Sing,Acc
-le	le	le	ILLE		DET		ArtDef,Masc,Sing
-troien	troien	troyen	TROJANUS		ADJ	Noun	Masc,Sing,Nom
-escrist	escrist	escrire	SCRIBERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-de_denz	de_denz	dedans	DEINTUS		ADP		
-troie	troie	Troie			PROPN		Fem,Sing
-en	en	en1	IN		ADP		
-lengue	lengue	langue1	LINGUA		NOUN		Fem,Sing
-gresoit	gresoit	gregois	GRAECUS		ADJ		Fem,Sing
-.	.						
-et	et	et	ET		CCONJ		
-coment	coment	coment	QUOMODO		ADV		Int
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-cornelius	cornelius	Cornelius			PROPN		Masc,Sing,Nom
-la	la1	le	ILLE		PRON		Prs,3,Fem,Sing,Acc
-mist	mist	metre2	MITTERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-en	en	en1	IN		ADP		
-latin	latin	latin	LATINUS		ADJ	Noun	Masc,Sing,Acc
-.	.						
-à	à	a3	AD		ADP		
-celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
-tenz	tenz	tens	TEMPS1		NOUN		Masc,Sing,Acc
-qe	qe3	queque	QUID		SCONJ		
-saluste	saluste	Saluste			PROPN		Masc,Sing,Nom
-vivoit	vivoit	vivre1	VIVERE		VERB		Fin,Ind,Imp,Intr,3,Sing
-.	.						
-estoit	estoit3	estre1	ESSE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
-rome	rome	Rome			PROPN		Fem,Sing
-grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
-piece	piece	piece	*PETTIA		NOUN		Fem,Sing
-duree	duree	durer	DURARE		VERB	compTens	Ind,Part,Past,Sing,Fem,MWEs
-dès	dès	des2	DE EX		ADP		
-le	le	le	ILLE		DET		ArtDef,Masc,Sing
-sien	sien	suen	SUUS		DET		Poss,Masc,Sing,Acc
-commencement	commencement	comencement	COMINITIARE		NOUN		Masc,Sing,Acc
-.	.						
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-saluste	saluste	Saluste			PROPN		Masc,Sing,Nom
-estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
-de	de	de	DE		ADP		
-mult	mult	mout	MULTUS		ADV		
-aut	aut	haut	ALTUS		ADJ		Masc,Sing,Acc
-parage	parage	parage	PAR		NOUN		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-mult	mult	mout	MULTUS		ADV		
-preu	preu	pro	PRODE		ADJ		Masc,Sing,Nom
-et	et	et	ET		CCONJ		
-mult	mult	mout	MULTUS		ADV		
-vaillant	vaillant	valoir	VALERE		VERB	Adj	Ind,Part,Pres
-et	et	et	ET		CCONJ		
-mult	mult	mout	MULTUS		ADV		
-saje	saje	sage	SAPIDUS		ADJ		Masc,Sing,Nom
-clerc	clerc	clerc	CLERICUS		NOUN		Masc,Sing,Nom
-.	.						
-si	si						
-avoit	avoit	avoir	HABERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-saluste	saluste	Saluste			PROPN		Masc,Sing,Nom
-un	un	un	UNUS		DET		ArtIndef,Masc,Sing
-sien	sien	suen	SUUS		DET		Poss,Masc,Sing,Acc
-nevo	nevo	nevo	NEPOS		NOUN		Masc,Sing,Acc
-mult	mult	mout	MULTUS		ADV		
-saje	saje1	sage	SAPIDUS		ADJ		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-esiencos	esiencos	escientos (GD)	SCIENS		ADJ		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-moult	moult	mout	MULTUS		ADV		
-fondés	fondés	fonder2	FUNDARE		VERB	Adj	Ind,Part,Past,Sing,Masc
-de	de	de	DE		ADP		
-clergie	clergie	clergie	CLERICUS		NOUN		Fem,Sing
-qe	qe	queque	QUID		PRON		Rel,Nom
-cornelius	cornelius	Cornelius			PROPN		Masc,Sing,Nom
-estoit	estoit2	estre1	ESSE		VERB	auxPass	Fin,Ind,Imp,3,Sing,MWEs
-apellés	apellés	apeler	APELLARE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-.	.						
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-cornelius	cornelius	Cornelius			PROPN		Masc,Sing,Nom
-tenoit	tenoit	tenir1	TENERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-en	en	en1	IN		ADP		
-scoile	scoile	escole1	SCHOLA		NOUN		Fem,Sing
-en	en	en1	IN		ADP		
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-arte	arte	X	X		X		
-d’	d’	de	DE		ADP		
-ateines	ateines	Athènes			PROPN		Fem,Sing
-.	.						
-un	un	un	UNUS		DET		ArtIndef,Masc,Sing
-jor	jor	jor	DIURNUM		NOUN		Masc,Sing,Acc
-avint	avint	avenir	ADVENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
-qe	qe3	queque	QUID		SCONJ		
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-cornelius	cornelius	Cornelius			PROPN		Masc,Sing,Nom
-cersoit	cersoit	cerchier	CIRCARE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-de_denz	de_denz	dedans	DEINTUS		ADP		
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-armaire	armaire	armaire	ARMARIUM		NOUN		Masc,Sing,Acc
-por	por	por2	PRO		ADP		
-trover	trover	trover	*TROPARE		VERB		Ind,Inf,Pres,Act,Trans
-un	un	un	UNUS		DET		ArtIndef,Masc,Sing
-sien	sien	suen	SUUS		DET		Poss,Masc,Sing,Acc
-livre	livre1	livre2	LIBER2		NOUN		Masc,Sing,Acc
-.	.						
-ensi	ensi	ainsi	SIC		ADV		
-chersant	chersant	cerchier	CIRCARE		VERB		Ind,Ger,Pres,Act,Trans
-vint	vint	venir	VENIRE		VERB		Fin,Ind,Past,Intr,3,Sing
-as	as	a3	AD		ADP		PrepArt
-es	es	X	X		X		
-mains	mains	main2	MANUS		NOUN		Fem,Plur
-l’	l’1	le	ILLE		DET		ArtDef,Fem,Sing
-estoire	estoire	estoire1	HISTORIA		NOUN		Fem,Sing
-qe	qe1	queque	QUID		PRON		Rel,Acc
-daire	daire	Daires			PROPN		Masc,Sing,Nom
-escrist	escrist	escrire	SCRIBERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-en	en	en1	IN		ADP		
-lengue	lengue	langue1	LINGUA		NOUN		Fem,Sing
-gresois	gresois	gregois	GRAECUS		ADJ		Fem,Sing
-à	à	a3	AD		ADP		
-celui	celui1	cel	ILLE		DET		Dem,Masc,Sing,Acc
-tenz	tenz	tens	TEMPS1		NOUN		Masc,Sing,Acc
-qe	qe3	queque	QUID		SCONJ		
-li	li	le	ILLE		DET		ArtDef,Masc,Sing
-siegue	siegue	siege	SEDICARE		NOUN		Masc,Sing,Nom
-estoit	estoit	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Sing
-à	à	a3	AD		ADP		
-troie	troie	Troie			PROPN		Fem,Sing
-.	.						
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-daire	daire	Daires			PROPN		Masc,Sing,Nom
-estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
-troienz	troienz	troyen	TROJANUS		ADJ		Masc,Sing,Nom
-.	.						
-si	si						
-estoit	estoit	estre1	ESSE		VERB		Fin,Ind,Imp,Intr,3,Sing
-adonc	adonc	adonc	DUNC		ADV		
-dedenz	dedenz	dedans	DEINTUS		ADP		
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-cité	cité	cité	CIVITAS		NOUN		Fem,Sing
-qi	qi	qui	QUI		PRON		Rel,Nom
-veoit	veoit	vëoir	VIDERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-et	et	et	ET		CCONJ		
-hooit	hooit	öir	AUDIRE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-qanqe	qanqe	cant2	QUANTUS				
-se	se	soi	SE		PRON		Prs,3,Sing,Acc
-fesoit	fesoit	faire	FACERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-.	.						
-si	si						
-tot_ce_qe	tot_ce_qe	tot	TOTUS		DET	SConj 	Ind,Neut,Sing,MWEs
-le	le	le	ILLE		DET		ArtDef,Masc,Sing
-jor	jor	jor	DIURNUM		NOUN		Masc,Sing,Acc
-se	se	soi	SE		PRON		Prs,3,Sing,Acc
-fesoit	fesoit	faire	FACERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-en	en1	en	IN		PART		Verb
-conbatant	conbatant	combatre	COMBATTUERE		VERB		Ind,Ger,Pres,Intr
-ou	ou	o3	AUT		CCONJ		
-en	en1	en	IN		PART		Verb
-parlant	parlant	parler	PARABOLARE		VERB		Ind,Ger,Pres,Intr
-ou	ou	o3	AUT		CCONJ		
-en	en1	en	IN		PART		Verb
-trevant	trevant	trever (GD)	*TREUWA		VERB		Ind,Part,Pres,Intr
-metoit	metoit	metre2	MITTERE		VERB		Fin,Ind,Imp,Act,Trans,3,Sing
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-nuit	nuit	nuit	NOX		NOUN		Fem,Sing
-en	en	en1	IN		ADP		
-escrit	escrit	escrire	SCRIBERE		VERB	Noun	Ind,Part,Past,Sing,Masc
-.	.						
-et	et	et	ET		CCONJ		
-ce	ce1	ce1	HOC		PRON		Dem,Neut,Sing,Acc
-savoit	savoit	savoir	SAPERE		VERB	auxMod	Fin,Ind,Imp,3,Sing
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-mult	mult	mout	MULTUS		ADV		
-bien	bien	bien2	BENE		ADV		Man
-faire	faire	faire	FACERE		VERB		Ind,Inf,Pres,Act,Trans
-à_ce_q’	à_ce_q’						
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
-clerc	clerc	clerc	CLERICUS		NOUN		Masc,Sing,Nom
-mervoilleus	mervoilleus	merveillos	MIRABILIA		ADJ		Masc,Sing,Nom
-et	et	et	ET		CCONJ		
-chevalier	chevalier	chevalier	CABALLARIUS		NOUN		Masc,Sing,Nom
-ardis	ardis	hardi	*HARDJAN		ADJ		Masc,Sing,Nom
-et	et	et	ET		CCONJ		
-vaillans	vaillans	valoir	VALERE		VERB	Adj	Ind,Part,Pres
-de	de	de	DE		ADP		
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-cors	cors	cors1	CORPUS		NOUN		Masc,Sing,Acc
-.	.						
-et	et	et	ET		CCONJ		
-por_ce_q’	por_ce_q’	por2	PRO		ADP	SConj 	MWEs
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-vit	vit	vëoir	VIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-qe	qe3	queque	QUID		SCONJ		
-li	li	le	ILLE		DET		ArtDef,Masc,Sing
-fer	fer	X	X		X		
-de_la	de_la	de	DE		ADP		PrepArt
-bataille	bataille	bataille	BATTUALIA		NOUN		Fem,Sing
-estoit	estoit1	estre1	ESSE		VERB	auxCop	Fin,Ind,Imp,3,Sing
-si	si						
-fors	fors1	fort	FORTIS		ADJ		Masc,Sing,Nom
-et	et	et	ET		CCONJ		
-si	si						
-mervoilleus	mervoilleus	merveillos	MIRABILIA		ADJ		Masc,Sing,Nom
-.	.						
-pensa	pensa	penser	PENSARE		VERB		Fin,Ind,Past,Intr,3,Sing
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-de	de	de	DE		ADP		
-metre	metre	metre2	MITTERE		VERB		Ind,Inf,Pres,Act,Trans
-en	en	en1	IN		ADP		
-escrit	escrit	escrire	SCRIBERE		VERB	Noun	Ind,Part,Past,Sing,Masc
-tot_ce_qe	tot_ce_qe	tot	TOTUS		DET	SConj 	Ind,Neut,Sing,MWEs
-dou	dou	de	DE		ADP		PrepArt
-siege	siege	siege	SEDICARE		NOUN		Masc,Sing,Acc
-avendroit	avendroit	avenir	ADVENIRE		VERB		Fin,Cnd,Pres,Intr,3,Sing
-et	et	et	ET		CCONJ		
-en	en	en1	IN		ADP		
-remenbrance	remenbrance	remembrance	REMEMORARI		NOUN		Fem,Sing
-.	.						
-si	si						
-vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
-di	di	dire	DICERE		VERB		Fin,Ind,Pres,Intr,1,Sing
-bien	bien	bien2	BENE		ADV		Man
-veraiement	veraiement	veraiement	*VERACUS		ADV		Man
-qe	qe3	queque	QUID		SCONJ		
-celui	celui	cel	ILLE		DET		Dem,Masc,Sing,Nom
-daire	daire	Daires			PROPN		Masc,Sing,Nom
-.	.						
-por_ce_q’	por_ce_q’	por2	PRO		ADP	SConj 	MWEs
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-fust	fust	estre1	ESSE		VERB	auxCop	Fin,Ind,Past,3,Sing
-troienz	troienz	troyen	TROJANUS		ADJ		Masc,Sing,Nom
-.	.						
-ne	ne	ne1	NON		ADV		Neg
-volt	volt	voloir	VELLE		VERB	auxMod	Fin,Ind,Past,3,Sing
-rienz	rienz	rien	RES		PRON		Ind,Neut,Sing,Acc
-dire	dire	dire	DICERE		VERB		Ind,Inf,Pres,Intr
-ni	ni	ne2	NEC		CCONJ		
-retraire	retraire	retraire	RETRAHERE		VERB		Ind,Inf,Pres,Act,Trans
-por	por	por2	PRO		ADP		
-amor	amor	amor	AMOR		NOUN		Fem,Sing
-q’	q’	queque	QUID		PRON		Rel,Acc
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-eüst	eüst	avoir	HABERE		VERB		Fin,Sub,Imp,Act,Trans,3,Sing
-as	as	a3	AD		ADP		PrepArt
-troienz	troienz1	troyen	TROJANUS		ADJ	Noun	Masc,Plur,Acc
-ni	ni	ne2	NEC		CCONJ		
-por	por	por2	PRO		ADP		
-haine	haine	häine	 *HATJAN		NOUN		Fem,Sing
-q’	q’	queque	QUID		PRON		Rel,Acc
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-eüst	eüst	avoir	HABERE		VERB		Fin,Sub,Imp,Act,Trans,3,Sing
-as	as	a3	AD		ADP		PrepArt
-gresois	gresois1	gregois	GRAECUS		ADJ	Noun	Masc,Plur,Acc
-se	se	soi	SE		PRON		Prs,3,Sing,Acc
-la	la	le	ILLE		DET		ArtDef,Fem,Sing
-verité	verité	verité	VERITAS		NOUN		Fem,Sing
-non	non	non	NON		ADV		Neg
-.	.						
-aprés_ce_qe	aprés_ce_qe	après	AD PRESSUM		ADV	SConj 	
-troie	troie	Troie			PROPN		Fem,Sing
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-destruite	destruite	destruire	DESTRUERE		VERB	compPass	Ind,Part,Past,Sing,Fem,MWEs
-.	.						
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-le	le	le	ILLE		DET		ArtDef,Masc,Sing
-livre	livre	livre2	LIBER2		NOUN		Masc,Sing,Nom
-pardus	pardus	perdre	PERDERE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-mult	mult	mout	MULTUS		ADV		
-grant	grant	grant	GRANDIS		ADJ		Masc,Sing,Acc
-tenz	tenz	tens	TEMPS1		NOUN		Masc,Sing,Acc
-qe	qe3	queque	QUID		SCONJ		
-il	il	il	ILLE		PRON		Prs,3,Masc,Sing,Nom
-ne	ne	ne1	NON		ADV		Neg
-fu	fu1	estre1	ESSE		VERB	auxPass	Fin,Ind,Past,3,Sing,MWEs
-trovés	trovés	trover	*TROPARE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-ensi_com	ensi_com	ainsi	SIC		ADV	Adv	MWEs
-je	je	je	EGO		PRON		Prs,1,Sing,Nom
-vos	vos	vos	VOS		PRON		Prs,2,Plur,Acc
-ai	ai1	avoir	HABERE		VERB		Fin,Ind,Pres,Act,Trans,1,Sing
-contés	contés	conter	COMPUTARE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-.	.						
-mes	mes	mais1	MAGIS2		CCONJ		
-ateines	ateines	Athènes			PROPN		Fem,Sing
-trovés	trovés	trover	*TROPARE		VERB	compPass	Ind,Part,Past,Sing,Masc,MWEs
-mesires	mesires	X	X		X		
-latin	latin	latin	LATINUS		ADJ	Noun	Masc,Sing,Acc
-par	par	par	PER		ADP		
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-senz	senz1	sens	SENSUS		NOUN		Masc,Sing,Acc
-et	et	et	ET		CCONJ		
-por	por	por2	PRO		ADP		
-son	son1	suen	SUUS		DET		Poss,Masc,Sing,Acc
-savoir	savoir	savoir	SAPERE		VERB	Noun	Ind,Inf,Pres
-.	.						
-et	et	et	ET		CCONJ		
-por_ce_qe	por_ce_qe	por2	PRO		ADP	SConj 	MWEs
-ceste	ceste1	cest	ISTE		DET		Dem,Fem,Sing
-estoire	estoire	estoire1	HISTORIA		NOUN		Fem,Sing
-escrist	escrist	escrire	SCRIBERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-celui	celui2	cel	ILLE		PRON		Dem,Masc,Sing,Nom
-qe	qe	queque	QUID		PRON		Rel,Nom
-tot_ce	tot_ce	tot	TOTUS		DET	Pron	Ind,Neut,Sing,MWEs
-vit	vit	vëoir	VIDERE		VERB		Fin,Ind,Past,Act,Trans,3,Sing
-à	à	a3	AD		ADP		
-sez	sez	suen	SUUS		DET		Poss,Masc,Plur,Acc
-euz	euz	ueil	OCULUS		NOUN		Masc,Plur,Acc
-.	.						
-le	le4	le	ILLE		PRON		Prs,3,Masc,Sing,Acc
-devons	devons1	devoir	DEBERE		VERB	auxMod	Fin,Ind,Pres,1,Plur
-nos	nos	nos	NOS		PRON		Prs,1,Plur,Nom
-miels	miels	mieus	MELIOR		ADV		Cmp
-croire	croire	croire	CREDERE		VERB		Ind,Inf,Pres,Intr
-qe	qe3	queque	QUID		SCONJ		
-celui	celui2	cel	ILLE		PRON		Dem,Masc,Sing,Nom
-qi	qi	qui	QUI		PRON		Rel,Nom
-aprés	aprés	après	AD PRESSUM		ADP		
-c	c	cent	CENTUM		NUM		Card
-.	.						
-anz	anz	an	ANNUS		NOUN		Masc,Plur,Acc
-nasqi	nasqi	naistre	NASCI		VERB		Fin,Ind,Past,Intr,3,Sing
-ni	ni	ne2	NEC		CCONJ		
-de	de	de	DE		ADP		
-ce	ce1	ce1	HOC		PRON		Dem,Neut,Sing,Acc
-nen	nen	non	NON		ADV		Neg
-avoit	avoit1	avoir	HABERE		VERB	auxTens	Fin,Ind,Imp,3,Sing,MWEs
-rienz	rienz	rien	RES		PRON		Ind,Neut,Sing,Acc
-veü	veü	vëoir	VIDERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-ni	ni	ne2	NEC		CCONJ		
-seü	seü	savoir	SAPERE		VERB	compTens	Ind,Part,Past,Sing,Masc,MWEs
-fors	fors	fors1	FORAS		ADP		
-por	por	por2	PRO		ADP		
-hoïr	hoïr	öir	AUDIRE		VERB		Ind,Inf,Pres,Act,Trans
-dir	dir	dire	DICERE		VERB		Ind,Inf,Pres,Intr
-.	.						
+FORMA|FORMAKEY|LEMMA|ETIMO|LANG|POS|FUNCT|MSD
+cestui|cestui|cest|ISTE||PRON||Dem,Masc,Sing,Nom
+livre|livre|livre2|LIBER2||NOUN||Masc,Sing,Nom
+paroule|paroule|parler|PARABOLARE||VERB||Fin,Ind,Pres,Intr,3,Sing
+dou|dou|de|DE||ADP||PrepArt
+siege|siege|siege|SEDICARE||NOUN||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+de_la|de_la|de|DE||ADP||PrepArt
+destrucion|destrucion|destructïon|DESTRUERE||NOUN||Fem,Sing
+de|de|de|DE||ADP||
+troie|troie|Troie|||PROPN||Fem,Sing
+et|et|et|ET||CCONJ||
+por_qoi|por_qoi|por2|PRO/QUID||ADV||Int
+troie|troie|Troie|||PROPN||Fem,Sing
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+destrute|destrute|destruire|DESTRUERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+et|et|et|ET||CCONJ||
+issillee|issillee|essillier|EXILIARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+salemon|salemon|Salomon|||PROPN||Masc,Sing,Nom
+lu|lu|le|ILLE||DET||ArtDef,Masc,Sing
+trè|trè||||||
+sage|sage|sage|SAPIDUS||||
+nos|nos1|nos|NOS||PRON||Prs,1,Plur,Acc
+enseigne|enseigne|enseignier|*INSIGNARE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
+e|e|et|ET||CCONJ||
+amonest|amonest|amonester|*ADMONESTARE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
+en|en|en1|IN||ADP||
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+livre|livre1|livre2|LIBER2||NOUN||Masc,Sing,Acc
+qe|qe3|queque|QUID||SCONJ||
+l_en|l_en|on|HOMO||PRON||Prs,3,Nom
+ne|ne|ne1|NON||ADV||Neg
+doit|doit|devoir|DEBERE||VERB|auxMod|Fin,Ind,Pres,3,Sing
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+sen|sen|sens|SENSUS||NOUN||Masc,Sing,Acc
+ni|ni|ne2|NEC||CCONJ||
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+savoir|savoir|savoir|SAPERE||VERB|Noun|Ind,Inf,Pres
+celer|celer|celer|CELARE||VERB||Ind,Inf,Pres,Act,Trans
+ainc|ainc|ainz|ANTE||ADV||
+doit|doit|devoir|DEBERE||VERB|auxMod|Fin,Ind,Pres,3,Sing
+aprendre|aprendre|aprendre|APPREHENDERE||VERB||Ind,Inf,Pres,Act,Trans
+et|et|et|ET||CCONJ||
+ensegner|ensegner|enseignier|*INSIGNARE||VERB||Ind,Inf,Pres,Act,Trans
+as|as|a3|AD||ADP||PrepArt
+autres|autres|autre|ALTER||PRON||Ind,Masc,Plur,Acc
+por|por|por2|PRO||ADP||
+henor|henor|onor|HONOS||NOUN||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+pris|pris|prix|PRETIUM||NOUN||Masc,Sing,Acc
+conquere|conquere|conquérir|CONQUIRERE||VERB||Ind,Inf,Pres,Act,Trans
+et|et|et|ET||CCONJ||
+avoir|avoir|avoir|HABERE||VERB||Ind,Inf,Pres,Act,Trans
+car|car|car|QUARE||SCONJ||
+ensi|ensi|ainsi|SIC||ADV||
+firent|firent|faire|FACERE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
+les|les|le|ILLE||DET||ArtDef,Masc,Plur
+nos|nos2|nostre|NOSTER||DET||Poss,Masc,Plur,Nom
+ansesors|ansesors|ancessor|ANTECESSOR||NOUN||Masc,Plur,Nom
+.|.||||||
+car|car|car|QUARE||SCONJ||
+els|els|il|ILLE||PRON||Prs,3,Masc,Plur,Nom
+qui|qui||||||
+les|les2|le|ILLE||DET||ArtDef,Fem,Plur
+sept|sept|set|SEPTEM||NUM||Card
+ars|ars|art|ARS||NOUN||Fem,Plur
+troverent|troverent|trover|*TROPARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
+.|.||||||
+c’|c’|se|SI||SCONJ||
+il|il1|il|ILLE||PRON||Prs,3,Masc,Plur,Nom
+se|se1|soi|SE||PRON||Prs,3,Plur,Acc
+fusent|fusent|estre1|ESSE||VERB|auxTens|Fin,Sub,Imp,3,Plur,MWEs
+teü|teü|taire|TACERE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
+.|.||||||
+les|les|le|ILLE||DET||ArtDef,Masc,Plur
+homes|homes|ome|HOMO||NOUN||Masc,Plur,Nom
+vivroient|vivroient|vivre1|VIVERE||VERB||Fin,Cnd,Pres,Intr,3,Plur
+à_la|à_la|a3|AD||ADP||PrepArt
+mainiere|mainiere|maniere|MANUARIUS||NOUN||Fem,Sing
+de|de|de|DE||ADP||
+bestes|bestes|beste|BESTIA||NOUN||Fem,Plur
+car|car|car|QUARE||SCONJ||
+il|il1|il|ILLE||PRON||Prs,3,Masc,Plur,Nom
+ne|ne|ne1|NON||ADV||Neg
+savroient|savroient|savoir|SAPERE||VERB||Fin,Cnd,Pres,Act,Trans,3,Plur
+qe|qe2|queque|QUID||DET||Int
+fust|fust|estre1|ESSE||VERB|auxCop|Fin,Ind,Past,3,Sing
+senz|senz|sens|SENSUS||NOUN||Masc,Sing,Nom
+ni|ni|ne2|NEC||CCONJ||
+follie|follie|folie2|FOLLIS||NOUN||Fem,Sing
+ni|ni|ne2|NEC||CCONJ||
+ne|ne|ne1|NON||ADV||Neg
+garderoient|garderoient|warder|*WARDôN||VERB||Fin,Cnd,Pres,Act,Trans,3,Plur
+li|li|le|ILLE||DET||ArtDef,Masc,Sing
+un|un2|un|UNUS||PRON||Ind,Masc,Sing,Nom
+l’|l’|le|ILLE||DET||ArtDef,Masc,Sing
+autre|autre|autre|ALTER||PRON||Ind,Masc,Sing,Acc
+por_ce_qe|por_ce_qe|por2|PRO||ADP|SConj |MWEs
+raison|raison|raison|RATIO||NOUN||Fem,Sing
+ne|ne|ne1|NON||ADV||Neg
+seroit|seroit|estre1|ESSE||VERB|auxPass|Fin,Cnd,Pres,3,Sing,MWEs
+entr’|entr’|entre2|INTER||ADP||
+els|els1|il|ILLE||PRON||Prs,3,Masc,Plur,Acc
+conneüe|conneüe|conoistre|COGNOSCERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+ni|ni|ne2|NEC||CCONJ||
+gardee|gardee|warder|*WARDôN||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+mes|mes|mais1|MAGIS2||CCONJ||
+por_ce_q’|por_ce_q’|por2|PRO||ADP|SConj |MWEs
+il|il1|il|ILLE||PRON||Prs,3,Masc,Plur,Nom
+firent|firent1|faire|FACERE||VERB|auxMod|Fin,Ind,Past,3,Sing
+de|de|de|DE||ADP||
+lor|lor1|lor3|ILLE||DET||Poss,Masc,Sing,Acc
+savoir|savoir|savoir|SAPERE||VERB|Noun|Ind,Inf,Pres
+aprendre|aprendre|aprendre|APPREHENDERE||VERB||Ind,Inf,Pres,Act,Trans
+et|et|et|ET||CCONJ||
+enseignier|enseignier|enseignier|*INSIGNARE||VERB||Ind,Inf,Pres,Act,Trans
+as|as|a3|AD||ADP||PrepArt
+autres|autres|autre|ALTER||PRON||Ind,Masc,Plur,Acc
+.|.||||||
+seront|seront|estre1|ESSE||VERB|auxPass|Fin,Ind,Fut,3,Plur,MWEs
+il|il1|il|ILLE||PRON||Prs,3,Masc,Plur,Nom
+ramenceüs|ramenceüs|ramentevoir|MENTE HABERE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
+et|et|et|ET||CCONJ||
+només|només|nomer|NOMINARE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
+lonc|lonc|lonc|LONGUS||ADJ||Masc,Sing,Acc
+tenz|tenz|tens|TEMPS1||NOUN||Masc,Sing,Acc
+.|.||||||
+car|car|car|QUARE||SCONJ||
+.|.||||||
+c’|c’|se|SI||SCONJ||
+il|il1|il|ILLE||PRON||Prs,3,Masc,Plur,Nom
+nen|nen|non|NON||ADV||Neg
+eüssent|eüssent|avoir|HABERE||VERB|auxTens|Fin,Sub,Imp,3,Plur,MWEs
+ensi|ensi|ainsi|SIC||ADV||
+fait|fait|faire|FACERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+.|.||||||
+lor|lor|lor3|ILLE||DET||Poss,Masc,Sing,Nom
+savoir|savoir|savoir|SAPERE||VERB|Noun|Ind,Inf,Pres
+et|et|et|ET||CCONJ||
+lor|lor2|lor3|ILLE||DET||Poss,Fem,Sing
+ensience|ensience|escïence|SCIENTIA||NOUN||Fem,Sing
+seroit|seroit1|estre1|ESSE||VERB|auxCop|Fin,Cnd,Pres,3,Sing
+chouse|chouse|chose|CAUSA||NOUN||Fem,Sing
+pardue|pardue|perdre|PERDERE||VERB|Adj|Ind,Part,Past,Sing,Fem
+et|et|et|ET||CCONJ||
+non|non|non|NON||ADV||Neg
+porfitable|porfitable|porfitable|PROFECTUS||ADJ||Fem,Sing
+.|.||||||
+et|et|et|ET||CCONJ||
+por_ce_qe|por_ce_qe|por2|PRO||ADP|SConj |MWEs
+l_en|l_en|on|HOMO||PRON||Prs,3,Nom
+doit|doit|devoir|DEBERE||VERB|auxMod|Fin,Ind,Pres,3,Sing
+tou|tou|tot|TOTUS||DET||Ind,Masc,Sing,Acc
+jor|jor|jor|DIURNUM||NOUN||Masc,Sing,Acc
+aprendre|aprendre|aprendre|APPREHENDERE||VERB||Ind,Inf,Pres,Act,Trans
+et|et|et|ET||CCONJ||
+enseignier|enseignier|enseignier|*INSIGNARE||VERB||Ind,Inf,Pres,Act,Trans
+.|.||||||
+me|me|moi|ME||PRON||Prs,1,Sing,Acc
+voill|voill|voloir|VELLE||VERB|auxMod|Fin,Ind,Pres,1,Sing
+ge|ge|je|EGO||PRON||Prs,1,Sing,Nom
+travaillier|travaillier|travaillier|*TRIPALIARE||VERB||Ind,Inf,Pres,Act,Trans
+d’|d’|de|DE||ADP||
+une|une|un|UNUS||DET||ArtIndef,Fem,Sing
+estoire|estoire|estoire1|HISTORIA||NOUN||Fem,Sing
+metre|metre|metre2|MITTERE||VERB||Ind,Inf,Pres,Act,Trans
+en|en|en1|IN||ADP||
+romanz|romanz|romanz|ROMANICE||NOUN||Masc,Sing,Acc
+por_ce_qe|por_ce_qe|por2|PRO||ADP|SConj |MWEs
+cels_qe|cels_qe|cel|ILLE||PRON|Pron|Dem,Masc,Plur,Nom,MWEs
+le|le|le|ILLE||DET||ArtDef,Masc,Sing
+latin|latin|latin|LATINUS||ADJ|Noun|Masc,Sing,Acc
+ne|ne|ne1|NON||ADV||Neg
+entendent|entendent|entendre|INTENDERE||VERB||Fin,Ind,Pres,Act,Trans,3,Plur
+se|se1|soi|SE||PRON||Prs,3,Plur,Acc
+puissent|puissent|pöoir|POSSE||VERB|auxMod|Fin,Sub,Imp,3,Plur
+deliter|deliter|delitier|DELECTARE||VERB||Ind,Inf,Pres,Act,Trans
+.|.||||||
+car|car|car|QUARE||SCONJ||
+l’|l’1|le|ILLE||DET||ArtDef,Fem,Sing
+estoire|estoire|estoire1|HISTORIA||NOUN||Fem,Sing
+est|est1|estre1|ESSE||VERB|auxCop|Fin,Ind,Pres,3,Sing
+mult|mult|mout|MULTUS||ADV||
+riche|riche|riche| RîKI||ADJ||Fem,Sing
+et|et|et|ET||CCONJ||
+de|de|de|DE||ADP||
+grant|grant|grant|GRANDIS||ADJ||Masc,Sing,Acc
+afaire|afaire|afaire|FACERE||NOUN||Masc,Sing,Acc
+.|.||||||
+ce|ce|ce1|HOC||PRON||Dem,Neut,Sing,Nom
+est|est|estre1|ESSE||VERB||Fin,Ind,Pres,Intr,3,Sing
+comme|comme|come|QUOMODO||ADV||
+troie|troie|Troie|||PROPN||Fem,Sing
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+destruice|destruice|destruire|DESTRUERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+et|et|et|ET||CCONJ||
+isilliee|isilliee|essillier|EXILIARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+de|de|de|DE||ADP||
+qoi|qoi|coi2|QUID||PRON||Rel,Acc
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+verité|verité|verité|VERITAS||NOUN||Fem,Sing
+est|est2|estre1|ESSE||VERB|auxPass|Fin,Ind,Pres,3,Sing,MWEs
+poi|poi|poi|PAUCUS||ADV||
+seüe|seüe|savoir|SAPERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+ci|ci|ci|HIC||ADV||
+dit|dit|dire|DICERE||VERB||Fin,Ind,Pres,Intr,3,Sing
+coment|coment|coment|QUOMODO||ADV||Int
+homier|homier|Homère|||PROPN||Masc,Sing,Nom
+li|li|le|ILLE||DET||ArtDef,Masc,Sing
+clerc|clerc|clerc|CLERICUS||NOUN||Masc,Sing,Nom
+traitai|traitai|traitier|TRACTARE||VERB||Fin,Ind,Past,Intr,3,Sing
+dou|dou|de|DE||ADP||PrepArt
+siege|siege|siege|SEDICARE||NOUN||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+de_la|de_la|de|DE||ADP||PrepArt
+destrucion|destrucion|destructïon|DESTRUERE||NOUN||Fem,Sing
+troie|troie|Troie|||PROPN||Fem,Sing
+.|.||||||
+homier|homier|Homère|||PROPN||Masc,Sing,Nom
+fu|fu|estre1|ESSE||VERB|auxCop|Fin,Ind,Past,3,Sing
+un|un|un|UNUS||DET||ArtIndef,Masc,Sing
+clerc|clerc|clerc|CLERICUS||NOUN||Masc,Sing,Nom
+mult|mult|mout|MULTUS||ADV||
+saje|saje|sage|SAPIDUS||ADJ||Masc,Sing,Nom
+selonc_ce_qe|selonc_ce_qe|selonc|SECUNDUS||ADP|SConj |MWEs
+le|le2|le|ILLE||DET||ArtDef,Fem,Sing
+stoire|stoire|estoire1|HISTORIA||NOUN||Fem,Sing
+nos|nos1|nos|NOS||PRON||Prs,1,Plur,Acc
+raconte|raconte|raconter|COMPUTARE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
+.|.||||||
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+homier|homier|Homère|||PROPN||Masc,Sing,Nom
+escrist|escrist|escrire|SCRIBERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+dès|dès|des2|DE EX||ADP||
+le|le|le|ILLE||DET||ArtDef,Masc,Sing
+comencement|comencement|comencement|COMINITIARE||NOUN||Masc,Sing,Acc
+de_la|de_la|de|DE||ADP||PrepArt
+guerre|guerre|guerre|*WERRA||NOUN||Fem,Sing
+jusques|jusques|jusque| USQUE||ADP||
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+destrusion|destrusion|destructïon|DESTRUERE||NOUN||Fem,Sing
+de|de|de|DE||ADP||
+troie|troie|Troie|||PROPN||Fem,Sing
+.|.||||||
+et|et|et|ET||CCONJ||
+por_qoi|por_qoi|por2|PRO/QUID||ADV||Int
+troie|troie|Troie|||PROPN||Fem,Sing
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+destruie|destruie|destruire|DESTRUERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+et|et|et|ET||CCONJ||
+desiritee|desiritee|desireter|HEREDITARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+mes|mes|mais1|MAGIS2||CCONJ||
+por_ce_qe|por_ce_qe|por2|PRO||ADP|SConj |MWEs
+cestui|cestui|cest|ISTE||PRON||Dem,Masc,Sing,Nom
+homier|homier|Homère|||PROPN||Masc,Sing,Nom
+ne|ne|ne1|NON||ADV||Neg
+fu|fu2|estre1|ESSE||VERB|auxTens|Fin,Ind,Past,3,Sing,MWEs
+nés|nés|naistre|NASCI||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+c|c|cent|CENTUM||NUM||Card
+ans|ans|an|ANNUS||NOUN||Masc,Plur,Acc
+aprés_ce_qe|aprés_ce_qe|après|AD PRESSUM||ADV|SConj |
+troie|troie|Troie|||PROPN||Fem,Sing
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+destruite|destruite|destruire|DESTRUERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+et|et|et|ET||CCONJ||
+desiritee|desiritee|desireter|HEREDITARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+ne|ne|ne1|NON||ADV||Neg
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+son|son|suen|SUUS||DET||Poss,Masc,Sing,Nom
+livre|livre|livre2|LIBER2||NOUN||Masc,Sing,Nom
+por_verité|por_verité||||||
+creüz|creüz|croire|CREDERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+car|car|car|QUARE||SCONJ||
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+nen|nen|non|NON||ADV||Neg
+avoit|avoit1|avoir|HABERE||VERB|auxTens|Fin,Ind,Imp,3,Sing,MWEs
+de|de|de|DE||ADP||
+ce|ce1|ce1|HOC||PRON||Dem,Neut,Sing,Acc
+rienz|rienz|rien|RES||PRON||Ind,Neut,Sing,Acc
+veü|veü|vëoir|VIDERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+.|.||||||
+et|et|et|ET||CCONJ||
+quant|quant|cant1|QUANDO||SCONJ||
+homier|homier|Homère|||PROPN||Masc,Sing,Nom
+hot|hot|avoir|HABERE||VERB|auxTens|Fin,Ind,Past,3,Sing,MWEs
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+livre|livre1|livre2|LIBER2||NOUN||Masc,Sing,Acc
+fet|fet|faire|FACERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+et|et|et|ET||CCONJ||
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+à_la|à_la|a3|AD||ADP||PrepArt
+cité|cité|cité|CIVITAS||NOUN||Fem,Sing
+d’|d’|de|DE||ADP||
+ateines|ateines|Athènes|||PROPN||Fem,Sing
+aportés|aportés|aporter|APPORTARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+et|et|et|ET||CCONJ||
+leüz|leüz|lire1|LEGERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+entres|entres|entre2|INTER||ADP||
+les|les|le|ILLE||DET||ArtDef,Masc,Plur
+sajes|sajes|sage|SAPIDUS||ADJ||Masc,Plur,Acc
+clers|clers|clerc|CLERICUS||NOUN||Masc,Plur,Acc
+.|.||||||
+si|si||||||
+le|le4|le|ILLE||PRON||Prs,3,Masc,Sing,Acc
+vostrent|vostrent|voloir|VELLE||VERB|auxMod|Fin,Ind,Past,3,Plur
+por|por|por2|PRO||ADP||
+raison|raison|raison|RATIO||NOUN||Fem,Sing
+danner|danner|damner|DAMNARE||VERB||Ind,Inf,Pres,Act,Trans
+.|.||||||
+por_ce_q’|por_ce_q’|por2|PRO||ADP|SConj |MWEs
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+fet|fet1|faire|FACERE||VERB|auxMod|Fin,Ind,Past,3,Sing
+conbatre|conbatre|combatre|COMBATTUERE||VERB||Ind,Inf,Pres,Intr
+demanois|demanois|demanois|MANUS||ADV||
+les|les|le|ILLE||DET||ArtDef,Masc,Plur
+diex|diex|dieu|DEUS||NOUN||Masc,Plur,Acc
+ho|ho|avuec|AB HOC||ADP||
+lez|lez|le|ILLE||DET||ArtDef,Masc,Plur
+troienz|troienz1|troyen|TROJANUS||ADJ|Noun|Masc,Plur,Acc
+.|.||||||
+ensement|ensement|ensement|IPSE||ADV||
+avoit|avoit1|avoir|HABERE||VERB|auxTens|Fin,Ind,Imp,3,Sing,MWEs
+conbatre|conbatre|combatre|COMBATTUERE||VERB||Ind,Inf,Pres,Intr
+le|le3|le|ILLE||DET||ArtDef,Fem,Plur
+deesses|deesses|dieuesse|DEUS||NOUN||Fem,Plur
+ho|ho|avuec|AB HOC||ADP||
+les|les|le|ILLE||DET||ArtDef,Masc,Plur
+charnels|charnels|charnel2|CARNALIS||ADJ||Masc,Plur,Acc
+.|.||||||
+la_quel|la_quel|quel1|QUALIS||PRON||Rel,Fem,Sing
+chouse|chouse|chose|CAUSA||NOUN||Fem,Sing
+li|li1|li|ILLE||PRON||Prs,3,Masc,Sing,Acc
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+tornee|tornee|tonrner|TORNARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+à|à|a3|AD||ADP||
+grant|grant|grant|GRANDIS||ADJ||Masc,Sing,Acc
+follie|follie|folie2|FOLLIS||NOUN||Fem,Sing
+.|.||||||
+mes|mes|mais1|MAGIS2||CCONJ||
+por_ce_qe|por_ce_qe|por2|PRO||ADP|SConj |MWEs
+homier|homier|Homère|||PROPN||Masc,Sing,Nom
+estoit|estoit1|estre1|ESSE||VERB|auxCop|Fin,Ind,Imp,3,Sing
+mult|mult|mout|MULTUS||ADV||
+saje|saje|sage|SAPIDUS||ADJ||Masc,Sing,Nom
+clerc|clerc|clerc|CLERICUS||NOUN||Masc,Sing,Nom
+.|.||||||
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+son|son|suen|SUUS||DET||Poss,Masc,Sing,Nom
+livre|livre|livre2|LIBER2||NOUN||Masc,Sing,Nom
+enn|enn|en1|IN||ADP||
+ahotiricés|ahotiricés|autorités|AUCTORITAS||NOUN||Fem,Sing
+mis|mis3|metre2|MITTERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+et|et|et|ET||CCONJ||
+receüs|receüs|recevoir|RECIPERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+.|.||||||
+coment|coment|coment|QUOMODO||ADV||Int
+cornelius|cornelius|Cornelius|||PROPN||Masc,Sing,Nom
+retrova|retrova|retrover|*TROPARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+veraie|veraie|verai|*VERACUS||ADJ||Fem,Sing
+estoire|estoire|estoire1|HISTORIA||NOUN||Fem,Sing
+de|de|de|DE||ADP||
+troie|troie|Troie|||PROPN||Fem,Sing
+.|.||||||
+li_qel|li_qel|quel1|QUALIS||PRON||Rel,Masc,Sing,Acc
+livre|livre1|livre2|LIBER2||NOUN||Masc,Sing,Acc
+le|le|le|ILLE||DET||ArtDef,Masc,Sing
+troien|troien|troyen|TROJANUS||ADJ|Noun|Masc,Sing,Nom
+escrist|escrist|escrire|SCRIBERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+de_denz|de_denz|dedans|DEINTUS||ADP||
+troie|troie|Troie|||PROPN||Fem,Sing
+en|en|en1|IN||ADP||
+lengue|lengue|langue1|LINGUA||NOUN||Fem,Sing
+gresoit|gresoit|gregois|GRAECUS||ADJ||Fem,Sing
+.|.||||||
+et|et|et|ET||CCONJ||
+coment|coment|coment|QUOMODO||ADV||Int
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+cornelius|cornelius|Cornelius|||PROPN||Masc,Sing,Nom
+la|la1|le|ILLE||PRON||Prs,3,Fem,Sing,Acc
+mist|mist|metre2|MITTERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+en|en|en1|IN||ADP||
+latin|latin|latin|LATINUS||ADJ|Noun|Masc,Sing,Acc
+.|.||||||
+à|à|a3|AD||ADP||
+celui|celui1|cel|ILLE||DET||Dem,Masc,Sing,Acc
+tenz|tenz|tens|TEMPS1||NOUN||Masc,Sing,Acc
+qe|qe3|queque|QUID||SCONJ||
+saluste|saluste|Saluste|||PROPN||Masc,Sing,Nom
+vivoit|vivoit|vivre1|VIVERE||VERB||Fin,Ind,Imp,Intr,3,Sing
+.|.||||||
+estoit|estoit3|estre1|ESSE||VERB|auxTens|Fin,Ind,Imp,3,Sing,MWEs
+rome|rome|Rome|||PROPN||Fem,Sing
+grant|grant|grant|GRANDIS||ADJ||Masc,Sing,Acc
+piece|piece|piece|*PETTIA||NOUN||Fem,Sing
+duree|duree|durer|DURARE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
+dès|dès|des2|DE EX||ADP||
+le|le|le|ILLE||DET||ArtDef,Masc,Sing
+sien|sien|suen|SUUS||DET||Poss,Masc,Sing,Acc
+commencement|commencement|comencement|COMINITIARE||NOUN||Masc,Sing,Acc
+.|.||||||
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+saluste|saluste|Saluste|||PROPN||Masc,Sing,Nom
+estoit|estoit1|estre1|ESSE||VERB|auxCop|Fin,Ind,Imp,3,Sing
+de|de|de|DE||ADP||
+mult|mult|mout|MULTUS||ADV||
+aut|aut|haut|ALTUS||ADJ||Masc,Sing,Acc
+parage|parage|parage|PAR||NOUN||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+mult|mult|mout|MULTUS||ADV||
+preu|preu|pro|PRODE||ADJ||Masc,Sing,Nom
+et|et|et|ET||CCONJ||
+mult|mult|mout|MULTUS||ADV||
+vaillant|vaillant|valoir|VALERE||VERB|Adj|Ind,Part,Pres
+et|et|et|ET||CCONJ||
+mult|mult|mout|MULTUS||ADV||
+saje|saje|sage|SAPIDUS||ADJ||Masc,Sing,Nom
+clerc|clerc|clerc|CLERICUS||NOUN||Masc,Sing,Nom
+.|.||||||
+si|si||||||
+avoit|avoit|avoir|HABERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+saluste|saluste|Saluste|||PROPN||Masc,Sing,Nom
+un|un|un|UNUS||DET||ArtIndef,Masc,Sing
+sien|sien|suen|SUUS||DET||Poss,Masc,Sing,Acc
+nevo|nevo|nevo|NEPOS||NOUN||Masc,Sing,Acc
+mult|mult|mout|MULTUS||ADV||
+saje|saje1|sage|SAPIDUS||ADJ||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+esiencos|esiencos|escientos (GD)|SCIENS||ADJ||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+moult|moult|mout|MULTUS||ADV||
+fondés|fondés|fonder2|FUNDARE||VERB|Adj|Ind,Part,Past,Sing,Masc
+de|de|de|DE||ADP||
+clergie|clergie|clergie|CLERICUS||NOUN||Fem,Sing
+qe|qe|queque|QUID||PRON||Rel,Nom
+cornelius|cornelius|Cornelius|||PROPN||Masc,Sing,Nom
+estoit|estoit2|estre1|ESSE||VERB|auxPass|Fin,Ind,Imp,3,Sing,MWEs
+apellés|apellés|apeler|APELLARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+.|.||||||
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+cornelius|cornelius|Cornelius|||PROPN||Masc,Sing,Nom
+tenoit|tenoit|tenir1|TENERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+en|en|en1|IN||ADP||
+scoile|scoile|escole1|SCHOLA||NOUN||Fem,Sing
+en|en|en1|IN||ADP||
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+arte|arte|X|X||X||
+d’|d’|de|DE||ADP||
+ateines|ateines|Athènes|||PROPN||Fem,Sing
+.|.||||||
+un|un|un|UNUS||DET||ArtIndef,Masc,Sing
+jor|jor|jor|DIURNUM||NOUN||Masc,Sing,Acc
+avint|avint|avenir|ADVENIRE||VERB||Fin,Ind,Past,Intr,3,Sing
+qe|qe3|queque|QUID||SCONJ||
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+cornelius|cornelius|Cornelius|||PROPN||Masc,Sing,Nom
+cersoit|cersoit|cerchier|CIRCARE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+de_denz|de_denz|dedans|DEINTUS||ADP||
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+armaire|armaire|armaire|ARMARIUM||NOUN||Masc,Sing,Acc
+por|por|por2|PRO||ADP||
+trover|trover|trover|*TROPARE||VERB||Ind,Inf,Pres,Act,Trans
+un|un|un|UNUS||DET||ArtIndef,Masc,Sing
+sien|sien|suen|SUUS||DET||Poss,Masc,Sing,Acc
+livre|livre1|livre2|LIBER2||NOUN||Masc,Sing,Acc
+.|.||||||
+ensi|ensi|ainsi|SIC||ADV||
+chersant|chersant|cerchier|CIRCARE||VERB||Ind,Ger,Pres,Act,Trans
+vint|vint|venir|VENIRE||VERB||Fin,Ind,Past,Intr,3,Sing
+as|as|a3|AD||ADP||PrepArt
+es|es|X|X||X||
+mains|mains|main2|MANUS||NOUN||Fem,Plur
+l’|l’1|le|ILLE||DET||ArtDef,Fem,Sing
+estoire|estoire|estoire1|HISTORIA||NOUN||Fem,Sing
+qe|qe1|queque|QUID||PRON||Rel,Acc
+daire|daire|Daires|||PROPN||Masc,Sing,Nom
+escrist|escrist|escrire|SCRIBERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+en|en|en1|IN||ADP||
+lengue|lengue|langue1|LINGUA||NOUN||Fem,Sing
+gresois|gresois|gregois|GRAECUS||ADJ||Fem,Sing
+à|à|a3|AD||ADP||
+celui|celui1|cel|ILLE||DET||Dem,Masc,Sing,Acc
+tenz|tenz|tens|TEMPS1||NOUN||Masc,Sing,Acc
+qe|qe3|queque|QUID||SCONJ||
+li|li|le|ILLE||DET||ArtDef,Masc,Sing
+siegue|siegue|siege|SEDICARE||NOUN||Masc,Sing,Nom
+estoit|estoit|estre1|ESSE||VERB||Fin,Ind,Imp,Intr,3,Sing
+à|à|a3|AD||ADP||
+troie|troie|Troie|||PROPN||Fem,Sing
+.|.||||||
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+daire|daire|Daires|||PROPN||Masc,Sing,Nom
+estoit|estoit1|estre1|ESSE||VERB|auxCop|Fin,Ind,Imp,3,Sing
+troienz|troienz|troyen|TROJANUS||ADJ||Masc,Sing,Nom
+.|.||||||
+si|si||||||
+estoit|estoit|estre1|ESSE||VERB||Fin,Ind,Imp,Intr,3,Sing
+adonc|adonc|adonc|DUNC||ADV||
+dedenz|dedenz|dedans|DEINTUS||ADP||
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+cité|cité|cité|CIVITAS||NOUN||Fem,Sing
+qi|qi|qui|QUI||PRON||Rel,Nom
+veoit|veoit|vëoir|VIDERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+et|et|et|ET||CCONJ||
+hooit|hooit|öir|AUDIRE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+qanqe|qanqe|cant2|QUANTUS||||
+se|se|soi|SE||PRON||Prs,3,Sing,Acc
+fesoit|fesoit|faire|FACERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+.|.||||||
+si|si||||||
+tot_ce_qe|tot_ce_qe|tot|TOTUS||DET|SConj |Ind,Neut,Sing,MWEs
+le|le|le|ILLE||DET||ArtDef,Masc,Sing
+jor|jor|jor|DIURNUM||NOUN||Masc,Sing,Acc
+se|se|soi|SE||PRON||Prs,3,Sing,Acc
+fesoit|fesoit|faire|FACERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+en|en1|en|IN||PART||Verb
+conbatant|conbatant|combatre|COMBATTUERE||VERB||Ind,Ger,Pres,Intr
+ou|ou|o3|AUT||CCONJ||
+en|en1|en|IN||PART||Verb
+parlant|parlant|parler|PARABOLARE||VERB||Ind,Ger,Pres,Intr
+ou|ou|o3|AUT||CCONJ||
+en|en1|en|IN||PART||Verb
+trevant|trevant|trever (GD)|*TREUWA||VERB||Ind,Part,Pres,Intr
+metoit|metoit|metre2|MITTERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+nuit|nuit|nuit|NOX||NOUN||Fem,Sing
+en|en|en1|IN||ADP||
+escrit|escrit|escrire|SCRIBERE||VERB|Noun|Ind,Part,Past,Sing,Masc
+.|.||||||
+et|et|et|ET||CCONJ||
+ce|ce1|ce1|HOC||PRON||Dem,Neut,Sing,Acc
+savoit|savoit|savoir|SAPERE||VERB|auxMod|Fin,Ind,Imp,3,Sing
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+mult|mult|mout|MULTUS||ADV||
+bien|bien|bien2|BENE||ADV||Man
+faire|faire|faire|FACERE||VERB||Ind,Inf,Pres,Act,Trans
+à_ce_q’|à_ce_q’||||||
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+estoit|estoit1|estre1|ESSE||VERB|auxCop|Fin,Ind,Imp,3,Sing
+clerc|clerc|clerc|CLERICUS||NOUN||Masc,Sing,Nom
+mervoilleus|mervoilleus|merveillos|MIRABILIA||ADJ||Masc,Sing,Nom
+et|et|et|ET||CCONJ||
+chevalier|chevalier|chevalier|CABALLARIUS||NOUN||Masc,Sing,Nom
+ardis|ardis|hardi|*HARDJAN||ADJ||Masc,Sing,Nom
+et|et|et|ET||CCONJ||
+vaillans|vaillans|valoir|VALERE||VERB|Adj|Ind,Part,Pres
+de|de|de|DE||ADP||
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+cors|cors|cors1|CORPUS||NOUN||Masc,Sing,Acc
+.|.||||||
+et|et|et|ET||CCONJ||
+por_ce_q’|por_ce_q’|por2|PRO||ADP|SConj |MWEs
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+vit|vit|vëoir|VIDERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+qe|qe3|queque|QUID||SCONJ||
+li|li|le|ILLE||DET||ArtDef,Masc,Sing
+fer|fer|X|X||X||
+de_la|de_la|de|DE||ADP||PrepArt
+bataille|bataille|bataille|BATTUALIA||NOUN||Fem,Sing
+estoit|estoit1|estre1|ESSE||VERB|auxCop|Fin,Ind,Imp,3,Sing
+si|si||||||
+fors|fors1|fort|FORTIS||ADJ||Masc,Sing,Nom
+et|et|et|ET||CCONJ||
+si|si||||||
+mervoilleus|mervoilleus|merveillos|MIRABILIA||ADJ||Masc,Sing,Nom
+.|.||||||
+pensa|pensa|penser|PENSARE||VERB||Fin,Ind,Past,Intr,3,Sing
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+de|de|de|DE||ADP||
+metre|metre|metre2|MITTERE||VERB||Ind,Inf,Pres,Act,Trans
+en|en|en1|IN||ADP||
+escrit|escrit|escrire|SCRIBERE||VERB|Noun|Ind,Part,Past,Sing,Masc
+tot_ce_qe|tot_ce_qe|tot|TOTUS||DET|SConj |Ind,Neut,Sing,MWEs
+dou|dou|de|DE||ADP||PrepArt
+siege|siege|siege|SEDICARE||NOUN||Masc,Sing,Acc
+avendroit|avendroit|avenir|ADVENIRE||VERB||Fin,Cnd,Pres,Intr,3,Sing
+et|et|et|ET||CCONJ||
+en|en|en1|IN||ADP||
+remenbrance|remenbrance|remembrance|REMEMORARI||NOUN||Fem,Sing
+.|.||||||
+si|si||||||
+vos|vos|vos|VOS||PRON||Prs,2,Plur,Acc
+di|di|dire|DICERE||VERB||Fin,Ind,Pres,Intr,1,Sing
+bien|bien|bien2|BENE||ADV||Man
+veraiement|veraiement|veraiement|*VERACUS||ADV||Man
+qe|qe3|queque|QUID||SCONJ||
+celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
+daire|daire|Daires|||PROPN||Masc,Sing,Nom
+.|.||||||
+por_ce_q’|por_ce_q’|por2|PRO||ADP|SConj |MWEs
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+fust|fust|estre1|ESSE||VERB|auxCop|Fin,Ind,Past,3,Sing
+troienz|troienz|troyen|TROJANUS||ADJ||Masc,Sing,Nom
+.|.||||||
+ne|ne|ne1|NON||ADV||Neg
+volt|volt|voloir|VELLE||VERB|auxMod|Fin,Ind,Past,3,Sing
+rienz|rienz|rien|RES||PRON||Ind,Neut,Sing,Acc
+dire|dire|dire|DICERE||VERB||Ind,Inf,Pres,Intr
+ni|ni|ne2|NEC||CCONJ||
+retraire|retraire|retraire|RETRAHERE||VERB||Ind,Inf,Pres,Act,Trans
+por|por|por2|PRO||ADP||
+amor|amor|amor|AMOR||NOUN||Fem,Sing
+q’|q’|queque|QUID||PRON||Rel,Acc
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+eüst|eüst|avoir|HABERE||VERB||Fin,Sub,Imp,Act,Trans,3,Sing
+as|as|a3|AD||ADP||PrepArt
+troienz|troienz1|troyen|TROJANUS||ADJ|Noun|Masc,Plur,Acc
+ni|ni|ne2|NEC||CCONJ||
+por|por|por2|PRO||ADP||
+haine|haine|häine| *HATJAN||NOUN||Fem,Sing
+q’|q’|queque|QUID||PRON||Rel,Acc
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+eüst|eüst|avoir|HABERE||VERB||Fin,Sub,Imp,Act,Trans,3,Sing
+as|as|a3|AD||ADP||PrepArt
+gresois|gresois1|gregois|GRAECUS||ADJ|Noun|Masc,Plur,Acc
+se|se|soi|SE||PRON||Prs,3,Sing,Acc
+la|la|le|ILLE||DET||ArtDef,Fem,Sing
+verité|verité|verité|VERITAS||NOUN||Fem,Sing
+non|non|non|NON||ADV||Neg
+.|.||||||
+aprés_ce_qe|aprés_ce_qe|après|AD PRESSUM||ADV|SConj |
+troie|troie|Troie|||PROPN||Fem,Sing
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+destruite|destruite|destruire|DESTRUERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+.|.||||||
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+le|le|le|ILLE||DET||ArtDef,Masc,Sing
+livre|livre|livre2|LIBER2||NOUN||Masc,Sing,Nom
+pardus|pardus|perdre|PERDERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+mult|mult|mout|MULTUS||ADV||
+grant|grant|grant|GRANDIS||ADJ||Masc,Sing,Acc
+tenz|tenz|tens|TEMPS1||NOUN||Masc,Sing,Acc
+qe|qe3|queque|QUID||SCONJ||
+il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
+ne|ne|ne1|NON||ADV||Neg
+fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
+trovés|trovés|trover|*TROPARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+ensi_com|ensi_com|ainsi|SIC||ADV|Adv|MWEs
+je|je|je|EGO||PRON||Prs,1,Sing,Nom
+vos|vos|vos|VOS||PRON||Prs,2,Plur,Acc
+ai|ai1|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
+contés|contés|conter|COMPUTARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+.|.||||||
+mes|mes|mais1|MAGIS2||CCONJ||
+ateines|ateines|Athènes|||PROPN||Fem,Sing
+trovés|trovés|trover|*TROPARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+mesires|mesires|X|X||X||
+latin|latin|latin|LATINUS||ADJ|Noun|Masc,Sing,Acc
+par|par|par|PER||ADP||
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+senz|senz1|sens|SENSUS||NOUN||Masc,Sing,Acc
+et|et|et|ET||CCONJ||
+por|por|por2|PRO||ADP||
+son|son1|suen|SUUS||DET||Poss,Masc,Sing,Acc
+savoir|savoir|savoir|SAPERE||VERB|Noun|Ind,Inf,Pres
+.|.||||||
+et|et|et|ET||CCONJ||
+por_ce_qe|por_ce_qe|por2|PRO||ADP|SConj |MWEs
+ceste|ceste1|cest|ISTE||DET||Dem,Fem,Sing
+estoire|estoire|estoire1|HISTORIA||NOUN||Fem,Sing
+escrist|escrist|escrire|SCRIBERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+celui|celui2|cel|ILLE||PRON||Dem,Masc,Sing,Nom
+qe|qe|queque|QUID||PRON||Rel,Nom
+tot_ce|tot_ce|tot|TOTUS||DET|Pron|Ind,Neut,Sing,MWEs
+vit|vit|vëoir|VIDERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+à|à|a3|AD||ADP||
+sez|sez|suen|SUUS||DET||Poss,Masc,Plur,Acc
+euz|euz|ueil|OCULUS||NOUN||Masc,Plur,Acc
+.|.||||||
+le|le4|le|ILLE||PRON||Prs,3,Masc,Sing,Acc
+devons|devons1|devoir|DEBERE||VERB|auxMod|Fin,Ind,Pres,1,Plur
+nos|nos|nos|NOS||PRON||Prs,1,Plur,Nom
+miels|miels|mieus|MELIOR||ADV||Cmp
+croire|croire|croire|CREDERE||VERB||Ind,Inf,Pres,Intr
+qe|qe3|queque|QUID||SCONJ||
+celui|celui2|cel|ILLE||PRON||Dem,Masc,Sing,Nom
+qi|qi|qui|QUI||PRON||Rel,Nom
+aprés|aprés|après|AD PRESSUM||ADP||
+c|c|cent|CENTUM||NUM||Card
+.|.||||||
+anz|anz|an|ANNUS||NOUN||Masc,Plur,Acc
+nasqi|nasqi|naistre|NASCI||VERB||Fin,Ind,Past,Intr,3,Sing
+ni|ni|ne2|NEC||CCONJ||
+de|de|de|DE||ADP||
+ce|ce1|ce1|HOC||PRON||Dem,Neut,Sing,Acc
+nen|nen|non|NON||ADV||Neg
+avoit|avoit1|avoir|HABERE||VERB|auxTens|Fin,Ind,Imp,3,Sing,MWEs
+rienz|rienz|rien|RES||PRON||Ind,Neut,Sing,Acc
+veü|veü|vëoir|VIDERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+ni|ni|ne2|NEC||CCONJ||
+seü|seü|savoir|SAPERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+fors|fors|fors1|FORAS||ADP||
+por|por|por2|PRO||ADP||
+hoïr|hoïr|öir|AUDIRE||VERB||Ind,Inf,Pres,Act,Trans
+dir|dir|dire|DICERE||VERB||Ind,Inf,Pres,Intr
+.|.||||||

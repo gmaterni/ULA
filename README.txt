@@ -121,7 +121,8 @@ Lancio dal browser
 - digitare l'url:
 
 http://127.0.0.1:8080
-
+oppure
+http://localhost:8080
 Si possono usare porte diverse.
 Nel caso sia possibile utilizzare la poeta 80  
 si può usare l'url:
