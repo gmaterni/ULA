@@ -59,7 +59,7 @@ class UpdateData(object):
         self.text_form_lst = []
 
         # lista degli idx di text_form settati
-        # con almeno lemma='' and pos!=''
+        # con almeno lemma='' 
         self.text_filled_idx_lst = []
 
         # lista dell form di text filled diverse
@@ -248,14 +248,6 @@ class UpdateData(object):
                 self.logerr(msg)
                 continue
             fk = text_form[FORMAKEY]
-
-            # non aggiorna le righe settate
-            # lemma = text_form[LEMMA].strip()
-            # pos=text_form[POS].strip()
-            # AAA nodificato aggoiornamento tetext
-            # if lemma != "":
-            #     continue
-
             try:
                 # verifica se in corpus esiste formakey
                 idx = self.corpus_formakey_lst.index(fk)
@@ -285,8 +277,7 @@ class UpdateData(object):
 
         con i dati di data/text_name.form.csv
         AGGIORNA SOOLO LE FORM PER LE QUALI
-        lemma !=0  AND  pos !=''
-        AAA solo il lemma
+        AAA lemma !='' '
         utilizza:
         self.text_form_lst
         self.text_filled_idx_lst
@@ -299,15 +290,12 @@ class UpdateData(object):
         """
         self.read_text_form_csv()
         self.read_corpus_form_csv()
-
         self.set_text_flled_idx_lst()
         diff_lst = []
         for idx in self.text_filled_idx_lst:
             text_row = self.text_form_lst[idx]
             text_cols = text_row.split('|')
             fk = text_cols[FORMAKEY]
-            # print(text_row)
-            # set_trace()
             try:
                 # verifica se in corpus esiste formakey
                 corpus_idx = self.corpus_formakey_lst.index(fk)
@@ -323,6 +311,19 @@ class UpdateData(object):
                     row = text_row+"$"+corpus_row
                     diff_lst.append(row)
                 self.corpus_form_lst[corpus_idx] = text_row
+
+        #se manca una forma base la aggiunge con lemma=?
+        f_lst=[]
+        fk_lst=[]
+        for text_row in self.corpus_form_lst:
+            row=text_row.split('|')
+            f_lst.append(row[FORMA])
+            fk_lst.append(row[FORMAKEY])
+        for f in f_lst:
+            if not f in fk_lst:
+                text_row=f"{f}|{f}|?||||||"
+                self.corpus_form_lst.append(text_row)
+
         # scrittura corpus.form.csv
         try:
             fw = open(self.corpus_form_path, "w", encoding=ENCODING)
