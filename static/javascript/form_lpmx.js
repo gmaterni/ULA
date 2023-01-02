@@ -6,7 +6,7 @@ const h_menu_form_lpmx = `
 <ul>
   <li class="v">
     <a class="tipb" href="#" cmd="show_text">Text
-      <span class="tiptextb">Displays Lines of Text</span>
+      <span class="tiptextb">Display Lines of Text</span>
     </a>
   </li>
   <li class="v">
@@ -228,7 +228,7 @@ var FormLpmx = {
       }
       document.querySelector("#lpmx_menu_id ul li a.title").innerHTML = tname;
     };
-
+    //AAA
     let text_lst = await DbFormLpmx.load_text_list();
     SelectText.open("lpmx_id", "select_text_id", text_lst, call).at(400, 100).show();
   },

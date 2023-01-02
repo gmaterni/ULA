@@ -39,13 +39,14 @@ var DbFormLpmx = {
     this.token_file = `${text_name_}.token.csv`;
     this.form_file = `${text_name_}.form.csv`;
   },
+  //AAA cache no-store
   load_text_list: async function () {
     const url = URL_TEXT_LIST;
     let rows = [];
     const resp = await fetch(url, {
       method: 'GET',
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
-      cache: 'default'
+      cache: 'no-store'
     });
     if (resp.ok) {
       const csv_data = await resp.text();
@@ -105,6 +106,7 @@ var DbFormLpmx = {
     }
   },
   clear_store: function () {
+    //AAA
     localStorage.clear();
     try {
       localStorage.setItem(KEY_TEXT_NAME, this.text_name);
@@ -335,7 +337,8 @@ var DbFormLpmx = {
   },
   fill_rows_text: function () {
     // popola this.rows_js chiamatto da Form_text
-    let t_tk_lst = DbFormLpmx.token_lst;
+    //AAA
+    let t_tk_lst = DbFormLpmx.token_lst || [];
     this.rows_js = [];
     let len_row_text = 0;
     let row_num = 0;

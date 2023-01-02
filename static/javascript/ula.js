@@ -81,20 +81,24 @@ var Ula = {
     LPMX_ID = document.getElementById("lpmx_id");
     TEXT_ID = document.getElementById("text_id");
     UaLog.setXY(-300, 0).setZ(11).new();
-    let text_name = DbFormLpmx.get_text_name();
-    if (!text_name) {
-      // se text_name null prende il primo della lista
-      DbFormLpmx.clear_store();
-      const lst = await DbFormLpmx.load_text_list();
-      const name = (lst.length > 0) ? lst[0] : "";
-      text_name = name;
-    }
-    DbFormLpmx.set_text_name(text_name);
-    let ok = DbFormLpmx.get_store();
-    if (!ok) {
-      ok = await DbFormLpmx.load_data();
-      if (!ok)
-        alert(text_name + "  Not Found.");
+
+    //AAA
+    const lst = await DbFormLpmx.load_text_list();
+    if (lst.length > 0) {
+      let text_name = DbFormLpmx.get_text_name();
+      if (!text_name || !lst.includes(text_name)) {
+        // se text_name null prende il primo della lista
+        DbFormLpmx.clear_store();
+        const name = (lst.length > 0) ? lst[0] : "";
+        text_name = name;
+      }
+      DbFormLpmx.set_text_name(text_name);
+      let ok = DbFormLpmx.get_store();
+      if (!ok) {
+        ok = await DbFormLpmx.load_data();
+        if (!ok)
+          alert(text_name + "  Not Found.");
+      }
     }
     TEXT_ID.style.display = 'none';
     await FormLpmx.open();
