@@ -7,10 +7,10 @@ import argparse
 import pathlib as pth
 import os
 from ulalib.ula_setting import *
-from openpyxl import Workbook
+# from openpyxl import Workbook
 
-__date__ = "28-11-2022"
-__version__ = "0.1.0"
+__date__ = "02-01-2023"
+__version__ = "0.1.1"
 __author__ = "Marta Materni"
 
 #form.csv
@@ -57,13 +57,14 @@ class ExportData(object):
             # head_csv = self.sep.join(HEAD)
             corpus_name = CORPUS_NAME.replace('csv', '.ula.csv')
             exp_path = os.path.join(self.dir_exp, corpus_name)
+            print(exp_path)
             fw = open(exp_path, "w", encoding=ENCODING)
             # fw.write(head_csv)
             # fw.write(os.linesep)
             for item in lst:
                 row = item.replace('|', self.sep)
                 fw.write(row)
-                fw.write(os.linesep)
+                # fw.write(os.linesep)
             fw.close()
             os.chmod(exp_path, 0o777)
         except IOError as e:
@@ -165,20 +166,20 @@ class ExportData(object):
         exp_csv_path = os.path.join(self.dir_exp, exp_name)
         print(exp_csv_path)
         self.write_token_form_csv(exp_csv_path, token_form_lst)
-        self.write_token_form_xlsx(exp_csv_path)
+        # self.write_token_form_xlsx(exp_csv_path)
 
-    def write_token_form_xlsx(self, csv_path):
-        wb = Workbook()
-        ws = wb.active
-        with open(csv_path, 'r') as f:
-            lst = f.readlines()
-        for row in lst:
-            r = row.strip().split(self.sep)
-            ws.append(r)
-        xls_path = csv_path.replace('.csv', '.xlsx')
-        print(xls_path)
-        wb.save(xls_path)
-        os.chmod(xls_path, 0o777)
+    # def write_token_form_xlsx(self, csv_path):
+    #     wb = Workbook()
+    #     ws = wb.active
+    #     with open(csv_path, 'r') as f:
+    #         lst = f.readlines()
+    #     for row in lst:
+    #         r = row.strip().split(self.sep)
+    #         ws.append(r)
+    #     xls_path = csv_path.replace('.csv', '.xlsx')
+    #     print(xls_path)
+    #     wb.save(xls_path)
+    #     os.chmod(xls_path, 0o777)
 
     def read_text_list(self):
         if pth.Path(NAME_TEXT_LIST).exists() is False:
@@ -203,7 +204,7 @@ class ExportData(object):
             if name.strip() == '':
                 continue
             text_name = name + ".txt"
-            print(text_name)
+            # print(text_name)
             self.export_text_data(text_name)
         self.export_corpus()
 
@@ -220,9 +221,9 @@ if __name__ == "__main__":
     parser.add_argument('-s',
                         dest="sep",
                         required=False,
-                        default='t',
+                        default='p',
                         metavar="",
-                        help='-s s)emi_colon p)ipe t)tab  (default tab')
+                        help='-s p)pipe s)emi_colon t)tab  (default pipe (|))')
     parser.add_argument('-d',
                         dest="dir",
                         required=False,
@@ -240,3 +241,4 @@ if __name__ == "__main__":
         print("options for flag -s are t/p/s")
         sys.exit()
     do_main(args.dir, sep)
+
