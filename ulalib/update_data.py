@@ -6,14 +6,14 @@ import sys
 import os
 import json
 
-from regex import E
+# from regex import E
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 from ulalib.ula_setting import CORPUS_NAME, DATA_DIR, CORPUS_DIR
 from ulalib.ula_setting import ENCODING, NAME_TEXT_LIST
 
-__date__ = "27-06-2022"
-__version__ = "0.3.3"
+__date__ = "02-01-2023"
+__version__ = "0.3.4"
 __author__ = "Marta Materni"
 
 
@@ -114,18 +114,19 @@ class UpdateData(object):
                 n += 1
             # if text_form[ETIMO] == "":
             # if text_form[LANG] == "":
-            if cols[POS].strip() != "":
-                n += 1
+            # if cols[POS].strip() != "":
+            #     n += 1
             # if text_form[FUNCT] == "":
             # if text_form[MSD] == "":
-            if n > 1:
+            # AAA è sufficiente il lemma
+            if n > 0:
                 self.text_filled_idx_lst.append(i)
 
     def set_text_corpus_diff_lst(self):
         """Popola
         la lista dele coppie text_form, corpus_form
         settate diversamente
-        itemm=[text_for,corpus_form]
+        itemm=[text_form,corpus_form]
 
         text   => amor|amor|lemma1|etimo|it.|NOUN|Noun|fem
         corpus => amor|amor|lemma|etimo|it.|NOUN|Noun|fem
@@ -198,7 +199,7 @@ class UpdateData(object):
                 f_lst.append(row)
             self.corpus_omogr_js[fr] = f_lst
 
-    #invocato solo da test
+    #invocato solo da TEST
     def set_text_omogr_js(self):
         """Come mogr_js
         limitatamente a text_form corrente
@@ -285,6 +286,7 @@ class UpdateData(object):
         con i dati di data/text_name.form.csv
         AGGIORNA SOOLO LE FORM PER LE QUALI
         lemma !=0  AND  pos !=''
+        AAA solo il lemma
         utilizza:
         self.text_form_lst
         self.text_filled_idx_lst
@@ -304,6 +306,8 @@ class UpdateData(object):
             text_row = self.text_form_lst[idx]
             text_cols = text_row.split('|')
             fk = text_cols[FORMAKEY]
+            # print(text_row)
+            # set_trace()
             try:
                 # verifica se in corpus esiste formakey
                 corpus_idx = self.corpus_formakey_lst.index(fk)
@@ -332,6 +336,7 @@ class UpdateData(object):
             msg = f'ERROR update_corpus_form\n{e}\n'
             self.logerr(msg)
             raise Exception(msg)
+
         # elabora e salva corpus omografi
         self.set_corpus_omogr_js()
         s = json.dumps(self.corpus_omogr_js)

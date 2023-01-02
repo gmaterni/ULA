@@ -1,5 +1,5 @@
 /* jshint esversion: 8 */
-//05-06-2022
+//02-01-2023
 
 // let ALPHABETIC = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàèéìòù";
 // let NUMERIC = "0123456789";
@@ -39,7 +39,6 @@ var DbFormLpmx = {
     this.token_file = `${text_name_}.token.csv`;
     this.form_file = `${text_name_}.form.csv`;
   },
-  //AAA cache no-store
   load_text_list: async function () {
     const url = URL_TEXT_LIST;
     let rows = [];
@@ -233,7 +232,7 @@ var DbFormLpmx = {
     const resp = await fetch(url, {
       method: 'GET',
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
-      cache: 'default'
+      cache: 'no-store'
     });
     if (resp.ok)
       csv_data = await resp.text();
@@ -258,7 +257,7 @@ var DbFormLpmx = {
     const resp = await fetch(url, {
       method: 'GET',
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
-      cache: 'default'
+      cache: 'no-store'
     });
     if (resp.ok) {
       const text = await resp.text();
@@ -273,7 +272,8 @@ var DbFormLpmx = {
     const url = `/diff?name=${text_name}`;
     fetch(url, {
       method: "GET",
-      headers: { 'Content-Type': 'application/json' }
+      headers: { 'Content-Type': 'application/json' },
+      cace: 'no-store'
     })
       .then((resp) => {
         if (!resp.ok) {
