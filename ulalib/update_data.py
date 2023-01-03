@@ -15,8 +15,6 @@ from ulalib.ula_setting import ENCODING, NAME_TEXT_LIST
 __date__ = "02-01-2023"
 __version__ = "0.3.4"
 __author__ = "Marta Materni"
-
-
 """
 text form
 amor|amor|lemma|etimo|lang|poas|func|msd
@@ -31,7 +29,6 @@ amor|amor|lemma|etimo|lang|poas|func|msd
 amor|amor2|lemma|etimo|lang|poas|func|msd
 
 """
-
 
 FORMA = 0
 FORMAKEY = 1
@@ -59,7 +56,7 @@ class UpdateData(object):
         self.text_form_lst = []
 
         # lista degli idx di text_form settati
-        # con almeno lemma='' 
+        # con almeno lemma=''
         self.text_filled_idx_lst = []
 
         # lista dell form di text filled diverse
@@ -158,7 +155,6 @@ class UpdateData(object):
                     self.text_corpus_diff_lst.append(row)
                     break
         return self.text_corpus_diff_lst
-
 
     def set_corpus_omogr_js(self):
         """Popola
@@ -307,21 +303,21 @@ class UpdateData(object):
             else:
                 # modifica form di corpus a lo mette in lista
                 corpus_row = self.corpus_form_lst[corpus_idx]
-                if text_row!=corpus_row:
-                    row = text_row+"$"+corpus_row
+                if text_row != corpus_row:
+                    row = text_row + "$" + corpus_row
                     diff_lst.append(row)
                 self.corpus_form_lst[corpus_idx] = text_row
 
         #se manca una forma base la aggiunge con lemma=?
-        f_lst=[]
-        fk_lst=[]
+        f_lst = []
+        fk_lst = []
         for text_row in self.corpus_form_lst:
-            row=text_row.split('|')
+            row = text_row.split('|')
             f_lst.append(row[FORMA])
             fk_lst.append(row[FORMAKEY])
         for f in f_lst:
             if not f in fk_lst:
-                text_row=f"{f}|{f}|?||||||"
+                text_row = f"{f}|{f}|?||||||"
                 self.corpus_form_lst.append(text_row)
 
         # scrittura corpus.form.csv
@@ -351,7 +347,7 @@ class UpdateData(object):
             raise Exception(msg)
         finally:
             #data = "\n".join(diff_lst)
-            data=diff_lst
+            data = diff_lst
             return data
 
     ###################################
@@ -420,7 +416,7 @@ class UpdateData(object):
         setta:
         self.text_lst
         """
-        #XXX self.text_name_lst = [] 
+        #XXX self.text_name_lst = []
         if not ptu.exists(NAME_TEXT_LIST):
             self.logerr("text_list.txt Not Found.").prn()
             return
@@ -463,7 +459,7 @@ class UpdateData(object):
         try:
             for text_name in names:
                 print(text_name)
-                text_form_name = text_name+".form.csv"
+                text_form_name = text_name + ".form.csv"
                 self.text_form_path = ptu.join(DATA_DIR, text_form_name)
                 self.read_text_form_csv()
                 self.clear_text_form_lst()
