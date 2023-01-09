@@ -11,8 +11,8 @@ import ulalib.pathutils as ptu
 #from ulalib.write_path import write_file_path
 from ulalib.ula_setting import *
 
-__date__ = "21-03-2022"
-__version__ = "0.3.6"
+__date__ = "09-01-2032"
+__version__ = "0.3.7"
 __author__ = "Marta Materni"
 
 
@@ -84,6 +84,7 @@ class Text2Data(object):
             f_name_token = file_name.replace(".txt", ".token.csv")
             f_out = ptu.join(DATA_DIR, f_name_token)
             tokens = os.linesep.join(token_lst)
+            ptu.make_dir_of_file(f_out)
             fw = open(f_out, "w", encoding=ENCODING)
             fw.write(tokens)
             fw.close()
@@ -97,6 +98,7 @@ class Text2Data(object):
             f_name_form = file_name.replace(".txt", ".form.csv")
             f_out = ptu.join(DATA_DIR, f_name_form)
             forms = os.linesep.join(form_lst)
+            ptu.make_dir_of_file(f_out)
             fw = open(f_out, "w", encoding=ENCODING)
             fw.write(forms)
             fw.close()
@@ -113,6 +115,7 @@ class Text2Data(object):
             text_lst = sorted([x.name.replace(".form.csv", "")
                               for x in file_text_lst])
             text = os.linesep.join(text_lst)
+            ptu.make_dir_of_file(NAME_TEXT_LIST)
             fw = open(NAME_TEXT_LIST, "w", encoding=ENCODING)
             fw.write(text)
             fw.close()

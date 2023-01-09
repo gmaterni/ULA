@@ -12,8 +12,8 @@ import ulalib.pathutils as ptu
 from ulalib.ula_setting import CORPUS_NAME, DATA_DIR, CORPUS_DIR
 from ulalib.ula_setting import ENCODING, NAME_TEXT_LIST
 
-__date__ = "02-01-2023"
-__version__ = "0.3.4"
+__date__ = "09-01-2023"
+__version__ = "0.3.5"
 __author__ = "Marta Materni"
 """
 text form
@@ -322,6 +322,7 @@ class UpdateData(object):
 
         # scrittura corpus.form.csv
         try:
+            ptu.make_dir_of_file(self.corpus_form_path)
             fw = open(self.corpus_form_path, "w", encoding=ENCODING)
             for text_row in self.corpus_form_lst:
                 if text_row == "":

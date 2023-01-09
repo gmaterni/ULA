@@ -9,8 +9,8 @@ from ulalib.ualog import Log
 from ulalib.ula_setting import *
 import ulalib.pathutils as ptu
 
-__date__ = "19-03-2022"
-__version__ = "0.1.3"
+__date__ = "09-01-2023"
+__version__ = "0.1.4"
 __author__ = "Marta Materni"
 
 
@@ -160,6 +160,7 @@ class TextCleaner(object):
             self.logerr(msg)
             sys.exit(e)
         try:
+            ptu.make_dir_of_file(out_path)
             fw = open(out_path, 'w+', encoding=ENCODING)
             fw.write(text_src)
             fw.close()
