@@ -2,12 +2,26 @@
 
 - scompattare il file in una directory di propia scelta
 
-- dentro la directory scompattata (dir-base) creare una dir text
+- posizionarsi nella directory scompattata (dir-base) e
+  aprire un terminale, nel quale si eseguiranno i comandi 
 
-- aggiunta di un testo nella dir text
+- digitare ulainit.py (linux/mac ./ulainit.py)
 
-- a partire dalla dir-base eseguire il comando
+- nella dir-base sarà presente una dir text
+  inserire in questa dir i files di testo
+
+- successivamente eseguire il comando
   textadd.py <file_path>
+  ripetendolo per ogni testo
+  es.
+  (window) 
+  textadd.py text\mytext.txt
+
+  (mac) 
+  ./textadd.py text/mytext.txt
+
+  (linux) 
+  ./textadd.py ./text/mytext.txt
 
 
 
