@@ -1,14 +1,14 @@
 ﻿=================================
-Sistema di Direcotry 
+Sistema di Directory 
 =================================
-Scegliere o creare una  direcory, da utilizzare come directory base.
+Scegliere o creare una  directory, da utilizzare come directory base.
 Per convenzione sarà sempre indicata come
 BASEDIR/
-In tutte le operazioni faremo riferimento questa directory.
+In tutte le operazioni faremo riferimento a questa directory.
 Directory utilizzate nell’applicazione
 
 BASEDIR/ula
-  directory dell'applicazione da cui lanciare i comandi
+   Directory dell'applicazione da cui lanciare i comandi
 
 BASEDIR/ula/static
    Contiene tutti gli elementi per la gestione nel browser
@@ -25,35 +25,36 @@ BASEDIR/ula/text_src
    da utilizzare per la produzione dei dati
 
 BASEDIR/ula/data
-   Contiene i dai dei test 
+   Contiene i dati dei testi
    form: il dizionario del testo
    token: la lista di tutte le parole del testo
    Es.
    pinocchio.txt => pinocchio.form.csv
-                     pinocchio.token.csv
+                    pinocchio.token.csv
 
 BASEDIR/ula/data_corpus
-contiene i dati del corpus
-corpus.form.csv
-corpus_omogr.json
+   contiene i dati del corpus
+   corpus.form.csv
+   corpus_omogr.json
 
 BASEDIR/ula/data_back
-copie di sicurezz gestite automaticamente ad ogni 
-salvatggio dal browse
-contiene per ogmi data
-BASEDIR/ula/data_back/aammgg
-contirne i files nella forma
-nomefile.form_aammgg_hh.csv
-nomefile.token_aammgg_hh.csv
-es.
-Salvataggio eseguito il 10/11/2022 dla 13.00 al 13.59
-BASEDIR/ula/data_back/110112/kafka_110112_13.csv
-BASEDIR/ula/data_back/110112/kafka_110112_13.form
+   copie di sicurezza gestite automaticamente ad ogni 
+   salvataggio dal browser
+   contiene per ogni momento di salvataggio la seguente
+   directory:
+       BASEDIR/ula/data_back/aammgg
+       la quale contiene i files nella forma
+       nomefile.form_aammgg_hh.csv
+       nomefile.token_aammgg_hh.csv
+       es.
+       Salvataggio eseguito il 10/11/2022 dla 13.00 al 13.59
+       BASEDIR/ula/data_back/110112/kafka_110112_13.csv
+       BASEDIR/ula/data_back/110112/kafka_110112_13.form
 
 BASEDIR/ula/data_corpus_back
-copie di sicurezz gestite automaticamente ad ogni 
-aggiornamento del corpus
-contiene per ogmi data
+   copie di sicurezza gestite automaticamente ad ogni 
+   aggiornamento del corpus
+   contiene per ogni aggiornamento del corpus
 BASEDIR/ula/data_corpus_back/aammgg
 contirne i files nella forma
 corpus.form_aammgg_hh.csv

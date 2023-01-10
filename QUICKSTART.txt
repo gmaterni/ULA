@@ -1,35 +1,39 @@
 ﻿- scaricare il file zip
 
-- scompattare il file in una diretta di propsia scelta
+- scompattare il file in una directory di propia scelta
 
-- dentro la directory scomapttata creare una dir text
+- dentro la directory scompattata (dir-base) creare una dir text
 
-- Aggiunta di un testo e dei suoi dati
-  textadd.py text(<file_name>
+- aggiunta di un testo nella dir text
 
-ATTENZIONE !!
-  Sovrascrive i dati di una eventuale elaborazione 
-  PRECEDENTE
-  dello stesso testo.
+- a partire dalla dir-base eseguire il comando
+  textadd.py <file_path>
 
-- Lancio del Server
+
+
+Lancio del Server
 =============================
-- posizionati nella dir scompattata
+
+- posizionarsi nella dir-base
+
 - digitare 
-ulaserver.py -p 8080
-  si possono usare porte diverse.
-  Attenzione la porta 80  può entrare in conflitto  con quella del 
+ulaserver.py
+  Apre di default la porta 8080.
+  Si possono usare porte diverse.
+  Attenzione la porta 80 può entrare in conflitto con quella del
   server di sistema.
-  
-- Lancio dal browser
- digitare l'url:
+
+
+Lancio del Browser
+=============================
+- digitare l'url:
 
 http://127.0.0.1:8080
 oppure
 http://localhost:8080
 
 Si possono usare porte diverse.
-Nel caso sia possibile utilizzare la poeta 80  
+Nel caso sia possibile utilizzare la porta 80
 si può usare l'url:
 
 http://127.0.0.1   
