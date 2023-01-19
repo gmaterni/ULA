@@ -78,7 +78,13 @@ class TextUpd(object):
         dlst = [x for x in diff_lst if len(x.strip()) > 0 and x[0] != '?']
         dlstda = [x for x in dlst if x[0] in ('-', '+', '^')]
         # self.write_data("tmp/diff.txt", dlst)
-        self.write_data("tmp/diff_upd.txt", dlstda)
+        
+        upd_path="tmp/diff_upd.txt"
+        self.write_data(upd_path, dlstda)
+        s = open(upd_path, "r").read()
+        print(f"\n\n{upd_path}")
+        print(s)
+
         over_lst = []
         new_lst = []
         s_p = ""
@@ -96,9 +102,13 @@ class TextUpd(object):
                         over_lst.append(s)
             new_lst.append(s)
             s_p = ""
-        self.write_data("tmp/diff_over.txt", over_lst)
-        over = os.linesep.join(over_lst)
-        print(over)
+
+        over_path="tmp/diff_over.txt"
+        self.write_data(over_path, over_lst)
+        s = open(over_path, "r").read()
+        print(f"\n\n{over_path}")
+        print(s)
+
         return new_lst
 
     def set_diff(self, tkpath1, tkpath2, tkpath3, frpath3):
@@ -106,7 +116,7 @@ class TextUpd(object):
         tklst2 = self.read_data(tkpath2)
         tklst3 = self.set_diff_token_list(tklst1, tklst2)
         self.write_data(tkpath3, tklst3)
-        
+
         # setta la lista delle form (vuote) fi tklst3
         frlst3 = self.token_list2form_list(tklst3)
         self.write_data(frpath3, frlst3)
@@ -122,7 +132,6 @@ class TextUpd(object):
         token_tmp_path = os.path.join(TMP_DIR, token_name)
         return token_tmp_path
 
-
     # text/name.txt => data/name.token{ext}.csv
     def get_token_path(self, text_name):
         token_name = text_name.replace(".txt", f".token.csv")
@@ -135,7 +144,7 @@ class TextUpd(object):
         return form_path
 
     def move_path(self, path1, path2):
-        pth.Path(path2).unlink(missing_ok=True);
+        pth.Path(path2).unlink(missing_ok=True)
         shutil.move(path1, path2)
 
     def add_text(self, text_path, line_len=0):
@@ -222,24 +231,24 @@ class TextUpd(object):
         fr_path1 = self.token_to_formh(tk_path1)
         fr_path3 = self.token_to_formh(tk_path3)
 
-        print(text_path)
-        print(text_name)
-        print(tk_path)
-        print(tk_path1)
-        print(tk_path2)
-        print(tk_path3)
-        print(fr_path)
-        print(fr_path1)
-        print(fr_path3)
+        # print(text_path)
+        # print(text_name)
+        # print(tk_path)
+        # print(tk_path1)
+        # print(tk_path2)
+        # print(tk_path3)
+        # print(fr_path)
+        # print(fr_path1)
+        # print(fr_path3)
 
         # if ptu.exists(token_path) is False:
         if pth.Path(tk_path).exists() is False:
-            print(f"{tk_path} Non  esistente")
+            print(f"\n\n{tk_path} Non  esistente")
             print("Lanciare prima textadd.py con il testo originale")
             sys.exit()
         # set_trace()
         # crea se non esiste la dir tmp
-         # se esiste la svuota
+        # se esiste la svuota
         pth.Path(TMP_DIR).mkdir(exist_ok=True, mode=0o777)
         tmp_lst = [x for x in pth.Path(TMP_DIR).iterdir()]
         for path in tmp_lst:
@@ -268,7 +277,7 @@ class TextUpd(object):
         self.move_path(fr_path3, fr_path)
 
         #Aggiorna data/name.form.csv
-        #con i dati di data_corpus/corpus.form.csv       
+        #con i dati di data_corpus/corpus.form.csv
         # upd = UpdateData()
         # upd.set_text_name(text_name)
         # upd.update_text_forms()
@@ -278,12 +287,13 @@ def do_main(text_path, ll):
     aut = TextUpd()
     aut.add_text_upd(text_path, ll)
 
+
 if __name__ == "__main__":
     le = len(sys.argv)
     if le < 2:
         print(f"\nauthor: {__author__}")
         print(f"release: {__version__} { __date__}")
-        h=""" 
+        h = """ 
 
 textupd.py <text_path>
         """
@@ -291,30 +301,5 @@ textupd.py <text_path>
         sys.exit()
     text_path = sys.argv[1]
     line_len = 0 if le < 3 else sys.argv[2]
-    n=int(line_len)
-    do_main(text_path,n)
-
-# if __name__ == "__main__":
-#     parser = argparse.ArgumentParser()
-#     if len(sys.argv) == 1:
-#         print(f"\nauthor: {__author__}")
-#         print(f"release: {__version__} { __date__}")
-#         parser.print_help()
-#         sys.exit()
-#     parser.add_argument(
-#         '-i',
-#         dest="src",
-#         required=True,
-#         metavar="",
-#         help="-i <text_path>")
-#     parser.add_argument(
-#         '-l',
-#         dest="linelen",
-#         required=False,
-#         default=0,
-#         metavar="",
-#         help="-l <line length> -1:not split  0:paragraph >0:rows (default 0")
-
-#     args = parser.parse_args()
-#     ll = int(args.linelen)
-#     do_main(args.src, ll)
+    n = int(line_len)
+    do_main(text_path, n)
