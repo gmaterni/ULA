@@ -115,7 +115,7 @@ class UpdateData(object):
             #     n += 1
             # if text_form[FUNCT] == "":
             # if text_form[MSD] == "":
-            # AAA è sufficiente il lemma
+            # XXX è sufficiente il lemma
             if n > 0:
                 self.text_filled_idx_lst.append(i)
 
@@ -273,7 +273,7 @@ class UpdateData(object):
 
         con i dati di data/text_name.form.csv
         AGGIORNA SOOLO LE FORM PER LE QUALI
-        AAA lemma !='' '
+        XXX lemma !='' '
         utilizza:
         self.text_form_lst
         self.text_filled_idx_lst

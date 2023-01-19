@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from pdb import set_trace
 import sys
-import argparse
+# import argparse
 from ulalib.ualog import Log
 import ulalib.pathutils as ptu
 import pathlib as pth
@@ -16,15 +16,16 @@ from texttodata import Text2Data
 from textcleaner import TextCleaner
 from ulalib.update_data import UpdateData
 
-__date__ = "06-05-2022"
-__version__ = "0.2.1"
+__date__ = "19-01-2023"
+__version__ = "0.2.3"
 __author__ = "Marta Materni"
 
 
-class AddUpdText(object):
+class TextUpd(object):
 
     def __init__(self):
-        pass
+        path_err = "log/textupd.ERR.log"
+        self.logerr = Log("w").open(path_err, 1).log
 
     def read_data(self, path):
         try:
@@ -33,6 +34,7 @@ class AddUpdText(object):
             fr.close()
         except Exception as e:
             msg = f'ERROR {path} Not Found.\n{e}'
+            self.logerror(msg)
             sys.exit(msg)
         text = text.replace(os.linesep, ' ')
         rows = re.split(" ", text)
@@ -51,6 +53,7 @@ class AddUpdText(object):
             fw.close()
         except Exception as e:
             msg = f'ERROR {path} \n{e}'
+            self.logerror(msg)
             sys.exit(msg)
 
     def token_list2form_list(self, token_lst):
@@ -119,6 +122,7 @@ class AddUpdText(object):
         token_tmp_path = os.path.join(TMP_DIR, token_name)
         return token_tmp_path
 
+
     # text/name.txt => data/name.token{ext}.csv
     def get_token_path(self, text_name):
         token_name = text_name.replace(".txt", f".token.csv")
@@ -137,7 +141,7 @@ class AddUpdText(object):
     def add_text(self, text_path, line_len=0):
         try:
             path_err = "log/addt_text.ERR.log"
-            logerr = Log("w").open(path_err, 1).log
+            # logerr = Log("w").open(path_err, 1).log
             text_name = os.path.basename(text_path)
 
             # sistema il testo e salva
@@ -151,7 +155,7 @@ class AddUpdText(object):
             tx2dt.text2data(inp_path)
         except Exception as e:
             msg = f'ERROR add_text \n{e}'
-            logerr(msg)
+            self.logerr(msg)
             sys.exit()
 
     """
@@ -217,15 +221,16 @@ class AddUpdText(object):
         fr_path = self.token_to_formh(tk_path)
         fr_path1 = self.token_to_formh(tk_path1)
         fr_path3 = self.token_to_formh(tk_path3)
-        # print(text_path)
-        # print(text_name)
-        # print(tk_path)
-        # print(tk_path1)
-        # print(tk_path2)
-        # print(tk_path3)
-        # print(fr_path)
-        # print(fr_path1)
-        # print(fr_path3)
+
+        print(text_path)
+        print(text_name)
+        print(tk_path)
+        print(tk_path1)
+        print(tk_path2)
+        print(tk_path3)
+        print(fr_path)
+        print(fr_path1)
+        print(fr_path3)
 
         # if ptu.exists(token_path) is False:
         if pth.Path(tk_path).exists() is False:
@@ -270,7 +275,7 @@ class AddUpdText(object):
 
 
 def do_main(text_path, ll):
-    aut = AddUpdText()
+    aut = TextUpd()
     aut.add_text_upd(text_path, ll)
 
 if __name__ == "__main__":
